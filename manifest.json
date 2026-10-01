@@ -1,0 +1,199 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "sbr_elblag_canal_v1",
+  "title": "This Boat Isn't Stranded... It's Driving Over a Hill",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "voice": "audio/narration.wav",
+  "voice_mp3": null,
+  "words": "timings/words.json",
+  "music": "audio/music/main.mp3",
+  "music_prompt": "Upbeat playful pizzicato strings with light bouncy percussion and a whimsical, curious, amazed mood, bright and energetic, perfect for a fun fact short video",
+  "shot_timings": "timings/shots.json",
+  "duration": 12.359999656677246,
+  "reference_policy": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "scene_image_policy": {
+    "provider": "google_vertex",
+    "model": "gemini-2.5-flash-image"
+  },
+  "video_policy": {
+    "provider": "google_vertex",
+    "model": "veo-3.1-fast-generate-001",
+    "generate_audio": false
+  },
+  "references": {
+    "GIRL": {
+      "type": "character",
+      "files": [
+        "references/GIRL/portrait.png",
+        "references/GIRL/full_body.png"
+      ]
+    },
+    "BOAT": {
+      "type": "object",
+      "files": [
+        "references/BOAT/three_quarter.png"
+      ]
+    }
+  },
+  "overlays": [],
+  "scenes": [
+    {
+      "index": 1,
+      "shot_id": "001",
+      "type": "video",
+      "start": 0.0,
+      "end": 2.26,
+      "duration": 2.26,
+      "timing_status": "MATCHED",
+      "narration_cue": "This boat isn't stranded",
+      "image": "visuals/images/001.png",
+      "end_image": null,
+      "video": "visuals/video/001.mp4",
+      "camera_move": null,
+      "motion_prompt": "The rail carriage starts moving slowly up the grassy slope and the boat rocks gently. The woman grips the railing, then turns her surprised, laughing face toward the camera. Slight handheld camera follow, natural motion, wind moves her hair.",
+      "priority": null,
+      "references": [
+        "GIRL",
+        "BOAT"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 2,
+      "shot_id": "002",
+      "type": "video",
+      "start": 2.26,
+      "end": 6.16,
+      "duration": 3.9,
+      "timing_status": "MATCHED",
+      "narration_cue": "driving over a hill",
+      "image": "visuals/images/002.png",
+      "end_image": "visuals/images/002_end.png",
+      "video": "visuals/video/002.mp4",
+      "camera_move": null,
+      "motion_prompt": "The boat on its rail carriage climbs steadily up the grassy slope, pulled by the cable, while the drone camera rises slowly and follows it to the top of the hill.",
+      "priority": null,
+      "references": [
+        "BOAT"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 3,
+      "shot_id": "003",
+      "type": "video",
+      "start": 6.16,
+      "end": 9.58,
+      "duration": 3.42,
+      "timing_status": "MATCHED",
+      "narration_cue": "carries ships across dry land",
+      "image": "visuals/images/003.png",
+      "end_image": null,
+      "video": "visuals/video/003.mp4",
+      "camera_move": null,
+      "motion_prompt": "The carriage wheels roll slowly past the low camera, the steel cable tightens and moves, and the white hull glides overhead across the sky.",
+      "priority": null,
+      "references": [
+        "BOAT"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 4,
+      "shot_id": "004",
+      "type": "video",
+      "start": 9.58,
+      "end": 12.36,
+      "duration": 2.78,
+      "timing_status": "MATCHED",
+      "narration_cue": "And it's been doing this",
+      "image": "visuals/images/004.png",
+      "end_image": null,
+      "video": "visuals/video/004.mp4",
+      "camera_move": null,
+      "motion_prompt": "The boat slides down the slope into the lake, the bow pushes a big splash of water and spray into the air, the boat starts floating. The woman laughs and waves happily at the camera. Natural water physics.",
+      "priority": null,
+      "references": [
+        "GIRL",
+        "BOAT"
+      ],
+      "overlay_ids": []
+    }
+  ],
+  "missing": [],
+  "montage_ready": true,
+  "exported_at": "2026-10-01T23:54:15Z",
+  "factory_commit": "49b617e5af067afa31dfa6467c3ea84ae18fec2f",
+  "package_files": [
+    {
+      "path": "audio/narration.wav",
+      "bytes": 593604
+    },
+    {
+      "path": "audio/music/main.mp3",
+      "bytes": 1750556
+    },
+    {
+      "path": "timings/words.json",
+      "bytes": 3061
+    },
+    {
+      "path": "timings/shots.json",
+      "bytes": 1027
+    },
+    {
+      "path": "visuals/images/001.png",
+      "bytes": 1730551
+    },
+    {
+      "path": "visuals/images/002.png",
+      "bytes": 1913027
+    },
+    {
+      "path": "visuals/images/002_end.png",
+      "bytes": 1866381
+    },
+    {
+      "path": "visuals/images/003.png",
+      "bytes": 1752017
+    },
+    {
+      "path": "visuals/images/004.png",
+      "bytes": 1669330
+    },
+    {
+      "path": "visuals/video/001.mp4",
+      "bytes": 3145561
+    },
+    {
+      "path": "visuals/video/002.mp4",
+      "bytes": 2288585
+    },
+    {
+      "path": "visuals/video/003.mp4",
+      "bytes": 2893592
+    },
+    {
+      "path": "visuals/video/004.mp4",
+      "bytes": 3117555
+    },
+    {
+      "path": "references/BOAT/three_quarter.png",
+      "bytes": 1291173
+    },
+    {
+      "path": "references/GIRL/full_body.png",
+      "bytes": 1672462
+    },
+    {
+      "path": "references/GIRL/portrait.png",
+      "bytes": 2069551
+    }
+  ]
+}

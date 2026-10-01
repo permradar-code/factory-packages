@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "voice_duration": 12.359999656677246,
+  "shot_count": 4,
+  "matched_count": 4,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 2.26,
+      "duration": 2.26,
+      "cue": "This boat isn't stranded",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 2.26,
+      "end": 6.16,
+      "duration": 3.9,
+      "cue": "driving over a hill",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 6.16,
+      "end": 9.58,
+      "duration": 3.42,
+      "cue": "carries ships across dry land",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 9.58,
+      "end": 12.36,
+      "duration": 2.78,
+      "cue": "And it's been doing this",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}
