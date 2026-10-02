@@ -1,0 +1,91 @@
+{
+  "mode": "montage_assets",
+  "project_id": "sbr_corinth_bridge_v1",
+  "title": "This Bridge Isn't Collapsing... It Sinks on Purpose",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "script": "This bridge isn't collapsing. It's sinking on purpose! In Greece, at the Corinth Canal, the road dives under the water so ships can sail right over it. Then it rises back up, and the cars drive on.",
+  "voice": {
+    "voice": "cedar",
+    "speed": 1.1,
+    "instructions": "Energetic, amazed YouTube Shorts narrator. Fast, punchy pace. Hit 'isn't collapsing' and 'on purpose' hard, playful disbelief, smile in the voice.",
+    "estimated_wpm": 175,
+    "model": "gpt-4o-mini-tts"
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "video",
+      "duration_s": 4.0,
+      "narration_cue": "This bridge isn't collapsing",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical shot from the roadside at the very edge of a narrow single-lane steel road bridge lying flat at water level across a narrow canal of clear turquoise sea water, grey asphalt deck with a yellow center line and low steel railings, towering pale limestone canal walls behind. The bridge deck is ALREADY HALF UNDERWATER: sea water is rushing over the asphalt from both sides, foaming around the yellow center line, the steel railings are going under. In the foreground a red-and-white road barrier is down and a small white car and a man on a scooter have stopped right at the edge, people holding up phones in shock. Behind the sinking bridge, the tall white bow of a cruise ship is approaching down the canal. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "end_image_prompt_full": "Same camera position, same barrier, car, scooter and people: the bridge has now COMPLETELY DISAPPEARED under the turquoise water. Only ripples and a faint yellow line visible deep below the surface where the road was. The white bow of the cruise ship is now much closer, filling the upper half of the frame as it enters the spot. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": "The whole road bridge deck sinks steadily straight down into the canal. Water rushes over the asphalt from both sides and swallows the railings, waves ripple outward. The people behind the barrier lean forward and film with their phones. The cruise ship keeps gliding closer. Realistic water physics, no collapse, no explosion, the bridge stays intact as it goes under."
+    },
+    {
+      "id": "002",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "In Greece",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical aerial drone shot looking straight down the Corinth Canal in Greece: an extremely narrow perfectly straight canal cut through towering vertical sandy limestone cliffs, turquoise water, a white ship inside, the open sea at the far end. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    },
+    {
+      "id": "003",
+      "type": "video",
+      "duration_s": 4.0,
+      "narration_cue": "so ships can sail right over it",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical shot from just above the water at the canal edge: the asphalt road with its yellow center line runs straight into the turquoise water and continues visibly UNDER the clear water, several meters down. Directly above the sunken road, the hull of a white ship is gliding past. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "end_image_prompt_full": "Same camera and scene: the white ship has moved further along and its stern is now passing over the sunken road, the asphalt and yellow line still clearly visible deep under the clear turquoise water, wake ripples on the surface. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": "The white ship glides slowly over the sunken road from left to right; the road stays visible under the clear water, the wake makes the surface shimmer. Calm, realistic."
+    },
+    {
+      "id": "004",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "Then it rises back up",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical shot: a narrow single-lane steel road bridge lying flat at water level across a narrow canal of clear turquoise sea water, grey asphalt deck with a yellow center line and low steel railings, towering pale limestone canal walls behind rising back up out of the canal, its deck just breaking the surface, sea water cascading off the asphalt and pouring through the steel railings in sheets, spray glittering in the sun. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    },
+    {
+      "id": "005",
+      "type": "image",
+      "duration_s": 2.5,
+      "narration_cue": "and the cars drive on",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical shot: the same wet road bridge back at water level, asphalt still glistening and puddles on the deck, the barrier lifted and a line of small cars and a scooter driving across, a ship's wake visible on the turquoise water beside it. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    }
+  ],
+  "music": {
+    "prompt": "Punchy suspenseful cinematic pulse with ticking percussion and rising strings that bursts into a bright, playful, amazed reveal; energetic fun-fact short video music",
+    "duration_s": 15,
+    "model": "lyria-3-pro-preview",
+    "instrumental": true
+  },
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1,
+  "delivery": {
+    "github": {
+      "repo": "permradar-code/factory-packages"
+    }
+  },
+  "references": {}
+}
