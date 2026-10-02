@@ -1,0 +1,101 @@
+{
+  "schema_version": 2,
+  "voice_duration": 70.54000091552734,
+  "shot_count": 9,
+  "matched_count": 9,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 3.94,
+      "duration": 3.94,
+      "cue": "This pilot just ejected",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 3.94,
+      "end": 18.24,
+      "duration": 14.3,
+      "cue": "February 1970",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 18.24,
+      "end": 27.559999,
+      "duration": 9.319999,
+      "cue": "Then something strange happens",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 27.559999,
+      "end": 33.34,
+      "duration": 5.780001,
+      "cue": "Hanging under his parachute",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "005",
+      "status": "MATCHED",
+      "start": 33.34,
+      "end": 40.720001,
+      "duration": 7.380001,
+      "cue": "Nobody is at the controls",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "006",
+      "status": "MATCHED",
+      "start": 40.720001,
+      "end": 51.580002,
+      "duration": 10.860001,
+      "cue": "The engine is still running",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "007",
+      "status": "MATCHED",
+      "start": 51.580002,
+      "end": 60.860001,
+      "duration": 9.279999,
+      "cue": "The damage is so minor",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "008",
+      "status": "MATCHED",
+      "start": 60.860001,
+      "end": 65.699997,
+      "duration": 4.839996,
+      "cue": "Nine years later",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "009",
+      "status": "MATCHED",
+      "start": 65.699997,
+      "end": 70.540001,
+      "duration": 4.840004,
+      "cue": "Today it sits",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}
