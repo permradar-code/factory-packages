@@ -1,0 +1,50 @@
+{
+ "replace": {
+  "Elblong": "Elbląg"
+ },
+ "labels": [
+  {
+   "text": "ELBLĄG CANAL · POLAND",
+   "start": 6.25,
+   "end": 9.5
+  },
+  {
+   "text": "150+ YEARS",
+   "start": 10.9,
+   "end": 12.7
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": 2.12
+  },
+  {
+   "kind": "whoosh",
+   "at": 6.02
+  },
+  {
+   "kind": "whoosh",
+   "at": 9.44
+  },
+  {
+   "kind": "splash",
+   "at": 9.6
+  }
+ ],
+ "scene_overrides": {
+  "001": {
+   "push": 0.1
+  },
+  "002": {
+   "push": 0.18
+  },
+  "003": {
+   "src_start": 0.0,
+   "src_end": 1.7
+  },
+  "004": {}
+ },
+ "music_db": -16,
+ "tail": 0.35
+}

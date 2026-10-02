@@ -1,0 +1,47 @@
+{
+ "replace": {},
+ "labels": [
+  {
+   "text": "CORINTH CANAL · GREECE",
+   "start": 4.52,
+   "end": 8.0
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "splash",
+   "at": 0.0
+  },
+  {
+   "kind": "whoosh",
+   "at": 4.4
+  },
+  {
+   "kind": "whoosh",
+   "at": 7.95
+  },
+  {
+   "kind": "splash",
+   "at": 10.4
+  }
+ ],
+ "scene_overrides": {
+  "002": {
+   "move": "in",
+   "zoom": 0.12
+  },
+  "003": {
+   "push": 0.14
+  },
+  "004": {
+   "move": "in",
+   "zoom": 0.16
+  },
+  "005": {
+   "move": "pan_up",
+   "zoom": 0.12
+  }
+ },
+ "music_db": -15,
+ "tail": 0.5
+}

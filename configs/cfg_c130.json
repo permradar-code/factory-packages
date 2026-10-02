@@ -1,0 +1,133 @@
+{
+ "replace": {},
+ "labels": [
+  {
+   "text": "NO HOOK.",
+   "start": 0.0,
+   "end": 3.4,
+   "style": "Stat"
+  },
+  {
+   "text": "OCT 1963 · NORTH ATLANTIC",
+   "start": 0.05,
+   "end": 3.4
+  },
+  {
+   "text": "132 FT",
+   "start": 14.22,
+   "end": 16.6,
+   "style": "Stat"
+  },
+  {
+   "text": "USS FORRESTAL",
+   "start": 28.5,
+   "end": 31.6
+  },
+  {
+   "text": "40 KNOT WIND",
+   "start": 33.38,
+   "end": 35.6,
+   "style": "Stat"
+  },
+  {
+   "text": "< 15 FT",
+   "start": 40.46,
+   "end": 44.4,
+   "style": "Stat"
+  },
+  {
+   "text": "267 FT",
+   "start": 50.16,
+   "end": 51.9,
+   "style": "Stat"
+  },
+  {
+   "text": "29",
+   "start": 60.56,
+   "end": 62.0,
+   "style": "Stat"
+  },
+  {
+   "text": "21",
+   "start": 62.06,
+   "end": 63.8,
+   "style": "Stat"
+  },
+  {
+   "text": "21",
+   "start": 63.88,
+   "end": 65.9,
+   "style": "Stat"
+  },
+  {
+   "text": "121,000 LB",
+   "start": 65.98,
+   "end": 68.0,
+   "style": "Stat"
+  },
+  {
+   "text": "PENSACOLA, FLORIDA",
+   "start": 91.8,
+   "end": 93.6
+  },
+  {
+   "text": "SOMEBODY HAD TO\nWRITE THEM FIRST.",
+   "start": 95.35,
+   "end": 97.9,
+   "style": "End"
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": 0.6
+  },
+  {
+   "kind": "whoosh",
+   "at": 7.3
+  },
+  {
+   "kind": "splash",
+   "at": 46.4
+  },
+  {
+   "kind": "whoosh",
+   "at": 51.8
+  },
+  {
+   "kind": "whoosh",
+   "at": 87.45
+  }
+ ],
+ "scene_overrides": {
+  "001": {
+   "src_start": 0.0,
+   "src_end": 5.0
+  },
+  "002": {
+   "move": "pan_up"
+  },
+  "004": {
+   "move": "out",
+   "zoom": 0.2
+  },
+  "011": {
+   "src_start": 0.0,
+   "src_end": 4.4
+  },
+  "014b": {
+   "move": "out",
+   "zoom": 0.22
+  },
+  "019": {
+   "move": "in",
+   "zoom": 0.1
+  },
+  "000": {
+   "move": "in",
+   "zoom": 0.06
+  }
+ },
+ "music_db": -14,
+ "tail": 2.75
+}

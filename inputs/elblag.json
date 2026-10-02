@@ -1,0 +1,104 @@
+{
+  "mode": "montage_assets",
+  "project_id": "sbr_elblag_canal_v1",
+  "title": "This Boat Isn't Stranded... It's Driving Over a Hill",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "script": "This boat isn't stranded. It's driving over a hill, on rails! In Poland, the Elblong Canal carries ships across dry land, powered only by water. And it's been doing this for over a hundred and fifty years.",
+  "voice": {
+    "voice": "cedar",
+    "speed": 1.1,
+    "instructions": "Energetic, amazed YouTube Shorts narrator. Fast, punchy pace. Hit 'isn't stranded' and 'on rails' hard, playful disbelief, smile in the voice.",
+    "estimated_wpm": 175,
+    "model": "gpt-4o-mini-tts"
+  },
+  "references": {
+    "GIRL": {
+      "type": "character",
+      "prompt_raw": true,
+      "description": "Photorealistic portrait reference of a stunning young woman, about 25, long wavy chestnut-brown hair, bright warm smile, green eyes, natural makeup, light beige windbreaker jacket over a white t-shirt, jeans. Classic movie-star beauty, tasteful and natural, like a real travel vlogger. Plain light grey background, soft daylight, no text, no watermark.",
+      "views": [
+        "portrait",
+        "full_body"
+      ]
+    },
+    "BOAT": {
+      "type": "object",
+      "prompt_raw": true,
+      "description": "Photorealistic reference of a small white two-deck tourist excursion boat, about 20 meters long, with a single blue stripe along the hull, open upper deck with white railings, small wheelhouse at the front. Three-quarter side view on a plain light grey background, no text, no watermark.",
+      "views": [
+        "three_quarter"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "video",
+      "duration_s": 2.0,
+      "narration_cue": "This boat isn't stranded",
+      "references": [
+        "GIRL",
+        "BOAT"
+      ],
+      "image_prompt_full": "Photorealistic vertical smartphone travel photo. The small white two-deck tourist boat with a blue stripe sits on a large metal rail carriage in the middle of a bright green grassy hill. There is no water anywhere near it, only grass and two old steel rails running up the slope. On the front deck the young woman with long wavy chestnut hair and a beige windbreaker leans on the white railing, looking down at the grass with a stunned, amused 'are you serious?!' expression, wind in her hair. Sunny summer day in the Polish countryside, soft clouds, realistic documentary look, no text.",
+      "motion_prompt": "The rail carriage starts moving slowly up the grassy slope and the boat rocks gently. The woman grips the railing, then turns her surprised, laughing face toward the camera. Slight handheld camera follow, natural motion, wind moves her hair."
+    },
+    {
+      "id": "002",
+      "type": "video",
+      "duration_s": 3.0,
+      "narration_cue": "driving over a hill",
+      "references": [
+        "BOAT"
+      ],
+      "image_prompt_full": "Photorealistic vertical aerial drone shot. The small white tourist boat with a blue stripe sits on a rail carriage at the bottom of a long green grassy slope, its stern still beside the edge of a calm blue lake. Two straight steel rails and a thick cable run all the way up the grassy hill. Sunny summer, Polish countryside, fields and trees around, realistic, no text.",
+      "end_image_prompt_full": "Photorealistic vertical aerial drone shot of exactly the same scene: the same small white tourist boat on its rail carriage has now reached the very top of the grassy hill, and a second calm lake is visible far below on the other side. Same light, same rails, realistic, no text.",
+      "motion_prompt": "The boat on its rail carriage climbs steadily up the grassy slope, pulled by the cable, while the drone camera rises slowly and follows it to the top of the hill."
+    },
+    {
+      "id": "003",
+      "type": "video",
+      "duration_s": 3.0,
+      "narration_cue": "carries ships across dry land",
+      "references": [
+        "BOAT"
+      ],
+      "image_prompt_full": "Photorealistic vertical low-angle close-up from the grass: big steel wheels of a rail carriage rolling on old iron rails laid across green grass, a thick steel cable running beside them, and the white hull of a tourist boat with a blue stripe looming overhead against a blue sky. Realistic detail, shallow depth of field, no text.",
+      "motion_prompt": "The carriage wheels roll slowly past the low camera, the steel cable tightens and moves, and the white hull glides overhead across the sky."
+    },
+    {
+      "id": "004",
+      "type": "video",
+      "duration_s": 4.0,
+      "narration_cue": "And it's been doing this",
+      "references": [
+        "GIRL",
+        "BOAT"
+      ],
+      "image_prompt_full": "Photorealistic vertical photo from the water's edge: the small white tourist boat with a blue stripe on its rail carriage rolls down a grassy slope into a calm lake, the bow hitting the water with a big white splash. On the front deck the young woman with long wavy chestnut hair and a beige windbreaker laughs, holding the white railing, a few other tourists behind her waving. Bright summer day, realistic, no text.",
+      "motion_prompt": "The boat slides down the slope into the lake, the bow pushes a big splash of water and spray into the air, the boat starts floating. The woman laughs and waves happily at the camera. Natural water physics."
+    }
+  ],
+  "music": {
+    "prompt": "Upbeat playful pizzicato strings with light bouncy percussion and a whimsical, curious, amazed mood, bright and energetic, perfect for a fun fact short video",
+    "duration_s": 15,
+    "model": "lyria-3-pro-preview",
+    "instrumental": true
+  },
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1
+}

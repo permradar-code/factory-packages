@@ -1,0 +1,273 @@
+{
+ "mode": "montage_assets",
+ "project_id": "nitm_f106_cornfield_v1",
+ "title": "He Ejected. His Jet Didn't.",
+ "language": "en",
+ "aspect_ratio": "9:16",
+ "script": "This pilot just ejected. His jet didn't.\n\nFebruary 1970. Montana. Lieutenant Gary Foust is in a training dogfight in an F-106 Delta Dart, when his jet falls into a flat spin. Nothing he does can stop it. At fifteen thousand feet, he pulls the handle and ejects.\n\nThen something strange happens. Without the pilot, the jet's balance changes. The nose drops, the spin stops, and the empty jet levels out and keeps flying.\n\nHanging under his parachute, Foust hears another pilot on the radio: \"Gary, you'd better get back in it!\"\n\nNobody is at the controls. The jet glides lower and lower over the snow, and settles onto its belly in a farmer's field. Almost gently.\n\nThe engine is still running. The local sheriff arrives and calls the air base for instructions. When he climbs up to the cockpit, the jet starts sliding forward on the snow. So he climbs back down and waits for it to run out of fuel.\n\nThe damage is so minor that the Air Force takes off the wings, ships it out by train, repairs it, and sends it back into service. Pilots call it the Cornfield Bomber.\n\nNine years later, Gary Foust climbs into that same jet again. He finally got back in it.\n\nToday it sits in the National Museum of the United States Air Force. Some landings aren't in the manual.",
+ "voice": {
+  "voice": "onyx",
+  "speed": 1.05,
+  "instructions": "Gripping aviation documentary narrator.",
+  "estimated_wpm": 160,
+  "model": "gpt-4o-mini-tts"
+ },
+ "references": {
+  "F106": {
+   "type": "aircraft",
+   "prompt_raw": true,
+   "views": [
+    "three_quarter"
+   ],
+   "description": "Photorealistic reference of a 1970 USAF Convair F-106A Delta Dart interceptor. Single-engine supersonic jet. TAILLESS DELTA WING: a large triangular wing and NO horizontal stabilizers at all. One tall vertical fin with a distinctive SQUARED-OFF FLAT TOP (not pointed). Slim area-ruled 'coke bottle' fuselage, pointed nose, bubble canopy, air intakes on both sides of the fuselage just behind the cockpit, single exhaust at the rear. Overall light Air Defense Command grey paint, small USAF star-and-bar insignia, no readable text. Clean three-quarter front view on a plain light grey background, no watermark."
+  }
+ },
+ "shots": [
+  {
+   "id": "001",
+   "type": "video",
+   "duration_s": 6.0,
+   "narration_cue": "This pilot just ejected",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot, high above snowy Montana plains on a clear frigid day. In the upper foreground a USAF pilot in a 1970 flight suit and white helmet hangs under an orange-and-white round parachute, seen from behind and slightly above, looking down. Far below him the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) flies straight and level on its own, canopy gone, small against the white snow. 1970 color film look, realistic, no text, no readable markings.",
+   "end_image_prompt_full": "Same scene and lighting a few seconds later: the pilot under the parachute in the same place in the upper foreground, while the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) below has flown further away toward the right edge of the frame, smaller, still level, its shadow on the snow. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": "The pilot swings gently under the parachute while far below the empty jet keeps flying straight and level, moving away across the snowy plains. Slow, eerie, calm. No fire, no explosion."
+  },
+  {
+   "id": "002",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "February 1970",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. Two grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) flying high over snow-covered Montana mountains under a deep blue sky, vapor trails curling as they turn toward each other. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "003",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "training dogfight",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) in a hard climbing turn, condensation streaming off the delta wing tips, seen from a chase plane, bright winter sky. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "004",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "flat spin",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) spinning flat like a falling leaf, nose level, rotating, seen from above with the snowy ground far below and the horizon tilted. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "005",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Nothing he does",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. Inside a 1970 jet fighter cockpit: a pilot's gloved hands gripping the control stick, red warning lights on a grey analog instrument panel, the snowy ground and horizon blurred and rotating outside the canopy. Tense. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "006",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "pulls the handle",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) seen from outside: the canopy has blown off and the ejection seat with the pilot is rising out of the cockpit on a short rocket plume, snowy land far below. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "007",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "something strange happens",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. Close view of the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) from above and behind: the open cockpit is completely empty, no canopy and no seat, while the jet flies on by itself over the snow. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "008",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "The nose drops",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) with an empty open cockpit recovering from the spin, nose pitched down, wings leveling, snowy plains below, seen from a chase plane. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "009",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Hanging under his parachute",
+   "references": [],
+   "image_prompt_full": "Photorealistic vertical shot. A USAF pilot in a 1970 white helmet and olive flight suit hanging under a round orange-and-white parachute, close up from the side, looking down in disbelief, snowy mountains below, clear cold sky. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "010",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "you'd better get back in it",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. View from the cockpit of a second fighter flying in formation: alongside, the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) flies level with its cockpit completely empty and open, nobody inside, snowy plains below. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "011",
+   "type": "video",
+   "duration_s": 8.0,
+   "narration_cue": "Nobody is at the controls",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical low side view: the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit), with an empty open cockpit and landing gear UP, gliding a few meters above a flat snow-covered farm field toward the camera, fence posts and a distant farmhouse, overcast winter light. 1970 color film look, realistic, no text, no readable markings.",
+   "end_image_prompt_full": "Same field and lighting: the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) now resting on its belly in the snow in the middle of the field, gear up, intact, empty open cockpit, a long furrow behind it and a cloud of snow powder settling. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": "The empty jet glides lower and lower, touches the snow on its belly and slides to a smooth stop, throwing up a soft cloud of powder snow. Gentle, no crash, no fire, no explosion, no smoke."
+  },
+  {
+   "id": "012",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "The engine is still running",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) sitting on its belly in a snowy farm field, empty open cockpit, heat shimmer and faint exhaust vapor behind the tail, cold blue afternoon light. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "013",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "The local sheriff arrives",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. A 1970 Montana county sheriff in a cowboy hat and sheepskin coat walking through deep snow toward the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) resting on its belly in a field, his old sheriff's car parked by the road behind him. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "014",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "When he climbs up to the cockpit",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. The sheriff in a cowboy hat clinging to the side of the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) next to the open cockpit as the jet creeps forward on the snow, startled expression, snow spraying under the belly. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "015",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "waits for it to run out of fuel",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. The sheriff and two local farmers in winter coats standing at a distance in the snow, arms folded, watching the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) sitting in the field, exhaust vapor behind it, late afternoon light. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "016",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "takes off the wings",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. The fuselage of the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) with its wings removed, strapped onto a railroad flatcar on a train crossing a snowy Montana landscape. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "017",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Cornfield Bomber",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit), repaired and polished, parked on a sunny air force flight line with ground crew in 1970s uniforms walking around it. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "018",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Nine years later",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. A USAF pilot in his late thirties with a mustache, in a 1979 flight suit, climbing the boarding ladder into the cockpit of the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) on a sunny Florida flight line, smiling slightly. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "019",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Today it sits",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) on display inside a large modern aviation museum hall, visitors looking up at it, soft museum lighting. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  },
+  {
+   "id": "020",
+   "type": "image",
+   "duration_s": 3.5,
+   "narration_cue": "Some landings aren't in the manual",
+   "references": [
+    "F106"
+   ],
+   "image_prompt_full": "Photorealistic vertical shot. Cinematic silhouette of the grey F-106 Delta Dart (tailless delta wing with NO horizontal stabilizers, tall vertical fin with a squared-off flat top, slim area-ruled fuselage, intakes on both sides behind the cockpit) flying alone low over endless snowy plains at sunset, orange sky, the cockpit empty. Epic and quiet. 1970 color film look, realistic, no text, no readable markings.",
+   "motion_prompt": null
+  }
+ ],
+ "generation": {
+  "max_attempts_per_asset": 2,
+  "retry_reserve_pct": 15.0,
+  "video_resolution": "720p",
+  "reference_provider": "openai",
+  "reference_model": "gpt-image-2.5-sunburst",
+  "reference_quality": "max",
+  "scene_image_provider": "google_vertex",
+  "scene_image_model": "gemini-2.5-flash-image",
+  "video_provider": "google_vertex",
+  "video_model": "veo-3.1-fast-generate-001",
+  "video_generate_audio": false,
+  "continue_on_asset_failure": true
+ },
+ "schema_version": 1,
+ "music": {
+  "prompt": "Tense, eerie cinematic documentary score: slow pulsing low strings, sparse piano notes, cold airy pads, building quietly toward a warm hopeful resolve. No vocals, no drums kit.",
+  "model": "lyria-3-pro-preview",
+  "duration_s": 90,
+  "instrumental": true
+ },
+ "delivery": {
+  "github": {
+   "repo": "permradar-code/factory-packages"
+  }
+ }
+}
