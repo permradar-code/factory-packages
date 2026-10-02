@@ -1,0 +1,134 @@
+{
+  "schema_version": 2,
+  "voice_duration": 95.19000244140625,
+  "shot_count": 12,
+  "matched_count": 10,
+  "unmatched_count": 2,
+  "unmatched_shot_ids": [
+    "003",
+    "017"
+  ],
+  "status": "NEEDS_REPAIR",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 7.48,
+      "duration": 7.48,
+      "cue": "October 1963",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 7.48,
+      "end": 16.74,
+      "duration": 9.26,
+      "cue": "No tailhook",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "UNMATCHED",
+      "start": null,
+      "end": null,
+      "duration": null,
+      "cue": "This is a C-130 Hercules",
+      "score": 0.6,
+      "method": null
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 16.74,
+      "end": 41.040001,
+      "duration": 24.300001,
+      "cue": "was never built for anything this big",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "010",
+      "status": "MATCHED",
+      "start": 41.040001,
+      "end": 44.619999,
+      "duration": 3.579998,
+      "cue": "to spare",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "011",
+      "status": "MATCHED",
+      "start": 44.619999,
+      "end": 49.0,
+      "duration": 4.380001,
+      "cue": "He brings it down",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "012",
+      "status": "MATCHED",
+      "start": 49.0,
+      "end": 51.98,
+      "duration": 2.98,
+      "cue": "the giant stops",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "013",
+      "status": "MATCHED",
+      "start": 51.98,
+      "end": 58.599998,
+      "duration": 6.619998,
+      "cue": "Then he takes off again",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "014",
+      "status": "MATCHED",
+      "start": 58.599998,
+      "end": 87.620003,
+      "duration": 29.020005,
+      "cue": "He does it again",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "017",
+      "status": "UNMATCHED",
+      "start": null,
+      "end": null,
+      "duration": null,
+      "cue": "Distinguished Flying Cross",
+      "score": 0.3333,
+      "method": null
+    },
+    {
+      "id": "018",
+      "status": "MATCHED",
+      "start": 87.620003,
+      "end": 93.68,
+      "duration": 6.059997,
+      "cue": "That exact plane survives",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "019",
+      "status": "MATCHED",
+      "start": 93.68,
+      "end": 95.190002,
+      "duration": 1.510002,
+      "cue": "Some things aren't in the manual",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}
