@@ -1,162 +1,161 @@
-﻿{
-    "schema":  "moiastro.montage.package.v2",
-    "project_id":  "nitm_f106_flow_v1",
-    "title":  "This pilot just ejected. His jet didn\u0027t. (F-106 Cornfield Bomber)",
-    "language":  "en",
-    "aspect_ratio":  "9:16",
-    "fps":  24,
-    "voice":  null,
-    "voice_mp3":  null,
-    "words":  null,
-    "music":  null,
-    "music_prompt":  null,
-    "shot_timings":  null,
-    "source":  "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images, 768x1376); not produced by the factory",
-    "flow_credits_spent":  94,
-    "scenes":  [
-                   {
-                       "shot_id":  "S01",
-                       "type":  "video",
-                       "video":  "visuals/video/S01_hook.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S01_first.png",
-                       "last_frame":  "visuals/images/S01_last.png",
-                       "note":  "HOOK. Pilot under parachute at top, empty F-106 far below flying level, from frame 0. Jet shrinks toward lower right. Extra shadow appears bottom-left in the 2nd half."
-                   },
-                   {
-                       "shot_id":  "S02",
-                       "type":  "image",
-                       "image":  "visuals/images/S02.png",
-                       "note":  "Two F-106 in a mock dogfight, vapour trails over Rocky Mountains."
-                   },
-                   {
-                       "shot_id":  "S03",
-                       "type":  "video",
-                       "video":  "visuals/video/S03_spin.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S03_first.png",
-                       "last_frame":  "visuals/images/S03_last.png",
-                       "note":  "Flat spin seen from above. Around 2-3 s a small horizontal-looking element appears at the tail (probably the fin during rotation); trim or use other seconds."
-                   },
-                   {
-                       "shot_id":  "S04",
-                       "type":  "image",
-                       "image":  "visuals/images/S04.png",
-                       "note":  "Cockpit over the shoulder, gloved hands on the stick, red warning lights. Horizon is rotated ~90 deg (spin)."
-                   },
-                   {
-                       "shot_id":  "S05",
-                       "type":  "video",
-                       "video":  "visuals/video/S05_eject.mp4",
-                       "duration":  4,
-                       "first_frame":  "visuals/images/S05_first.png",
-                       "note":  "Canopy lifts off, seat with pilot fires up on a rocket plume. At the end a figure/seat remains visible in the cockpit."
-                   },
-                   {
-                       "shot_id":  "S06",
-                       "type":  "image",
-                       "image":  "visuals/images/S06.png",
-                       "note":  "Single F-106 flying alone, open cockpit empty. Jet is rotated nose-down in frame."
-                   },
-                   {
-                       "shot_id":  "S07",
-                       "type":  "video",
-                       "video":  "visuals/video/S07_recover.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S07_first.png",
-                       "last_frame":  "visuals/images/S07_last.png",
-                       "note":  "Nose-high spin turns into level flight. Cockpit looks occupied (dark figure) in the second half, not clearly empty."
-                   },
-                   {
-                       "shot_id":  "S08",
-                       "type":  "video",
-                       "video":  "visuals/video/S08_formation.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S08_first.png",
-                       "note":  "View from the cockpit of a second jet, empty F-106 alongside in formation."
-                   },
-                   {
-                       "shot_id":  "S09",
-                       "type":  "image",
-                       "image":  "visuals/images/S09.png",
-                       "note":  "Pilot hanging under orange-and-white parachute, looking down, legs dangling."
-                   },
-                   {
-                       "shot_id":  "S10",
-                       "type":  "video",
-                       "video":  "visuals/video/S10_belly.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S10_first.png",
-                       "last_frame":  "visuals/images/S10_last.png",
-                       "note":  "Empty jet glides low, touches the snow on its belly, powder snow, slides to a stop. Readable U.S. AIR FORCE on fuselage (as in the real photo)."
-                   },
-                   {
-                       "shot_id":  "S11",
-                       "type":  "real_photo",
-                       "source":  "branch ref/f106, F-106_unmanned_landing.jpg (USAF, public domain)",
-                       "note":  "REAL PHOTO, not generated. The montage uses it as-is with the label \u0027REAL PHOTO 1970\u0027."
-                   },
-                   {
-                       "shot_id":  "S12",
-                       "type":  "video",
-                       "video":  "visuals/video/S12_sheriff.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S12_first.png",
-                       "note":  "Sheriff in sheepskin coat walks through snow toward the jet, exhaust vapour, sheriff car with star."
-                   },
-                   {
-                       "shot_id":  "S13",
-                       "type":  "video",
-                       "video":  "visuals/video/S13_creep.mp4",
-                       "duration":  4,
-                       "first_frame":  "visuals/images/S13_first.png",
-                       "note":  "Sheriff at the cockpit, jet creeps forward, snow sprays, he jumps back. Nose gear is visible (brief says gear up)."
-                   },
-                   {
-                       "shot_id":  "S14",
-                       "type":  "image",
-                       "image":  "visuals/images/S14.png",
-                       "note":  "Sheriff and two farmers in winter coats watching the jet in the snow, golden light. Jet is a distant dark silhouette."
-                   },
-                   {
-                       "shot_id":  "S15",
-                       "type":  "image",
-                       "image":  "visuals/images/S15.png",
-                       "note":  "Fuselage without wings strapped on a railroad flatcar, snowy Montana. Fin is painted red."
-                   },
-                   {
-                       "shot_id":  "S16",
-                       "type":  "image",
-                       "image":  "visuals/images/S16.png",
-                       "note":  "Repaired F-106 on a sunny flight line, 1970s ground crew."
-                   },
-                   {
-                       "shot_id":  "S17",
-                       "type":  "video",
-                       "video":  "visuals/video/S17_board.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S17_first.png",
-                       "note":  "Mustached pilot climbs the boarding ladder into the cockpit. A figure is already visible in the cockpit at the start."
-                   },
-                   {
-                       "shot_id":  "S18",
-                       "type":  "image",
-                       "image":  "visuals/images/S18.png",
-                       "note":  "F-106 hanging in a museum hall, visitors looking up."
-                   },
-                   {
-                       "shot_id":  "S19",
-                       "type":  "video",
-                       "video":  "visuals/video/S19_sunset.mp4",
-                       "duration":  6,
-                       "first_frame":  "visuals/images/S19_first.png",
-                       "note":  "ENDING. Silhouette of the jet flies away into an orange sunset over snowy plains."
-                   }
-               ],
-    "missing":  [
-                    "voice",
-                    "words",
-                    "music"
-                ],
-    "montage_ready":  false
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "nitm_f106_flow_v1",
+  "title": "This pilot just ejected. His jet didn't. (F-106 Cornfield Bomber)",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "fps": 24,
+  "voice": null,
+  "voice_mp3": null,
+  "words": null,
+  "music": null,
+  "music_prompt": null,
+  "shot_timings": null,
+  "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images, 768x1376); not produced by the factory",
+  "flow_credits_spent": 114,
+  "scenes": [
+    {
+      "shot_id": "S01",
+      "type": "video",
+      "video": "visuals/video/S01_hook.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S01_first.png",
+      "last_frame": "visuals/images/S01_last.png",
+      "note": "HOOK. Pilot under parachute at top, empty F-106 far below flying level, from frame 0. Jet shrinks toward lower right. Extra shadow appears bottom-left in the 2nd half."
+    },
+    {
+      "shot_id": "S02",
+      "type": "image",
+      "image": "visuals/images/S02.png",
+      "note": "Two F-106 in a mock dogfight, vapour trails over Rocky Mountains."
+    },
+    {
+      "shot_id": "S03",
+      "type": "video",
+      "video": "visuals/video/S03_spin.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S03_first.png",
+      "last_frame": "visuals/images/S03_last.png",
+      "note": "Flat spin seen from above (second generation, stricter prompt). A small side element at the tail on ~1-2.5 s appears in both runs, most likely the fin while the jet is rolled; later seconds are clean."
+    },
+    {
+      "shot_id": "S04",
+      "type": "image",
+      "image": "visuals/images/S04.png",
+      "note": "Cockpit over the shoulder, gloved hands on the stick, red warning lights. Horizon is rotated ~90 deg (spin)."
+    },
+    {
+      "shot_id": "S05",
+      "type": "video",
+      "video": "visuals/video/S05_eject.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/S05_first.png",
+      "note": "Canopy lifts off, seat with pilot fires up on a rocket plume. At the end a figure/seat remains visible in the cockpit."
+    },
+    {
+      "shot_id": "S06",
+      "type": "image",
+      "image": "visuals/images/S06.png",
+      "note": "Single F-106 flying alone, open cockpit empty. Jet is rotated nose-down in frame."
+    },
+    {
+      "shot_id": "S07",
+      "type": "video",
+      "video": "visuals/video/S07_recover.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S07_first.png",
+      "note": "Nose-high spin turns into level flight, ends head-on flying at the camera. Second generation made from the first frame only (no last frame). Cockpit is small and not clearly occupied."
+    },
+    {
+      "shot_id": "S08",
+      "type": "video",
+      "video": "visuals/video/S08_formation.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S08_first.png",
+      "note": "View from the cockpit of a second jet, empty F-106 alongside in formation."
+    },
+    {
+      "shot_id": "S09",
+      "type": "image",
+      "image": "visuals/images/S09.png",
+      "note": "Pilot hanging under orange-and-white parachute, looking down, legs dangling."
+    },
+    {
+      "shot_id": "S10",
+      "type": "video",
+      "video": "visuals/video/S10_belly.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S10_first.png",
+      "last_frame": "visuals/images/S10_last.png",
+      "note": "Empty jet glides low, touches the snow on its belly, powder snow, slides to a stop. Readable U.S. AIR FORCE on fuselage (as in the real photo)."
+    },
+    {
+      "shot_id": "S11",
+      "type": "real_photo",
+      "source": "branch ref/f106, F-106_unmanned_landing.jpg (USAF, public domain)",
+      "note": "REAL PHOTO, not generated. The montage uses it as-is with the label 'REAL PHOTO 1970'."
+    },
+    {
+      "shot_id": "S12",
+      "type": "video",
+      "video": "visuals/video/S12_sheriff.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S12_first.png",
+      "note": "Sheriff in sheepskin coat walks through snow toward the jet, exhaust vapour, sheriff car with star."
+    },
+    {
+      "shot_id": "S13",
+      "type": "video",
+      "video": "visuals/video/S13_creep.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/S13_first.png",
+      "note": "Sheriff at the cockpit, jet creeps forward, snow sprays, he jumps back. Nose gear is visible (brief says gear up)."
+    },
+    {
+      "shot_id": "S14",
+      "type": "image",
+      "image": "visuals/images/S14.png",
+      "note": "Sheriff and two farmers in winter coats watching the jet in the snow, golden light. Jet is a distant dark silhouette."
+    },
+    {
+      "shot_id": "S15",
+      "type": "image",
+      "image": "visuals/images/S15.png",
+      "note": "Fuselage without wings strapped on a railroad flatcar, snowy Montana. Fin is painted red."
+    },
+    {
+      "shot_id": "S16",
+      "type": "image",
+      "image": "visuals/images/S16.png",
+      "note": "Repaired F-106 on a sunny flight line, 1970s ground crew."
+    },
+    {
+      "shot_id": "S17",
+      "type": "video",
+      "video": "visuals/video/S17_board.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S17_first.png",
+      "note": "Mustached pilot climbs the boarding ladder into the cockpit. A figure is already visible in the cockpit at the start."
+    },
+    {
+      "shot_id": "S18",
+      "type": "image",
+      "image": "visuals/images/S18.png",
+      "note": "F-106 hanging in a museum hall, visitors looking up."
+    },
+    {
+      "shot_id": "S19",
+      "type": "video",
+      "video": "visuals/video/S19_sunset.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/S19_first.png",
+      "note": "ENDING. Silhouette of the jet flies away into an orange sunset over snowy plains."
+    }
+  ],
+  "missing": [
+    "voice",
+    "words",
+    "music"
+  ],
+  "montage_ready": false
 }

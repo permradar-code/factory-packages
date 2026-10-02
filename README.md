@@ -1,4 +1,4 @@
-﻿# nitm_f106_flow_v1: F-106 "Cornfield Bomber" (Not In The Manual, vertical Short)
+# nitm_f106_flow_v1: F-106 "Cornfield Bomber" (Not In The Manual, vertical Short)
 Visuals only, made in Google Flow from briefs/f106_flow_brief.md (branch tools/montage). Voice, word timings, music, captions and montage are done by the montage chat.
 
 ## What is here
@@ -7,11 +7,11 @@ Visuals only, made in Google Flow from briefs/f106_flow_brief.md (branch tools/m
 - manifest.json lists the scenes in brief order (S01..S19). S11 is the real photo and is NOT included (use ref/f106 F-106_unmanned_landing.jpg).
 - Real reference photos used (all in branch ref/f106; licences in its LICENSES.txt): F-106_Delta_Dart_87th_FIS, F-106A_from_rear_right, F-106_unmanned_landing, ConvairF-106DeltaDart01 (public domain, USAF/others).
 
-## Flow credits spent: 94
+## Flow credits spent: 114 (94 + 20 for regenerating S03 and S07)
 Ten clips, each generated once and accepted:
 - 4 s clips (7 credits each): S05, S13 = 14
 - 6 s clips (10 credits each): S01, S03, S07, S08, S10, S12, S17, S19 = 80
-Total 94. All images are free (0 credits). Flow only offers 4/6/8/10 s, so the brief's 5 s shots were made as 6 s: trim in the montage.
+- S03 and S07 were regenerated once more at the author's request, +20: 114 total. All images are free (0 credits). Flow only offers 4/6/8/10 s, so the brief's 5 s shots were made as 6 s: trim in the montage.
 Flow project id: 1f739665-39b5-4a4b-b995-d38ad6809795.
 
 ## Regenerated / rejected (images, free)
@@ -22,9 +22,9 @@ Flow project id: 1f739665-39b5-4a4b-b995-d38ad6809795.
 
 ## Aircraft lock check (delta, no horizontal tail, flat-top fin)
 Checked on screen frame by frame, at contact-sheet or thumbnail scale only, not with a measuring tool. Known doubts:
-- S03 clip: small horizontal-looking element at the tail around 2-3 s (probably the fin while rotating).
+- S03 clip (regenerated, v2): small side element at the tail on ~1-2.5 s in BOTH generations, most likely the fin of the rolled jet; the rest is clean.
 - S02: lead jet has a small ambiguous bump at the tail.
-- S05 / S07 / S17: a figure is visible in a cockpit that should be empty (S05 end, S07 second half, S07_last frame, S17 start).
+- S05 / S17: a figure is visible in the cockpit (S05 end, S17 start). S07 clip was regenerated from the first frame only and ends head-on; cockpit not clearly occupied. The still S07_last.png shows a dark spot in the cockpit and is NOT used by the final S07 clip.
 - S13: nose gear visible (brief says gear up). S15: the fin is red, not grey.
 - S01 clip: a second shadow appears at the bottom-left in the second half.
 - Readable USAF text on the fuselage appears in S10 (same as the real photo).
