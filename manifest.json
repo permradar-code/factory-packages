@@ -13,7 +13,49 @@
     "voice_id": null,
     "files": []
   },
-  "refs": {},
+  "refs": {
+    "CHAR_AGATHA": [
+      "visuals/refs/CHAR_AGATHA_34.png",
+      "visuals/refs/CHAR_AGATHA_front.png",
+      "visuals/refs/CHAR_AGATHA_full.png"
+    ],
+    "CHAR_CLARA": [
+      "visuals/refs/CHAR_CLARA_34.png",
+      "visuals/refs/CHAR_CLARA_front.png",
+      "visuals/refs/CHAR_CLARA_full.png"
+    ],
+    "CHAR_DEKE": [
+      "visuals/refs/CHAR_DEKE_34.png",
+      "visuals/refs/CHAR_DEKE_front.png",
+      "visuals/refs/CHAR_DEKE_full.png"
+    ],
+    "CHAR_LILY": [
+      "visuals/refs/CHAR_LILY_34.png",
+      "visuals/refs/CHAR_LILY_front.png",
+      "visuals/refs/CHAR_LILY_full.png"
+    ],
+    "CHAR_MARSHAL": [
+      "visuals/refs/CHAR_MARSHAL_34.png",
+      "visuals/refs/CHAR_MARSHAL_front.png",
+      "visuals/refs/CHAR_MARSHAL_full.png"
+    ],
+    "CHAR_MERCER": [
+      "visuals/refs/CHAR_MERCER_34.png",
+      "visuals/refs/CHAR_MERCER_front.png",
+      "visuals/refs/CHAR_MERCER_full.png"
+    ],
+    "CHAR_PIKE": [
+      "visuals/refs/CHAR_PIKE_34.png",
+      "visuals/refs/CHAR_PIKE_front.png",
+      "visuals/refs/CHAR_PIKE_full.png"
+    ],
+    "CHAR_SAM": [
+      "visuals/refs/CHAR_SAM_34.png",
+      "visuals/refs/CHAR_SAM_front.png",
+      "visuals/refs/CHAR_SAM_full.png"
+    ]
+  },
   "scenes": [],
-  "montage_ready": false
+  "montage_ready": false,
+  "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514"
 }
