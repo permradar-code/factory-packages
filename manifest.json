@@ -1,0 +1,200 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "sbr_corinth_bridge_v2",
+  "title": "This Bridge Isn't Collapsing... It Sinks on Purpose",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "voice": "audio/narration.wav",
+  "voice_mp3": null,
+  "words": "timings/words.json",
+  "music": "audio/music/main.mp3",
+  "music_prompt": "Punchy suspenseful cinematic pulse with ticking percussion and rising strings that bursts into a bright, playful, amazed reveal; energetic fun-fact short video music",
+  "shot_timings": "timings/shots.json",
+  "duration": 14.90999984741211,
+  "reference_policy": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "scene_image_policy": {
+    "provider": "google_vertex",
+    "model": "gemini-2.5-flash-image"
+  },
+  "video_policy": {
+    "provider": "google_vertex",
+    "model": "veo-3.1-fast-generate-001",
+    "generate_audio": false
+  },
+  "references": {
+    "BRIDGE": {
+      "type": "object",
+      "files": [
+        "references/BRIDGE/photo.png"
+      ]
+    }
+  },
+  "overlays": [],
+  "scenes": [
+    {
+      "index": 1,
+      "shot_id": "001",
+      "type": "video",
+      "start": 0.0,
+      "end": 4.9,
+      "duration": 4.9,
+      "timing_status": "MATCHED",
+      "narration_cue": "This bridge isn't collapsing",
+      "image": "visuals/images/001.png",
+      "end_image": "visuals/images/001_end.png",
+      "video": "visuals/video/001.mp4",
+      "camera_move": null,
+      "motion_prompt": "The whole flat bridge deck sinks straight down into the canal as one piece, the yellow girders disappearing under the water, water closing over it with ripples. Then the white yacht glides forward between the striped abutments over the spot where the bridge was. The abutments, banks and cars stay still. Realistic water physics, the bridge stays intact, no collapse, no explosion.",
+      "priority": null,
+      "references": [
+        "BRIDGE"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 2,
+      "shot_id": "002",
+      "type": "image",
+      "start": 4.9,
+      "end": 8.92,
+      "duration": 4.02,
+      "timing_status": "MATCHED",
+      "narration_cue": "At Greece's Corinth Canal",
+      "image": "visuals/images/002.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 3,
+      "shot_id": "003",
+      "type": "video",
+      "start": 8.92,
+      "end": 11.3,
+      "duration": 2.38,
+      "timing_status": "MATCHED",
+      "narration_cue": "so ships can sail right over it",
+      "image": "visuals/images/003.png",
+      "end_image": "visuals/images/003_end.png",
+      "video": "visuals/video/003.mp4",
+      "camera_move": null,
+      "motion_prompt": "The white yacht glides steadily through the gap between the striped abutments over the sunken yellow bridge, its wake rippling the surface. Calm, realistic, smooth camera.",
+      "priority": null,
+      "references": [
+        "BRIDGE"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 4,
+      "shot_id": "004",
+      "type": "image",
+      "start": 11.3,
+      "end": 13.22,
+      "duration": 1.92,
+      "timing_status": "MATCHED",
+      "narration_cue": "Then it rises back up",
+      "image": "visuals/images/004.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "BRIDGE"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 5,
+      "shot_id": "005",
+      "type": "image",
+      "start": 13.22,
+      "end": 14.91,
+      "duration": 1.69,
+      "timing_status": "MATCHED",
+      "narration_cue": "and the cars drive on",
+      "image": "visuals/images/005.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "BRIDGE"
+      ],
+      "overlay_ids": []
+    }
+  ],
+  "missing": [],
+  "montage_ready": true,
+  "exported_at": "2026-10-02T11:15:19Z",
+  "factory_commit": "49b617e5af067afa31dfa6467c3ea84ae18fec2f",
+  "package_files": [
+    {
+      "path": "audio/narration.wav",
+      "bytes": 715960
+    },
+    {
+      "path": "audio/music/main.mp3",
+      "bytes": 2839549
+    },
+    {
+      "path": "timings/words.json",
+      "bytes": 3254
+    },
+    {
+      "path": "timings/shots.json",
+      "bytes": 1240
+    },
+    {
+      "path": "visuals/images/001.png",
+      "bytes": 1392760
+    },
+    {
+      "path": "visuals/images/001_end.png",
+      "bytes": 1636935
+    },
+    {
+      "path": "visuals/images/002.png",
+      "bytes": 1826466
+    },
+    {
+      "path": "visuals/images/003.png",
+      "bytes": 1496273
+    },
+    {
+      "path": "visuals/images/003_end.png",
+      "bytes": 1557472
+    },
+    {
+      "path": "visuals/images/004.png",
+      "bytes": 1362589
+    },
+    {
+      "path": "visuals/images/005.png",
+      "bytes": 1433452
+    },
+    {
+      "path": "visuals/video/001.mp4",
+      "bytes": 2854126
+    },
+    {
+      "path": "visuals/video/003.mp4",
+      "bytes": 1345047
+    },
+    {
+      "path": "references/BRIDGE/photo.png",
+      "bytes": 1254360
+    }
+  ]
+}

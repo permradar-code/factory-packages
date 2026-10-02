@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "voice_duration": 14.90999984741211,
+  "shot_count": 5,
+  "matched_count": 5,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 4.9,
+      "duration": 4.9,
+      "cue": "This bridge isn't collapsing",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 4.9,
+      "end": 8.92,
+      "duration": 4.02,
+      "cue": "At Greece's Corinth Canal",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 8.92,
+      "end": 11.3,
+      "duration": 2.38,
+      "cue": "so ships can sail right over it",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 11.3,
+      "end": 13.22,
+      "duration": 1.92,
+      "cue": "Then it rises back up",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "005",
+      "status": "MATCHED",
+      "start": 13.22,
+      "end": 14.91,
+      "duration": 1.69,
+      "cue": "and the cars drive on",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}

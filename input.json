@@ -1,0 +1,110 @@
+{
+  "mode": "montage_assets",
+  "project_id": "sbr_corinth_bridge_v2",
+  "title": "This Bridge Isn't Collapsing... It Sinks on Purpose",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "script": "This bridge isn't collapsing. It's sinking on purpose! At Greece's Corinth Canal, the bridge drops eight meters under the water, so ships can sail right over it. Then it rises back up, and the cars drive on.",
+  "voice": {
+    "voice": "cedar",
+    "speed": 1.1,
+    "instructions": "Energetic, amazed YouTube Shorts narrator. Fast, punchy pace. Hit 'isn't collapsing' and 'on purpose' hard, playful disbelief, smile in the voice.",
+    "estimated_wpm": 175,
+    "model": "gpt-4o-mini-tts"
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "video",
+      "duration_s": 5.0,
+      "narration_cue": "This bridge isn't collapsing",
+      "references": [
+        "BRIDGE"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the canal bank, camera looking across the canal at a slight angle, the bridge crossing the frame horizontally from left to right: the low submersible bridge from the reference photo: a flat steel deck with bright yellow painted girder sides lying across the canal at water level, running from the LEFT bank to the RIGHT bank (perpendicular to the canal), resting between square concrete abutments painted with bold black-and-yellow diagonal stripes on each bank; low flat banks with eucalyptus trees, a small white operator booth and street lamps, calm blue-green canal water. The bridge has JUST STARTED SINKING: the yellow girders are now a few centimeters under the surface and water is washing over the whole deck from both sides with white foam. On the near bank a red-and-white traffic barrier is down and two small cars wait behind it. In the canal behind the bridge a white motor yacht waits, facing the camera. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "end_image_prompt_full": "Same camera, same banks, abutments, barrier and cars: the bridge deck has COMPLETELY DISAPPEARED deep under the water, only the two black-and-yellow striped concrete abutments stand at the edges with open water between them and a faint yellow shape visible far below the surface. The white motor yacht has moved forward and its bow is now passing exactly between the striped abutments, over the sunken bridge. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": "The whole flat bridge deck sinks straight down into the canal as one piece, the yellow girders disappearing under the water, water closing over it with ripples. Then the white yacht glides forward between the striped abutments over the spot where the bridge was. The abutments, banks and cars stay still. Realistic water physics, the bridge stays intact, no collapse, no explosion."
+    },
+    {
+      "id": "002",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "At Greece's Corinth Canal",
+      "references": [],
+      "image_prompt_full": "Photorealistic vertical aerial drone shot looking straight down the Corinth Canal in Greece: an extremely narrow perfectly straight canal cut through towering vertical sandy limestone cliffs, turquoise water, a small white ship inside, the open sea at the far end. Full-frame, no vignette, no dark corners. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    },
+    {
+      "id": "003",
+      "type": "video",
+      "duration_s": 4.0,
+      "narration_cue": "so ships can sail right over it",
+      "references": [
+        "BRIDGE"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the canal bank right next to one black-and-yellow striped concrete abutment of the submersible bridge: the bridge deck is sunk deep under the clear water, its yellow girders visible several meters below the surface running across the canal. The white hull of a motor yacht is gliding through the gap between the striped abutments, right above the sunken yellow deck. Eucalyptus trees on the far bank. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "end_image_prompt_full": "Same camera and scene: the yacht has moved on and only its stern and white wake are passing between the striped abutments, the sunken yellow deck still visible deep under the rippling water. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": "The white yacht glides steadily through the gap between the striped abutments over the sunken yellow bridge, its wake rippling the surface. Calm, realistic, smooth camera."
+    },
+    {
+      "id": "004",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "Then it rises back up",
+      "references": [
+        "BRIDGE"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the canal bank: the low submersible bridge from the reference photo: a flat steel deck with bright yellow painted girder sides lying across the canal at water level, running from the LEFT bank to the RIGHT bank (perpendicular to the canal), resting between square concrete abutments painted with bold black-and-yellow diagonal stripes on each bank; low flat banks with eucalyptus trees, a small white operator booth and street lamps, calm blue-green canal water. The bridge deck is RISING back out of the water between the striped abutments, its yellow girders just breaking the surface, sea water pouring off the deck in sheets and cascading from the girders, sparkling spray in the sun. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    },
+    {
+      "id": "005",
+      "type": "image",
+      "duration_s": 2.5,
+      "narration_cue": "and the cars drive on",
+      "references": [
+        "BRIDGE"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the near bank: the low submersible bridge from the reference photo: a flat steel deck with bright yellow painted girder sides lying across the canal at water level, running from the LEFT bank to the RIGHT bank (perpendicular to the canal), resting between square concrete abutments painted with bold black-and-yellow diagonal stripes on each bank; low flat banks with eucalyptus trees, a small white operator booth and street lamps, calm blue-green canal water. The deck is back at water level, still wet and glistening, the barrier is up and a short line of small European cars and a scooter are driving across the low bridge between the striped abutments, a yacht's wake fading on the water beside it. Bright Greek summer sunshine, realistic smartphone video look, no text, no watermark.",
+      "motion_prompt": null
+    }
+  ],
+  "music": {
+    "prompt": "Punchy suspenseful cinematic pulse with ticking percussion and rising strings that bursts into a bright, playful, amazed reveal; energetic fun-fact short video music",
+    "duration_s": 15,
+    "model": "lyria-3-pro-preview",
+    "instrumental": true
+  },
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1,
+  "delivery": {
+    "github": {
+      "repo": "permradar-code/factory-packages"
+    }
+  },
+  "references": {
+    "BRIDGE": {
+      "type": "object",
+      "views": [
+        "photo"
+      ],
+      "files": {
+        "photo": "stage:corinth/bridge.png"
+      },
+      "description": "Real photo of the Corinth Canal submersible bridge: low flat steel deck with yellow girder sides between black-and-yellow striped concrete abutments."
+    }
+  }
+}
