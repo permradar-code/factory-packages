@@ -1,0 +1,64 @@
+﻿{
+    "schema":  "moiastro.montage.package.v2",
+    "project_id":  "sbr_corinth_flow_v4",
+    "title":  "This Bridge Sinks On Purpose",
+    "language":  "en",
+    "aspect_ratio":  "9:16",
+    "fps":  24,
+    "voice":  null,
+    "voice_mp3":  null,
+    "words":  null,
+    "music":  null,
+    "music_prompt":  null,
+    "shot_timings":  null,
+    "duration":  13.2,
+    "source":  "Google Flow (Omni 1.1 Flash 720p, Nano Banana Pro keyframes); not produced by the factory",
+    "scenes":  [
+                   {
+                       "start":  0,
+                       "video":  "visuals/video/001_sink.mp4",
+                       "index":  1,
+                       "type":  "video",
+                       "duration":  3.5,
+                       "trim_in":  0,
+                       "note":  "HOOK. Empty deck, cars stopped at barrier, yacht waiting at right. Deck sinks under water. Label with start=0 visible from frame 0.",
+                       "shot_id":  "001"
+                   },
+                   {
+                       "start":  3.5,
+                       "video":  "visuals/video/002_yacht.mp4",
+                       "index":  2,
+                       "type":  "video",
+                       "duration":  3.5,
+                       "trim_in":  0.2,
+                       "note":  "Yacht cruises right-to-left over the sunk bridge and leaves the frame.",
+                       "shot_id":  "002"
+                   },
+                   {
+                       "start":  7,
+                       "video":  "visuals/video/003_rise.mp4",
+                       "index":  3,
+                       "type":  "video",
+                       "duration":  3,
+                       "trim_in":  0.5,
+                       "note":  "Clip 001 reversed: deck rises back up (REVERSED, do not reverse again).",
+                       "shot_id":  "003"
+                   },
+                   {
+                       "start":  10,
+                       "video":  "visuals/video/004_cars_go.mp4",
+                       "index":  4,
+                       "type":  "video",
+                       "duration":  3.2,
+                       "trim_in":  0,
+                       "note":  "Barrier lifts, cars drive across the bridge. End card candidate.",
+                       "shot_id":  "004"
+                   }
+               ],
+    "missing":  [
+                    "voice",
+                    "words",
+                    "music"
+                ],
+    "montage_ready":  false
+}
