@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "voice_duration": 10.3100004196167,
+  "shot_count": 4,
+  "matched_count": 4,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 3.46,
+      "duration": 3.46,
+      "cue": "This bridge isn't collapsing",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 3.46,
+      "end": 7.34,
+      "duration": 3.88,
+      "cue": "It drops eight meters",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 7.34,
+      "end": 8.56,
+      "duration": 1.22,
+      "cue": "Then it rises back up",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 8.56,
+      "end": 10.31,
+      "duration": 1.75,
+      "cue": "and the cars just drive on",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}
