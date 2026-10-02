@@ -1,0 +1,6 @@
+_variants/
+*.key
+.env
+narration/
+tts_elevenlabs.py
+

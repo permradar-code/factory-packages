@@ -1,0 +1,19 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "western_widows_piano_v1",
+  "title": "They Auctioned the Widow's Piano for Her Husband's Debt — Then a Silent Stranger Raised One Hand",
+  "language": "en",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
+  "flow_credits_spent": 0,
+  "flow_credits_left": null,
+  "phase": "refs",
+  "narration": {
+    "voice_id": null,
+    "files": []
+  },
+  "refs": {},
+  "scenes": [],
+  "montage_ready": false
+}
