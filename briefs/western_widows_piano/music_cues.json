@@ -1,0 +1,116 @@
+{
+  "cues": [
+    {
+      "id": "M01",
+      "covers": "C01–C10, cold open (auction)",
+      "target_s": 105,
+      "mood": "tense, humiliating, holds its breath at \"Two hundred\"",
+      "instrumental": true,
+      "prompt": "Slow, tense western underscore at 70 BPM. A lone resonator (dobro) guitar plays sparse bent notes over a low sustained cello drone and a soft ticking rim click like a pocket watch. Quiet murmuring tension that slowly tightens, then cuts to near silence and one held high violin note. Feeling of public humiliation and a held breath. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M02",
+      "covers": "T01 title + start of N01",
+      "target_s": 40,
+      "mood": "main theme, nostalgic",
+      "instrumental": true,
+      "prompt": "A simple, memorable main theme for a western drama, 84 BPM, in D major. Fingerpicked acoustic guitar introduces the melody, a solo fiddle answers, soft upright bass underneath. Nostalgic, warm, a little sad, like an old photograph on a shelf. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M03",
+      "covers": "N01 backstory",
+      "target_s": 180,
+      "mood": "gentle, melancholic, under voice",
+      "instrumental": true,
+      "prompt": "Gentle melancholic underscore, 76 BPM. Fingerpicked acoustic guitar and soft sustained fiddle, a distant harmonica phrase every so often, very low dynamics so a narrator can speak over it. Memories of a good life slowly slipping away. Sparse, no sudden changes. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M04",
+      "covers": "N02 empty parlor",
+      "target_s": 50,
+      "mood": "grief, solo piano",
+      "instrumental": true,
+      "prompt": "Very slow solo piano, 60 BPM, minor key. Few notes, long silences between phrases, slightly out-of-tune old upright piano sound with soft felt. Grief in an empty room at night. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M05",
+      "covers": "C11–C15 + N03 (piano returns, new routine)",
+      "target_s": 150,
+      "mood": "warm, hopeful homestead",
+      "instrumental": true,
+      "prompt": "Light hopeful homestead music, 92 BPM. Clawhammer banjo and acoustic guitar with a gentle fiddle melody, upright bass, soft brushed snare. Morning work on a ranch, fresh start, quiet warmth, a child following a stranger around. Keep it soft enough to talk over. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M06",
+      "covers": "I31–I33, C16 night porch; C37/I67 finale",
+      "target_s": 90,
+      "mood": "\"Shenandoah\" on solo upright piano (diegetic)",
+      "instrumental": true,
+      "prompt": "Slow solo upright piano in a log-cabin parlor playing the traditional American folk melody \"Shenandoah\", 66 BPM, simple hymn-like arrangement, gentle rubato, warm and tender, a little imperfect like a woman playing for herself at night. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M07",
+      "covers": "N04 + C17 (the ridge, silver)",
+      "target_s": 75,
+      "mood": "mystery, quiet discovery",
+      "instrumental": true,
+      "prompt": "Quiet mysterious underscore, 70 BPM. Low tremolo strings, sparse plucked guitar harmonics, wind-like sustained violin, a slow rising tension. Discovery of a secret, something valuable and dangerous. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M08",
+      "covers": "C18–C21 + N05 (Pike's visit, counting money)",
+      "target_s": 105,
+      "mood": "villain menace, then loneliness",
+      "instrumental": true,
+      "prompt": "Dark, slow villain theme, 64 BPM, minor key. Low pizzicato double bass walking like footsteps, a muted cello line, a cold sustained harmonium chord. Polite menace. Second half thins out to a lonely solo violin. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M09",
+      "covers": "N06 + C22–C25 (night attack, dawn)",
+      "target_s": 105,
+      "mood": "urgent danger, then exhausted calm",
+      "instrumental": true,
+      "prompt": "Urgent western action underscore, 132 BPM. Driving low tom drums like galloping hooves, tremolo strings, sharp fiddle stabs, rising danger for 70 seconds; then the drums stop and a soft exhausted guitar and cello play a calm dawn ending. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M10",
+      "covers": "N07a, C26, N07b (he's gone)",
+      "target_s": 120,
+      "mood": "abandonment, the lowest point",
+      "instrumental": true,
+      "prompt": "Very sad, lonely underscore, 62 BPM. A solo harmonica plays a slow mournful line over sparse fingerpicked guitar and a low cello. Empty road, a woman waiting at a gate, a child at a window. Long pauses. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M11",
+      "covers": "C27–C33 (Saturday auction, the return, arrest)",
+      "target_s": 135,
+      "mood": "dread building to triumphant release",
+      "instrumental": true,
+      "prompt": "Tense build into triumph, starting at 70 BPM: a low cello drone and ticking pulse (callback to the auction), slowly gathering; then galloping drums and full strings, fiddle and acoustic guitars burst into a heroic western theme in D major as riders arrive; ends on a strong resolved chord. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M12",
+      "covers": "C34–C36 + N08 (the letter, Shiloh)",
+      "target_s": 120,
+      "mood": "tearful revelation",
+      "instrumental": true,
+      "prompt": "Emotional revelation, 68 BPM. Solo piano begins softly, a cello joins, then warm strings swell; in the middle a quiet military snare roll and distant bugle-like horn hint at an 1862 battlefield memory; ends tender and tearful on solo piano. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M13",
+      "covers": "N09, C37, C38, N10 (finale)",
+      "target_s": 105,
+      "mood": "warm resolution, full main theme",
+      "instrumental": true,
+      "prompt": "Warm resolution of the main theme, 84 BPM, D major. Fingerpicked guitar, fiddle melody, upright bass, soft strings rising underneath, a quiet piano echoing the melody. Sunset, a lamp in the window, a family finally safe. Gentle fade-out. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+    },
+    {
+      "id": "M14",
+      "covers": "end screen (optional)",
+      "target_s": 120,
+      "mood": "country song, female vocal",
+      "instrumental": false,
+      "prompt": "Slow country-folk ballad, 78 BPM, female vocalist with a warm, slightly husky Americana voice, acoustic guitar, fiddle, pedal steel, upright bass. Original lyrics about a widow's old piano, a quiet stranger who kept a promise to a fallen friend, and a light left burning in the window. Heartfelt, simple, radio-friendly classic country sound."
+    }
+  ]
+}

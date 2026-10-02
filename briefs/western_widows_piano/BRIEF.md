@@ -2,7 +2,7 @@
 
 **Project id:** `western_widows_piano_v1`.
 **Deliver as an orphan branch** `pkg/western_widows_piano_v1` in `permradar-code/factory-packages`, in the same format as `pkg/nitm_f106_flow_v1` (README.md + manifest.json + `visuals/images/` + `visuals/video/`), plus `visuals/refs/` and `audio/narration/`.
-**Generate ONLY the visuals and the narrator voice.** Montage, music, captions and character-voice decisions are done by the montage chat.
+**Generate ONLY the visuals, the narrator voice and the music cues.** Montage, captions and character-voice decisions are done by the montage chat.
 **Report Flow credits spent** (per clip and total) in README.md and manifest.json.
 Talk to the user in Russian.
 
@@ -70,6 +70,15 @@ Can run in parallel with Phase 3. Script `tts_elevenlabs.py` in this folder; the
 4. Then `python tts_elevenlabs.py --voice <ID>` for all blocks (existing ones are skipped).
 5. Push `audio/narration/*.mp3` and `*.alignment.json`. The alignment files carry word timings for the montage: keep them.
 
+## Phase 6: music (ElevenLabs Music, no Flow credits)
+Cue sheet: `music_cues.md` (readable) and `music_cues.json` (used by the script). 14 cues; M01–M13 are instrumental underscore, M14 is an optional end-credits country song with a female vocal.
+Script: `music_elevenlabs.py`, same `ELEVENLABS_API_KEY` as the narration. Narration has priority for credits: run music only after the narration is fully generated.
+1. `python music_elevenlabs.py --check`: report credits left.
+2. Test: `python music_elevenlabs.py --only M02` (main theme). **STOP 4:** the user listens and approves the sound.
+3. Then `python music_elevenlabs.py` for the rest (existing files are skipped). If a cue misses the mood, regenerate it once with another seed: `--only Mxx --force --seed <n>`.
+4. M06 must be the traditional "Shenandoah" melody on solo piano. If it comes out as a different tune, do not keep regenerating: note it in README, the montage chat will render the melody from notes.
+5. Push `audio/music/*.mp3` and `audio/music/music_log.json`. Add `"music": {"files": [...], "log": "audio/music/music_log.json"}` to manifest.json.
+
 ---
 
 ## manifest.json (schema `moiastro.montage.package.v2`, adapted)
@@ -107,6 +116,6 @@ Scenes go in timeline order. Skipped shots stay in the list with `"type": "skipp
 ## Do not
 - Change lines, names, plot or shot order.
 - Put text, titles, logos or watermarks into frames.
-- Make music, captions or the montage.
+- Make captions or the montage; do not add music beyond the cue sheet.
 - Push `_variants/` or any secret.
 - Continue past a STOP without the user's answer.
