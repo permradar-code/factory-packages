@@ -1,0 +1,186 @@
+{
+ "replace": {},
+ "caption_start": 3.9,
+ "caption_skip": [
+  [
+   31.0,
+   33.3
+  ],
+  [
+   68.7,
+   99
+  ]
+ ],
+ "labels": [
+  {
+   "text": "HE EJECTED.",
+   "start": 0.0,
+   "end": 3.9,
+   "style": "HookA"
+  },
+  {
+   "text": "THE JET DIDN'T.",
+   "start": 2.3,
+   "end": 3.9,
+   "style": "HookB"
+  },
+  {
+   "text": "FEB 1970 · MONTANA",
+   "start": 3.94,
+   "end": 7.0
+  },
+  {
+   "text": "15,000 FT",
+   "start": 15.28,
+   "end": 17.4,
+   "style": "Stat"
+  },
+  {
+   "text": "\"YOU'D BETTER",
+   "start": 31.1,
+   "end": 33.3,
+   "style": "QuoteA"
+  },
+  {
+   "text": "GET BACK IN IT!\"",
+   "start": 31.6,
+   "end": 33.3,
+   "style": "QuoteB"
+  },
+  {
+   "text": "REAL PHOTO · FEB 2, 1970",
+   "start": 39.84,
+   "end": 42.55
+  },
+  {
+   "text": "THE CORNFIELD BOMBER",
+   "start": 59.3,
+   "end": 60.8
+  },
+  {
+   "text": "9 YEARS LATER",
+   "start": 60.86,
+   "end": 63.0
+  },
+  {
+   "text": "SOME LANDINGS\nAREN'T IN THE MANUAL.",
+   "start": 68.78,
+   "end": 73.3,
+   "style": "End"
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": 3.8
+  },
+  {
+   "kind": "whoosh",
+   "at": 15.0
+  },
+  {
+   "kind": "whoosh",
+   "at": 16.9
+  },
+  {
+   "kind": "whoosh",
+   "at": 31.0
+  },
+  {
+   "kind": "splash",
+   "at": 37.5
+  },
+  {
+   "kind": "whoosh",
+   "at": 39.75
+  },
+  {
+   "kind": "whoosh",
+   "at": 60.75
+  }
+ ],
+ "scene_overrides": {
+  "S01": {
+   "src_start": 0.0,
+   "src_end": 3.4
+  },
+  "S02": {
+   "move": "in",
+   "zoom": 0.12
+  },
+  "S03": {
+   "src_start": 2.4,
+   "src_end": 6.0
+  },
+  "S04": {
+   "move": "in",
+   "zoom": 0.1
+  },
+  "S05": {
+   "src_start": 0.0,
+   "src_end": 2.6
+  },
+  "S06": {
+   "move": "out",
+   "zoom": 0.12
+  },
+  "S07": {
+   "src_start": 0.0,
+   "src_end": 6.0
+  },
+  "S09": {
+   "move": "pan_down",
+   "zoom": 0.12
+  },
+  "S08": {
+   "src_start": 0.0,
+   "src_end": 3.8
+  },
+  "S10": {
+   "src_start": 0.0,
+   "src_end": 5.0
+  },
+  "S11": {
+   "move": "in",
+   "zoom": 0.08
+  },
+  "S12": {
+   "src_start": 1.0,
+   "src_end": 2.9
+  },
+  "S13": {
+   "src_start": 0.2,
+   "src_end": 4.0
+  },
+  "S14": {
+   "move": "in",
+   "zoom": 0.12
+  },
+  "S10L": {
+   "move": "in",
+   "zoom": 0.1
+  },
+  "S15": {
+   "move": "pan_up",
+   "zoom": 0.12
+  },
+  "S16": {
+   "move": "in",
+   "zoom": 0.12
+  },
+  "S17": {
+   "src_start": 1.2,
+   "src_end": 6.0
+  },
+  "S18": {
+   "move": "pan_down",
+   "zoom": 0.12
+  },
+  "S19": {
+   "src_start": 0.0,
+   "src_end": 6.0
+  }
+ },
+ "music_db": -15,
+ "tail": 2.75
+}

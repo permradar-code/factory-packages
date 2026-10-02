@@ -1,0 +1,71 @@
+{
+ "replace": {},
+ "labels": [
+  {
+   "text": "<< REWIND",
+   "start": 2.2,
+   "end": 2.9
+  },
+  {
+   "text": "8 M DOWN",
+   "start": 3.42,
+   "end": 4.6,
+   "style": "Stat"
+  },
+  {
+   "text": "CORINTH CANAL · GREECE",
+   "start": 9.6,
+   "end": 11.5
+  }
+ ],
+ "sfx": [
+  {
+   "kind": "whoosh",
+   "at": 2.15
+  },
+  {
+   "kind": "whoosh",
+   "at": 2.5
+  },
+  {
+   "kind": "splash",
+   "at": 3.2
+  },
+  {
+   "kind": "whoosh",
+   "at": 4.5
+  },
+  {
+   "kind": "splash",
+   "at": 6.7
+  },
+  {
+   "kind": "whoosh",
+   "at": 7.8
+  }
+ ],
+ "scene_overrides": {
+  "xray": {
+   "push": 0.08
+  },
+  "rewind": {},
+  "sink": {
+   "src_start": 1.2,
+   "src_end": 3.2
+  },
+  "yacht": {
+   "src_start": 0.8,
+   "src_end": 2.9
+  },
+  "rise": {
+   "src_start": 0.0,
+   "src_end": 1.3
+  },
+  "cars": {
+   "src_start": 0.4,
+   "src_end": 4.0
+  }
+ },
+ "music_db": -15,
+ "tail": 0.6
+}

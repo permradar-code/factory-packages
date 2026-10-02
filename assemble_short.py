@@ -67,7 +67,7 @@ def caption_groups(words, max_words=3, max_chars=16):
     return groups
 
 
-def build_ass(words, labels, total, path):
+def build_ass(words, labels, total, path, caption_y_ranges=None):
     header = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -81,6 +81,10 @@ Style: Cap,{FONT},100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,1
 Style: Label,{FONT},72,&H00FFFFFF,&H00FFFFFF,&H00000000,&HB4000000,-1,0,0,0,100,100,2,0,3,18,0,8,60,60,210
 Style: Stat,{FONT},150,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,9,4,8,60,60,330
 Style: End,{FONT},92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,7,4,5,60,60,0
+Style: HookA,{FONT},118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,640
+Style: HookB,{FONT},118,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,800
+Style: QuoteA,{FONT},118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,300
+Style: QuoteB,{FONT},118,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,460
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -88,9 +92,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     lines = []
     groups = caption_groups(words)
     y = int(H * 0.66)
+    def y_for(t):
+        for a, b, frac in (caption_y_ranges or []):
+            if a <= t < b:
+                return int(H * frac)
+        return int(H * 0.66)
+
     for gi, group in enumerate(groups):
         g_start = group[0]["start"]
-        g_end = groups[gi + 1][0]["start"] if gi + 1 < len(groups) else min(total, group[-1]["end"] + 0.6)
+        y = y_for(g_start)
+        g_end = min(groups[gi + 1][0]["start"] if gi + 1 < len(groups) else total, group[-1]["end"] + 0.6)
         width = text_width(" ".join(x["text"] for x in group))
         sc = min(100, int(100 * CAP_MAX_W / width)) if width > 0 else 100
         for wi, w in enumerate(group):
@@ -111,6 +122,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for lab in labels:
         style = lab.get("style", "Label")
         fx = "{\\fad(100,150)\\fscx70\\fscy70\\t(0,180,\\fscx100\\fscy100)}" if style == "Stat" else "{\\fad(120,120)}"
+        if style in ("HookA", "HookB", "QuoteA", "QuoteB"):
+            fx = "{\\fad(0,200)\\fscx85\\fscy85\\t(0,140,\\fscx100\\fscy100)}" if float(lab["start"]) > 0.01 else "{\\fad(0,200)}"
         if style == "End":
             fx = "{\\fad(250,400)}"
         if float(lab["start"]) <= 0.01:
@@ -233,7 +246,11 @@ def main():
                 merged.append(words[k]); k += 1
         words = merged
     ass = work / "captions.ass"
-    build_ass(words, cfg.get("labels", []), total, ass)
+    cap_start = float(cfg.get("caption_start", 0.0))
+    words = [w for w in words if w["start"] >= cap_start - 1e-6]
+    skips = cfg.get("caption_skip", [])
+    words = [w for w in words if not any(a - 1e-6 <= w["start"] < b for a, b in skips)]
+    build_ass(words, cfg.get("labels", []), total, ass, cfg.get("caption_y_ranges"))
 
     # Audio: voice + ducked music + sfx
     inputs = ["-i", str(video), "-i", str(voice)]
