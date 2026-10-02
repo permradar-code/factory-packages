@@ -1,0 +1,206 @@
+{
+  "schema_version": 2,
+  "voice_duration": 96.33000183105469,
+  "shot_count": 19,
+  "matched_count": 19,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 7.68,
+      "duration": 7.68,
+      "cue": "October 1963",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 7.68,
+      "end": 11.828572,
+      "duration": 4.148572,
+      "cue": "No tailhook",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 11.828572,
+      "end": 17.360001,
+      "duration": 5.531429,
+      "cue": "This is a C-130 Hercules",
+      "score": 0.0,
+      "method": "interpolated_repair",
+      "repaired": true
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 17.360001,
+      "end": 19.68,
+      "duration": 2.319999,
+      "cue": "was never built for anything this big",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "005",
+      "status": "MATCHED",
+      "start": 19.68,
+      "end": 25.08,
+      "duration": 5.4,
+      "cue": "the Navy wants to know one thing",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "006",
+      "status": "MATCHED",
+      "start": 25.08,
+      "end": 31.1,
+      "duration": 6.02,
+      "cue": "The pilot is Lieutenant",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "007",
+      "status": "MATCHED",
+      "start": 31.1,
+      "end": 32.619999,
+      "duration": 1.519999,
+      "cue": "off Boston",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "008",
+      "status": "MATCHED",
+      "start": 32.619999,
+      "end": 36.32,
+      "duration": 3.700001,
+      "cue": "The sea is rough",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "009",
+      "status": "MATCHED",
+      "start": 36.32,
+      "end": 41.580002,
+      "duration": 5.260002,
+      "cue": "lines up on the centerline",
+      "score": 0.8,
+      "method": "fuzzy"
+    },
+    {
+      "id": "010",
+      "status": "MATCHED",
+      "start": 41.580002,
+      "end": 45.560001,
+      "duration": 3.979999,
+      "cue": "to spare",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "011",
+      "status": "MATCHED",
+      "start": 45.560001,
+      "end": 50.32,
+      "duration": 4.759999,
+      "cue": "He brings it down",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "012",
+      "status": "MATCHED",
+      "start": 50.32,
+      "end": 52.880001,
+      "duration": 2.560001,
+      "cue": "the giant stops",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "013",
+      "status": "MATCHED",
+      "start": 52.880001,
+      "end": 58.860001,
+      "duration": 5.98,
+      "cue": "Then he takes off again",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "014",
+      "status": "MATCHED",
+      "start": 58.860001,
+      "end": 68.139999,
+      "duration": 9.279998,
+      "cue": "He does it again",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "015",
+      "status": "MATCHED",
+      "start": 68.139999,
+      "end": 76.419998,
+      "duration": 8.279999,
+      "cue": "It works",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "016",
+      "status": "MATCHED",
+      "start": 76.419998,
+      "end": 83.379997,
+      "duration": 6.959999,
+      "cue": "But the Navy says no",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "017",
+      "status": "MATCHED",
+      "start": 83.379997,
+      "end": 88.400002,
+      "duration": 5.020005,
+      "cue": "Distinguished Flying Cross",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "018",
+      "status": "MATCHED",
+      "start": 88.400002,
+      "end": 94.879997,
+      "duration": 6.479995,
+      "cue": "That exact plane survives",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "019",
+      "status": "MATCHED",
+      "start": 94.879997,
+      "end": 96.330002,
+      "duration": 1.450005,
+      "cue": "Some things aren't in the manual",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ],
+  "repair_method": "interpolated_between_whisper_anchors",
+  "repaired_shot_ids": [
+    "003"
+  ]
+}

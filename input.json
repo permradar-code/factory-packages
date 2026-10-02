@@ -1,0 +1,241 @@
+{
+  "mode": "montage_assets",
+  "project_id": "nitm_c130_carrier_v1",
+  "title": "The Plane That Landed on an Aircraft Carrier Without a Hook",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "script": "October 1963. The North Atlantic. A four-engine cargo plane is lining up to land on an aircraft carrier. No tailhook. No arresting wire. Nothing to catch it.\n\nThis is a C-130 Hercules. Its wings are 132 feet wide. A carrier deck was never built for anything this big. And the Navy wants to know one thing: can a plane this size deliver cargo straight to a ship in the middle of the ocean?\n\nThe pilot is Lieutenant James Flatley the Third. The ship is the USS Forrestal, 500 miles off Boston. The sea is rough. The wind is 40 knots across the deck.\n\nFlatley lines up on the centerline. His right wingtip will pass the carrier's island with less than 15 feet to spare. One gust, and the wing hits the tower.\n\nHe brings it down. The Hercules slams onto the deck, the propellers reverse, and the giant stops in just 267 feet.\n\nThen he takes off again. No catapult. Just four engines at full power and the end of the deck.\n\nHe does it again. And again. 29 touch-and-goes. 21 full-stop landings. 21 takeoffs. At weights up to 121,000 pounds.\n\nIt works. On paper, it's the perfect carrier delivery plane. It can carry far more, and fly far farther, than the Navy's own carrier transport.\n\nBut the Navy says no. Too big. Too risky for a crowded deck, every single day.\n\nFlatley gets the Distinguished Flying Cross. And no C-130 has landed on a carrier since.\n\nThat exact plane survives. Today it sits in the National Naval Aviation Museum in Pensacola, Florida.\n\nSome things aren't in the manual. Somebody had to write them first.",
+  "voice": {
+    "voice": "onyx",
+    "speed": 1.05,
+    "instructions": "Gripping aviation documentary narrator. Low, confident, tense. Short punchy sentences, dramatic pauses after 'No tailhook' and 'One gust'. Build energy during the landing, slow and warm at the museum ending.",
+    "estimated_wpm": 160,
+    "model": "gpt-4o-mini-tts"
+  },
+  "references": {
+    "C130": {
+      "type": "aircraft",
+      "prompt_raw": true,
+      "description": "Photorealistic reference of a 1963 United States Marine Corps KC-130F Hercules: four-engine high-wing turboprop transport, four-blade propellers, light gull-grey upper and white lower paint scheme, black nose radome, high T-shaped tail, refueling pods under the outer wings. Clean three-quarter front view on a plain light grey background, no text, no watermark.",
+      "views": [
+        "three_quarter"
+      ]
+    }
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "video",
+      "duration_s": 5.0,
+      "narration_cue": "October 1963",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot, 1963 color film look. The grey-and-white C-130 Hercules transport on final approach just above the stern of a huge grey 1960s aircraft carrier in the rough North Atlantic, landing gear down, flaps down, only a few meters above the flight deck. Choppy dark sea, overcast sky, spray. Dramatic, tense, realistic, no text.",
+      "motion_prompt": "The C-130 descends steadily toward the carrier deck, wings rocking slightly in the gusty wind, propellers spinning, the ship pitching in the waves. Camera follows from behind and slightly above."
+    },
+    {
+      "id": "002",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "No tailhook",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical close-up from below the tail of the grey-and-white C-130 Hercules: smooth rear fuselage and closed cargo ramp with no tailhook at all, the grey steel deck of an aircraft carrier rushing past just below. 1963 color film look, realistic, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "003",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "This is a C-130 Hercules",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot of the grey-and-white C-130 Hercules flying low over a dark North Atlantic ocean, three-quarter front view, four propellers spinning, overcast sky. 1963 color film look, realistic, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "004",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "was never built for anything this big",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical aerial view looking straight down at a 1960s aircraft carrier flight deck at sea, with the large grey-and-white C-130 Hercules parked on the deck, its long wings stretching almost the full width of the deck, small jets and sailors around it for scale. Realistic, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "005",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "the Navy wants to know one thing",
+      "image_prompt_full": "Photorealistic vertical shot on a 1960s aircraft carrier deck: US Navy officers in khaki uniforms and flight deck crew in colored jerseys stand in the wind with clipboards, looking up at the sky, cargo crates and pallets nearby, rough grey sea behind. 1963 color film look, realistic, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "006",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "The pilot is Lieutenant",
+      "image_prompt_full": "Photorealistic vertical shot from behind the pilot inside a 1960s C-130 cockpit: pilot in a white flight helmet and olive flight suit, hands on the yoke, round analog gauges, and through the windscreen a grey aircraft carrier far ahead on a rough sea. Face not visible. Realistic, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "007",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "off Boston",
+      "image_prompt_full": "Photorealistic vertical aerial shot of a lone huge grey 1960s aircraft carrier with hull number 59 on the deck, alone in a vast dark rough North Atlantic ocean under heavy grey clouds. 1963 color film look, realistic.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "008",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "The sea is rough",
+      "image_prompt_full": "Photorealistic vertical shot of the bow of a huge grey aircraft carrier crashing through big waves in the North Atlantic, white spray flying over the flight deck, flight deck crew leaning into strong wind. Dramatic, realistic, 1963 color film look, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "009",
+      "type": "image",
+      "duration_s": 3.0,
+      "narration_cue": "lines up on the centerline",
+      "image_prompt_full": "Photorealistic vertical view through the cockpit windscreen of a 1960s transport plane on final approach: the grey flight deck of an aircraft carrier ahead with its white centerline, the ship pitching on a rough sea, the deck looking terrifyingly small. Realistic, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "010",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "to spare",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the carrier deck: the long right wing and spinning propellers of the grey-and-white C-130 Hercules sweeping past the carrier's tall grey island superstructure with only a few meters of clearance, sailors ducking. Tense, realistic, 1963 color film look, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "011",
+      "type": "video",
+      "duration_s": 5.0,
+      "narration_cue": "He brings it down",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from the side on the carrier deck: the grey-and-white C-130 Hercules touching down hard on the grey flight deck, main wheels on the deck with white tire smoke, four propellers spinning, rough sea behind. 1963 color film look, realistic, no text.",
+      "motion_prompt": "The C-130 slams onto the carrier deck, tires smoke, the aircraft rolls forward and decelerates quickly as the propellers reverse, deck crew watching. Camera stays steady on the deck."
+    },
+    {
+      "id": "012",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "the giant stops",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot: the grey-and-white C-130 Hercules stopped on the carrier flight deck, propellers still turning, flight deck crew in colored jerseys running toward it, open sea and grey sky beyond the deck edge. 1963 color film look, realistic, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "013",
+      "type": "video",
+      "duration_s": 5.0,
+      "narration_cue": "Then he takes off again",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot from behind: the grey-and-white C-130 Hercules racing down the carrier flight deck toward the bow at full power, nose wheel just lifting, the end of the deck and open ocean ahead. 1963 color film look, realistic, no text.",
+      "motion_prompt": "The C-130 accelerates down the deck at full power and lifts off over the bow, climbing away over the rough ocean. Camera stays behind on the deck."
+    },
+    {
+      "id": "014",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "He does it again",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical aerial shot at golden late-afternoon light: the grey-and-white C-130 Hercules flying low over the carrier deck for another pass, the long ship wake on the sea, dramatic clouds. Realistic, no text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "015",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "It works",
+      "image_prompt_full": "Photorealistic vertical close shot of a 1960s US Navy officer on a carrier deck in wind, holding a clipboard with test notes, looking up with an impressed expression, grey ship structure behind. 1963 color film look, realistic, text on paper unreadable.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "016",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "But the Navy says no",
+      "image_prompt_full": "Photorealistic vertical shot of a crowded 1960s aircraft carrier flight deck packed with parked jet fighters wing to wing, deck crew everywhere, no free space at all, grey sea behind. Realistic, 1963 color film look, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "017",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Distinguished Flying Cross",
+      "image_prompt_full": "Photorealistic vertical macro close-up of a bronze Distinguished Flying Cross medal with its blue, white and red ribbon pinned on a dark navy uniform, soft dramatic light. Realistic, no text.",
+      "references": [],
+      "motion_prompt": null
+    },
+    {
+      "id": "018",
+      "type": "image",
+      "duration_s": 5.0,
+      "narration_cue": "That exact plane survives",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical shot of the grey-and-white C-130 Hercules on display inside a large bright aviation museum hangar, polished floor, visitors looking up at it for scale. Realistic, no readable text.",
+      "motion_prompt": null
+    },
+    {
+      "id": "019",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Some things aren't in the manual",
+      "references": [
+        "C130"
+      ],
+      "image_prompt_full": "Photorealistic vertical cinematic silhouette: the C-130 Hercules just above the stern of an aircraft carrier at sunset, orange sky, dark sea, about to touch down. Epic, realistic, no text.",
+      "motion_prompt": null
+    }
+  ],
+  "music": {
+    "prompt": "Tense cinematic aviation documentary score: low strings, steady military snare and deep pulses building suspense, Cold War 1960s feel, rising to a heroic swell, then calm and warm at the end. No vocals.",
+    "duration_s": 150,
+    "model": "lyria-3-pro-preview",
+    "instrumental": true
+  },
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1
+}

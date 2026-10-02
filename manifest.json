@@ -1,0 +1,518 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "nitm_c130_carrier_v1",
+  "title": "The Plane That Landed on an Aircraft Carrier Without a Hook",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "voice": "audio/narration.wav",
+  "voice_mp3": null,
+  "words": "timings/words.json",
+  "music": "audio/music/main.mp3",
+  "music_prompt": "Tense cinematic aviation documentary score: low strings, steady military snare and deep pulses building suspense, Cold War 1960s feel, rising to a heroic swell, then calm and warm at the end. No vocals.",
+  "shot_timings": "timings/shots.json",
+  "duration": 96.33000183105469,
+  "reference_policy": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "scene_image_policy": {
+    "provider": "google_vertex",
+    "model": "gemini-2.5-flash-image"
+  },
+  "video_policy": {
+    "provider": "google_vertex",
+    "model": "veo-3.1-fast-generate-001",
+    "generate_audio": false
+  },
+  "references": {
+    "C130": {
+      "type": "aircraft",
+      "files": [
+        "references/C130/three_quarter.png"
+      ]
+    }
+  },
+  "overlays": [],
+  "scenes": [
+    {
+      "index": 1,
+      "shot_id": "001",
+      "type": "video",
+      "start": 0.0,
+      "end": 7.68,
+      "duration": 7.68,
+      "timing_status": "MATCHED",
+      "narration_cue": "October 1963",
+      "image": "visuals/images/001.png",
+      "end_image": null,
+      "video": "visuals/video/001.mp4",
+      "camera_move": null,
+      "motion_prompt": "The C-130 descends steadily toward the carrier deck, wings rocking slightly in the gusty wind, propellers spinning, the ship pitching in the waves. Camera follows from behind and slightly above.",
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 2,
+      "shot_id": "002",
+      "type": "image",
+      "start": 7.68,
+      "end": 11.828572,
+      "duration": 4.148572,
+      "timing_status": "MATCHED",
+      "narration_cue": "No tailhook",
+      "image": "visuals/images/002.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 3,
+      "shot_id": "003",
+      "type": "image",
+      "start": 11.828572,
+      "end": 17.360001,
+      "duration": 5.531429,
+      "timing_status": "MATCHED",
+      "narration_cue": "This is a C-130 Hercules",
+      "image": "visuals/images/003.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 4,
+      "shot_id": "004",
+      "type": "image",
+      "start": 17.360001,
+      "end": 19.68,
+      "duration": 2.319999,
+      "timing_status": "MATCHED",
+      "narration_cue": "was never built for anything this big",
+      "image": "visuals/images/004.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 5,
+      "shot_id": "005",
+      "type": "image",
+      "start": 19.68,
+      "end": 25.08,
+      "duration": 5.4,
+      "timing_status": "MATCHED",
+      "narration_cue": "the Navy wants to know one thing",
+      "image": "visuals/images/005.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 6,
+      "shot_id": "006",
+      "type": "image",
+      "start": 25.08,
+      "end": 31.1,
+      "duration": 6.02,
+      "timing_status": "MATCHED",
+      "narration_cue": "The pilot is Lieutenant",
+      "image": "visuals/images/006.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 7,
+      "shot_id": "007",
+      "type": "image",
+      "start": 31.1,
+      "end": 32.619999,
+      "duration": 1.519999,
+      "timing_status": "MATCHED",
+      "narration_cue": "off Boston",
+      "image": "visuals/images/007.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 8,
+      "shot_id": "008",
+      "type": "image",
+      "start": 32.619999,
+      "end": 36.32,
+      "duration": 3.700001,
+      "timing_status": "MATCHED",
+      "narration_cue": "The sea is rough",
+      "image": "visuals/images/008.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 9,
+      "shot_id": "009",
+      "type": "image",
+      "start": 36.32,
+      "end": 41.580002,
+      "duration": 5.260002,
+      "timing_status": "MATCHED",
+      "narration_cue": "lines up on the centerline",
+      "image": "visuals/images/009.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 10,
+      "shot_id": "010",
+      "type": "image",
+      "start": 41.580002,
+      "end": 45.560001,
+      "duration": 3.979999,
+      "timing_status": "MATCHED",
+      "narration_cue": "to spare",
+      "image": "visuals/images/010.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 11,
+      "shot_id": "011",
+      "type": "video",
+      "start": 45.560001,
+      "end": 50.32,
+      "duration": 4.759999,
+      "timing_status": "MATCHED",
+      "narration_cue": "He brings it down",
+      "image": "visuals/images/011.png",
+      "end_image": null,
+      "video": "visuals/video/011.mp4",
+      "camera_move": null,
+      "motion_prompt": "The C-130 slams onto the carrier deck, tires smoke, the aircraft rolls forward and decelerates quickly as the propellers reverse, deck crew watching. Camera stays steady on the deck.",
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 12,
+      "shot_id": "012",
+      "type": "image",
+      "start": 50.32,
+      "end": 52.880001,
+      "duration": 2.560001,
+      "timing_status": "MATCHED",
+      "narration_cue": "the giant stops",
+      "image": "visuals/images/012.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 13,
+      "shot_id": "013",
+      "type": "video",
+      "start": 52.880001,
+      "end": 58.860001,
+      "duration": 5.98,
+      "timing_status": "MATCHED",
+      "narration_cue": "Then he takes off again",
+      "image": "visuals/images/013.png",
+      "end_image": null,
+      "video": "visuals/video/013.mp4",
+      "camera_move": null,
+      "motion_prompt": "The C-130 accelerates down the deck at full power and lifts off over the bow, climbing away over the rough ocean. Camera stays behind on the deck.",
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 14,
+      "shot_id": "014",
+      "type": "image",
+      "start": 58.860001,
+      "end": 68.139999,
+      "duration": 9.279998,
+      "timing_status": "MATCHED",
+      "narration_cue": "He does it again",
+      "image": "visuals/images/014.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 15,
+      "shot_id": "015",
+      "type": "image",
+      "start": 68.139999,
+      "end": 76.419998,
+      "duration": 8.279999,
+      "timing_status": "MATCHED",
+      "narration_cue": "It works",
+      "image": "visuals/images/015.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 16,
+      "shot_id": "016",
+      "type": "image",
+      "start": 76.419998,
+      "end": 83.379997,
+      "duration": 6.959999,
+      "timing_status": "MATCHED",
+      "narration_cue": "But the Navy says no",
+      "image": "visuals/images/016.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 17,
+      "shot_id": "017",
+      "type": "image",
+      "start": 83.379997,
+      "end": 88.400002,
+      "duration": 5.020005,
+      "timing_status": "MATCHED",
+      "narration_cue": "Distinguished Flying Cross",
+      "image": "visuals/images/017.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 18,
+      "shot_id": "018",
+      "type": "image",
+      "start": 88.400002,
+      "end": 94.879997,
+      "duration": 6.479995,
+      "timing_status": "MATCHED",
+      "narration_cue": "That exact plane survives",
+      "image": "visuals/images/018.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    },
+    {
+      "index": 19,
+      "shot_id": "019",
+      "type": "image",
+      "start": 94.879997,
+      "end": 96.330002,
+      "duration": 1.450005,
+      "timing_status": "MATCHED",
+      "narration_cue": "Some things aren't in the manual",
+      "image": "visuals/images/019.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [
+        "C130"
+      ],
+      "overlay_ids": []
+    }
+  ],
+  "missing": [],
+  "montage_ready": true,
+  "exported_at": "2026-10-02T01:03:39Z",
+  "factory_commit": "49b617e5af067afa31dfa6467c3ea84ae18fec2f",
+  "package_files": [
+    {
+      "path": "audio/narration.wav",
+      "bytes": 4624008
+    },
+    {
+      "path": "audio/music/main.mp3",
+      "bytes": 3531063
+    },
+    {
+      "path": "timings/words.json",
+      "bytes": 24569
+    },
+    {
+      "path": "timings/shots.json",
+      "bytes": 4402
+    },
+    {
+      "path": "visuals/images/001.png",
+      "bytes": 1662138
+    },
+    {
+      "path": "visuals/images/002.png",
+      "bytes": 1400703
+    },
+    {
+      "path": "visuals/images/003.png",
+      "bytes": 1501984
+    },
+    {
+      "path": "visuals/images/004.png",
+      "bytes": 1807890
+    },
+    {
+      "path": "visuals/images/005.png",
+      "bytes": 1759271
+    },
+    {
+      "path": "visuals/images/006.png",
+      "bytes": 1541880
+    },
+    {
+      "path": "visuals/images/007.png",
+      "bytes": 1657701
+    },
+    {
+      "path": "visuals/images/008.png",
+      "bytes": 1888080
+    },
+    {
+      "path": "visuals/images/009.png",
+      "bytes": 1544436
+    },
+    {
+      "path": "visuals/images/010.png",
+      "bytes": 1750919
+    },
+    {
+      "path": "visuals/images/011.png",
+      "bytes": 1641967
+    },
+    {
+      "path": "visuals/images/012.png",
+      "bytes": 1667440
+    },
+    {
+      "path": "visuals/images/013.png",
+      "bytes": 1482898
+    },
+    {
+      "path": "visuals/images/014.png",
+      "bytes": 1591048
+    },
+    {
+      "path": "visuals/images/015.png",
+      "bytes": 1500833
+    },
+    {
+      "path": "visuals/images/016.png",
+      "bytes": 1822906
+    },
+    {
+      "path": "visuals/images/017.png",
+      "bytes": 1477819
+    },
+    {
+      "path": "visuals/images/018.png",
+      "bytes": 1455016
+    },
+    {
+      "path": "visuals/images/019.png",
+      "bytes": 1216052
+    },
+    {
+      "path": "visuals/video/001.mp4",
+      "bytes": 6174702
+    },
+    {
+      "path": "visuals/video/011.mp4",
+      "bytes": 3585137
+    },
+    {
+      "path": "visuals/video/013.mp4",
+      "bytes": 1254439
+    },
+    {
+      "path": "references/C130/three_quarter.png",
+      "bytes": 1052569
+    }
+  ]
+}
