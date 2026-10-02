@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "voice_duration": 3.450000047683716,
+  "shot_count": 1,
+  "matched_count": 1,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 3.45,
+      "duration": 3.45,
+      "cue": "This bridge isn't collapsing",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}

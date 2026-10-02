@@ -1,0 +1,62 @@
+{
+  "mode": "montage_assets",
+  "project_id": "sbr_corinth_hook_v3",
+  "title": "This Bridge Isn't Collapsing... It Sinks on Purpose",
+  "language": "en",
+  "aspect_ratio": "16:9",
+  "script": "This bridge isn't collapsing. It's sinking on purpose!",
+  "voice": {
+    "voice": "cedar",
+    "speed": 1.1,
+    "instructions": "Energetic, amazed YouTube Shorts narrator. Fast, punchy pace. Hit 'isn't collapsing' and 'on purpose' hard, playful disbelief, smile in the voice.",
+    "estimated_wpm": 175,
+    "model": "gpt-4o-mini-tts"
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "video",
+      "duration_s": 6.0,
+      "narration_cue": "This bridge isn't collapsing",
+      "references": [
+        "BRIDGE"
+      ],
+      "image_prompt_full": "Photorealistic wide 16:9 photo with the SAME viewpoint and composition as the reference photo: ONE low submersible bridge only, a flat steel deck with bright yellow painted girder sides lying exactly at water level across the canal from the left bank to the right bank, between square concrete abutments painted with bold black-and-yellow diagonal stripes. The deck is dry and level, the water around it is calm. On the left bank a red-and-white traffic barrier is down with two small cars waiting behind it. In the canal behind the bridge on the right, a white motor yacht waits. Eucalyptus trees, small white operator booth, street lamps. Bright Greek summer sunshine, realistic photo, no text, no watermark.",
+      "end_image_prompt_full": "Same view with the bridge deck sunk under the water and only the striped abutments visible.",
+      "end_image_file": "stage:corinth/hook_end.png",
+      "motion_prompt": "The entire flat yellow bridge deck sinks straight DOWN into the canal as one piece, slowly and steadily: first water washes over the deck, then the yellow girders slide under the surface and disappear, leaving open water with ripples between the two striped abutments. The bridge goes DOWN, never up. Abutments, banks, barrier, cars and the waiting yacht stay still. Static tripod camera. Realistic water physics, no collapse, no explosion."
+    }
+  ],
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1,
+  "delivery": {
+    "github": {
+      "repo": "permradar-code/factory-packages"
+    }
+  },
+  "references": {
+    "BRIDGE": {
+      "type": "object",
+      "views": [
+        "photo"
+      ],
+      "files": {
+        "photo": "stage:corinth/bridge.png"
+      },
+      "description": "Real photo of the Corinth Canal submersible bridge: low flat steel deck with yellow girder sides between black-and-yellow striped concrete abutments."
+    }
+  }
+}

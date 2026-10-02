@@ -1,0 +1,94 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "sbr_corinth_hook_v3",
+  "title": "This Bridge Isn't Collapsing... It Sinks on Purpose",
+  "language": "en",
+  "aspect_ratio": "16:9",
+  "fps": 30,
+  "voice": "audio/narration.wav",
+  "voice_mp3": null,
+  "words": "timings/words.json",
+  "music": null,
+  "music_prompt": null,
+  "shot_timings": "timings/shots.json",
+  "duration": 3.450000047683716,
+  "reference_policy": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "scene_image_policy": {
+    "provider": "google_vertex",
+    "model": "gemini-2.5-flash-image"
+  },
+  "video_policy": {
+    "provider": "google_vertex",
+    "model": "veo-3.1-fast-generate-001",
+    "generate_audio": false
+  },
+  "references": {
+    "BRIDGE": {
+      "type": "object",
+      "files": [
+        "references/BRIDGE/photo.png"
+      ]
+    }
+  },
+  "overlays": [],
+  "scenes": [
+    {
+      "index": 1,
+      "shot_id": "001",
+      "type": "video",
+      "start": 0.0,
+      "end": 3.45,
+      "duration": 3.45,
+      "timing_status": "MATCHED",
+      "narration_cue": "This bridge isn't collapsing",
+      "image": "visuals/images/001.png",
+      "end_image": "visuals/images/001_end.png",
+      "video": "visuals/video/001.mp4",
+      "camera_move": null,
+      "motion_prompt": "The entire flat yellow bridge deck sinks straight DOWN into the canal as one piece, slowly and steadily: first water washes over the deck, then the yellow girders slide under the surface and disappear, leaving open water with ripples between the two striped abutments. The bridge goes DOWN, never up. Abutments, banks, barrier, cars and the waiting yacht stay still. Static tripod camera. Realistic water physics, no collapse, no explosion.",
+      "priority": null,
+      "references": [
+        "BRIDGE"
+      ],
+      "overlay_ids": []
+    }
+  ],
+  "missing": [],
+  "montage_ready": true,
+  "exported_at": "2026-10-02T11:24:13Z",
+  "factory_commit": "49b617e5af067afa31dfa6467c3ea84ae18fec2f",
+  "package_files": [
+    {
+      "path": "audio/narration.wav",
+      "bytes": 165732
+    },
+    {
+      "path": "timings/words.json",
+      "bytes": 734
+    },
+    {
+      "path": "timings/shots.json",
+      "bytes": 406
+    },
+    {
+      "path": "visuals/images/001.png",
+      "bytes": 1616759
+    },
+    {
+      "path": "visuals/images/001_end.png",
+      "bytes": 1603755
+    },
+    {
+      "path": "visuals/video/001.mp4",
+      "bytes": 792001
+    },
+    {
+      "path": "references/BRIDGE/photo.png",
+      "bytes": 1254360
+    }
+  ]
+}
