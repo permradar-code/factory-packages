@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "voice_duration": 10.960000038146973,
+  "shot_count": 4,
+  "matched_count": 4,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 2.92,
+      "duration": 2.92,
+      "cue": "There's a road under this yacht",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 2.92,
+      "end": 6.64,
+      "duration": 3.72,
+      "cue": "The bridge sinks eight meters",
+      "score": 0.8,
+      "method": "fuzzy"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 6.64,
+      "end": 7.88,
+      "duration": 1.24,
+      "cue": "Then it rises back up",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 7.88,
+      "end": 10.96,
+      "duration": 3.08,
+      "cue": "and the cars just drive on",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}
