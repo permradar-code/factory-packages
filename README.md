@@ -26,6 +26,11 @@ Phase 1 (references) done, waiting for the user's OK on the sheet. Phases 5 (nar
 - Rejected variants are not pushed: Clara/Deke/Marshal front variants v1-v4 each, the first LOC_STREET (legible shop signs), the first piano (brass plate with lettering).
 - LOC_KITCHEN shows four chairs instead of three; LOC_PARLOR/LOC_BARN contain the piano/horse in generic form (not generated from the PROP refs).
 
+## Phase 2 test (3 Clara clips): status
+- C11 (8 s, 12 credits): done, audio present. Clara is shown in 3/4 profile; first frame made in Gemini.
+- C13 and C34: Flow REFUSES the Gemini first frames with the message "request may violate rules on generating images of famous people" (3 tries for C13, 1 for C34; no credits charged). Both frames show Clara's face front-facing and large. C11 (profile) passed. So the chosen Clara face is flagged by Flow's celebrity filter when it is close to the camera. Needs a decision (see Questions).
+- Flow credits spent: 19 (7 test + 12 C11). Left about 886.
+
 ## Questions
 - Flow image limit data: first hit at about 01:30 on 3 Oct after ~60 images in ~25 min; still active at 08:50 and at 09:30 (VPN off) with a single x2 / x1 request. Video generation worked at 09:35. Gemini web works since the VPN was turned off: 15+ images in an hour without a limit.
-- The user decides how to proceed with Phase 2 (C11, C13, C34 tests) after the OK on the references sheet.
+- Clara's face (Clara v2) triggers Flow's famous-people filter on close front-facing first frames (C13, C34). Options: (1) change Clara's face a little and re-make the three refs; (2) frame Clara in profile / 3/4 / further away; (3) test whether the frame passes with a different Clara face first. Waiting for the user.

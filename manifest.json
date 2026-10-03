@@ -6,9 +6,9 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 7,
-  "flow_credits_left": 898,
-  "phase": "refs",
+  "flow_credits_spent": 19,
+  "flow_credits_left": 886,
+  "phase": "test",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
     "voice_name": "Bill - Wise, Mature, Balanced",
@@ -95,7 +95,36 @@
       "visuals/refs/PROP_PIANO.png"
     ]
   },
-  "scenes": [],
+  "scenes": [
+    {
+      "shot_id": "C11",
+      "type": "video",
+      "video": "visuals/video/C11.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C11_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "note": "Phase 2 test. Clara in 3/4 profile on the porch, shotgun raised. Audio track present (AAC). Voice/lip-sync to be judged by the user."
+    },
+    {
+      "shot_id": "C13",
+      "type": "blocked",
+      "first_frame": "visuals/images/C13_first.png",
+      "takes": 0,
+      "credits": 0,
+      "note": "Flow refused 3 times: 'request may violate rules on generating images of famous people' (no credits charged). Clara front-facing close-up."
+    },
+    {
+      "shot_id": "C34",
+      "type": "blocked",
+      "first_frame": "visuals/images/C34_first.png",
+      "takes": 0,
+      "credits": 0,
+      "note": "Flow refused 1 time with the same famous-people message (no credits charged). Clara front-facing in a two-shot."
+    }
+  ],
   "montage_ready": false,
   "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514",
   "flow_credits_note": "905 reported by the user at start of session 2; spent 7 on the Mercer 4s test clip (Omni 1.1 Flash 720p, price read from the settings chip)",
