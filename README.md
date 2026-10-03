@@ -12,6 +12,11 @@ Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (br
 - Narration (phase 5 done): voice "Bill" (pqHfZKP75CvOlQylNhV4), approved at STOP 3. 11 blocks N01..N10 (N07a/N07b), about 9 min total, mp3 + alignment.json in audio/narration/. ElevenLabs characters left: 19339 of 23736.
 - Flow credits spent so far: 0 (all images are free). Flow project: 7a937194-22cf-4e10-a8ea-406b0d82a514.
 
+- Music (phase 6): M01-M13 generated with ElevenLabs Music (music_v2_5, instrumental), audio/music/ + music_log.json. M14 skipped by decision. M02 approved by ear (STOP 4);
+  the other cues are not yet listened to by the user. M06 ("Shenandoah" on solo piano): the generator may have produced a different tune. It has NOT been verified yet
+  (to be checked by ear); do not regenerate, the montage chat can render the melody from notes instead. Durations match the cue sheet targets exactly.
+- ElevenLabs credits (counter, monthly package, no card charge): narration N01-N10 = 1549; music M01-M13 = 9476 (M02 275, the other 12 cues 9201; per-cue split is an estimate, see music_log.json `_usage`). Left: 9720 of 23736 (counter 14016).
+
 ## Notes
 - Model: Nano Banana Pro, 16:9. Prompt = look + style from shotlist.json plus a plain-background / even-light instruction.
 - Rejected variants (not pushed) stay in the Flow project.

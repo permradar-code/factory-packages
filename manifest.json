@@ -87,5 +87,26 @@
   "scenes": [],
   "montage_ready": false,
   "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514",
-  "flow_credits_note": "905 reported by the user at start of session 2 (balance is not shown in Flow UI)"
+  "flow_credits_note": "905 reported by the user at start of session 2 (balance is not shown in Flow UI)",
+  "music": {
+    "files": [
+      "audio/music/M01.mp3",
+      "audio/music/M02.mp3",
+      "audio/music/M03.mp3",
+      "audio/music/M04.mp3",
+      "audio/music/M05.mp3",
+      "audio/music/M06.mp3",
+      "audio/music/M07.mp3",
+      "audio/music/M08.mp3",
+      "audio/music/M09.mp3",
+      "audio/music/M10.mp3",
+      "audio/music/M11.mp3",
+      "audio/music/M12.mp3",
+      "audio/music/M13.mp3"
+    ],
+    "log": "audio/music/music_log.json",
+    "skipped": [
+      "M14 (optional end-credits song, skipped by the user's decision)"
+    ]
+  }
 }
