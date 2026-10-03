@@ -27,9 +27,9 @@ Phase 1 (references) done, waiting for the user's OK on the sheet. Phases 5 (nar
 - LOC_KITCHEN shows four chairs instead of three; LOC_PARLOR/LOC_BARN contain the piano/horse in generic form (not generated from the PROP refs).
 
 ## Phase 2 test (3 Clara clips): status
-- Clara v2 (Gemini) was rejected by Flow's famous-people filter (C13 x3, C34 x1, no credits charged; the C11 clip made with it, 12 credits, was dropped). The user decided: new face, no workarounds (no profile / far shots to dodge the filter).
-- Clara refs and the Clara v2 frames/clip are removed from the package. New Clara: 4 candidate fronts made in Gemini from the new look (shotlist 17e7362); waiting for the user's choice, then C13 (the filter test), 3/4 and full body, C11 again, C34.
-- Flow credits spent: 19 (7 test + 12 C11). Left about 886.
+- Clara: after the rejected v2/v3 faces, the 8-candidate sheet (docs/clara_candidates.jpg) was made from the shotlist look 7d0f9ec; the user ordered the Flow tests: #2 first. Candidate #2 PASSED Flow's famous-people filter on C13 at the first try: it is the final Clara face (CHAR_CLARA_front.png).
+- C13 done (6 s, 10 credits, audio present). Next: Clara 3/4 + full body from the chosen front, C11 again, C34, then the voice comparison of the three clips.
+- Flow credits spent: 29 (7 + 12 + 10; the 12 were for the dropped C11). Left about 876.
 
 ## Questions
 - Flow image limit data: first hit at about 01:30 on 3 Oct after ~60 images in ~25 min; still active at 08:50 and at 09:30 (VPN off) with a single x2 / x1 request. Video generation worked at 09:35. Gemini web works since the VPN was turned off: 15+ images in an hour without a limit.
