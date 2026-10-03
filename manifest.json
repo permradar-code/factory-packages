@@ -119,5 +119,10 @@
       "first_frame": "visuals/refs/CHAR_MERCER_front.png",
       "prompt": "The man looks up calmly and says in a deep, quiet American baritone: \"Two hundred.\" Static camera, cinematic western, 1879."
     }
-  }
+  },
+  "notes": [
+    "Faces of CHAR_CLARA, CHAR_DEKE, CHAR_MARSHAL were replaced on 3 Oct (user's STOP 1 answer); chosen fronts: Clara v2, Deke v4, Marshal v2 (Gemini images, scaled to 1376x768); 3/4 and full-body made from the chosen fronts.",
+    "Image tool for the whole film: Gemini (image mode, 16:9, 2752x1536 originals) instead of Nano Banana Pro in Flow, because of the Flow daily image limit. Video is Flow only.",
+    "Marshal's badge: ALWAYS write 'plain five-pointed silver star badge, no lettering, no engraving' in every prompt (letters appeared on the star in the first variants)."
+  ]
 }
