@@ -1,0 +1,12 @@
+{
+  "M02": {
+    "file": "audio/music/M02.mp3",
+    "song_id": "yIxhbrbhwHFirNuiw3Cu",
+    "model": "music_v2_5",
+    "seed": null,
+    "length_ms": 40000,
+    "instrumental": true,
+    "covers": "T01 title + start of N01",
+    "prompt": "A simple, memorable main theme for a western drama, 84 BPM, in D major. Fingerpicked acoustic guitar introduces the melody, a solo fiddle answers, soft upright bass underneath. Nostalgic, warm, a little sad, like an old photograph on a shelf. Instrumental only, no vocals, no choir. Warm analog recording, intimate, cinematic western film score, 1870s American frontier feel, no modern drums, no synths, no electric guitar."
+  }
+}
