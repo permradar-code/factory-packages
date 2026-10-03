@@ -2,9 +2,11 @@
 
 Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (branch tools/montage).
 
-## Status: Phase 1 (references), waiting for STOP 1
-- Characters: 8 of 8 done, 3 angles each (front, 3/4, full body) in visuals/refs/ (CHAR_*_front/_34/_full.png, 1376x768).
-  The 3/4 and full-body images were made with the chosen front image as the face reference.
+## Status: Phase 1 (references) done, waiting for the user's OK on the sheet; then Phase 2 (clip tests)
+- Characters: 8 of 8, 3 angles each (front, 3/4, full body) in visuals/refs/ (CHAR_*_front/_34/_full.png, 1376x768). Clara, Deke and Marshal were re-made with new faces (user's choice: Clara v2, Deke v4, Marshal v2). Mercer, Lily, Pike, Agatha and Sam are the approved first versions.
+- Props and locations: PROP_PIANO (no nameplate), PROP_HORSE, and 8 LOC_* are done (visuals/refs/).
+- Images for the whole film are made in Gemini (image mode, 16:9, 2752x1536 originals scaled to 1376x768 in refs) because Flow's image limit (daily) was hit; video is Flow only.
+- Flow credits spent so far: 7 (one 4 s test clip). Flow project: 7a937194-22cf-4e10-a8ea-406b0d82a514.
 - STOP 1 answer (3 Oct): Mercer, Lily, Pike, Agatha, Sam approved. Clara, Deke and Marshal are being redone (new faces; Clara 28-30, beautiful,
   soft features, tiredness only in the eyes; Deke and Marshal must not resemble known actors). The current files for these three are the OLD versions.
 - Props and locations: PROP_PIANO downloaded (note: the brass plate on it reads "J. & C. FISCHER, NEW YORK"; a text-free variant may be remade).

@@ -80,7 +80,18 @@
       "visuals/refs/CHAR_SAM_front.png",
       "visuals/refs/CHAR_SAM_full.png"
     ],
-    "PROP_PIANO": [
+    "LOC": [
+      "visuals/refs/LOC_BANK.png",
+      "visuals/refs/LOC_BARN.png",
+      "visuals/refs/LOC_KITCHEN.png",
+      "visuals/refs/LOC_PARLOR.png",
+      "visuals/refs/LOC_PLATFORM.png",
+      "visuals/refs/LOC_RANCH.png",
+      "visuals/refs/LOC_RIDGE.png",
+      "visuals/refs/LOC_STREET.png"
+    ],
+    "PROP": [
+      "visuals/refs/PROP_HORSE.png",
       "visuals/refs/PROP_PIANO.png"
     ]
   },
