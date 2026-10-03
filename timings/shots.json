@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "voice_duration": 29.68000030517578,
+  "shot_count": 7,
+  "matched_count": 7,
+  "unmatched_count": 0,
+  "unmatched_shot_ids": [],
+  "status": "PASS",
+  "shots": [
+    {
+      "id": "001",
+      "status": "MATCHED",
+      "start": 0.0,
+      "end": 3.62,
+      "duration": 3.62,
+      "cue": "This pilot just ejected",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "002",
+      "status": "MATCHED",
+      "start": 3.62,
+      "end": 8.78,
+      "duration": 5.16,
+      "cue": "Montana",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "003",
+      "status": "MATCHED",
+      "start": 8.78,
+      "end": 13.36,
+      "duration": 4.58,
+      "cue": "But without him",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "004",
+      "status": "MATCHED",
+      "start": 13.36,
+      "end": 16.700001,
+      "duration": 3.340001,
+      "cue": "Another pilot radioed",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "005",
+      "status": "MATCHED",
+      "start": 16.700001,
+      "end": 22.280001,
+      "duration": 5.58,
+      "cue": "With nobody at the controls",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "006",
+      "status": "MATCHED",
+      "start": 22.280001,
+      "end": 28.1,
+      "duration": 5.819999,
+      "cue": "The sheriff found",
+      "score": 1.0,
+      "method": "exact"
+    },
+    {
+      "id": "007",
+      "status": "MATCHED",
+      "start": 28.1,
+      "end": 29.68,
+      "duration": 1.58,
+      "cue": "Some landings",
+      "score": 1.0,
+      "method": "exact"
+    }
+  ]
+}

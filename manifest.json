@@ -1,0 +1,205 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "nitm_f106_short45_voice",
+  "title": "He Ejected. His Jet Didn't.",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "voice": "audio/narration.wav",
+  "voice_mp3": null,
+  "words": "timings/words.json",
+  "music": null,
+  "music_prompt": null,
+  "shot_timings": "timings/shots.json",
+  "duration": 29.68000030517578,
+  "reference_policy": {
+    "provider": "openai",
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "scene_image_policy": {
+    "provider": "google_vertex",
+    "model": "gemini-2.5-flash-image"
+  },
+  "video_policy": {
+    "provider": "google_vertex",
+    "model": "veo-3.1-fast-generate-001",
+    "generate_audio": false
+  },
+  "references": {},
+  "overlays": [],
+  "scenes": [
+    {
+      "index": 1,
+      "shot_id": "001",
+      "type": "image",
+      "start": 0.0,
+      "end": 3.62,
+      "duration": 3.62,
+      "timing_status": "MATCHED",
+      "narration_cue": "This pilot just ejected",
+      "image": "visuals/images/001.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 2,
+      "shot_id": "002",
+      "type": "image",
+      "start": 3.62,
+      "end": 8.78,
+      "duration": 5.16,
+      "timing_status": "MATCHED",
+      "narration_cue": "Montana",
+      "image": "visuals/images/002.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 3,
+      "shot_id": "003",
+      "type": "image",
+      "start": 8.78,
+      "end": 13.36,
+      "duration": 4.58,
+      "timing_status": "MATCHED",
+      "narration_cue": "But without him",
+      "image": "visuals/images/003.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 4,
+      "shot_id": "004",
+      "type": "image",
+      "start": 13.36,
+      "end": 16.700001,
+      "duration": 3.340001,
+      "timing_status": "MATCHED",
+      "narration_cue": "Another pilot radioed",
+      "image": "visuals/images/004.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 5,
+      "shot_id": "005",
+      "type": "image",
+      "start": 16.700001,
+      "end": 22.280001,
+      "duration": 5.58,
+      "timing_status": "MATCHED",
+      "narration_cue": "With nobody at the controls",
+      "image": "visuals/images/005.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 6,
+      "shot_id": "006",
+      "type": "image",
+      "start": 22.280001,
+      "end": 28.1,
+      "duration": 5.819999,
+      "timing_status": "MATCHED",
+      "narration_cue": "The sheriff found",
+      "image": "visuals/images/006.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    },
+    {
+      "index": 7,
+      "shot_id": "007",
+      "type": "image",
+      "start": 28.1,
+      "end": 29.68,
+      "duration": 1.58,
+      "timing_status": "MATCHED",
+      "narration_cue": "Some landings",
+      "image": "visuals/images/007.png",
+      "end_image": null,
+      "video": null,
+      "camera_move": null,
+      "motion_prompt": null,
+      "priority": null,
+      "references": [],
+      "overlay_ids": []
+    }
+  ],
+  "missing": [],
+  "montage_ready": true,
+  "exported_at": "2026-10-03T05:30:45Z",
+  "factory_commit": "49b617e5af067afa31dfa6467c3ea84ae18fec2f",
+  "package_files": [
+    {
+      "path": "audio/narration.wav",
+      "bytes": 1424734
+    },
+    {
+      "path": "timings/words.json",
+      "bytes": 8110
+    },
+    {
+      "path": "timings/shots.json",
+      "bytes": 1636
+    },
+    {
+      "path": "visuals/images/001.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/002.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/003.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/004.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/005.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/006.png",
+      "bytes": 1254360
+    },
+    {
+      "path": "visuals/images/007.png",
+      "bytes": 1254360
+    }
+  ]
+}
