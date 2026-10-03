@@ -4,3 +4,5 @@ _variants/
 /narration/
 tts_elevenlabs.py
 
+music_elevenlabs.py
+music_cues.json
