@@ -64,12 +64,31 @@ LOCATIONS = {
 SHOTS = []  # ordered timeline
 def img(id_, prompt, refs, motion="slow push in", flash=False):
     SHOTS.append({"id": id_, "type": "image", "prompt": prompt, "refs": refs, "motion": motion, "flashback": flash})
+PRICE = {4: 7, 6: 10, 8: 12}
+def _dur(lines):
+    w = sum(len(l.split()) for _, l in lines)
+    if not lines: return 6
+    return 4 if w <= 5 else 6 if w <= 12 else 8
 def clip(id_, action, refs, lines=(), camera="", priority="core", end_frame=None, start_frame_prompt=None):
-    words = sum(len(l.split()) for _, l in lines)
-    dur = 10 if words > 10 else 8
-    SHOTS.append({"id": id_, "type": "clip", "duration_s": dur, "action": action, "camera": camera,
-                  "dialogue": [{"speaker": s, "line": l} for s, l in lines], "refs": refs,
-                  "priority": priority, "start_frame_prompt": start_frame_prompt or action, "end_frame_prompt": end_frame})
+    lines = list(lines)
+    speakers = []
+    for sp, _ in lines:
+        if sp not in speakers: speakers.append(sp)
+    if len(speakers) <= 1:
+        SHOTS.append({"id": id_, "type": "clip", "duration_s": _dur(lines), "action": action, "camera": camera,
+                      "dialogue": [{"speaker": sp, "line": l} for sp, l in lines], "refs": refs,
+                      "priority": priority, "start_frame_prompt": start_frame_prompt or action, "end_frame_prompt": end_frame})
+        return
+    # one speaker per clip: split into shot / reverse shot, one line each
+    for i, (sp, l) in enumerate(lines):
+        name = CHARACTERS[sp]["name"]
+        others = [CHARACTERS[r]["name"] for r in refs if r in CHARACTERS and r != sp]
+        frame = (f"Medium close-up on {name}" + (f", {' and '.join(others)} seen partly from behind, out of focus in the foreground" if others else "") + ".")
+        part_action = (action + f" THIS SHOT: {'reverse angle, ' if i else ''}{frame} {name} speaks; nobody else talks.")
+        SHOTS.append({"id": f"{id_}{'abcdefgh'[i]}", "type": "clip", "duration_s": _dur([(sp, l)]), "action": part_action,
+                      "camera": "static or very slow push in", "dialogue": [{"speaker": sp, "line": l}],
+                      "refs": [sp] + [r for r in refs if r != sp], "priority": priority, "split_from": id_,
+                      "start_frame_prompt": part_action, "end_frame_prompt": None})
 def narr(id_, text):
     SHOTS.append({"id": id_, "type": "narration", "text": text.strip()})
 def card(id_, text, seconds):
@@ -380,7 +399,7 @@ words=sum(wc(n["text"]) for n in narrs)
 WPM=140
 est = {"clips": len(clips), "clips_core": sum(c["priority"]=="core" for c in clips), "clips_optional": sum(c["priority"]=="optional" for c in clips),
        "images": len(images), "narration_words": words, "narration_min": round(words/WPM,1),
-       "clip_min": round(sum(c["duration_s"] for c in clips)/60,1), "clips_10s": sum(c["duration_s"]==10 for c in clips), "clips_8s": sum(c["duration_s"]==8 for c in clips),
+       "clip_min": round(sum(c["duration_s"] for c in clips)/60,1), "clips_4s": sum(c["duration_s"]==4 for c in clips), "clips_6s": sum(c["duration_s"]==6 for c in clips), "clips_8s": sum(c["duration_s"]==8 for c in clips), "credits_one_take": sum(PRICE[c["duration_s"]] for c in clips), "credits_core_one_take": sum(PRICE[c["duration_s"]] for c in clips if c["priority"]=="core"),
        "est_total_min": round(words/WPM + sum(c["duration_s"] for c in clips)/60 + 1.0, 1)}
 
 # resolve prompts with style + refs
@@ -397,11 +416,16 @@ for s in SHOTS:
     elif s["type"]=="clip":
         s["start_frame_full_prompt"] = s["start_frame_prompt"] + " First frame of the shot, characters in position, mouths closed. " + STYLE + " Characters/places: " + ref_text(s["refs"])
         dl = " ".join(f'{CHARACTERS[d["speaker"]]["name"]} ({CHARACTERS[d["speaker"]]["voice"]}) says: "{d["line"]}"' for d in s["dialogue"])
-        s["video_prompt"] = (s["action"] + (" Camera: " + s["camera"] + "." if s["camera"] else "") + (" Dialogue: " + dl if dl else " No dialogue, natural ambient sound only.") + " " + CLIP_STYLE)
+        spk = [d["speaker"] for d in s["dialogue"]]
+        present = [r for r in s["refs"] if r in CHARACTERS]
+        only = (f" ONLY {CHARACTERS[spk[0]]['name']} speaks. Everyone else keeps their mouth closed and only listens." if spk and len(present) > 1 else "")
+        timing = (" The line starts within the first second; after the line the speaker holds a natural expression, no extra words." if spk else "")
+        s["video_prompt"] = (s["action"] + (" Camera: " + s["camera"] + "." if s["camera"] else "") + (" Dialogue: " + dl + only + timing if dl else " No dialogue, natural ambient sound only, nobody speaks.") + " " + CLIP_STYLE)
+        s["credits"] = PRICE[s["duration_s"]]
         s["files"] = {"start_frame": f"visuals/images/{s['id']}_first.png", "video": f"visuals/video/{s['id']}.mp4"}
 
 out = {"title": "The Widow's Piano", "working_title_youtube": "They Auctioned the Widow's Piano for Her Husband's Debt — Then a Silent Stranger Raised One Hand",
-       "format": {"aspect": "16:9", "video_model": "Omni 1.1 Flash 720p", "image_model": "Nano Banana Pro", "fps": 24, "clip_durations_allowed_s": [4,6,8,10]},
+       "format": {"aspect": "16:9", "video_model": "Omni 1.1 Flash 720p", "image_model": "Nano Banana Pro", "fps": 24, "clip_durations_allowed_s": [4,6,8], "credits_by_duration": {"4": 7, "6": 10, "8": 12}},
        "estimate": est, "style": STYLE, "clip_style": CLIP_STYLE,
        "characters": CHARACTERS, "props": PROPS, "locations": LOCATIONS, "timeline": SHOTS}
 os.makedirs("narration", exist_ok=True)
@@ -410,8 +434,8 @@ for n in narrs: open(f"narration/{n['id']}.txt","w",encoding="utf-8").write(n["t
 
 # screenplay.md
 L=[f"# THE WIDOW'S PIANO\n", f"*{out['working_title_youtube']}*\n",
-   f"Оценка: ~{est['est_total_min']} мин · клипов {est['clips']} (10 с: {est['clips_10s']}, 8 с: {est['clips_8s']}; обязательных {est['clips_core']}, по желанию {est['clips_optional']}) · картинок {est['images']} · текст рассказчика {words} слов (~{est['narration_min']} мин)\n",
-   "Обозначения: **C** — видеоклип 8–10 с (персонажи говорят в кадре) · **I** — картинка с движением камеры под голос рассказчика · **N** — текст рассказчика · **T** — титр.\n"]
+   f"Оценка: ~{est['est_total_min']} мин · клипов {est['clips']} (4 с: {est['clips_4s']}, 6 с: {est['clips_6s']}, 8 с: {est['clips_8s']}; ~{est['credits_one_take']} кредитов за один дубль; обязательных {est['clips_core']}, по желанию {est['clips_optional']}) · картинок {est['images']} · текст рассказчика {words} слов (~{est['narration_min']} мин)\n",
+   "Обозначения: **C** — видеоклип 4–8 с, в каждом говорит один персонаж (персонажи говорят в кадре) · **I** — картинка с движением камеры под голос рассказчика · **N** — текст рассказчика · **T** — титр.\n"]
 for s in SHOTS:
     if s["type"]=="clip":
         tag = "" if s["priority"]=="core" else " *(по желанию — можно заменить картинкой)*"

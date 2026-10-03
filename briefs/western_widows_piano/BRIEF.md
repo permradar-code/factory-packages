@@ -10,7 +10,9 @@ Talk to the user in Russian.
 
 ## Format
 - 16:9, 720p, 24 fps. Video model: **Omni 1.1 Flash** (same as the F-106 and Corinth packages). Images: **Nano Banana Pro**, 16:9.
-- Clip length is in each clip's `duration_s` (8 or 10 s). Images are free; video costs credits.
+- Clip length is in each clip's `duration_s` (4, 6 or 8 s; 7 / 10 / 12 credits). Images are free; video costs credits.
+- **One speaker per clip.** Dialogue between two people is split into shot / reverse shot (IDs like `C19a`, `C19b`). Every video prompt says who speaks and that everyone else keeps their mouth closed. Do not merge them back.
+- Images are made in the **Gemini app** (Flow's image quota is blocked); Flow is used for video only. Upload Gemini first frames into Flow with the upload patch.
 - Era lock for EVERY prompt (already inside the prompts): 1879 Colorado Territory, period clothing, no text, no logos, no watermark, no modern objects.
 
 ## Flow pacing (to avoid the usage limit)
@@ -43,7 +45,7 @@ For every entry in `characters`, `props` and `locations` (including `CHAR_SAM`, 
 **STOP 1.** Push, then show the user Clara, Mercer, Lily and Pike and wait for "ок". These faces carry the whole film and cannot be changed later.
 
 ## Phase 2: voice and face test (3 clips)
-Make first frames and clips **C11, C13, C34** (Clara speaks in all three), using the Phase 4 procedure. Record in README.md:
+Make first frames and clips **C11, C13, C34** (Clara speaks in all three; the Mercer test on 3 Oct confirmed Flow clips have audio and lip-sync, this test checks that Clara's voice stays the same across clips), using the Phase 4 procedure. Record in README.md:
 - Does the downloaded mp4 have an audio track at all? (The F-106 clips had none.)
 - If yes: does Clara sound like the same woman in all three? Are the lines word-for-word and lip-synced?
 - Does her face, hair and dress match the references?
@@ -61,7 +63,7 @@ For each timeline step with `"type": "image"`:
 
 Reject: faces that don't match the references; broken hands; any text or lettering; non-period clothing or objects. Steps with `"flashback": true` must look desaturated. If 4 tries fail, keep the best, mark it in the manifest note and move on.
 
-## Phase 4: clips C01–C38 (credits)
+## Phase 4: clips (49 clips, ~477 credits for one take each)
 For each step with `"type": "clip"`, in order:
 1. **First frame** (image, free): prompt `start_frame_full_prompt`, references from `refs`. Characters in their starting positions, mouths closed. Up to 4 tries (it is free in credits but counts against the image limit); the whole clip depends on it. Save as `visuals/images/Cxx_first.png`.
 2. **Video:** Frames-to-video from the first frame, Omni 1.1 Flash, `duration_s`, 16:9. Prompt = `video_prompt` as is (action, camera, exact lines, voice description).

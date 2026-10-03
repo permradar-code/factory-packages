@@ -2,51 +2,60 @@
 
 *They Auctioned the Widow's Piano for Her Husband's Debt — Then a Silent Stranger Raised One Hand*
 
-Оценка: ~16.1 мин · клипов 38 (10 с: 19, 8 с: 19; обязательных 35, по желанию 3) · картинок 69 · текст рассказчика 1318 слов (~9.4 мин)
+Оценка: ~15.3 мин · клипов 49 (4 с: 11, 6 с: 28, 8 с: 10; ~477 кредитов за один дубль; обязательных 46, по желанию 3) · картинок 69 · текст рассказчика 1318 слов (~9.4 мин)
 
-Обозначения: **C** — видеоклип 8–10 с (персонажи говорят в кадре) · **I** — картинка с движением камеры под голос рассказчика · **N** — текст рассказчика · **T** — титр.
+Обозначения: **C** — видеоклип 4–8 с, в каждом говорит один персонаж (персонажи говорят в кадре) · **I** — картинка с движением камеры под голос рассказчика · **N** — текст рассказчика · **T** — титр.
 
 
-**C01 · КЛИП 10 с** — Wide high shot over the crowded main street at midday. An old upright piano stands on a flatbed wagon in front of the brick bank. Deke Harlan in a checkered vest bangs his wooden gavel on a small table and shouts to the crowd.  
+**C01 · КЛИП 8 с** — Wide high shot over the crowded main street at midday. An old upright piano stands on a flatbed wagon in front of the brick bank. Deke Harlan in a checkered vest bangs his wooden gavel on a small table and shouts to the crowd.  
 _Камера: slow crane down from above the rooftops toward the wagon_
 > **DEKE HARLAN:** Lot thirty-one! One upright parlor piano, property of the late Samuel Whitmore, sold by order of the court!
 
-**C02 · КЛИП 10 с** — At the edge of the crowd Clara stands very still, holding Lily's hand. Townspeople glance at her and whisper. Lily looks up at her mother.  
-_Камера: medium two-shot, slow push in on Clara's face_
+**C02a · КЛИП 6 с** — At the edge of the crowd Clara stands very still, holding Lily's hand. Townspeople glance at her and whisper. Lily looks up at her mother. THIS SHOT: Medium close-up on Lily Whitmore, Clara Whitmore seen partly from behind, out of focus in the foreground. Lily Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **LILY WHITMORE:** Mama... are they selling Grandma's piano?
+
+**C02b · КЛИП 6 с** — At the edge of the crowd Clara stands very still, holding Lily's hand. Townspeople glance at her and whisper. Lily looks up at her mother. THIS SHOT: reverse angle, Medium close-up on Clara Whitmore, Lily Whitmore seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** Hold my hand, Lily. Just hold my hand.
 
-**C03 · КЛИП 10 с** — Agatha Pell under a white lace parasol leans toward two other well-dressed women and speaks loudly enough for everyone to hear. The women laugh behind their gloves.  
+**C03 · КЛИП 8 с** — Agatha Pell under a white lace parasol leans toward two other well-dressed women and speaks loudly enough for everyone to hear. The women laugh behind their gloves.  
 _Камера: medium shot, slight handheld_
 > **AGATHA PELL:** A dirt farmer's widow with a parlor piano. Pride goeth before the fall, ladies.
 
-**C04 · КЛИП 8 с** — Horace Pike stands on the bank steps with his thumbs in his silk vest, cigar in hand, and calls out with an oily smile. Laughter ripples through the crowd.  
+**C04 · КЛИП 6 с** — Horace Pike stands on the bank steps with his thumbs in his silk vest, cigar in hand, and calls out with an oily smile. Laughter ripples through the crowd.  
 _Камера: low angle medium shot_
 > **HORACE PIKE:** Let's be generous, Deke. Start it at five dollars.
 
-**C05 · КЛИП 8 с** — Agatha lifts her parasol like a bidding paddle and calls out a bid. The crowd laughs. Cut to a close-up of Clara: her eyes are wet but her chin stays up.  
+**C05 · КЛИП 6 с** — Agatha lifts her parasol like a bidding paddle and calls out a bid. The crowd laughs. Cut to a close-up of Clara: her eyes are wet but her chin stays up.  
 _Камера: medium shot then close-up_
 > **AGATHA PELL:** Six dollars! It will make lovely kindling.
 
-**C06 · КЛИП 8 с** *(по желанию — можно заменить картинкой)* — Deke points the gavel around the grinning crowd, dragging out the call.  
+**C06 · КЛИП 6 с** *(по желанию — можно заменить картинкой)* — Deke points the gavel around the grinning crowd, dragging out the call.  
 _Камера: medium shot, slow push in_
 > **DEKE HARLAN:** Six dollars, going once... going twice...
 
-**C07 · КЛИП 8 с** — At the very back of the crowd, beside a dark bay horse, a tall man in a long dark duster slowly raises one hand. People nearest to him turn around. The street goes quiet.  
+**C07 · КЛИП 4 с** — At the very back of the crowd, beside a dark bay horse, a tall man in a long dark duster slowly raises one hand. People nearest to him turn around. The street goes quiet.  
 _Камера: slow push in from behind the crowd to the man's face_
 > **JOHN MERCER:** Two hundred.
 
-**C08 · КЛИП 8 с** — The crowd turns. Pike's smile fades. Deke stammers, gavel frozen in the air. The stranger answers calmly.  
-_Камера: quick reaction shots_
+**C08a · КЛИП 6 с** — The crowd turns. Pike's smile fades. Deke stammers, gavel frozen in the air. The stranger answers calmly. THIS SHOT: Medium close-up on Deke Harlan, Horace Pike and John Mercer seen partly from behind, out of focus in the foreground. Deke Harlan speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **DEKE HARLAN:** Two hun... two hundred... dollars, mister?
+
+**C08b · КЛИП 4 с** — The crowd turns. Pike's smile fades. Deke stammers, gavel frozen in the air. The stranger answers calmly. THIS SHOT: reverse angle, Medium close-up on John Mercer, Deke Harlan and Horace Pike seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** In gold.
 
-**C09 · КЛИП 8 с** — Deke weakly taps the gavel. Mercer walks through the parting crowd, limping slightly, and drops a heavy leather coin pouch on the auction table.  
-_Камера: tracking shot following Mercer_
+**C09a · КЛИП 4 с** — Deke weakly taps the gavel. Mercer walks through the parting crowd, limping slightly, and drops a heavy leather coin pouch on the auction table. THIS SHOT: Medium close-up on Deke Harlan, John Mercer seen partly from behind, out of focus in the foreground. Deke Harlan speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **DEKE HARLAN:** ...Sold.
+
+**C09b · КЛИП 6 с** — Deke weakly taps the gavel. Mercer walks through the parting crowd, limping slightly, and drops a heavy leather coin pouch on the auction table. THIS SHOT: reverse angle, Medium close-up on John Mercer, Deke Harlan seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** Deliver it to the Whitmore place. Tonight.
 
-**C10 · КЛИП 8 с** — Across the street Clara and the stranger look at each other for a long moment. He touches the brim of his hat, turns and walks away to his horse. Clara stands frozen, Lily at her side. No dialogue.  
+**C10 · КЛИП 6 с** — Across the street Clara and the stranger look at each other for a long moment. He touches the brim of his hat, turns and walks away to his horse. Clara stands frozen, Lily at her side. No dialogue.  
 _Камера: over-the-shoulder, slow push in on Clara_
 
 **T01 · ТИТР** — THE WIDOW'S PIANO (5 с)
@@ -116,25 +125,28 @@ _Камера: over-the-shoulder, slow push in on Clara_
 - I24 · Clara sitting by the dark window, face lit by a nearly burned-out oil lamp, looking out at the road. _(slow push in)_
 - I25 · Sunrise over the ranch: a freight wagon with a large canvas-covered shape in the back coming up the dirt road, a rider on a dark bay horse beside it. _(slow push in)_
 
-**C11 · КЛИП 10 с** — Morning. Clara stands on the porch and raises a double-barreled shotgun as the wagon and the rider stop at her gate.  
+**C11 · КЛИП 8 с** — Morning. Clara stands on the porch and raises a double-barreled shotgun as the wagon and the rider stop at her gate.  
 _Камера: low angle from the yard toward the porch_
 > **CLARA WHITMORE:** That's far enough. If you've come to collect, mister, there's nothing left to sell.
 
-**C12 · КЛИП 10 с** — Mercer takes off his hat and holds it against his chest, calm, standing by his horse at the gate.  
+**C12 · КЛИП 6 с** — Mercer takes off his hat and holds it against his chest, calm, standing by his horse at the gate.  
 _Камера: medium close-up_
 > **JOHN MERCER:** I didn't come to collect, ma'am. I came to return something.
 
-**C13 · КЛИП 10 с** — Two hired men lift the piano off the wagon. Clara slowly lowers the shotgun but keeps her voice hard.  
+**C13 · КЛИП 6 с** — Two hired men lift the piano off the wagon. Clara slowly lowers the shotgun but keeps her voice hard.  
 _Камера: medium shot_
 > **CLARA WHITMORE:** I don't take charity. Not from the bank, and not from strangers.
 
-**C14 · КЛИП 10 с** — Mercer nods toward a broken section of split-rail fence. Behind Clara, Lily peeks out of the doorway, smiling.  
+**C14 · КЛИП 8 с** — Mercer nods toward a broken section of split-rail fence. Behind Clara, Lily peeks out of the doorway, smiling.  
 _Камера: medium shot, rack focus to Lily_
 > **JOHN MERCER:** Then don't call it charity. Your east fence is down. I'll fix it for a hot supper.
 
-**C15 · КЛИП 8 с** — Inside the parlor Lily runs to the returned piano and presses a key. Clara watches from the doorway and her face softens, then she turns to Mercer outside.  
-_Камера: slow push in_
+**C15a · КЛИП 6 с** — Inside the parlor Lily runs to the returned piano and presses a key. Clara watches from the doorway and her face softens, then she turns to Mercer outside. THIS SHOT: Medium close-up on Clara Whitmore, Lily Whitmore and John Mercer seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** One supper. And you sleep in the barn.
+
+**C15b · КЛИП 4 с** — Inside the parlor Lily runs to the returned piano and presses a key. Clara watches from the doorway and her face softens, then she turns to Mercer outside. THIS SHOT: reverse angle, Medium close-up on John Mercer, Lily Whitmore and Clara Whitmore seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** Yes, ma'am.
 
 **N03 · РАССКАЗЧИК**
@@ -161,9 +173,12 @@ _Камера: slow push in_
 - I32 · Close-up of Clara playing the piano by lamplight, eyes half closed. _(slow push in)_
 - I33 · Mercer sitting alone on the dark porch step, hat in his hands, eyes closed, listening, lamplight spilling through the door crack. _(very slow push in)_
 
-**C16 · КЛИП 10 с** — Night on the porch. Clara stops playing and steps out with two tin cups of coffee, hands one to Mercer and stands beside him.  
-_Камера: two-shot, lamplight from the door_
+**C16a · КЛИП 6 с** — Night on the porch. Clara stops playing and steps out with two tin cups of coffee, hands one to Mercer and stands beside him. THIS SHOT: Medium close-up on Clara Whitmore, John Mercer seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** My husband used to whistle that song.
+
+**C16b · КЛИП 6 с** — Night on the porch. Clara stops playing and steps out with two tin cups of coffee, hands one to Mercer and stands beside him. THIS SHOT: reverse angle, Medium close-up on John Mercer, Clara Whitmore seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** Lot of men did. Back then.
 
 **N04 · РАССКАЗЧИК**
@@ -185,25 +200,31 @@ _Камера: two-shot, lamplight from the door_
 - I37 · Close-up of chipped and broken granite with bright silvery metallic veins glittering in the sun. _(slow push in)_
 - I38 · Close-up in the dust: a half-smoked cigar stub still wrapped in a gold paper band, beside a fresh boot print. _(slow push in)_
 
-**C17 · КЛИП 8 с** — Mercer crouches by the stakes, cracks a rock open with the hilt of his knife, turns the glittering piece in his fingers, then looks down toward the town.  
+**C17 · КЛИП 6 с** — Mercer crouches by the stakes, cracks a rock open with the hilt of his knife, turns the glittering piece in his fingers, then looks down toward the town.  
 _Камера: close-up then over-the-shoulder toward the valley_
 > **JOHN MERCER:** Silver. So that's what you're after.
 
-**C18 · КЛИП 8 с** — A shiny black buggy pulls up in front of the ranch house. Horace Pike steps down, adjusting his spectacles, and smiles at Clara on the porch.  
+**C18 · КЛИП 6 с** — A shiny black buggy pulls up in front of the ranch house. Horace Pike steps down, adjusting his spectacles, and smiles at Clara on the porch.  
 _Камера: medium wide shot_
 > **HORACE PIKE:** Mrs. Whitmore. I've come with a kindness.
 
-**C19 · КЛИП 10 с** — Pike holds out a folded paper. Clara does not take it.  
-_Камера: over-the-shoulder shots_
+**C19a · КЛИП 8 с** — Pike holds out a folded paper. Clara does not take it. THIS SHOT: Medium close-up on Horace Pike, Clara Whitmore seen partly from behind, out of focus in the foreground. Horace Pike speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **HORACE PIKE:** Five hundred for the land. Clears your debt and buys you a ticket east.
+
+**C19b · КЛИП 4 с** — Pike holds out a folded paper. Clara does not take it. THIS SHOT: reverse angle, Medium close-up on Clara Whitmore, Horace Pike seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** It's not for sale.
 
-**C20 · КЛИП 10 с** — Pike notices Mercer leaning on the barn door with an axe, studies him over his spectacles.  
-_Камера: reaction shots, slow push in on Pike_
+**C20a · КЛИП 4 с** — Pike notices Mercer leaning on the barn door with an axe, studies him over his spectacles. THIS SHOT: Medium close-up on Horace Pike, John Mercer seen partly from behind, out of focus in the foreground. Horace Pike speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **HORACE PIKE:** And who might you be?
+
+**C20b · КЛИП 6 с** — Pike notices Mercer leaning on the barn door with an axe, studies him over his spectacles. THIS SHOT: reverse angle, Medium close-up on John Mercer, Horace Pike seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** A man who pays his debts.
 
-**C21 · КЛИП 10 с** *(по желанию — можно заменить картинкой)* — Pike climbs back into the buggy, the smile gone, and speaks coldly before driving off in a cloud of dust.  
+**C21 · КЛИП 8 с** *(по желанию — можно заменить картинкой)* — Pike climbs back into the buggy, the smile gone, and speaks coldly before driving off in a cloud of dust.  
 _Камера: medium shot, buggy pulls away_
 > **HORACE PIKE:** The note comes due Saturday, Mrs. Whitmore. The court doesn't care about pianos.
 
@@ -229,22 +250,25 @@ _Камера: medium shot, buggy pulls away_
 - I43 · Night: three riders silhouetted on the ridge against a starry sky, no lights, bandanas over their faces. _(slow push in)_
 - I44 · Close-up: a match flaring to light a pitch torch in the dark beside the barn wall, a masked face lit orange. _(slow push in)_
 
-**C22 · КЛИП 8 с** — A masked rider throws a burning torch onto the hay by the barn wall. Flames catch. Mercer bursts out of the barn and drags the burning hay away with a pitchfork.  
+**C22 · КЛИП 6 с** — A masked rider throws a burning torch onto the hay by the barn wall. Flames catch. Mercer bursts out of the barn and drags the burning hay away with a pitchfork.  
 _Камера: fast handheld, firelight_
 
-**C23 · КЛИП 8 с** — Clara on the porch in a nightgown and shawl fires the shotgun into the air. The horses rear.  
+**C23 · КЛИП 4 с** — Clara on the porch in a nightgown and shawl fires the shotgun into the air. The horses rear.  
 _Камера: low angle, muzzle flash_
 > **CLARA WHITMORE:** The next one goes lower!
 
-**C24 · КЛИП 8 с** — Mercer pulls one rider off his horse and pins him to the ground. The bandana slips: it is Deke Harlan, terrified.  
+**C24 · КЛИП 6 с** — Mercer pulls one rider off his horse and pins him to the ground. The bandana slips: it is Deke Harlan, terrified.  
 _Камера: close-up struggle, firelight_
 > **JOHN MERCER:** Tell Pike the lady isn't selling.
 - I45 · Dawn: the barn wall blackened with soot but still standing, water buckets on the ground, smoke drifting. _(slow pan left)_
 - I46 · Dawn: Clara and Mercer sitting on the porch steps, exhausted, ash on their faces, a shotgun leaning on the rail. _(slow push in)_
 
-**C25 · КЛИП 10 с** — On the porch steps at dawn, Clara turns to Mercer, shaken. He looks out at the road for a long time before answering.  
-_Камера: slow two-shot_
+**C25a · КЛИП 6 с** — On the porch steps at dawn, Clara turns to Mercer, shaken. He looks out at the road for a long time before answering. THIS SHOT: Medium close-up on Clara Whitmore, John Mercer seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** Why are you doing this? You don't even know us.
+
+**C25b · КЛИП 4 с** — On the porch steps at dawn, Clara turns to Mercer, shaken. He looks out at the road for a long time before answering. THIS SHOT: reverse angle, Medium close-up on John Mercer, Clara Whitmore seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** Ask me Saturday.
 
 **N07a · РАССКАЗЧИК**
@@ -258,9 +282,12 @@ _Камера: slow two-shot_
 - I48 · Clara standing at the gate looking down the long empty road, wind moving her skirt. _(slow pull out)_
 - I49 · Lily at the window with her rag doll, waiting, breath fogging the glass. _(slow push in)_
 
-**C26 · КЛИП 10 с** — In the parlor Lily turns from the window to her mother. Clara kneels and hugs her.  
-_Камера: medium shot, slow push in_
+**C26a · КЛИП 6 с** — In the parlor Lily turns from the window to her mother. Clara kneels and hugs her. THIS SHOT: Medium close-up on Lily Whitmore, Clara Whitmore seen partly from behind, out of focus in the foreground. Lily Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **LILY WHITMORE:** He'll come back, Mama. He said Saturday.
+
+**C26b · КЛИП 6 с** — In the parlor Lily turns from the window to her mother. Clara kneels and hugs her. THIS SHOT: reverse angle, Medium close-up on Clara Whitmore, Lily Whitmore seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** Men say a lot of things, sweetheart.
 
 **N07b · РАССКАЗЧИК**
@@ -280,44 +307,47 @@ _Камера: medium shot, slow push in_
 - I55 · Clara and Lily in their best faded Sunday dresses standing near the platform, holding hands. _(slow push in)_
 - I56 · Pike seated at the auction table with an open ledger and a neat stack of gold coins, smiling, cigar in hand. _(slow push in)_
 
-**C27 · КЛИП 10 с** — Deke stands on the wagon and shouts to the crowd. Pike lifts one finger lazily.  
+**C27 · КЛИП 8 с** — Deke stands on the wagon and shouts to the crowd. Pike lifts one finger lazily.  
 _Камера: medium shot_
 > **DEKE HARLAN:** The Whitmore homestead, one hundred sixty acres! Opening bid from Mr. Pike: four hundred eighty dollars!
 
-**C28 · КЛИП 8 с** *(по желанию — можно заменить картинкой)* — Agatha whispers to her friends with satisfaction. Clara squeezes Lily's hand.  
+**C28 · КЛИП 6 с** *(по желанию — можно заменить картинкой)* — Agatha whispers to her friends with satisfaction. Clara squeezes Lily's hand.  
 _Камера: medium shot then close-up on joined hands_
 > **AGATHA PELL:** Well. Now she'll finally learn her place.
 
-**C29 · КЛИП 8 с** — Hoofbeats. Three riders gallop into the street through the dust: Mercer, a gray-mustached U.S. Marshal with a silver star, and a thin clerk with a leather satchel. The crowd turns.  
+**C29 · КЛИП 6 с** — Hoofbeats. Three riders gallop into the street through the dust: Mercer, a gray-mustached U.S. Marshal with a silver star, and a thin clerk with a leather satchel. The crowd turns.  
 _Камера: low wide shot, riders coming toward camera_
 
-**C30 · КЛИП 10 с** — Mercer dismounts and walks, limping, straight to Pike's table.  
+**C30 · КЛИП 6 с** — Mercer dismounts and walks, limping, straight to Pike's table.  
 _Камера: tracking shot_
 > **JOHN MERCER:** Before anyone bids, the marshal has a question for Mr. Pike.
 
-**C31 · КЛИП 10 с** — The marshal holds up official papers with a seal. Pike rises, red-faced, blustering.  
-_Камера: medium two-shot_
+**C31a · КЛИП 8 с** — The marshal holds up official papers with a seal. Pike rises, red-faced, blustering. THIS SHOT: Medium close-up on Marshal Abel Hart, Horace Pike seen partly from behind, out of focus in the foreground. Marshal Abel Hart speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **MARSHAL ABEL HART:** Horace Pike. You filed a silver claim in Denver on land you don't own. That's fraud.
+
+**C31b · КЛИП 4 с** — The marshal holds up official papers with a seal. Pike rises, red-faced, blustering. THIS SHOT: reverse angle, Medium close-up on Horace Pike, Marshal Abel Hart seen partly from behind, out of focus in the foreground. Horace Pike speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **HORACE PIKE:** Preposterous!
 
-**C32 · КЛИП 8 с** — Mercer drops a heavy leather coin pouch onto Pike's open ledger. The clerk stamps a paper.  
+**C32 · КЛИП 6 с** — Mercer drops a heavy leather coin pouch onto Pike's open ledger. The clerk stamps a paper.  
 _Камера: close-up on the pouch, then Pike's face_
 > **JOHN MERCER:** Four hundred eighty. The Whitmore note is paid. In full.
 
-**C33 · КЛИП 8 с** — The marshal snaps handcuffs on Pike. The crowd gasps. Agatha drops her lace parasol into the dust.  
+**C33 · КЛИП 6 с** — The marshal snaps handcuffs on Pike. The crowd gasps. Agatha drops her lace parasol into the dust.  
 _Камера: wide then insert of the parasol falling_
 - I57 · Pike in handcuffs being led away by the marshal through the silent crowd, spectacles askew. _(slow tracking drift)_
 - I58 · The thin clerk handing Clara a stamped official paper; she holds it with trembling hands. _(slow push in)_
 
-**C34 · КЛИП 8 с** — The crowd drifts away. Clara walks up to Mercer by his horse, the paper in her hand, eyes wet.  
+**C34 · КЛИП 4 с** — The crowd drifts away. Clara walks up to Mercer by his horse, the paper in her hand, eyes wet.  
 _Камера: medium two-shot, slow push in_
 > **CLARA WHITMORE:** It's Saturday. Why?
 
-**C35 · КЛИП 10 с** — Mercer takes a worn, many-times-folded letter from inside his coat and hands it to her.  
+**C35 · КЛИП 8 с** — Mercer takes a worn, many-times-folded letter from inside his coat and hands it to her.  
 _Камера: close-up on the letter, then Mercer_
 > **JOHN MERCER:** Shiloh. April of 'sixty-two. Your husband carried me two miles with a ball in my leg.
 
-**C36 · КЛИП 10 с** — Close on Mercer, then Clara covering her mouth, tears running.  
+**C36 · КЛИП 8 с** — Close on Mercer, then Clara covering her mouth, tears running.  
 _Камера: slow push in, shot-reverse-shot_
 > **JOHN MERCER:** He made me promise. If I ever got west, his Clara would never sell her mother's piano.
 
@@ -355,12 +385,15 @@ _Камера: slow push in, shot-reverse-shot_
 - I67 · Parlor at evening: Clara playing the piano, Lily beside her on the bench resting her head on her mother's arm. _(slow push in)_
 - I68 · Mercer standing in the open doorway of the parlor, hat in his hands, lamplight on his face. _(slow push in)_
 
-**C37 · КЛИП 10 с** — Clara stops playing, looks up at Mercer in the doorway and speaks softly. For the first time in the film, Mercer smiles.  
-_Камера: shot-reverse-shot, warm lamplight_
+**C37a · КЛИП 6 с** — Clara stops playing, looks up at Mercer in the doorway and speaks softly. For the first time in the film, Mercer smiles. THIS SHOT: Medium close-up on Clara Whitmore, John Mercer and Lily Whitmore seen partly from behind, out of focus in the foreground. Clara Whitmore speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **CLARA WHITMORE:** Supper's at six, Mr. Mercer. Every night, if you'd like.
+
+**C37b · КЛИП 4 с** — Clara stops playing, looks up at Mercer in the doorway and speaks softly. For the first time in the film, Mercer smiles. THIS SHOT: reverse angle, Medium close-up on John Mercer, Clara Whitmore and Lily Whitmore seen partly from behind, out of focus in the foreground. John Mercer speaks; nobody else talks.  
+_Камера: static or very slow push in_
 > **JOHN MERCER:** I'd like that, ma'am.
 
-**C38 · КЛИП 8 с** — Final wide shot: the ranch house at dusk with warm glowing windows. The camera slowly rises and pulls back over the valley as the first stars appear. No dialogue.  
+**C38 · КЛИП 6 с** — Final wide shot: the ranch house at dusk with warm glowing windows. The camera slowly rises and pulls back over the valley as the first stars appear. No dialogue.  
 _Камера: slow crane up and pull back_
 
 **N10 · РАССКАЗЧИК**
