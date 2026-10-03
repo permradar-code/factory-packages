@@ -6,7 +6,7 @@ Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (br
 Phase 1 (references) done, waiting for the user's OK on the sheet. Phases 5 (narration) and 6 (music) done. Next: Phase 2 (clip tests), then images and clips.
 
 ## What is in the package
-- `visuals/refs/`: 8 characters x 3 angles (CHAR_*_front / _34 / _full.png), PROP_PIANO, PROP_HORSE, 8 LOC_* (all 1376x768 PNG).
+- `visuals/refs/`: 7 characters x 3 angles (CHAR_*_front / _34 / _full.png; Clara is being re-made), PROP_PIANO, PROP_HORSE, 8 LOC_* (all 1376x768 PNG).
   - Clara, Deke, Marshal have new faces (user's choice: Clara v2, Deke v4, Marshal v2). Mercer, Lily, Pike, Agatha, Sam are the approved first versions.
   - PROP_PIANO has no nameplate. Marshal's star badge is plain (no lettering), see manifest notes.
 - `audio/narration/`: N01..N10 (N07a, N07b) mp3 + alignment.json, voice "Bill" (ElevenLabs pqHfZKP75CvOlQylNhV4), about 9 min.
@@ -27,10 +27,10 @@ Phase 1 (references) done, waiting for the user's OK on the sheet. Phases 5 (nar
 - LOC_KITCHEN shows four chairs instead of three; LOC_PARLOR/LOC_BARN contain the piano/horse in generic form (not generated from the PROP refs).
 
 ## Phase 2 test (3 Clara clips): status
-- C11 (8 s, 12 credits): done, audio present. Clara is shown in 3/4 profile; first frame made in Gemini.
-- C13 and C34: Flow REFUSES the Gemini first frames with the message "request may violate rules on generating images of famous people" (3 tries for C13, 1 for C34; no credits charged). Both frames show Clara's face front-facing and large. C11 (profile) passed. So the chosen Clara face is flagged by Flow's celebrity filter when it is close to the camera. Needs a decision (see Questions).
+- Clara v2 (Gemini) was rejected by Flow's famous-people filter (C13 x3, C34 x1, no credits charged; the C11 clip made with it, 12 credits, was dropped). The user decided: new face, no workarounds (no profile / far shots to dodge the filter).
+- Clara refs and the Clara v2 frames/clip are removed from the package. New Clara: 4 candidate fronts made in Gemini from the new look (shotlist 17e7362); waiting for the user's choice, then C13 (the filter test), 3/4 and full body, C11 again, C34.
 - Flow credits spent: 19 (7 test + 12 C11). Left about 886.
 
 ## Questions
 - Flow image limit data: first hit at about 01:30 on 3 Oct after ~60 images in ~25 min; still active at 08:50 and at 09:30 (VPN off) with a single x2 / x1 request. Video generation worked at 09:35. Gemini web works since the VPN was turned off: 15+ images in an hour without a limit.
-- Clara's face (Clara v2) triggers Flow's famous-people filter on close front-facing first frames (C13, C34). Options: (1) change Clara's face a little and re-make the three refs; (2) frame Clara in profile / 3/4 / further away; (3) test whether the frame passes with a different Clara face first. Waiting for the user.
+- If the filter hits another character (Deke, Marshal, ...): same rule, make a new face, no workarounds.
