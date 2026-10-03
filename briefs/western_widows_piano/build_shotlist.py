@@ -12,7 +12,7 @@ CLIP_STYLE = ("Cinematic live-action western drama, photorealistic, 16:9, 1879 C
 
 CHARACTERS = {
  "CHAR_CLARA": {"name": "Clara Whitmore", "role": "heroine, widow, 28",
-   "look": "28-year-old American woman, slender, chestnut-brown hair in a low braided bun with a few loose strands, gray-green eyes, fair skin with light sun freckles, tired but proud face, faded dark-blue calico dress with a patched left elbow, narrow black mourning ribbon at the collar, small oval silver locket on a chain",
+   "look": "28-year-old American woman, beautiful, slender, soft youthful features, chestnut-brown hair in a low braided bun with a few loose strands, gray-green eyes with a quiet weariness, fair smooth skin with light sun freckles, proud dignified expression, faded dark-blue calico dress with a patched left elbow, narrow black mourning ribbon at the collar, small oval silver locket on a chain",
    "voice": "warm, low, steady American woman's voice, late twenties, a little weary, never shrill"},
  "CHAR_LILY": {"name": "Lily Whitmore", "role": "Clara's daughter, 8",
    "look": "8-year-old girl, freckles, two light-brown braids tied with faded blue ribbons, pale yellow cotton pinafore dress over a white blouse, scuffed brown lace-up boots, carries a small rag doll",
