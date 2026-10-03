@@ -13,6 +13,14 @@ Talk to the user in Russian.
 - Clip length is in each clip's `duration_s` (8 or 10 s). Images are free; video costs credits.
 - Era lock for EVERY prompt (already inside the prompts): 1879 Colorado Territory, period clothing, no text, no logos, no watermark, no modern objects.
 
+## Flow pacing (to avoid the usage limit)
+Session 1 hit "Вы достигли лимита на использование" after ~60 images in ~25 minutes (several x4 requests), and "Инструмент Flow перегружен" after 8 x4 requests sent at once. So:
+- **One request at a time.** Wait until it finishes (all variants done or failed) before sending the next one.
+- **x2 at most** (x1 for refs and simple shots). Never x3/x4.
+- **Pause 30–60 s** between requests.
+- **Cap: ~30 images per hour.** Keep a running count with timestamps in a local log.
+- If the limit message appears: stop image work, write the time and the number of images made since the last reset into README "Questions", switch to work that does not use Flow images (narration, music, downloads, manifest), and retry after 1 hour with a single x1 request. This also tells us whether the limit is hourly or daily.
+
 ---
 
 ## Phase 0: setup
@@ -55,7 +63,7 @@ Reject: faces that don't match the references; broken hands; any text or letteri
 
 ## Phase 4: clips C01–C38 (credits)
 For each step with `"type": "clip"`, in order:
-1. **First frame** (image, free): prompt `start_frame_full_prompt`, references from `refs`. Characters in their starting positions, mouths closed. Regenerate freely until it is right: the whole clip depends on it. Save as `visuals/images/Cxx_first.png`.
+1. **First frame** (image, free): prompt `start_frame_full_prompt`, references from `refs`. Characters in their starting positions, mouths closed. Up to 4 tries (it is free in credits but counts against the image limit); the whole clip depends on it. Save as `visuals/images/Cxx_first.png`.
 2. **Video:** Frames-to-video from the first frame, Omni 1.1 Flash, `duration_s`, 16:9. Prompt = `video_prompt` as is (action, camera, exact lines, voice description).
 3. **Reject the take if:** the face morphs or becomes another person; someone walks through doors or objects; the wrong character speaks; a line is changed, cut or extended; extra hands or fingers; text on screen.
 4. **Max 2 regenerations per clip.** After 3 bad takes keep the best one and describe the problem in the manifest note.
