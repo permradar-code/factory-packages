@@ -7,7 +7,7 @@
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
   "flow_credits_spent": 0,
-  "flow_credits_left": null,
+  "flow_credits_left": 905,
   "phase": "refs",
   "narration": {
     "voice_id": null,
@@ -53,9 +53,13 @@
       "visuals/refs/CHAR_SAM_34.png",
       "visuals/refs/CHAR_SAM_front.png",
       "visuals/refs/CHAR_SAM_full.png"
+    ],
+    "PROP_PIANO": [
+      "visuals/refs/PROP_PIANO.png"
     ]
   },
   "scenes": [],
   "montage_ready": false,
-  "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514"
+  "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514",
+  "flow_credits_note": "905 reported by the user at start of session 2 (balance is not shown in Flow UI)"
 }

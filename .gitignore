@@ -1,6 +1,6 @@
 _variants/
 *.key
 .env
-narration/
+/narration/
 tts_elevenlabs.py
 

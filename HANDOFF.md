@@ -2,6 +2,16 @@
 
 Talk to the user in Russian, briefly. Branch: `pkg/western_widows_piano_v1` in `permradar-code/factory-packages`. Source of truth for content: `briefs/western_widows_piano/shotlist.json` on branch `tools/montage`; process: `BRIEF.md` in the same folder (re-read it: it was updated during the session, see section 4).
 
+## 0. Session 2 status (newest; overrides sections 2 and 5 where they differ)
+- Re-fetched brief from `tools/montage` (commit `4a477fb`): shotlist has the NEW Clara look ("28-year-old ... beautiful, slender, soft youthful features ... gray-green eyes with a quiet weariness ... proud dignified expression ..."). Local copy of the fresh brief: `wwp\_variantsrief\` (gitignored). Use `look` from there, no manifest note needed (user said so).
+- STOP 1 answer: Mercer, Lily, Pike, Agatha, Sam approved (do not touch). Clara, Deke, Marshal: redo. Clara: 4 front variants as two x2 requests with a pause, show the user, only then the other angles. Deke: skinny, 35, sharp face, thin mustache; Marshal: 50, gray walrus mustache; both must NOT resemble famous actors. Then show a sheet and wait for "ок".
+- Strict Flow pacing from the user: ONE request at a time, max x2 (refs x1), never x3/x4, 30-60 s pause, <=30 images/hour, log in `_variants/flow_log.tsv` (time, images, request, result), start frames max 4 tries. On "лимит": stop, log time/count, do audio/music/download/manifest, retry a single x1 an hour later.
+- Credits: user says 905 left at start of session 2. Stop below 150. Track in manifest `flow_credits_spent/left`.
+- Flow limit: 08:50 on 3 Oct a single x2 request (Clara front) failed with the usage limit again (7h20m after the first). Downloading existing images still works under the limit. See README "Questions".
+- PROP_PIANO downloaded to `visuals/refs/PROP_PIANO.png` (the parlor variant; brass plate reads "J. & C. FISCHER, NEW YORK" - text in frame, may remake). The other variant (field background) stays in Flow.
+- Phase 5: voices listed. Candidates (American, male): Bill `pqHfZKP75CvOlQylNhV4` (old, wise), Brian `nPczCjzI2devNBz1zQrb`, Roger `CwhRBWXzGAHq8TQ4Fs17`, Chris `iP95p4xoKVk53GoZ742B` (also Eric `cjVigY5qzO86Huf0OWal`, Callum `N2lVS1w4EtoT3dr4eOWO`). Free previews in `_variants/voice_previews/`. N01 test generated with Bill (2260 chars, 176.7 s) at `audio/narration/N01.mp3`; sent to the user -> STOP 3 pending. Characters left after test: ~18 485 of 23 736. Do NOT run the full narration before the user approves the voice.
+- Claude in Chrome works; project tab opened with tabs_context_mcp(createIfEmpty). Prompt box ~(680,558), send arrow ~(902,595) in the 1366x641 viewport.
+
 ## 1. Where things are
 
 ### Local (user's Windows PC, user `permr`)
