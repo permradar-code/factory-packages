@@ -9,7 +9,7 @@ Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (br
   soft features, tiredness only in the eyes; Deke and Marshal must not resemble known actors). The current files for these three are the OLD versions.
 - Props and locations: PROP_PIANO downloaded (note: the brass plate on it reads "J. & C. FISCHER, NEW YORK"; a text-free variant may be remade).
   PROP_HORSE and LOC_* (8) are pending because Flow returned "usage limit reached" (no credits were charged).
-- Narration: voice test N01 made with ElevenLabs "Bill" (pqHfZKP75CvOlQylNhV4), waiting for STOP 3.
+- Narration (phase 5 done): voice "Bill" (pqHfZKP75CvOlQylNhV4), approved at STOP 3. 11 blocks N01..N10 (N07a/N07b), about 9 min total, mp3 + alignment.json in audio/narration/. ElevenLabs characters left: 19339 of 23736.
 - Flow credits spent so far: 0 (all images are free). Flow project: 7a937194-22cf-4e10-a8ea-406b0d82a514.
 
 ## Notes

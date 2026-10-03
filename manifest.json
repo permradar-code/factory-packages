@@ -10,8 +10,34 @@
   "flow_credits_left": 905,
   "phase": "refs",
   "narration": {
-    "voice_id": null,
-    "files": []
+    "voice_id": "pqHfZKP75CvOlQylNhV4",
+    "voice_name": "Bill - Wise, Mature, Balanced",
+    "files": [
+      "audio/narration/N01.mp3",
+      "audio/narration/N02.mp3",
+      "audio/narration/N03.mp3",
+      "audio/narration/N04.mp3",
+      "audio/narration/N05.mp3",
+      "audio/narration/N06.mp3",
+      "audio/narration/N07a.mp3",
+      "audio/narration/N07b.mp3",
+      "audio/narration/N08.mp3",
+      "audio/narration/N09.mp3",
+      "audio/narration/N10.mp3"
+    ],
+    "alignment": [
+      "audio/narration/N01.alignment.json",
+      "audio/narration/N02.alignment.json",
+      "audio/narration/N03.alignment.json",
+      "audio/narration/N04.alignment.json",
+      "audio/narration/N05.alignment.json",
+      "audio/narration/N06.alignment.json",
+      "audio/narration/N07a.alignment.json",
+      "audio/narration/N07b.alignment.json",
+      "audio/narration/N08.alignment.json",
+      "audio/narration/N09.alignment.json",
+      "audio/narration/N10.alignment.json"
+    ]
   },
   "refs": {
     "CHAR_AGATHA": [
