@@ -1,0 +1,108 @@
+{
+  "mode": "montage_assets",
+  "project_id": "nitm_f106_rewind_voice",
+  "title": "He Ejected. His Jet Didn't.",
+  "language": "en",
+  "aspect_ratio": "9:16",
+  "script": "Nobody is flying this jet.\n\nMoments earlier, the pilot ejected.\n\nMontana, 1970. His F-106 fell into a flat spin, and he bailed out at fifteen thousand feet.\n\nBut without him, the jet recovered. And kept flying. Empty.\n\nAnother pilot radioed: \"Gary, you'd better get back in it!\"\n\nWith nobody at the controls, it glided down and belly-landed in a snowy field. This is the real photo.\n\nThe sheriff found the engine still running. The Air Force fixed it, and nine years later, Gary flew it again.\n\nSome landings aren't in the manual.",
+  "voice": {
+    "voice": "onyx",
+    "speed": 1.1,
+    "instructions": "Urgent, gripping aviation storyteller. First line slow, eerie and intriguing. Then punchy, fast, rising tension, satisfied ending.",
+    "estimated_wpm": 160,
+    "model": "gpt-4o-mini-tts"
+  },
+  "shots": [
+    {
+      "id": "001",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Nobody is flying this jet",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "002",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Montana",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "003",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "But without him",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "004",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Another pilot radioed",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "005",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "With nobody at the controls",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "006",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "The sheriff found",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    },
+    {
+      "id": "007",
+      "type": "image",
+      "duration_s": 4.0,
+      "narration_cue": "Some landings",
+      "references": [],
+      "image_prompt_full": "placeholder (Flow visuals used in montage)",
+      "image_file": "stage:corinth/bridge.png",
+      "motion_prompt": null
+    }
+  ],
+  "generation": {
+    "max_attempts_per_asset": 2,
+    "retry_reserve_pct": 15.0,
+    "video_resolution": "720p",
+    "reference_provider": "openai",
+    "reference_model": "gpt-image-2.5-sunburst",
+    "reference_quality": "max",
+    "scene_image_provider": "google_vertex",
+    "scene_image_model": "gemini-2.5-flash-image",
+    "video_provider": "google_vertex",
+    "video_model": "veo-3.1-fast-generate-001",
+    "video_generate_audio": false,
+    "continue_on_asset_failure": true
+  },
+  "schema_version": 1,
+  "delivery": {
+    "github": {
+      "repo": "permradar-code/factory-packages"
+    }
+  },
+  "references": {}
+}
