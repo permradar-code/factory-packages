@@ -1,33 +1,31 @@
 # western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
-Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (branch tools/montage).
+Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (branch tools/montage, latest seen commit 7c7b740: one speaker per clip, 49 clips of 4/6/8 s).
 
-## Status: Phase 1 (references) done, waiting for the user's OK on the sheet; then Phase 2 (clip tests)
-- Characters: 8 of 8, 3 angles each (front, 3/4, full body) in visuals/refs/ (CHAR_*_front/_34/_full.png, 1376x768). Clara, Deke and Marshal were re-made with new faces (user's choice: Clara v2, Deke v4, Marshal v2). Mercer, Lily, Pike, Agatha and Sam are the approved first versions.
-- Props and locations: PROP_PIANO (no nameplate), PROP_HORSE, and 8 LOC_* are done (visuals/refs/).
-- Images for the whole film are made in Gemini (image mode, 16:9, 2752x1536 originals scaled to 1376x768 in refs) because Flow's image limit (daily) was hit; video is Flow only.
-- Flow credits spent so far: 7 (one 4 s test clip). Flow project: 7a937194-22cf-4e10-a8ea-406b0d82a514.
-- STOP 1 answer (3 Oct): Mercer, Lily, Pike, Agatha, Sam approved. Clara, Deke and Marshal are being redone (new faces; Clara 28-30, beautiful,
-  soft features, tiredness only in the eyes; Deke and Marshal must not resemble known actors). The current files for these three are the OLD versions.
-- Props and locations: PROP_PIANO downloaded (note: the brass plate on it reads "J. & C. FISCHER, NEW YORK"; a text-free variant may be remade).
-  PROP_HORSE and LOC_* (8) are pending because Flow returned "usage limit reached" (no credits were charged).
-- Narration (phase 5 done): voice "Bill" (pqHfZKP75CvOlQylNhV4), approved at STOP 3. 11 blocks N01..N10 (N07a/N07b), about 9 min total, mp3 + alignment.json in audio/narration/. ElevenLabs characters left: 19339 of 23736.
-- Flow credits spent so far: 0 (all images are free). Flow project: 7a937194-22cf-4e10-a8ea-406b0d82a514.
+## Status
+Phase 1 (references) done, waiting for the user's OK on the sheet. Phases 5 (narration) and 6 (music) done. Next: Phase 2 (clip tests), then images and clips.
 
-- Music (phase 6): M01-M13 generated with ElevenLabs Music (music_v2_5, instrumental), audio/music/ + music_log.json. M14 skipped by decision. M02 approved by ear (STOP 4);
-  the other cues are not yet listened to by the user. M06 ("Shenandoah" on solo piano): the generator may have produced a different tune. It has NOT been verified yet
-  (to be checked by ear); do not regenerate, the montage chat can render the melody from notes instead. Durations match the cue sheet targets exactly.
-- ElevenLabs credits (counter, monthly package, no card charge): narration N01-N10 = 1549; music M01-M13 = 9476 (M02 275, the other 12 cues 9201; per-cue split is an estimate, see music_log.json `_usage`). Left: 9720 of 23736 (counter 14016).
+## What is in the package
+- `visuals/refs/`: 8 characters x 3 angles (CHAR_*_front / _34 / _full.png), PROP_PIANO, PROP_HORSE, 8 LOC_* (all 1376x768 PNG).
+  - Clara, Deke, Marshal have new faces (user's choice: Clara v2, Deke v4, Marshal v2). Mercer, Lily, Pike, Agatha, Sam are the approved first versions.
+  - PROP_PIANO has no nameplate. Marshal's star badge is plain (no lettering), see manifest notes.
+- `audio/narration/`: N01..N10 (N07a, N07b) mp3 + alignment.json, voice "Bill" (ElevenLabs pqHfZKP75CvOlQylNhV4), about 9 min.
+- `audio/music/`: M01..M13 mp3 + music_log.json (M14 skipped by decision). M02 approved by ear; M06 accepted by the user.
+- `manifest.json`, `tools/` (helper scripts).
 
-- Video test (not a numbered clip): Mercer, 4 s, Omni 1.1 Flash 720p, 7 credits. The mp4 HAS an audio track (AAC 48 kHz stereo); speech-like energy at 0-0.7 s, 1.3-1.9 s, ~3 s. Face stays consistent; eyes closed in the first ~1 s. Final judgement of the line/lip-sync is by ear (user).
-- Flow images still hit the usage limit at 09:30 (VPN off). Video generation still works under that limit. Gemini web opens now (VPN off): output 2752x1536 (16:9), no visible watermark.
+## Tools and settings
+- Images: Gemini (image mode, 16:9, 2752x1536 originals, no visible watermark), scaled to 1376x768 for refs. Reason: Flow's image limit (apparently daily) was hit in session 1 and was still active in session 2.
+- Video: Google Flow, Omni 1.1 Flash 720p, 24 fps (4/6/8 s = 7/10/12 credits). Narration and music: ElevenLabs.
 
-## Notes
-- Model: Nano Banana Pro, 16:9. Prompt = look + style from shotlist.json plus a plain-background / even-light instruction.
-- Rejected variants (not pushed) stay in the Flow project.
-- Clara reads a little older than 28 (tired look); the face is consistent across the three angles. (Being replaced.)
+## Credits
+- Flow: 7 credits spent (one 4 s test clip: Mercer says "Two hundred."; the mp4 HAS an AAC audio track, 48 kHz stereo). Balance about 898 of 905 reported by the user.
+- ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476 credits (M02 275; per-cue split is an estimate, see music_log.json `_usage`). Left 9720 of 23736.
+
+## Notes for the montage
+- Test clip (not a numbered clip, not in the package): speech-like audio at 0-0.7 s, 1.3-1.9 s and about 3 s; Mercer's eyes are closed in the first second. Lip-sync and the line itself are for the user to judge by ear.
+- Rejected variants are not pushed: Clara/Deke/Marshal front variants v1-v4 each, the first LOC_STREET (legible shop signs), the first piano (brass plate with lettering).
+- LOC_KITCHEN shows four chairs instead of three; LOC_PARLOR/LOC_BARN contain the piano/horse in generic form (not generated from the PROP refs).
 
 ## Questions
-- Flow usage limit, data point 1: first limit at ~01:30 on 3 Oct after ~60 images in ~25 min. At 08:50 (about 7 h 20 min later) a single x2 image request
-  still returned "Вы достигли лимита на использование" (no credits charged). So the limit is NOT a plain 1-hour one; probably daily or a longer rolling window.
-  Next probe: one x1 request about an hour after 08:50, then again later; results go into this section.
+- Flow image limit data: first hit at about 01:30 on 3 Oct after ~60 images in ~25 min; still active at 08:50 and at 09:30 (VPN off) with a single x2 / x1 request. Video generation worked at 09:35. Gemini web works since the VPN was turned off: 15+ images in an hour without a limit.
+- The user decides how to proceed with Phase 2 (C11, C13, C34 tests) after the OK on the references sheet.
