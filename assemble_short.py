@@ -83,6 +83,8 @@ Style: Stat,{FONT},150,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,
 Style: End,{FONT},92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,7,4,5,60,60,0
 Style: HookA,{FONT},118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,640
 Style: HookB,{FONT},118,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,800
+Style: LowA,{FONT},124,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,10,6,8,40,40,1080
+Style: LowB,{FONT},124,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,10,6,8,40,40,1240
 Style: QuoteA,{FONT},118,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,300
 Style: QuoteB,{FONT},118,&H0000F2FF,&H0000F2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,1,9,5,8,40,40,460
 
@@ -122,7 +124,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for lab in labels:
         style = lab.get("style", "Label")
         fx = "{\\fad(100,150)\\fscx70\\fscy70\\t(0,180,\\fscx100\\fscy100)}" if style == "Stat" else "{\\fad(120,120)}"
-        if style in ("HookA", "HookB", "QuoteA", "QuoteB"):
+        if style in ("HookA", "HookB", "QuoteA", "QuoteB", "LowA", "LowB"):
             fx = "{\\fad(0,200)\\fscx85\\fscy85\\t(0,140,\\fscx100\\fscy100)}" if float(lab["start"]) > 0.01 else "{\\fad(0,200)}"
         if style == "End":
             fx = "{\\fad(250,400)}"
