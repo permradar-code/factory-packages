@@ -17,6 +17,9 @@ Work in progress. Source of truth: briefs/western_widows_piano/shotlist.json (br
   (to be checked by ear); do not regenerate, the montage chat can render the melody from notes instead. Durations match the cue sheet targets exactly.
 - ElevenLabs credits (counter, monthly package, no card charge): narration N01-N10 = 1549; music M01-M13 = 9476 (M02 275, the other 12 cues 9201; per-cue split is an estimate, see music_log.json `_usage`). Left: 9720 of 23736 (counter 14016).
 
+- Video test (not a numbered clip): Mercer, 4 s, Omni 1.1 Flash 720p, 7 credits. The mp4 HAS an audio track (AAC 48 kHz stereo); speech-like energy at 0-0.7 s, 1.3-1.9 s, ~3 s. Face stays consistent; eyes closed in the first ~1 s. Final judgement of the line/lip-sync is by ear (user).
+- Flow images still hit the usage limit at 09:30 (VPN off). Video generation still works under that limit. Gemini web opens now (VPN off): output 2752x1536 (16:9), no visible watermark.
+
 ## Notes
 - Model: Nano Banana Pro, 16:9. Prompt = look + style from shotlist.json plus a plain-background / even-light instruction.
 - Rejected variants (not pushed) stay in the Flow project.

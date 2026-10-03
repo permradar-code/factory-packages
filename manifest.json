@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 0,
-  "flow_credits_left": 905,
+  "flow_credits_spent": 7,
+  "flow_credits_left": 898,
   "phase": "refs",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -87,7 +87,7 @@
   "scenes": [],
   "montage_ready": false,
   "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514",
-  "flow_credits_note": "905 reported by the user at start of session 2 (balance is not shown in Flow UI)",
+  "flow_credits_note": "905 reported by the user at start of session 2; spent 7 on the Mercer 4s test clip (Omni 1.1 Flash 720p, price read from the settings chip)",
   "music": {
     "files": [
       "audio/music/M01.mp3",
@@ -108,5 +108,16 @@
     "skipped": [
       "M14 (optional end-credits song, skipped by the user's decision)"
     ]
+  },
+  "tests": {
+    "video_test_mercer_two_hundred": {
+      "file": "_variants/tests/TEST_MERCER_two_hundred.mp4 (not pushed)",
+      "duration_s": 4,
+      "credits": 7,
+      "has_audio": true,
+      "audio": "aac 48 kHz stereo",
+      "first_frame": "visuals/refs/CHAR_MERCER_front.png",
+      "prompt": "The man looks up calmly and says in a deep, quiet American baritone: \"Two hundred.\" Static camera, cinematic western, 1879."
+    }
   }
 }
