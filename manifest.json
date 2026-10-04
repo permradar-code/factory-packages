@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 354,
-  "flow_credits_left": 551,
+  "flow_credits_spent": 384,
+  "flow_credits_left": 521,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1101,6 +1101,45 @@
       "credits": 12,
       "frame_tries": 1,
       "note": "Deke shouts the opening bid from the wagon, Pike raises a finger; Deke is medium-size in frame; audio present"
+    },
+    {
+      "shot_id": "C28",
+      "type": "video",
+      "video": "visuals/video/C28.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C28_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Agatha whispers the line, then close-up on Clara and Lily's joined hands; audio present"
+    },
+    {
+      "shot_id": "C29",
+      "type": "video",
+      "video": "visuals/video/C29.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C29_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "silent: Mercer, the Marshal and a clerk ride into town; audio track is ambient"
+    },
+    {
+      "shot_id": "C30",
+      "type": "video",
+      "video": "visuals/video/C30.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C30_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer walks to the platform and speaks the line; Pike silent in the background; audio present"
     }
   ],
   "montage_ready": false,
