@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 29,
-  "flow_credits_left": 876,
+  "flow_credits_spent": 60,
+  "flow_credits_left": 845,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -90,7 +90,9 @@
       "visuals/refs/PROP_PIANO.png"
     ],
     "CHAR_CLARA": [
-      "visuals/refs/CHAR_CLARA_front.png"
+      "visuals/refs/CHAR_CLARA_34.png",
+      "visuals/refs/CHAR_CLARA_front.png",
+      "visuals/refs/CHAR_CLARA_full.png"
     ]
   },
   "scenes": [
@@ -225,6 +227,77 @@
       "takes": 1,
       "credits": 10,
       "note": "first clip with the final Clara (cand #2); passed Flow's filter first try; user accepted it"
+    },
+    {
+      "shot_id": "C11",
+      "type": "video",
+      "video": "visuals/video/C11.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C11_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 3,
+      "note": "first frame needed 3 tries (wide shots made Clara tiny; close-up framing sentence appended to the frame prompt). Face stable, line audible, lips move"
+    },
+    {
+      "shot_id": "C34",
+      "type": "video",
+      "video": "visuals/video/C34.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C34_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground)"
+    },
+    {
+      "shot_id": "I17",
+      "type": "image",
+      "image": "visuals/images/I17.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I16",
+      "type": "image",
+      "image": "visuals/images/I16.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C01",
+      "type": "video",
+      "video": "visuals/video/C01.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C01_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "wide establishing crane shot; Deke is small in frame (lip-sync hard to judge); audio present"
+    },
+    {
+      "shot_id": "I18",
+      "type": "image",
+      "image": "visuals/images/I18.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I19",
+      "type": "image",
+      "image": "visuals/images/I19.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
     }
   ],
   "montage_ready": false,
