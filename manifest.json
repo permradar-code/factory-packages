@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 403,
-  "flow_credits_left": 502,
+  "flow_credits_spent": 423,
+  "flow_credits_left": 482,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1166,6 +1166,19 @@
       "credits": 7,
       "frame_tries": 1,
       "note": "Pike protests, Marshal from behind; 'original fictional character' appended to the Pike prompts; audio present"
+    },
+    {
+      "shot_id": "C32",
+      "type": "video",
+      "video": "visuals/video/C32.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C32_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 2,
+      "credits": 20,
+      "frame_tries": 2,
+      "note": "take 1 rejected: Pike was thin and clean-shaven in the first frame (and in the video), take 2 with a stricter Pike description is correct; Mercer speaks, audio present"
     }
   ],
   "montage_ready": false,
@@ -1216,6 +1229,7 @@
     "C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge."
   ],
   "questions_extra": [
-    "C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b."
+    "C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b.",
+    "C33 (Marshal handcuffs Pike, crowd gasps, Agatha drops her parasol; 6 s, no dialogue) NOT made: Flow refused it 3 times in a row with 'cannot create videos that may harm the reputation of people or current events' (a different message from the famous-people one; no charge): once as is, once with 'Horace Pike, Marshal Abel Hart and Agatha Pell are original fictional characters' appended, once as is again. The first frame (C33_first.png, Marshal handcuffing Pike) is kept in visuals/images. Idea: cover the beat with C31a/C31b + a still, or retry later with a softer wording of the arrest."
   ]
 }
