@@ -719,203 +719,192 @@ the lid of her mother's piano,
 and did not play.
 
 162
-00:10:23,988 --> 00:10:27,464
+00:10:23,988 --> 00:10:27,429
 The Whitmore homestead,
 one hundred sixty acres!
 
 163
-00:10:27,504 --> 00:10:28,928
-Opening bid from Mr.
+00:10:27,469 --> 00:10:31,458
+Opening bid from Mr. Pike:
+four hundred eighty dollars!
 
 164
-00:10:28,968 --> 00:10:31,458
-Pike: four hundred eighty dollars!
-
-165
 00:10:31,528 --> 00:10:37,474
 Well. Now she'll finally learn her place.
 
-166
+165
 00:10:43,868 --> 00:10:49,474
 Before anyone bids, the marshal
 has a question for Mr. Pike.
 
-167
+166
 00:10:49,868 --> 00:10:57,458
 Horace Pike. You filed a silver claim in
 Denver on land you don't own. That's fraud.
 
-168
+167
 00:10:57,848 --> 00:10:59,808
 Preposterous!
 
-169
+168
 00:11:00,437 --> 00:11:05,777
 Four hundred eighty. The
 Whitmore note is paid. In full.
 
-170
+169
 00:11:19,195 --> 00:11:22,295
 It's Saturday. Why?
 
+170
+00:11:23,495 --> 00:11:25,422
+Shiloh. April of 'sixty-two.
+
 171
-00:11:23,495 --> 00:11:23,995
-Shiloh.
-
-172
-00:11:23,993 --> 00:11:25,374
-April of 'sixty-two.
-
-173
-00:11:25,414 --> 00:11:29,395
+00:11:25,462 --> 00:11:29,395
 Your husband carried me two
 miles with a ball in my leg.
 
-174
-00:11:30,442 --> 00:11:31,680
-He made me promise.
+172
+00:11:30,442 --> 00:11:36,162
+He made me promise. If I ever got west, his
+Clara would never sell her mother's piano.
 
-175
-00:11:31,720 --> 00:11:36,162
-If I ever got west, his Clara would
-never sell her mother's piano.
-
-176
+173
 00:11:36,900 --> 00:11:43,122
 The letter was soft as cloth from being
 folded and unfolded a thousand times.
 
-177
+174
 00:11:43,564 --> 00:11:45,839
 The handwriting was Sam's.
 
-178
+175
 00:11:46,130 --> 00:11:50,176
 John Mercer had been a twenty-two-year-old
 private when the line broke at
 
-179
+176
 00:11:50,216 --> 00:11:53,849
 Shiloh. A musket ball shattered his leg.
 
-180
+177
 00:11:54,140 --> 00:11:58,640
 He would have died in the mud if a
 sergeant from Ohio had not thrown him over
 
-181
+178
 00:11:58,680 --> 00:12:02,243
 his shoulders and carried him
 two miles to the surgeons' tents,
 
-182
+179
 00:12:02,418 --> 00:12:04,995
 whistling Shenandoah the whole way,
 
-183
+180
 00:12:05,228 --> 00:12:08,258
 so the boy would not
 hear his own screaming.
 
-184
+181
 00:12:08,804 --> 00:12:11,764
 After the war, Sam wrote to him once.
 
-185
+182
 00:12:11,939 --> 00:12:13,192
 Just once.
 
-186
+183
 00:12:13,367 --> 00:12:14,899
 One promise.
 
-187
+184
 00:12:15,352 --> 00:12:20,049
 It took Mercer fifteen years and a cattle
 business in Wyoming before he could
 
-188
+185
 00:12:20,089 --> 00:12:23,455
 keep it. By the time he found Cedar Bluff,
 
-189
+186
 00:12:23,549 --> 00:12:26,021
 Sam had been in the ground for a year.
 
-190
+187
 00:12:26,475 --> 00:12:28,877
 He had come too late for his friend.
 
-191
+188
 00:12:29,238 --> 00:12:32,314
 But he had not come too late for her.
 
-192
+189
 00:12:33,233 --> 00:12:37,307
 Horace Pike was taken to Denver
 in irons that same afternoon.
 
-193
+190
 00:12:37,854 --> 00:12:41,707
 Before the month was out, the
 Hendersons had their deed back.
 
-194
+191
 00:12:42,161 --> 00:12:46,235
 And that evening, as the sun
 went down behind the aspens,
 
-195
+192
 00:12:46,410 --> 00:12:49,637
 the windows of the
 Whitmore house glowed gold,
 
-196
+193
 00:12:49,870 --> 00:12:54,741
 and the sound of a piano drifted out
 over the valley for the first time in a
 
-197
+194
 00:12:54,781 --> 00:12:58,031
 week. Clara played Shenandoah.
 
-198
+195
 00:12:58,392 --> 00:13:00,655
 Lily sat beside her on the bench.
 
-199
+196
 00:13:00,888 --> 00:13:05,229
 And in the doorway, a tall man
 stood with his hat in his hands,
 
-200
+197
 00:13:05,288 --> 00:13:07,934
 waiting to be asked in.
 
-201
+198
 00:13:08,868 --> 00:13:13,768
 Supper's at six, Mr. Mercer.
 Every night, if you'd like.
 
-202
+199
 00:13:14,775 --> 00:13:16,015
 I'd like that, ma'am.
 
-203
+200
 00:13:23,025 --> 00:13:27,204
 Thank you for riding along with
 Clara, Lily, and Mercer tonight.
 
-204
+201
 00:13:27,657 --> 00:13:29,735
 If this story warmed your heart,
 
-205
+202
 00:13:29,828 --> 00:13:32,881
 there are more stories waiting
 for you on this channel.
 
-206
+203
 00:13:33,335 --> 00:13:37,293
 Until next time in Cedar Bluff,
 keep a light in the window.
