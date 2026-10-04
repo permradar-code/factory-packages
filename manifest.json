@@ -38,7 +38,11 @@
       "audio/narration/N09.alignment.json",
       "audio/narration/N10.alignment.json"
     ],
-    "n10_note": "N10 re-voiced 4 Oct 2026 with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 214 chars, 14.2 s"
+    "n10_note": "N10 re-voiced 4 Oct 2026 with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 214 chars, 14.2 s",
+    "extra": {
+      "N09b": "audio/narration/N09b.mp3",
+      "N01_fix": "audio/narration/N01_fix.mp3 (historical fix 'Colorado' instead of 'Colorado Territory'; splice at montage, full N01 untouched)"
+    }
   },
   "refs": {
     "CHAR_AGATHA": [
@@ -1278,6 +1282,33 @@
       "takes": 0,
       "montage_plan": "Close at montage from the start frame C33_first.png (Marshal handcuffing Pike, crowd, Agatha with parasol) and still I57.",
       "note": "Marshal handcuffs Pike, crowd gasps, Agatha drops her parasol, 6 s, no dialogue"
+    },
+    {
+      "shot_id": "I70",
+      "type": "image",
+      "image": "visuals/images/I70.png",
+      "note": "Epilogue: autumn wedding outside the white church; Clara in ivory (with a light veil), Mercer in a dark suit with hat in hand, Agatha smiling in the crowd.",
+      "tool": "ChatGPT",
+      "tries": 1,
+      "original": "1672x941 as delivered by ChatGPT (not rescaled)"
+    },
+    {
+      "shot_id": "I71",
+      "type": "image",
+      "image": "visuals/images/I71.png",
+      "note": "Epilogue: Lily in a pale yellow dress scattering wildflower petals on a path, church and aspens behind.",
+      "tool": "ChatGPT",
+      "tries": 1,
+      "original": "1672x941 as delivered by ChatGPT (not rescaled)"
+    },
+    {
+      "shot_id": "I72",
+      "type": "image",
+      "image": "visuals/images/I72.png",
+      "note": "Epilogue: night parlor by lamplight; Clara laughing at the piano, Mercer singing with closed eyes, Lily asleep with her rag doll.",
+      "tool": "ChatGPT",
+      "tries": 1,
+      "original": "1672x941 as delivered by ChatGPT (not rescaled)"
     }
   ],
   "montage_ready": false,
@@ -1331,7 +1362,8 @@
     "C06 is an optional clip and was made (credits were above 150).",
     "Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).",
     "Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).",
-    "C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame."
+    "C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame.",
+    "Epilogue (after C38, before N10): narration N09b, images I70, I71, I72 (ChatGPT, film look, 1672x941, one try each). The epilogue has no video clips: use the stills with slow moves."
   ],
   "questions_extra": [
     "C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.",

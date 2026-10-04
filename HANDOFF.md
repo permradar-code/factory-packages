@@ -118,3 +118,6 @@ Faces/quality notes: C11 frame needed 3 tries (wide shots made Clara tiny). Titl
 - Thumbnails A, B, C in `docs/thumbs/` (Gemini, 2752x1536). B needed 2 regenerations (references did not attach; then an unrequested piano with garbled lettering).
 - Gemini lesson: the attach input is spent after each sent message; re-click '+' then 'Upload files' (a new input must appear, count rises) and verify reference chips before sending.
 - ElevenLabs left: 9641 of 23736. Flow left: 421. Nothing else pending.
+
+## 13. Epilogue (session 6)
+- N09b voiced (Bill, 31.3 s); N01_fix voiced (5.1 s); I70, I71, I72 made in ChatGPT (film look, 1672x941, one try each). All pushed; manifest updated.

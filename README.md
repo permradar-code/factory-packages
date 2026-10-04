@@ -9,7 +9,7 @@ Finished (phase: done). Source of truth: `briefs/western_widows_piano/shotlist.j
 | Phase 5 narration | done (voice Bill, N01..N10 + alignment) |
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
-| Phase 3 images | 69 of 69 done (I01..I69) |
+| Phase 3 images | 72 of 69 done (I01..I72) |
 | Phase 4 clips | 47 of 49 done: C01, C02a, C02b, C03, C04, C05, C06, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C26a, C26b, C27, C28, C29, C30, C31a, C31b, C32, C34, C35, C36, C37a, C37b, C38. Skipped (closed at montage from start frames): C19a, C33 |
 
 ## What is in the package
@@ -97,6 +97,7 @@ ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 94
 - Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).
 - Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).
 - C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame.
+- Epilogue (after C38, before N10): narration N09b, images I70, I71, I72 (ChatGPT, film look, 1672x941, one try each). The epilogue has no video clips: use the stills with slow moves.
 
 ## Questions
 - Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
