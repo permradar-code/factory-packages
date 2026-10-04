@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 232,
-  "flow_credits_left": 673,
+  "flow_credits_spent": 242,
+  "flow_credits_left": 663,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -892,6 +892,59 @@
       "credits": 10,
       "frame_tries": 1,
       "note": "Mercer cracks a rock, speaks the silver line; audio present"
+    },
+    {
+      "shot_id": "I65",
+      "type": "image",
+      "image": "visuals/images/I65.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I66",
+      "type": "image",
+      "image": "visuals/images/I66.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C18",
+      "type": "video",
+      "video": "visuals/video/C18.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C18_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Pike arrives by buggy and speaks to Clara on the porch (wide-ish, Pike medium size); 1 'unusual activity' error on the video (no charge, page reloaded); audio present"
+    },
+    {
+      "shot_id": "I67",
+      "type": "image",
+      "image": "visuals/images/I67.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I68",
+      "type": "image",
+      "image": "visuals/images/I68.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I69",
+      "type": "image",
+      "image": "visuals/images/I69.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
     }
   ],
   "montage_ready": false,
@@ -936,5 +989,12 @@
     "Clara v2 (Gemini, 'like the lead actress' wording) was rejected: Flow's famous-people filter blocked C13 x3 and C34 x1 (no charge). All Clara v2 refs, first frames and the C11 clip were removed from the package (kept locally in _variants/old_refs_v2). New Clara look in shotlist 17e7362 (original fictional face). Tests are redone with the new face.",
     "Clara v3 (look 7d0f9ec): 8 candidate fronts (docs/clara_candidates.jpg). Candidate #2 passed Flow's filter on C13 at the first try, so it is the final Clara face. Only CHAR_CLARA_front is installed so far; 3/4 and full body come next."
   ],
-  "image_originals": "Gemini originals are 2752x1536 (16:9); package files are scaled to 1280x720. Originals stay in _variants/gemini2 (local, not pushed)."
+  "image_originals": "Gemini originals are 2752x1536 (16:9); package files are scaled to 1280x720. Originals stay in _variants/gemini2 (local, not pushed).",
+  "notes_extra": [
+    "I58 (auction, Clara and the clerk): try 1 gave Clara a beard and glasses (rejected); try 2 accepted, but the word BANK is legible on the building (it comes from the platform reference).",
+    "C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge."
+  ],
+  "questions_extra": [
+    "C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b."
+  ]
 }

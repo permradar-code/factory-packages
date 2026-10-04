@@ -9,8 +9,8 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 | Phase 5 narration | done (voice Bill, N01..N10 + alignment) |
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
-| Phase 3 images | 56 of 69 done (I01..I56) |
-| Phase 4 clips | 17 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C34 |
+| Phase 3 images | 69 of 69 done (I01..I69) |
+| Phase 4 clips | 23 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C34 |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
@@ -19,7 +19,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 185, left 720 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 242, left 663 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -39,6 +39,12 @@ Spent 185, left 720 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C12 | 6 s | 10 | 1 | 1 | Mercer speaks beside his horse at the ranch gate; audio present |
 | C13 | 6 s | 10 | 1 |  | first clip with the final Clara (cand #2); passed Flow's filter first try; user accepted it |
 | C14 | 8 s | 12 | 1 | 2 | first frame try 1 had Mercer small in profile; try 2 with an appended framing sentence has him large and 3/4; Mercer speaks the fence line |
+| C15a | 6 s | 10 | 1 | 1 | Clara speaks (Lily at the piano, Mercer from behind); audio present |
+| C15b | 4 s | 7 | 1 | 1 | reverse angle: Mercer speaks, Lily and Clara from behind; audio present |
+| C16a | 6 s | 10 | 1 | 1 | Clara speaks on the porch with two cups, Mercer from behind; audio present |
+| C16b | 6 s | 10 | 1 | 1 | Mercer speaks on the porch, Clara from behind; audio present |
+| C17 | 6 s | 10 | 1 | 1 | Mercer cracks a rock, speaks the silver line; audio present |
+| C18 | 6 s | 10 | 1 | 1 | Pike arrives by buggy and speaks to Clara on the porch (wide-ish, Pike medium size); 1 'unusual activity' error on the video (no charge, page reloaded); audio present |
 | C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
 
 ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
@@ -49,9 +55,12 @@ ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476
 - Kitchen reference has four chairs (accepted).
 - Wide first frames make the speaker small and lip-sync weak (C01); for dialogue clips a framing sentence was appended to the frame prompt when needed (C11, C14, C34); see the manifest notes.
 - Mercer's beard looks fuller in some frames (C08b, C12, C14) than in the reference.
+- I58 (auction, Clara and the clerk): try 1 gave Clara a beard and glasses (rejected); try 2 accepted, but the word BANK is legible on the building (it comes from the platform reference).
+- C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge.
 
 ## Questions
 - Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
 - Flow "famous people" filter: blocked the first Clara face earlier; on 4 Oct it refused C05 video once (identical retry passed) and C08b video twice (frame regenerated with one appended sentence, then passed). No new face was needed so far; if Mercer or Agatha keep being refused, make a new face per the mode rules.
 - Flow "We noticed some unusual activity ... browser extensions" (no charge): appears every ~10 requests; fix = reload the Flow page and re-inject the queue (see HANDOFF section 9).
 - Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".
+- C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b.

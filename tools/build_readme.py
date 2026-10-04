@@ -53,5 +53,8 @@ ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476
 - Flow "We noticed some unusual activity ... browser extensions" (no charge): appears every ~10 requests; fix = reload the Flow page and re-inject the queue (see HANDOFF section 9).
 - Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".
 """
+ne = "".join("\n- " + x for x in m.get("notes_extra", []))
+qe = "".join("\n- " + x for x in m.get("questions_extra", []))
+t = t.replace("\n\n## Questions", ne + "\n\n## Questions", 1).rstrip("\n") + qe + "\n"
 open(os.path.join(W, "README.md"), "w", encoding="utf-8").write(t)
 print("readme ok", len(clips), len(imgs))
