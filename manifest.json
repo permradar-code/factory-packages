@@ -37,7 +37,8 @@
       "audio/narration/N08.alignment.json",
       "audio/narration/N09.alignment.json",
       "audio/narration/N10.alignment.json"
-    ]
+    ],
+    "n10_note": "N10 re-voiced 4 Oct 2026 with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 214 chars, 14.2 s"
   },
   "refs": {
     "CHAR_AGATHA": [
