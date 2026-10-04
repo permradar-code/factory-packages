@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 185,
-  "flow_credits_left": 720,
+  "flow_credits_spent": 232,
+  "flow_credits_left": 673,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -763,6 +763,135 @@
       "credits": 12,
       "frame_tries": 2,
       "note": "first frame try 1 had Mercer small in profile; try 2 with an appended framing sentence has him large and 3/4; Mercer speaks the fence line"
+    },
+    {
+      "shot_id": "I57",
+      "type": "image",
+      "image": "visuals/images/I57.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I59",
+      "type": "image",
+      "image": "visuals/images/I59.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C15a",
+      "type": "video",
+      "video": "visuals/video/C15a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C15a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks (Lily at the piano, Mercer from behind); audio present"
+    },
+    {
+      "shot_id": "I58",
+      "type": "image",
+      "image": "visuals/images/I58.png",
+      "note": "try 1 rejected (Clara got a beard/glasses); try 2 accepted; a BANK sign is legible on the building",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C15b",
+      "type": "video",
+      "video": "visuals/video/C15b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C15b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "reverse angle: Mercer speaks, Lily and Clara from behind; audio present"
+    },
+    {
+      "shot_id": "I60",
+      "type": "image",
+      "image": "visuals/images/I60.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I61",
+      "type": "image",
+      "image": "visuals/images/I61.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C16a",
+      "type": "video",
+      "video": "visuals/video/C16a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C16a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks on the porch with two cups, Mercer from behind; audio present"
+    },
+    {
+      "shot_id": "I62",
+      "type": "image",
+      "image": "visuals/images/I62.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I63",
+      "type": "image",
+      "image": "visuals/images/I63.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C16b",
+      "type": "video",
+      "video": "visuals/video/C16b.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C16b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer speaks on the porch, Clara from behind; audio present"
+    },
+    {
+      "shot_id": "I64",
+      "type": "image",
+      "image": "visuals/images/I64.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C17",
+      "type": "video",
+      "video": "visuals/video/C17.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C17_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer cracks a rock, speaks the silver line; audio present"
     }
   ],
   "montage_ready": false,
