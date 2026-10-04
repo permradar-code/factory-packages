@@ -123,7 +123,7 @@ card("T01", "THE WIDOW'S PIANO", 5)
 
 # ---------------- SCENE 2: WHO CLARA IS ----------------
 narr("N01", """
-Cedar Bluff, Colorado Territory. October, 1879.
+Cedar Bluff, Colorado. October, 1879.
 
 Until that morning, Clara Whitmore had not cried in front of a single soul. Not at her husband's funeral. Not when the letters from the bank began to arrive. And not when the sheriff nailed the court's notice to her door.
 
