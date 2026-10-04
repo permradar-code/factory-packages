@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 60,
-  "flow_credits_left": 845,
+  "flow_credits_spent": 112,
+  "flow_credits_left": 793,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -295,6 +295,191 @@
       "shot_id": "I19",
       "type": "image",
       "image": "visuals/images/I19.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I20",
+      "type": "image",
+      "image": "visuals/images/I20.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C02a",
+      "type": "video",
+      "video": "visuals/video/C02a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C02a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Lily speaks (Clara partly out of focus in foreground); audio present"
+    },
+    {
+      "shot_id": "I21",
+      "type": "image",
+      "image": "visuals/images/I21.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I22",
+      "type": "image",
+      "image": "visuals/images/I22.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C02b",
+      "type": "video",
+      "video": "visuals/video/C02b.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C02b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks facing camera, Lily from behind; audio present"
+    },
+    {
+      "shot_id": "I23",
+      "type": "image",
+      "image": "visuals/images/I23.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I24",
+      "type": "image",
+      "image": "visuals/images/I24.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I25",
+      "type": "image",
+      "image": "visuals/images/I25.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I26",
+      "type": "image",
+      "image": "visuals/images/I26.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C03",
+      "type": "video",
+      "video": "visuals/video/C03.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C03_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "Agatha and two women gossip under a parasol; audio present"
+    },
+    {
+      "shot_id": "I27",
+      "type": "image",
+      "image": "visuals/images/I27.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I28",
+      "type": "image",
+      "image": "visuals/images/I28.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C04",
+      "type": "video",
+      "video": "visuals/video/C04.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C04_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Pike on the platform, frontal; audio present"
+    },
+    {
+      "shot_id": "I29",
+      "type": "image",
+      "image": "visuals/images/I29.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I30",
+      "type": "image",
+      "image": "visuals/images/I30.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I31",
+      "type": "image",
+      "image": "visuals/images/I31.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I32",
+      "type": "image",
+      "image": "visuals/images/I32.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I33",
+      "type": "image",
+      "image": "visuals/images/I33.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C05",
+      "type": "video",
+      "video": "visuals/video/C05.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C05_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "first video try refused by Flow famous-people filter (no charge), identical retry passed; Agatha speaks the bid, cut to Clara close-up"
+    },
+    {
+      "shot_id": "I34",
+      "type": "image",
+      "image": "visuals/images/I34.png",
       "note": "",
       "tool": "Gemini",
       "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
