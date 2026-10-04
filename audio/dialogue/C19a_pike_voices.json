@@ -1,0 +1,30 @@
+[
+  {
+    "file": "audio/dialogue/C19a_pike_v1.mp3",
+    "voice_id": "zYcjlYFOd3taleS0gkk3",
+    "voice_name": "Edward - Loud, Confident and Cocky",
+    "source": "ElevenLabs shared voice library (added to the account as PIKE_Edward)",
+    "model": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "use_speaker_boost": true
+    },
+    "text": "Five hundred for the land. Clears your debt and buys you a ticket east."
+  },
+  {
+    "file": "audio/dialogue/C19a_pike_v2.mp3",
+    "voice_id": "tUVMjP56ZNYXlKLsRXbo",
+    "voice_name": "Monty - Theatrical Aristocratic Villain",
+    "source": "ElevenLabs shared voice library (added to the account as PIKE_Monty)",
+    "model": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.3,
+      "use_speaker_boost": true
+    },
+    "text": "Five hundred for the land. Clears your debt and buys you a ticket east."
+  }
+]
