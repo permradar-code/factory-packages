@@ -10,7 +10,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
 | Phase 3 images | 69 of 69 done (I01..I69) |
-| Phase 4 clips | 29 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C34 |
+| Phase 4 clips | 32 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C34 |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
@@ -19,7 +19,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 295, left 610 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 322, left 583 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -51,6 +51,9 @@ Spent 295, left 610 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C21 | 8 s | 12 | 1 | 1 | Pike in the buggy speaks the note line and drives off; audio present |
 | C22 | 6 s | 10 | 1 | 1 | silent action: masked rider torches the hay, Mercer drags it out with a pitchfork; frame title was mistyped once (nothing sent) |
 | C23 | 4 s | 7 | 1 | 1 | Clara fires the shotgun and speaks the line; horses rear; audio present |
+| C24 | 6 s | 10 | 1 | 1 | Mercer pins Deke (masked rider) and speaks the line; Mercer in profile; audio present |
+| C25a | 6 s | 10 | 1 | 1 | Clara speaks on the porch steps, Mercer from behind; frame had Clara mid-size (edit attempt did not submit, original kept), the clip pushes in to a good close-up; audio present |
+| C25b | 4 s | 7 | 1 | 1 | Mercer speaks, Clara from behind; 1 'unusual activity' error on the frame (no charge, page reloaded); audio present |
 | C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
 
 ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.

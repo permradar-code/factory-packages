@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 295,
-  "flow_credits_left": 610,
+  "flow_credits_spent": 322,
+  "flow_credits_left": 583,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1023,6 +1023,45 @@
       "credits": 7,
       "frame_tries": 1,
       "note": "Clara fires the shotgun and speaks the line; horses rear; audio present"
+    },
+    {
+      "shot_id": "C24",
+      "type": "video",
+      "video": "visuals/video/C24.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C24_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer pins Deke (masked rider) and speaks the line; Mercer in profile; audio present"
+    },
+    {
+      "shot_id": "C25a",
+      "type": "video",
+      "video": "visuals/video/C25a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C25a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks on the porch steps, Mercer from behind; frame had Clara mid-size (edit attempt did not submit, original kept), the clip pushes in to a good close-up; audio present"
+    },
+    {
+      "shot_id": "C25b",
+      "type": "video",
+      "video": "visuals/video/C25b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C25b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Mercer speaks, Clara from behind; 1 'unusual activity' error on the frame (no charge, page reloaded); audio present"
     }
   ],
   "montage_ready": false,
