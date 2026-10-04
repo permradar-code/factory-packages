@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 384,
-  "flow_credits_left": 521,
+  "flow_credits_spent": 403,
+  "flow_credits_left": 502,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1140,6 +1140,32 @@
       "credits": 10,
       "frame_tries": 1,
       "note": "Mercer walks to the platform and speaks the line; Pike silent in the background; audio present"
+    },
+    {
+      "shot_id": "C31a",
+      "type": "video",
+      "video": "visuals/video/C31a.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C31a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "Marshal speaks (star badge has no lettering), Pike reacts; 1 'unusual activity' error on the video (no charge, page reloaded); audio present"
+    },
+    {
+      "shot_id": "C31b",
+      "type": "video",
+      "video": "visuals/video/C31b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C31b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Pike protests, Marshal from behind; 'original fictional character' appended to the Pike prompts; audio present"
     }
   ],
   "montage_ready": false,

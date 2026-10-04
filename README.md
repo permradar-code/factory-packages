@@ -10,7 +10,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
 | Phase 3 images | 69 of 69 done (I01..I69) |
-| Phase 4 clips | 38 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C26a, C26b, C27, C28, C29, C30, C34 |
+| Phase 4 clips | 40 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C26a, C26b, C27, C28, C29, C30, C31a, C31b, C34 |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
@@ -19,7 +19,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 384, left 521 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 403, left 502 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -60,6 +60,8 @@ Spent 384, left 521 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C28 | 6 s | 10 | 1 | 1 | Agatha whispers the line, then close-up on Clara and Lily's joined hands; audio present |
 | C29 | 6 s | 10 | 1 | 1 | silent: Mercer, the Marshal and a clerk ride into town; audio track is ambient |
 | C30 | 6 s | 10 | 1 | 1 | Mercer walks to the platform and speaks the line; Pike silent in the background; audio present |
+| C31a | 8 s | 12 | 1 | 1 | Marshal speaks (star badge has no lettering), Pike reacts; 1 'unusual activity' error on the video (no charge, page reloaded); audio present |
+| C31b | 4 s | 7 | 1 | 1 | Pike protests, Marshal from behind; 'original fictional character' appended to the Pike prompts; audio present |
 | C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
 
 ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
