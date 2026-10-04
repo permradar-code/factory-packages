@@ -8,7 +8,7 @@
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
   "flow_credits_spent": 29,
   "flow_credits_left": 876,
-  "phase": "test",
+  "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
     "voice_name": "Bill - Wise, Mature, Balanced",
@@ -95,6 +95,126 @@
   },
   "scenes": [
     {
+      "shot_id": "I01",
+      "type": "image",
+      "image": "visuals/images/I01.png",
+      "note": "shop signs are blank/illegible",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I02",
+      "type": "image",
+      "image": "visuals/images/I02.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I03",
+      "type": "image",
+      "image": "visuals/images/I03.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I04",
+      "type": "image",
+      "image": "visuals/images/I04.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I05",
+      "type": "image",
+      "image": "visuals/images/I05.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I06",
+      "type": "image",
+      "image": "visuals/images/I06.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I07",
+      "type": "image",
+      "image": "visuals/images/I07.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I08",
+      "type": "image",
+      "image": "visuals/images/I08.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I09",
+      "type": "image",
+      "image": "visuals/images/I09.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I10",
+      "type": "image",
+      "image": "visuals/images/I10.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I11",
+      "type": "image",
+      "image": "visuals/images/I11.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I12",
+      "type": "image",
+      "image": "visuals/images/I12.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I13",
+      "type": "image",
+      "image": "visuals/images/I13.png",
+      "note": "a small brass nameplate is visible on the piano (the prompt asked for none); no readable text",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I14",
+      "type": "image",
+      "image": "visuals/images/I14.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I15",
+      "type": "image",
+      "image": "visuals/images/I15.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
       "shot_id": "C13",
       "type": "video",
       "video": "visuals/video/C13.mp4",
@@ -104,12 +224,12 @@
       "dialogue_ok": null,
       "takes": 1,
       "credits": 10,
-      "note": "First clip with the new Clara (candidate #2 of the 8-front sheet, look 7d0f9ec). Passed Flow's famous-people filter on the first try. Audio track present. Voice and lip-sync to be judged by the user."
+      "note": "first clip with the final Clara (cand #2); passed Flow's filter first try; user accepted it"
     }
   ],
   "montage_ready": false,
   "flow_project_id": "7a937194-22cf-4e10-a8ea-406b0d82a514",
-  "flow_credits_note": "905 reported by the user at the start of session 2. Spent: 7 (Mercer 4 s test), 12 (C11 with the rejected Clara v2, clip removed), 10 (C13 with the new Clara = candidate #2). Left about 876.",
+  "flow_credits_note": "905 reported by the user at the start of session 2. Spent 29: 7 (Mercer 4 s test, not in package), 12 (C11 with the rejected Clara v2, dropped), 10 (C13, kept). Left 876. Per-clip table in README.",
   "music": {
     "files": [
       "audio/music/M01.mp3",
@@ -148,5 +268,6 @@
     "Marshal's badge: ALWAYS write 'plain five-pointed silver star badge, no lettering, no engraving' in every prompt (letters appeared on the star in the first variants).",
     "Clara v2 (Gemini, 'like the lead actress' wording) was rejected: Flow's famous-people filter blocked C13 x3 and C34 x1 (no charge). All Clara v2 refs, first frames and the C11 clip were removed from the package (kept locally in _variants/old_refs_v2). New Clara look in shotlist 17e7362 (original fictional face). Tests are redone with the new face.",
     "Clara v3 (look 7d0f9ec): 8 candidate fronts (docs/clara_candidates.jpg). Candidate #2 passed Flow's filter on C13 at the first try, so it is the final Clara face. Only CHAR_CLARA_front is installed so far; 3/4 and full body come next."
-  ]
+  ],
+  "image_originals": "Gemini originals are 2752x1536 (16:9); package files are scaled to 1280x720. Originals stay in _variants/gemini2 (local, not pushed)."
 }
