@@ -22,7 +22,7 @@
     "clips_core": 46,
     "clips_optional": 3,
     "images": 69,
-    "narration_words": 1318,
+    "narration_words": 1322,
     "narration_min": 9.4,
     "clip_min": 4.9,
     "clips_4s": 11,
@@ -2445,7 +2445,7 @@
     {
       "id": "N10",
       "type": "narration",
-      "text": "Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more waiting for you on this channel.\n\nUntil next time, keep a light in the window."
+      "text": "Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more stories waiting for you on this channel.\n\nUntil next time in Cedar Bluff, keep a light in the window."
     },
     {
       "id": "I69",

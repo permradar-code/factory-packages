@@ -2,7 +2,7 @@
 
 *They Auctioned the Widow's Piano for Her Husband's Debt — Then a Silent Stranger Raised One Hand*
 
-Оценка: ~15.3 мин · клипов 49 (4 с: 11, 6 с: 28, 8 с: 10; ~477 кредитов за один дубль; обязательных 46, по желанию 3) · картинок 69 · текст рассказчика 1318 слов (~9.4 мин)
+Оценка: ~15.3 мин · клипов 49 (4 с: 11, 6 с: 28, 8 с: 10; ~477 кредитов за один дубль; обязательных 46, по желанию 3) · картинок 69 · текст рассказчика 1322 слов (~9.4 мин)
 
 Обозначения: **C** — видеоклип 4–8 с, в каждом говорит один персонаж (персонажи говорят в кадре) · **I** — картинка с движением камеры под голос рассказчика · **N** — текст рассказчика · **T** — титр.
 
@@ -398,9 +398,9 @@ _Камера: slow crane up and pull back_
 
 **N10 · РАССКАЗЧИК**
 
-> Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more waiting for you on this channel.
+> Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more stories waiting for you on this channel.
 >
-> Until next time, keep a light in the window.
+> Until next time in Cedar Bluff, keep a light in the window.
 - I69 · The valley at night under a sky full of stars, a single warm window glowing far below. _(slow pull out)_
 
 **T02 · ТИТР** — (чёрный экран) (3 с)

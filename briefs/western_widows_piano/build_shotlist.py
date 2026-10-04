@@ -385,9 +385,9 @@ clip("C37", "Clara stops playing, looks up at Mercer in the doorway and speaks s
 clip("C38", "Final wide shot: the ranch house at dusk with warm glowing windows. The camera slowly rises and pulls back over the valley as the first stars appear. No dialogue.",
      ["LOC_RANCH"], [], camera="slow crane up and pull back")
 narr("N10", """
-Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more waiting for you on this channel.
+Thank you for riding along with Clara, Lily, and Mercer tonight. If this story warmed your heart, there are more stories waiting for you on this channel.
 
-Until next time, keep a light in the window.
+Until next time in Cedar Bluff, keep a light in the window.
 """)
 img("I69", "The valley at night under a sky full of stars, a single warm window glowing far below.", ["LOC_RANCH"], "slow pull out")
 card("T02", "", 3)
