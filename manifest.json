@@ -6,9 +6,9 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 423,
-  "flow_credits_left": 482,
-  "phase": "clips",
+  "flow_credits_spent": 484,
+  "flow_credits_left": 421,
+  "phase": "done",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
     "voice_name": "Bill - Wise, Mature, Balanced",
@@ -1179,6 +1179,104 @@
       "credits": 20,
       "frame_tries": 2,
       "note": "take 1 rejected: Pike was thin and clean-shaven in the first frame (and in the video), take 2 with a stricter Pike description is correct; Mercer speaks, audio present"
+    },
+    {
+      "shot_id": "C35",
+      "type": "video",
+      "video": "visuals/video/C35.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C35_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 2,
+      "note": "Mercer hands letter to Clara (shown from behind); frame try1 lost to a Flow tab freeze at 99% (no charge), try2 OK"
+    },
+    {
+      "shot_id": "C36",
+      "type": "video",
+      "video": "visuals/video/C36.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C36_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "Mercer line, then reverse on Clara covering her mouth, tears; Clara in the reverse is a bit less like the ref (no clear beauty mark, hair simpler), usable"
+    },
+    {
+      "shot_id": "C37a",
+      "type": "video",
+      "video": "visuals/video/C37a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C37a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks at the piano, Mercer in doorway, Lily from behind; one unusual-activity error (no charge), page reloaded"
+    },
+    {
+      "shot_id": "C37b",
+      "type": "video",
+      "video": "visuals/video/C37b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C37b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Reverse angle, Mercer in doorway says 'I'd like that, ma'am.'; Mercer is medium-size in frame and already smiling in the start frame (his first smile)"
+    },
+    {
+      "shot_id": "C38",
+      "type": "video",
+      "video": "visuals/video/C38.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C38_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Final wide shot, ranch at dusk, crane up and pull back, stars; ambient only, no dialogue; Flow tab froze once between frame and video (reopened, no charge)"
+    },
+    {
+      "shot_id": "C06",
+      "type": "video",
+      "video": "visuals/video/C06.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C06_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Optional clip: Deke auction call 'Six dollars, going once... going twice...'; Flow tab froze once before sending the frame (reopened, no charge)"
+    },
+    {
+      "shot_id": "C19a",
+      "type": "skipped",
+      "reason": "Flow refused 3 times in a row (policy error 'content violates our rules', no charge). Not retried further by decision of 4 Oct 2026.",
+      "start_frame": "visuals/images/C19a_first.png",
+      "credits": 0,
+      "takes": 0,
+      "montage_plan": "Close at montage from the start frame C19a_first.png (Pike holding the paper) and still I57; the line is also covered by C19b.",
+      "note": "Pike holds out the paper, 8 s, dialogue clip"
+    },
+    {
+      "shot_id": "C33",
+      "type": "skipped",
+      "reason": "Flow refused 3 times in a row ('cannot create videos that may harm the reputation of people or current events', no charge). Not retried further by decision of 4 Oct 2026.",
+      "start_frame": "visuals/images/C33_first.png",
+      "credits": 0,
+      "takes": 0,
+      "montage_plan": "Close at montage from the start frame C33_first.png (Marshal handcuffing Pike, crowd, Agatha with parasol) and still I57.",
+      "note": "Marshal handcuffs Pike, crowd gasps, Agatha drops her parasol, 6 s, no dialogue"
     }
   ],
   "montage_ready": false,
@@ -1226,10 +1324,13 @@
   "image_originals": "Gemini originals are 2752x1536 (16:9); package files are scaled to 1280x720. Originals stay in _variants/gemini2 (local, not pushed).",
   "notes_extra": [
     "I58 (auction, Clara and the clerk): try 1 gave Clara a beard and glasses (rejected); try 2 accepted, but the word BANK is legible on the building (it comes from the platform reference).",
-    "C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge."
+    "C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge.",
+    "C36: the reverse shot on Clara (tears, hand over mouth) is a little less like the reference than the other Clara shots (no clear beauty mark, simpler hair); usable.",
+    "C37b: reverse angle, Mercer stands in the doorway at medium size and already smiles in the start frame (his first smile); lip-sync is hard to judge at that size, the line is short (about 1 s).",
+    "C06 is an optional clip and was made (credits were above 150).",
+    "Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged)."
   ],
   "questions_extra": [
-    "C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b.",
-    "C33 (Marshal handcuffs Pike, crowd gasps, Agatha drops her parasol; 6 s, no dialogue) NOT made: Flow refused it 3 times in a row with 'cannot create videos that may harm the reputation of people or current events' (a different message from the famous-people one; no charge): once as is, once with 'Horace Pike, Marshal Abel Hart and Agatha Pell are original fictional characters' appended, once as is again. The first frame (C33_first.png, Marshal handcuffing Pike) is kept in visuals/images. Idea: cover the beat with C31a/C31b + a still, or retry later with a softer wording of the arrest."
+    "C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'."
   ]
 }

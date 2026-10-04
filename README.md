@@ -1,6 +1,6 @@
 # western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
-Work in progress (phase: clips). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
+Finished (phase: done). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
 
 ## Status
 | Part | State |
@@ -10,7 +10,7 @@ Work in progress (phase: clips). Source of truth: `briefs/western_widows_piano/s
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
 | Phase 3 images | 69 of 69 done (I01..I69) |
-| Phase 4 clips | 41 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C26a, C26b, C27, C28, C29, C30, C31a, C31b, C32, C34 |
+| Phase 4 clips | 47 of 49 done: C01, C02a, C02b, C03, C04, C05, C06, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C21, C22, C23, C24, C25a, C25b, C26a, C26b, C27, C28, C29, C30, C31a, C31b, C32, C34, C35, C36, C37a, C37b, C38. Skipped (closed at montage from start frames): C19a, C33 |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
@@ -19,7 +19,7 @@ Work in progress (phase: clips). Source of truth: `briefs/western_widows_piano/s
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 423, left 482 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 484, left 421 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -29,6 +29,7 @@ Spent 423, left 482 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C03 | 8 s | 12 | 1 | 1 | Agatha and two women gossip under a parasol; audio present |
 | C04 | 6 s | 10 | 1 | 1 | Pike on the platform, frontal; audio present |
 | C05 | 6 s | 10 | 1 | 1 | first video try refused by Flow famous-people filter (no charge), identical retry passed; Agatha speaks the bid, cut to Clara close-up |
+| C06 | 6 s | 10 | 1 | 1 | Optional clip: Deke auction call 'Six dollars, going once... going twice...'; Flow tab froze once before sending the frame (reopened, no charge) |
 | C07 | 4 s | 7 | 1 | 1 | Mercer starts small at the back and walks toward camera (push-in); line audible; 3 'unusual activity' errors before the page reload, no charge |
 | C08a | 6 s | 10 | 1 | 1 | Deke speaks (gavel), Pike and Mercer silent |
 | C08b | 4 s | 7 | 1 | 2 | Flow famous-people filter refused the first frame+video twice (no charge); frame regenerated once (same prompt + one appended sentence 'original fictional character'), then passed. Mercer speaks; Mercer's beard looks fuller than the ref |
@@ -64,6 +65,14 @@ Spent 423, left 482 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C31b | 4 s | 7 | 1 | 1 | Pike protests, Marshal from behind; 'original fictional character' appended to the Pike prompts; audio present |
 | C32 | 6 s | 20 | 2 | 2 | take 1 rejected: Pike was thin and clean-shaven in the first frame (and in the video), take 2 with a stricter Pike description is correct; Mercer speaks, audio present |
 | C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
+| C35 | 8 s | 12 | 1 | 2 | Mercer hands letter to Clara (shown from behind); frame try1 lost to a Flow tab freeze at 99% (no charge), try2 OK |
+| C36 | 8 s | 12 | 1 | 1 | Mercer line, then reverse on Clara covering her mouth, tears; Clara in the reverse is a bit less like the ref (no clear beauty mark, hair simpler), usable |
+| C37a | 6 s | 10 | 1 | 1 | Clara speaks at the piano, Mercer in doorway, Lily from behind; one unusual-activity error (no charge), page reloaded |
+| C37b | 4 s | 7 | 1 | 1 | Reverse angle, Mercer in doorway says 'I'd like that, ma'am.'; Mercer is medium-size in frame and already smiling in the start frame (his first smile) |
+| C38 | 6 s | 10 | 1 | 1 | Final wide shot, ranch at dusk, crane up and pull back, stars; ambient only, no dialogue; Flow tab froze once between frame and video (reopened, no charge) |
+| C19a | skipped | 0 | 0 | | NOT MADE: Flow refused 3 times in a row (policy error 'content violates our rules', no charge). Not retried further by decision of 4 Oct 2026. Start frame `visuals/images/C19a_first.png`. Close at montage from the start frame C19a_first.png (Pike holding the paper) and still I57; the line is also covered by C19b. |
+| C33 | skipped | 0 | 0 | | NOT MADE: Flow refused 3 times in a row ('cannot create videos that may harm the reputation of people or current events', no charge). Not retried further by decision of 4 Oct 2026. Start frame `visuals/images/C33_first.png`. Close at montage from the start frame C33_first.png (Marshal handcuffing Pike, crowd, Agatha with parasol) and still I57. |
+| **Total** | | **465** | | | 47 clips; plus 19 spent outside the package = 484 |
 
 ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
 
@@ -75,11 +84,14 @@ ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476
 - Mercer's beard looks fuller in some frames (C08b, C12, C14) than in the reference.
 - I58 (auction, Clara and the clerk): try 1 gave Clara a beard and glasses (rejected); try 2 accepted, but the word BANK is legible on the building (it comes from the platform reference).
 - C18: Pike arrives by buggy and speaks; Pike is medium-size in frame, lip-sync is hard to judge.
+- C36: the reverse shot on Clara (tears, hand over mouth) is a little less like the reference than the other Clara shots (no clear beauty mark, simpler hair); usable.
+- C37b: reverse angle, Mercer stands in the doorway at medium size and already smiles in the start frame (his first smile); lip-sync is hard to judge at that size, the line is short (about 1 s).
+- C06 is an optional clip and was made (credits were above 150).
+- Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).
 
 ## Questions
 - Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
 - Flow "famous people" filter: blocked the first Clara face earlier; on 4 Oct it refused C05 video once (identical retry passed) and C08b video twice (frame regenerated with one appended sentence, then passed). No new face was needed so far; if Mercer or Agatha keep being refused, make a new face per the mode rules.
 - Flow "We noticed some unusual activity ... browser extensions" (no charge): appears every ~10 requests; fix = reload the Flow page and re-inject the queue (see HANDOFF section 9).
 - Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".
-- C19a (Pike holds out the paper, 8 s) NOT made: Flow refused it 3 times in a row ('content violates our rules', no charge): frame 1 + video, frame 1 + video with 'original fictional character', then a regenerated frame (C19a_first.png, kept in visuals/images, Pike holding the paper) + video. Pike passed in C04 and C18. Try again later (maybe with a new face for Pike or a different framing) or cover the line with C19b.
-- C33 (Marshal handcuffs Pike, crowd gasps, Agatha drops her parasol; 6 s, no dialogue) NOT made: Flow refused it 3 times in a row with 'cannot create videos that may harm the reputation of people or current events' (a different message from the famous-people one; no charge): once as is, once with 'Horace Pike, Marshal Abel Hart and Agatha Pell are original fictional characters' appended, once as is again. The first frame (C33_first.png, Marshal handcuffing Pike) is kept in visuals/images. Idea: cover the beat with C31a/C31b + a still, or retry later with a softer wording of the arrest.
+- C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.

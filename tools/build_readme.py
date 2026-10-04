@@ -10,10 +10,17 @@ n_imgs = sum(1 for x in sl["timeline"] if x.get("type") == "image")
 order = {x["id"]: i for i, x in enumerate(sl["timeline"])}
 clips.sort(key=lambda s: order.get(s["shot_id"], 999))
 rows = "\n".join(f"| {c['shot_id']} | {c.get('duration') or ''} s | {c['credits']} | {c.get('takes',1)} | {c.get('frame_tries','')} | {c.get('note','')} |" for c in clips)
+skipped = [s for s in m["scenes"] if s["type"] == "skipped"]
+skipped.sort(key=lambda s: order.get(s["shot_id"], 999))
+rows += "".join(f"\n| {s['shot_id']} | skipped | 0 | 0 | | NOT MADE: {s['reason']} Start frame `{s['start_frame']}`. {s.get('montage_plan','')} |" for s in skipped)
+clip_total = sum(c["credits"] for c in clips)
 spent = m["flow_credits_spent"]; left = m["flow_credits_left"]
+outside = spent - clip_total
+rows += f"\n| **Total** | | **{clip_total}** | | | {len(clips)} clips; plus {outside} spent outside the package = {spent} |"
+state = "Finished" if m["phase"] == "done" else "Work in progress"
 t = f"""# western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
-Work in progress (phase: {m['phase']}). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
+{state} (phase: {m['phase']}). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
 
 ## Status
 | Part | State |
@@ -23,7 +30,7 @@ Work in progress (phase: {m['phase']}). Source of truth: `briefs/western_widows_
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
 | Phase 3 images | {len(imgs)} of {n_imgs} done (I01..I{max(int(s['shot_id'][1:]) for s in imgs)}) |
-| Phase 4 clips | {len(clips)} of {n_clips} done: {', '.join(c['shot_id'] for c in clips)} |
+| Phase 4 clips | {len(clips)} of {n_clips} done: {', '.join(c['shot_id'] for c in clips)}. Skipped (closed at montage from start frames): {', '.join(s['shot_id'] for s in skipped) or 'none'} |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
