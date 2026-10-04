@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 322,
-  "flow_credits_left": 583,
+  "flow_credits_spent": 354,
+  "flow_credits_left": 551,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1062,6 +1062,45 @@
       "credits": 7,
       "frame_tries": 1,
       "note": "Mercer speaks, Clara from behind; 1 'unusual activity' error on the frame (no charge, page reloaded); audio present"
+    },
+    {
+      "shot_id": "C26a",
+      "type": "video",
+      "video": "visuals/video/C26a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C26a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Lily speaks, Clara from behind hugs her; audio present"
+    },
+    {
+      "shot_id": "C26b",
+      "type": "video",
+      "video": "visuals/video/C26b.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C26b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Clara speaks, Lily from behind; audio present"
+    },
+    {
+      "shot_id": "C27",
+      "type": "video",
+      "video": "visuals/video/C27.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C27_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "Deke shouts the opening bid from the wagon, Pike raises a finger; Deke is medium-size in frame; audio present"
     }
   ],
   "montage_ready": false,
