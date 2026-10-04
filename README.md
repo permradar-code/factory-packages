@@ -1,6 +1,6 @@
 # western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
-Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
+Work in progress (phase: clips). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
 
 ## Status
 | Part | State |
