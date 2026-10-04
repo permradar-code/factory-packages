@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 242,
-  "flow_credits_left": 663,
+  "flow_credits_spent": 249,
+  "flow_credits_left": 656,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -945,6 +945,19 @@
       "note": "",
       "tool": "Gemini",
       "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C19b",
+      "type": "video",
+      "video": "visuals/video/C19b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C19b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Clara refuses the paper and speaks, Pike from behind; audio present"
     }
   ],
   "montage_ready": false,
