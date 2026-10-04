@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 266,
-  "flow_credits_left": 639,
+  "flow_credits_spent": 295,
+  "flow_credits_left": 610,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -984,6 +984,45 @@
       "credits": 10,
       "frame_tries": 1,
       "note": "Mercer speaks holding an axe, Pike from behind; 1 'unusual activity' error on the video (no charge, page reloaded); audio present"
+    },
+    {
+      "shot_id": "C21",
+      "type": "video",
+      "video": "visuals/video/C21.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C21_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 1,
+      "note": "Pike in the buggy speaks the note line and drives off; audio present"
+    },
+    {
+      "shot_id": "C22",
+      "type": "video",
+      "video": "visuals/video/C22.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C22_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "silent action: masked rider torches the hay, Mercer drags it out with a pitchfork; frame title was mistyped once (nothing sent)"
+    },
+    {
+      "shot_id": "C23",
+      "type": "video",
+      "video": "visuals/video/C23.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C23_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Clara fires the shotgun and speaks the line; horses rear; audio present"
     }
   ],
   "montage_ready": false,
