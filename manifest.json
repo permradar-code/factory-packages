@@ -1329,9 +1329,50 @@
     "C36: the reverse shot on Clara (tears, hand over mouth) is a little less like the reference than the other Clara shots (no clear beauty mark, simpler hair); usable.",
     "C37b: reverse angle, Mercer stands in the doorway at medium size and already smiles in the start frame (his first smile); lip-sync is hard to judge at that size, the line is short (about 1 s).",
     "C06 is an optional clip and was made (credits were above 150).",
-    "Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged)."
+    "Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).",
+    "Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).",
+    "C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame."
   ],
   "questions_extra": [
-    "C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'."
-  ]
+    "C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.",
+    "Gemini image generation without references gives wrong faces silently: after every sent message the attach input is spent, so click '+' then 'Upload files' again (a fresh input must appear) and check that the reference chips are visible before sending."
+  ],
+  "thumbnails": [
+    {
+      "id": "A",
+      "file": "docs/thumbs/A.png",
+      "size": "2752x1536",
+      "gemini_tries": 1,
+      "note": "Main. Sunny ranch morning: Clara left, double-barrel aimed at Mercer, Mercer right by the gate with the bay horse, hat on chest, piano under tarp on a wagon, empty sky top right for the title."
+    },
+    {
+      "id": "B",
+      "file": "docs/thumbs/B.png",
+      "size": "2752x1536",
+      "gemini_tries": 3,
+      "note": "Night, burning barn. Try 1 rejected (references did not attach, faces did not match); try 2 rejected (unrequested piano on the porch with garbled lettering); try 3 accepted (2 regenerations used, the maximum). Riders are silhouettes, rearing is mild."
+    },
+    {
+      "id": "C",
+      "file": "docs/thumbs/C.png",
+      "size": "2752x1536",
+      "gemini_tries": 1,
+      "note": "Auction: Clara in tears left, piano on the wagon, Deke with the gavel, Agatha laughing with the parasol, Mercer raising a hand in the crowd."
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "C19a_pike",
+      "text": "Five hundred for the land. Clears your debt and buys you a ticket east.",
+      "for": "skipped clip C19a (Pike)",
+      "files": [
+        "audio/dialogue/C19a_pike_v1.mp3",
+        "audio/dialogue/C19a_pike_v2.mp3"
+      ],
+      "voices": "audio/dialogue/C19a_pike_voices.json",
+      "note": "v1 = Edward (smug, charismatic villain, middle-aged American), v2 = Monty (upper-class east-coast American villain, elderly). Both from the ElevenLabs shared voice library and added to the account as PIKE_Edward / PIKE_Monty. Choose by ear."
+    }
+  ],
+  "elevenlabs_left": 9641,
+  "elevenlabs_limit": 23736
 }

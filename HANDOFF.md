@@ -111,3 +111,10 @@ Faces/quality notes: C11 frame needed 3 tries (wide shots made Clara tiny). Titl
 - Credits: spent 484, left 421; per-clip table and total in README (465 in clips + 19 outside the package).
 - Flow notes from this session: the Flow tab froze 3 times (once at 99% on a rendering tile, twice right after `SETP` / a click on the settings chip); fix = open a new tab with `tabs_create_mcp` first, navigate to the project, re-inject FQ/LOADQ/SETP, re-upload `_variants/queue_flow.json`; closing the old tab in the same batch can drop the MCP tab group. Sending right after `SETP` (no screenshot in between) did not freeze. Viewport can be 641 or 585 px high per tab: with 585 the chip is at (812,539) and "+" at (465,539); the popup is placed differently in Image and Video mode, so measure it with a full screenshot before clicking.
 - Unusual-activity error hit once (C37a video), no charge; a page reload fixed it.
+
+## 12. Session 6 additions (4 Oct 2026)
+- N10 re-voiced (new sign-off text, tools/montage 0d49d1a); pushed.
+- C19a Pike line, two ElevenLabs candidates: `audio/dialogue/C19a_pike_v1.mp3` (Edward), `_v2.mp3` (Monty); voices added to the account as PIKE_Edward / PIKE_Monty. User picks by ear.
+- Thumbnails A, B, C in `docs/thumbs/` (Gemini, 2752x1536). B needed 2 regenerations (references did not attach; then an unrequested piano with garbled lettering).
+- Gemini lesson: the attach input is spent after each sent message; re-click '+' then 'Upload files' (a new input must appear, count rises) and verify reference chips before sending.
+- ElevenLabs left: 9641 of 23736. Flow left: 421. Nothing else pending.

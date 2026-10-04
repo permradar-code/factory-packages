@@ -18,6 +18,10 @@ spent = m["flow_credits_spent"]; left = m["flow_credits_left"]
 outside = spent - clip_total
 rows += f"\n| **Total** | | **{clip_total}** | | | {len(clips)} clips; plus {outside} spent outside the package = {spent} |"
 state = "Finished" if m["phase"] == "done" else "Work in progress"
+thumbs = [f"- Thumbnail {x['id']}: `{x['file']}` ({x['size']}), Gemini tries: {x['gemini_tries']}. {x['note']}" for x in m.get("thumbnails", [])]
+dlg = [f"- Dialogue {d['id']} ({d['for']}): " + ", ".join("`" + f + "`" for f in d["files"]) + f". Text: \"{d['text']}\". {d['note']}" for d in m.get("dialogue", [])]
+extras = "
+".join(thumbs + dlg + ["- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s."])
 t = f"""# western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
 {state} (phase: {m['phase']}). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
@@ -45,7 +49,10 @@ Spent {spent}, left {left} (905 reported on 3 Oct). Spent outside the package: 7
 |---|---|---|---|---|---|
 {rows}
 
-ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
+ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 9476, N10 re-voice and the C19a Pike candidates after that; left {m.get('elevenlabs_left','?')} of {m.get('elevenlabs_limit','?')}.
+
+## Extras (outside the 49 clips)
+{extras}
 
 ## Notes for the montage
 - Faces: Clara = candidate #2 (final), Deke = v4, Marshal = v2, others first approved versions. Marshal's star badge has no lettering.
