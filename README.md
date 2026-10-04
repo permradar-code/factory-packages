@@ -74,7 +74,14 @@ Spent 484, left 421 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C33 | skipped | 0 | 0 | | NOT MADE: Flow refused 3 times in a row ('cannot create videos that may harm the reputation of people or current events', no charge). Not retried further by decision of 4 Oct 2026. Start frame `visuals/images/C33_first.png`. Close at montage from the start frame C33_first.png (Marshal handcuffing Pike, crowd, Agatha with parasol) and still I57. |
 | **Total** | | **465** | | | 47 clips; plus 19 spent outside the package = 484 |
 
-ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
+ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 9476, N10 re-voice and the C19a Pike candidates after that; left 9641 of 23736.
+
+## Extras (outside the 49 clips)
+- Thumbnail A: `docs/thumbs/A.png` (2752x1536), Gemini tries: 1. Main. Sunny ranch morning: Clara left, double-barrel aimed at Mercer, Mercer right by the gate with the bay horse, hat on chest, piano under tarp on a wagon, empty sky top right for the title.
+- Thumbnail B: `docs/thumbs/B.png` (2752x1536), Gemini tries: 3. Night, burning barn. Try 1 rejected (references did not attach, faces did not match); try 2 rejected (unrequested piano on the porch with garbled lettering); try 3 accepted (2 regenerations used, the maximum). Riders are silhouettes, rearing is mild.
+- Thumbnail C: `docs/thumbs/C.png` (2752x1536), Gemini tries: 1. Auction: Clara in tears left, piano on the wagon, Deke with the gavel, Agatha laughing with the parasol, Mercer raising a hand in the crowd.
+- Dialogue C19a_pike (skipped clip C19a (Pike)): `audio/dialogue/C19a_pike_v1.mp3`, `audio/dialogue/C19a_pike_v2.mp3`. Text: "Five hundred for the land. Clears your debt and buys you a ticket east.". v1 = Edward (smug, charismatic villain, middle-aged American), v2 = Monty (upper-class east-coast American villain, elderly). Both from the ElevenLabs shared voice library and added to the account as PIKE_Edward / PIKE_Monty. Choose by ear.
+- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s.
 
 ## Notes for the montage
 - Faces: Clara = candidate #2 (final), Deke = v4, Marshal = v2, others first approved versions. Marshal's star badge has no lettering.
@@ -88,6 +95,8 @@ ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476
 - C37b: reverse angle, Mercer stands in the doorway at medium size and already smiles in the start frame (his first smile); lip-sync is hard to judge at that size, the line is short (about 1 s).
 - C06 is an optional clip and was made (credits were above 150).
 - Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).
+- Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).
+- C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame.
 
 ## Questions
 - Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
@@ -95,3 +104,4 @@ ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476
 - Flow "We noticed some unusual activity ... browser extensions" (no charge): appears every ~10 requests; fix = reload the Flow page and re-inject the queue (see HANDOFF section 9).
 - Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".
 - C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.
+- Gemini image generation without references gives wrong faces silently: after every sent message the attach input is spent, so click '+' then 'Upload files' again (a fresh input must appear) and check that the reference chips are visible before sending.

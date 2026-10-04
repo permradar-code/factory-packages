@@ -20,8 +20,7 @@ rows += f"\n| **Total** | | **{clip_total}** | | | {len(clips)} clips; plus {out
 state = "Finished" if m["phase"] == "done" else "Work in progress"
 thumbs = [f"- Thumbnail {x['id']}: `{x['file']}` ({x['size']}), Gemini tries: {x['gemini_tries']}. {x['note']}" for x in m.get("thumbnails", [])]
 dlg = [f"- Dialogue {d['id']} ({d['for']}): " + ", ".join("`" + f + "`" for f in d["files"]) + f". Text: \"{d['text']}\". {d['note']}" for d in m.get("dialogue", [])]
-extras = "
-".join(thumbs + dlg + ["- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s."])
+extras = chr(10).join(thumbs + dlg + ["- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s."])
 t = f"""# western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
 {state} (phase: {m['phase']}). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
