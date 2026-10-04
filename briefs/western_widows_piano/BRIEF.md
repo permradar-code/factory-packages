@@ -12,7 +12,12 @@ Talk to the user in Russian.
 - 16:9, 720p, 24 fps. Video model: **Omni 1.1 Flash** (same as the F-106 and Corinth packages). Images: **Nano Banana Pro**, 16:9.
 - Clip length is in each clip's `duration_s` (4, 6 or 8 s; 7 / 10 / 12 credits). Images are free; video costs credits.
 - **One speaker per clip.** Dialogue between two people is split into shot / reverse shot (IDs like `C19a`, `C19b`). Every video prompt says who speaks and that everyone else keeps their mouth closed. Do not merge them back.
-- Images are made in the **Gemini app** (Flow's image quota is blocked); Flow is used for video only. Upload Gemini first frames into Flow with the upload patch.
+- **Where to make what (decided 4 Oct):**
+  - Still images `I..` (shown with camera moves, need resolution for zoom) → **Gemini app** (2752×1536). New chat every 7–8 images (long chats slow down to 5–9 min).
+  - Clip first frames `C.._first` → **Flow images** (fast, no download/upload step, 720p video anyway). Upload the current refs (Clara №2 and all new faces/props/locations) into the Flow project once.
+  - If Flow images hit the usage limit again → switch first frames to Gemini (upload via the patch) and retry Flow the next day (the limit resets in about 24 h).
+  - Video → Flow only.
+- **Flow pacing, strict:** one request at a time, x1 (never x2–x4), wait until it finishes, pause 30–60 s, at most ~30 images per hour, log every image with time. Videos the same: one at a time.
 - Era lock for EVERY prompt (already inside the prompts): 1879 Colorado Territory, period clothing, no text, no logos, no watermark, no modern objects.
 
 ## Flow pacing (to avoid the usage limit)
