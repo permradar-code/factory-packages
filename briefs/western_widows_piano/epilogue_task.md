@@ -8,3 +8,7 @@
    - I71: Lily (refs) in a pale yellow dress walking ahead on a dirt path, scattering wildflower petals from a small basket, smiling, church and aspens behind.
    - I72: night, the Whitmore parlor by lamplight: Clara at the piano laughing softly, Mercer standing beside her singing with his eyes closed, Lily asleep on a chair with her rag doll.
    Max 2 regenerations each. Save visuals/images/I70.png, I71.png, I72.png (full resolution), push.
+3. Historical fix (Colorado became a state in 1876, so "Colorado Territory, 1879" is wrong):
+   `python tts_elevenlabs.py --voice <Bill ID> --only N01_fix` — text in `narration/N01_fix.txt`
+   ("Cedar Bluff, Colorado. October, 1879."), same voice settings as N01. Push audio/narration/N01_fix.mp3 + N01_fix.alignment.json.
+   Do NOT regenerate the full N01. I will splice it in during montage.
