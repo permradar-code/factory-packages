@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 143,
-  "flow_credits_left": 762,
+  "flow_credits_spent": 163,
+  "flow_credits_left": 742,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -631,6 +631,64 @@
       "note": "",
       "tool": "Gemini",
       "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I47",
+      "type": "image",
+      "image": "visuals/images/I47.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C09b",
+      "type": "video",
+      "video": "visuals/video/C09b.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C09b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer speaks, Deke silent; audio present"
+    },
+    {
+      "shot_id": "I48",
+      "type": "image",
+      "image": "visuals/images/I48.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I49",
+      "type": "image",
+      "image": "visuals/images/I49.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I50",
+      "type": "image",
+      "image": "visuals/images/I50.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C10",
+      "type": "video",
+      "video": "visuals/video/C10.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C10_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "silent shot: Mercer walks up to Clara and Lily; two 'unusual activity' frame errors before reload, no charge"
     }
   ],
   "montage_ready": false,
