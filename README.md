@@ -1,51 +1,57 @@
 # western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
-Work in progress. Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
+Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).
 
-## Status (4 Oct 2026)
+## Status
 | Part | State |
 |---|---|
-| Phase 1 references | done, user-approved (Clara = candidate #2 of `docs/clara_candidates.jpg`) |
+| Phase 1 references | done (Clara = candidate #2 of `docs/clara_candidates.jpg`) |
 | Phase 5 narration | done (voice Bill, N01..N10 + alignment) |
 | Phase 6 music | done (M01..M13, M14 skipped) |
-| Phase 2 voice/face test | C13 done and accepted; C11 and C34 to be redone with the new Clara |
-| Phase 3 images I01..I69 | I01..I15 done, I16..I69 pending |
-| Phase 4 clips C01..C49 | C13 done, the rest pending |
+| Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
+| Phase 3 images | 56 of 69 done (I01..I56) |
+| Phase 4 clips | 17 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C34 |
 
 ## What is in the package
-- `visuals/refs/`: 8 characters x 3 angles (CHAR_*_front / _34 / _full.png), PROP_PIANO (no nameplate), PROP_HORSE, 8 LOC_*. All 1376x768 PNG.
-- `visuals/images/`: I01..I15 (1280x720 PNG, made in Gemini), C13_first.png.
-- `visuals/video/`: C13.mp4 (1280x720, 24 fps, AAC audio).
-- `audio/narration/`: N01..N10 (N07a, N07b) mp3 + alignment.json, voice "Bill" (ElevenLabs pqHfZKP75CvOlQylNhV4), about 9 min.
-- `audio/music/`: M01..M13 mp3 + music_log.json (M14 skipped by decision). M06 accepted by the user.
-- `docs/clara_candidates.jpg`: the 8 candidate fronts for Clara (#2 chosen).
-- `manifest.json`, `HANDOFF.md` (full working notes for the next session), `tools/` (helper scripts).
+- `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
+- `visuals/images/`: stills I.. (Gemini, 1280x720 PNG) and the clip first frames Cxx_first.png (Flow images, 1376x768).
+- `visuals/video/`: clips (Flow Omni 1.1 Flash, 720p, 24 fps, AAC audio with the spoken line).
+- `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
-## Tools and settings
-- Stills I.. : Gemini app (image mode, 16:9, 2752x1536 originals, no visible watermark), scaled to 1280x720 here.
-- Clip first frames: Flow images (Nano Banana Pro) per the latest brief; Gemini as the fallback. Video: Flow, Omni 1.1 Flash 720p, 24 fps (4/6/8 s = 7/10/12 credits).
-- Narration and music: ElevenLabs.
+## Credits (Flow, per clip; balance is not shown in the UI)
+Spent 185, left 720 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
-## Credits
-Flow credits (balance not shown in the UI; 905 reported by the user on 3 Oct): spent 29, left 876.
+| Clip | Length | Credits | Takes | Frame tries | Note |
+|---|---|---|---|---|---|
+| C01 | 8 s | 12 | 1 | 1 | wide establishing crane shot; Deke is small in frame (lip-sync hard to judge); audio present |
+| C02a | 6 s | 10 | 1 | 1 | Lily speaks (Clara partly out of focus in foreground); audio present |
+| C02b | 6 s | 10 | 1 | 1 | Clara speaks facing camera, Lily from behind; audio present |
+| C03 | 8 s | 12 | 1 | 1 | Agatha and two women gossip under a parasol; audio present |
+| C04 | 6 s | 10 | 1 | 1 | Pike on the platform, frontal; audio present |
+| C05 | 6 s | 10 | 1 | 1 | first video try refused by Flow famous-people filter (no charge), identical retry passed; Agatha speaks the bid, cut to Clara close-up |
+| C07 | 4 s | 7 | 1 | 1 | Mercer starts small at the back and walks toward camera (push-in); line audible; 3 'unusual activity' errors before the page reload, no charge |
+| C08a | 6 s | 10 | 1 | 1 | Deke speaks (gavel), Pike and Mercer silent |
+| C08b | 4 s | 7 | 1 | 2 | Flow famous-people filter refused the first frame+video twice (no charge); frame regenerated once (same prompt + one appended sentence 'original fictional character'), then passed. Mercer speaks; Mercer's beard looks fuller than the ref |
+| C09a | 4 s | 7 | 1 | 1 | Deke speaks (gavel), Mercer from behind; audio present |
+| C09b | 6 s | 10 | 1 | 1 | Mercer speaks, Deke silent; audio present |
+| C10 | 6 s | 10 | 1 | 1 | silent shot: Mercer walks up to Clara and Lily; two 'unusual activity' frame errors before reload, no charge |
+| C11 | 8 s | 12 | 1 | 3 | first frame needed 3 tries (wide shots made Clara tiny; close-up framing sentence appended to the frame prompt). Face stable, line audible, lips move |
+| C12 | 6 s | 10 | 1 | 1 | Mercer speaks beside his horse at the ranch gate; audio present |
+| C13 | 6 s | 10 | 1 |  | first clip with the final Clara (cand #2); passed Flow's filter first try; user accepted it |
+| C14 | 8 s | 12 | 1 | 2 | first frame try 1 had Mercer small in profile; try 2 with an appended framing sentence has him large and 3/4; Mercer speaks the fence line |
+| C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
 
-| Item | Credits | Note |
-|---|---|---|
-| Mercer test clip (4 s) | 7 | not in the package |
-| C11 (8 s) with the rejected Clara v2 | 12 | clip dropped, to be redone |
-| C13 (6 s) | 10 | kept |
-| Total | 29 | one full pass of all clips is about 477 |
-
-ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476 (M02 275; per-cue split is an estimate, see `audio/music/music_log.json`), left 9720 of 23736.
+ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
 
 ## Notes for the montage
-- Faces: Clara = candidate #2 (final), Deke = v4, Marshal = v2, others are the first approved versions. Marshal's star badge has no lettering.
-- I13 shows a small brass nameplate on the piano (no readable text), I01 shop signs are blank/illegible.
-- Kitchen reference has four chairs instead of three (accepted by the user).
-- C13: Clara speaks in the first second; the voice should be compared with C11 and C34 once those are redone.
-- Rejected variants are not pushed: Clara/Deke/Marshal candidate fronts, the first LOC_STREET (legible shop signs), the first piano (brass plate with lettering), Clara v2 files and the C11 clip made with her.
+- Faces: Clara = candidate #2 (final), Deke = v4, Marshal = v2, others first approved versions. Marshal's star badge has no lettering.
+- I13 shows a small brass nameplate on the piano (no readable text), I01 shop signs are blank.
+- Kitchen reference has four chairs (accepted).
+- Wide first frames make the speaker small and lip-sync weak (C01); for dialogue clips a framing sentence was appended to the frame prompt when needed (C11, C14, C34); see the manifest notes.
+- Mercer's beard looks fuller in some frames (C08b, C12, C14) than in the reference.
 
 ## Questions
-- Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; still active at 09:30 the same day; on 4 Oct 10:30 a single x1 image worked, so it is a daily limit.
-- Flow's "famous people" filter blocked the first Clara face (Gemini "like an actress" wording) on C13 x3 and C34 x1 (no charge). Rule from the user: make a new face, no workarounds with angles. Watch for it on every new face.
-- Gemini slows down badly in long chats (5-9 min per image after ~10 images): new chat every 7-8 images.
+- Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
+- Flow "famous people" filter: blocked the first Clara face earlier; on 4 Oct it refused C05 video once (identical retry passed) and C08b video twice (frame regenerated with one appended sentence, then passed). No new face was needed so far; if Mercer or Agatha keep being refused, make a new face per the mode rules.
+- Flow "We noticed some unusual activity ... browser extensions" (no charge): appears every ~10 requests; fix = reload the Flow page and re-inject the queue (see HANDOFF section 9).
+- Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".

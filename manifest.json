@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 163,
-  "flow_credits_left": 742,
+  "flow_credits_spent": 185,
+  "flow_credits_left": 720,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -689,6 +689,80 @@
       "credits": 10,
       "frame_tries": 1,
       "note": "silent shot: Mercer walks up to Clara and Lily; two 'unusual activity' frame errors before reload, no charge"
+    },
+    {
+      "shot_id": "I51",
+      "type": "image",
+      "image": "visuals/images/I51.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I52",
+      "type": "image",
+      "image": "visuals/images/I52.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C12",
+      "type": "video",
+      "video": "visuals/video/C12.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C12_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer speaks beside his horse at the ranch gate; audio present"
+    },
+    {
+      "shot_id": "I53",
+      "type": "image",
+      "image": "visuals/images/I53.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I54",
+      "type": "image",
+      "image": "visuals/images/I54.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I55",
+      "type": "image",
+      "image": "visuals/images/I55.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I56",
+      "type": "image",
+      "image": "visuals/images/I56.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C14",
+      "type": "video",
+      "video": "visuals/video/C14.mp4",
+      "duration": 8,
+      "first_frame": "visuals/images/C14_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 12,
+      "frame_tries": 2,
+      "note": "first frame try 1 had Mercer small in profile; try 2 with an appended framing sentence has him large and 3/4; Mercer speaks the fence line"
     }
   ],
   "montage_ready": false,
