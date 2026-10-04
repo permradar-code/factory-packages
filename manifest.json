@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 129,
-  "flow_credits_left": 776,
+  "flow_credits_spent": 143,
+  "flow_credits_left": 762,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -554,6 +554,80 @@
       "shot_id": "I40",
       "type": "image",
       "image": "visuals/images/I40.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I41",
+      "type": "image",
+      "image": "visuals/images/I41.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I42",
+      "type": "image",
+      "image": "visuals/images/I42.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I43",
+      "type": "image",
+      "image": "visuals/images/I43.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C08b",
+      "type": "video",
+      "video": "visuals/video/C08b.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C08b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 2,
+      "note": "Flow famous-people filter refused the first frame+video twice (no charge); frame regenerated once (same prompt + one appended sentence 'original fictional character'), then passed. Mercer speaks; Mercer's beard looks fuller than the ref"
+    },
+    {
+      "shot_id": "I44",
+      "type": "image",
+      "image": "visuals/images/I44.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I45",
+      "type": "image",
+      "image": "visuals/images/I45.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C09a",
+      "type": "video",
+      "video": "visuals/video/C09a.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C09a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Deke speaks (gavel), Mercer from behind; audio present"
+    },
+    {
+      "shot_id": "I46",
+      "type": "image",
+      "image": "visuals/images/I46.png",
       "note": "",
       "tool": "Gemini",
       "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
