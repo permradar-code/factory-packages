@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 249,
-  "flow_credits_left": 656,
+  "flow_credits_spent": 266,
+  "flow_credits_left": 639,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -958,6 +958,32 @@
       "credits": 7,
       "frame_tries": 1,
       "note": "Clara refuses the paper and speaks, Pike from behind; audio present"
+    },
+    {
+      "shot_id": "C20a",
+      "type": "video",
+      "video": "visuals/video/C20a.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C20a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Pike speaks to Mercer at the barn, Mercer from behind; audio present"
+    },
+    {
+      "shot_id": "C20b",
+      "type": "video",
+      "video": "visuals/video/C20b.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C20b_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Mercer speaks holding an axe, Pike from behind; 1 'unusual activity' error on the video (no charge, page reloaded); audio present"
     }
   ],
   "montage_ready": false,

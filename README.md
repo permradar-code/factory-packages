@@ -10,7 +10,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 | Phase 6 music | done (M01..M13, M14 skipped) |
 | Phase 2 voice/face test | done: C11, C13, C34 with the final Clara |
 | Phase 3 images | 69 of 69 done (I01..I69) |
-| Phase 4 clips | 23 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C34 |
+| Phase 4 clips | 26 of 49 done: C01, C02a, C02b, C03, C04, C05, C07, C08a, C08b, C09a, C09b, C10, C11, C12, C13, C14, C15a, C15b, C16a, C16b, C17, C18, C19b, C20a, C20b, C34 |
 
 ## What is in the package
 - `visuals/refs/`: 8 characters x 3 angles, PROP_PIANO, PROP_HORSE, 8 LOC_* (1376x768 PNG).
@@ -19,7 +19,7 @@ Work in progress (phase: images). Source of truth: `briefs/western_widows_piano/
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 242, left 663 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 266, left 639 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -45,6 +45,9 @@ Spent 242, left 663 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C16b | 6 s | 10 | 1 | 1 | Mercer speaks on the porch, Clara from behind; audio present |
 | C17 | 6 s | 10 | 1 | 1 | Mercer cracks a rock, speaks the silver line; audio present |
 | C18 | 6 s | 10 | 1 | 1 | Pike arrives by buggy and speaks to Clara on the porch (wide-ish, Pike medium size); 1 'unusual activity' error on the video (no charge, page reloaded); audio present |
+| C19b | 4 s | 7 | 1 | 1 | Clara refuses the paper and speaks, Pike from behind; audio present |
+| C20a | 4 s | 7 | 1 | 1 | Pike speaks to Mercer at the barn, Mercer from behind; audio present |
+| C20b | 6 s | 10 | 1 | 1 | Mercer speaks holding an axe, Pike from behind; 1 'unusual activity' error on the video (no charge, page reloaded); audio present |
 | C34 | 4 s | 7 | 1 | 1 | face stable, Clara speaks the line, Mercer silent; framing sentence appended to the frame prompt (Clara large in the foreground) |
 
 ElevenLabs (monthly package, no card charge): narration 1549 credits, music 9476, left 9720 of 23736.
