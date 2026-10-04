@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 112,
-  "flow_credits_left": 793,
+  "flow_credits_spent": 129,
+  "flow_credits_left": 776,
   "phase": "images",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -480,6 +480,80 @@
       "shot_id": "I34",
       "type": "image",
       "image": "visuals/images/I34.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I35",
+      "type": "image",
+      "image": "visuals/images/I35.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I36",
+      "type": "image",
+      "image": "visuals/images/I36.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C07",
+      "type": "video",
+      "video": "visuals/video/C07.mp4",
+      "duration": 4,
+      "first_frame": "visuals/images/C07_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 7,
+      "frame_tries": 1,
+      "note": "Mercer starts small at the back and walks toward camera (push-in); line audible; 3 'unusual activity' errors before the page reload, no charge"
+    },
+    {
+      "shot_id": "I37",
+      "type": "image",
+      "image": "visuals/images/I37.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I38",
+      "type": "image",
+      "image": "visuals/images/I38.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "C08a",
+      "type": "video",
+      "video": "visuals/video/C08a.mp4",
+      "duration": 6,
+      "first_frame": "visuals/images/C08a_first.png",
+      "has_audio": true,
+      "dialogue_ok": null,
+      "takes": 1,
+      "credits": 10,
+      "frame_tries": 1,
+      "note": "Deke speaks (gavel), Pike and Mercer silent"
+    },
+    {
+      "shot_id": "I39",
+      "type": "image",
+      "image": "visuals/images/I39.png",
+      "note": "",
+      "tool": "Gemini",
+      "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
+    },
+    {
+      "shot_id": "I40",
+      "type": "image",
+      "image": "visuals/images/I40.png",
       "note": "",
       "tool": "Gemini",
       "original": "2752x1536 (kept locally in _variants, not in git); delivered 1280x720"
