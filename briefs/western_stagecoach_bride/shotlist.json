@@ -2,7 +2,7 @@
   "title": "The Stagecoach Bride",
   "series": "Tales of Cedar Bluff",
   "episode": 2,
-  "working_title_youtube": "Outlaws Hunted the Mail-Order Bride for the Box She Carried — They Didn't Know Who Was Waiting in Cedar Bluff",
+  "working_title_youtube": "They Called the Mail-Order Bride a Thief and Made Her Groom Arrest Her — They Didn't Know What Was in Her Box",
   "setting": "Cedar Bluff, Colorado (a state since 1876), September 1880, golden aspens",
   "format": {
     "aspect": "16:9 (hooks 9:16)",
@@ -22,19 +22,19 @@
   },
   "estimate": {
     "clips": 36,
-    "clips_core": 25,
-    "clips_optional": 11,
-    "images_new": 50,
+    "clips_core": 26,
+    "clips_optional": 10,
+    "images_new": 58,
     "images_reused": 2,
-    "narration_words": 2334,
-    "narration_chars": 12241,
-    "narration_min": 16.7,
+    "narration_words": 3209,
+    "narration_chars": 16749,
+    "narration_min": 22.9,
     "clip_min_core": 2.4,
-    "clip_min_all": 3.5,
-    "credits_core_one_take": 243,
-    "credits_optional_one_take": 110,
+    "clip_min_all": 3.4,
+    "credits_core_one_take": 244,
+    "credits_optional_one_take": 100,
     "credits_hooks": 21,
-    "est_total_min_core": 19.6
+    "est_total_min_core": 25.9
   },
   "style": "Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects.",
   "clip_style": "Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
@@ -301,6 +301,11 @@
       }
     },
     {
+      "id": "N00",
+      "type": "narration",
+      "text": "Her name was Rose Calloway. She was twenty-four years old. She had never fired a gun, never seen a mountain, and never once seen the face of the man she had come two thousand miles to marry.\n\nWithin a week, the whole town of Cedar Bluff would call her a thief.\n\nBut the strangest part of this story is not how she ended up jumping from a stagecoach in her wedding dress.\n\nIt's what she was holding."
+    },
+    {
       "id": "T00",
       "type": "title_card",
       "text": "TEN DAYS EARLIER",
@@ -310,12 +315,12 @@
       "id": "T01",
       "type": "title_card",
       "text": "THE STAGECOACH BRIDE",
-      "duration_s": 5
+      "duration_s": 4
     },
     {
       "id": "N01",
       "type": "narration",
-      "text": "Cedar Bluff, Colorado. September, 1880.\n\nTen days before the shooting started on Raven Pass, Deputy Marshal Caleb Ward had a different problem. He did not know how to say hello.\n\nIf you've ever waited for someone you loved but had never met, stay with me until the end of this story, and tell me in the comments where you're listening from tonight.\n\nFor six months, Caleb had written a letter every Sunday to a woman in St. Louis named Rose Calloway. He had found her name in a matrimonial paper, between an advertisement for a hardware store and a notice about a lost mule. He wrote to her about the mountains, about the aspens turning gold, about the little town that had no schoolteacher and no church organ. And every second Sunday, a letter came back.\n\nRose wrote about her father, a printer who had died the winter before and left her nothing but debts and a box of books. She wrote that she could cook a little, sew a lot, and read aloud better than any preacher. And in her last letter, she wrote that she was coming west on the fourteenth of September, and that she would be wearing her mother's wedding dress, so that he would see her in it first.\n\nCaleb read that line so many times the paper wore thin."
+      "text": "Cedar Bluff, Colorado. September, 1880.\n\nDeputy Marshal Caleb Ward had faced down drunk miners, horse thieves, and a grizzly bear in a root cellar. None of it had prepared him for the problem he had that week. He did not know how to say hello.\n\nFor six months, Caleb had written a letter every Sunday to a woman in St. Louis. He had found her name in a matrimonial paper, between an advertisement for a hardware store and a notice about a lost mule. He wrote to her about the mountains, about the aspens turning gold, about a little town with no schoolteacher and no church organ. And every second Sunday, a letter came back.\n\nRose wrote about her father, a printer who had died the winter before and left her nothing but debts and a box of books. She wrote that she could cook a little, sew a lot, and read handwriting better than any banker. And in her last letter, she wrote that she would arrive on the fourteenth of September, wearing her mother's wedding dress, so that he would see her in it first.\n\nCaleb read that line so many times the paper wore thin.\n\nHe had no idea that someone else in Cedar Bluff was counting the days until the fourteenth of September too.\n\nAnd it was not for love."
     },
     {
       "id": "I01",
@@ -487,7 +492,7 @@
     {
       "id": "N02",
       "type": "narration",
-      "text": "Not everyone in Cedar Bluff thought the deputy's romance was sweet. Agatha Pell said a decent woman did not come by mail. Agatha said a great many things.\n\nOut at the Whitmore ranch, the talk was gentler. It had been almost a year since a quiet stranger named John Mercer had bought back Clara Whitmore's piano and saved her land. He had never left. He mended her fences, broke her colts, and every night, after supper, he said good night at the kitchen door and walked out to sleep in the barn.\n\nThe whole town was waiting for him to ask her. Clara was waiting too. She would never have said so."
+      "text": "Not everyone in Cedar Bluff thought the deputy's romance was sweet. Agatha Pell said a decent woman did not come by mail. Agatha said a great many things.\n\nOut at the Whitmore ranch, the talk was gentler. It had been almost a year since a quiet stranger named John Mercer had bought back Clara Whitmore's piano and saved her land. He had never left. He mended her fences, broke her colts, and every night, after supper, he said good night at the kitchen door and walked out to sleep in the barn.\n\nThe whole town was waiting for him to ask her. Clara was waiting too, though she would rather have died than say so.\n\nBefore that September was over, he would ask. But first he would be shot at, burned out, and sent down a canyon after five armed men.\n\nAnd it would all begin with a horse's hoof."
     },
     {
       "id": "I05",
@@ -592,7 +597,7 @@
     {
       "id": "N03",
       "type": "narration",
-      "text": "The stage from Denver came over Raven Pass twice a week. It carried mail, passengers, and once a month, in a small green strongbox, the gold that paid the miners at the Silver King.\n\nAnd for two years, the stage had been robbed. Not every time. Just often enough. Always on the pass, always by masked riders, and always when the gold was aboard.\n\nNobody could catch them. Nobody could explain how they knew.\n\nSilas Crane had come to Cedar Bluff that spring, after Horace Pike was taken to Denver in irons. He bought Pike's share in the bank, bought cattle from half the ranchers in the valley, and gave fifty dollars to the church roof. He had silver hair, a soft Southern voice, and the finest manners in the valley.\n\nPeople liked him. People always liked him."
+      "text": "The stage from Denver came over Raven Pass twice a week. It carried mail, passengers, and once a month, in a small green strongbox, the gold that paid the miners at the Silver King.\n\nFor two years, that stage had been robbed. Not every time. Just often enough. Always on the pass. Always by masked riders. And always, somehow, on the one day the gold was aboard.\n\nNobody could catch them. Nobody could explain how they knew.\n\nSilas Crane had come to Cedar Bluff that spring, after the banker Horace Pike was taken to Denver in irons. He bought Pike's share in the bank, bought cattle from half the ranchers in the valley, and paid for a new roof on the church. He had silver hair, a soft Southern voice, and the finest manners in the valley.\n\nPeople liked him. People always liked him.\n\nRose Calloway would be the first person in Cedar Bluff to look at Silas Crane and see exactly what he was. It would very nearly get her killed."
     },
     {
       "id": "I08",
@@ -680,6 +685,67 @@
       "file": "visuals/images/I12.png"
     },
     {
+      "id": "N03b",
+      "type": "narration",
+      "text": "It had taken Rose eleven days to get that far. A riverboat to Kansas City. Three days on the Kansas Pacific, sitting up all night on a wooden bench with her mother's dress folded in a carpetbag on her knees. Then Denver, loud and muddy and full of men who stared.\n\nThe stage was the last of it. Two days over the mountains with a corset salesman, a silent preacher, and an old express guard named Amos Pruitt, who gave her his coat when the wind came through the window and told her stories about the gold camps so she would not be afraid of the drop.\n\nAmos never let a small green box out of his sight. Not once. Not even to eat.\n\nOn the last morning, at the way station below the pass, Rose changed into the wedding dress behind a blanket hung from the corral fence. Amos whistled when she came out. The preacher blushed.\n\nNone of them noticed the rider in the trees above the station. He watched the old guard lift the green box into the coach. Then he turned his horse and went up the mountain ahead of them."
+    },
+    {
+      "id": "I46",
+      "type": "image",
+      "prompt": "A crowded Kansas Pacific railroad car at night, Rose sitting upright on a wooden bench, a carpetbag on her knees, oil lamps swaying.",
+      "refs": [
+        "CHAR_ROSE"
+      ],
+      "motion": "slow push in",
+      "night": true,
+      "rose_outfit": "her plain dark-gray travelling dress and a small black hat (not the wedding dress yet)",
+      "full_prompt": "A crowded Kansas Pacific railroad car at night, Rose sitting upright on a wooden bench, a carpetbag on her knees, oil lamps swaying. Rose wears: her plain dark-gray travelling dress and a small black hat (not the wedding dress yet). Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full.png"
+      ],
+      "file": "visuals/images/I46.png"
+    },
+    {
+      "id": "I47",
+      "type": "image",
+      "prompt": "Morning at the lonely way station below the pass: Rose stepping out from behind a blanket hung on the corral fence in her ivory wedding dress, old Amos smiling, the stagecoach waiting.",
+      "refs": [
+        "CHAR_ROSE",
+        "CHAR_AMOS",
+        "PROP_STAGE",
+        "LOC_STATION"
+      ],
+      "motion": "slow pull out",
+      "night": false,
+      "rose_outfit": "A: ivory lace wedding dress",
+      "full_prompt": "Morning at the lonely way station below the pass: Rose stepping out from behind a blanket hung on the corral fence in her ivory wedding dress, old Amos smiling, the stagecoach waiting. Rose wears: A: ivory lace wedding dress. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Amos Pruitt: 66-year-old man, short white beard, kind tired eyes behind small round spectacles, brown wool coat, battered brown hat, double-barreled coach gun | The stagecoach: dark-green Concord stagecoach with yellow spoked wheels, leather thoroughbraces, luggage rack on top, open window frames with roll-up leather curtains, pulled by a team of six brown horses; no lettering or company name anywhere | Way station at Raven Pass: lonely stage way station of rough logs with a corral and a water trough, a lantern on a post, the stage road running past, mountains behind",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full.png",
+        "visuals/refs/CHAR_AMOS_front.png",
+        "visuals/refs/CHAR_AMOS_full.png",
+        "visuals/refs/PROP_STAGE.png",
+        "visuals/refs/LOC_STATION.png"
+      ],
+      "file": "visuals/images/I47.png"
+    },
+    {
+      "id": "I48",
+      "type": "image",
+      "prompt": "A lone rider half hidden among the pines on the slope above the way station, watching, then turning his horse uphill.",
+      "refs": [
+        "LOC_STATION"
+      ],
+      "motion": "slow push in",
+      "night": false,
+      "full_prompt": "A lone rider half hidden among the pines on the slope above the way station, watching, then turning his horse uphill. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Way station at Raven Pass: lonely stage way station of rough logs with a corral and a water trough, a lantern on a post, the stage road running past, mountains behind",
+      "ref_files": [
+        "visuals/refs/LOC_STATION.png"
+      ],
+      "file": "visuals/images/I48.png"
+    },
+    {
       "id": "C09",
       "type": "clip",
       "duration_s": 6,
@@ -754,70 +820,9 @@
       }
     },
     {
-      "id": "N03b",
-      "type": "narration",
-      "text": "It had taken Rose eleven days to get that far. A riverboat to Kansas City. Three days on the Kansas Pacific, sitting up all night on a wooden bench with her mother's dress folded in a carpetbag on her knees. Then Denver, loud and muddy and full of men who stared.\n\nThe stage was the last of it. Two days over the mountains, with a drummer selling corsets, a silent preacher, and an old express guard named Amos Pruitt, who gave her his coat when the wind came through the window and told her stories about the gold camps to keep her from being afraid of the drop.\n\nOn the last morning, at the station below the pass, Rose changed into the wedding dress behind a blanket hung from the corral fence. Amos whistled when she came out. The preacher blushed.\n\nNone of them noticed the rider who watched from the trees, and turned his horse, and went up the mountain ahead of them."
-    },
-    {
-      "id": "I46",
-      "type": "image",
-      "prompt": "A crowded Kansas Pacific railroad car at night, Rose sitting upright on a wooden bench, a carpetbag on her knees, oil lamps swaying.",
-      "refs": [
-        "CHAR_ROSE"
-      ],
-      "motion": "slow push in",
-      "night": true,
-      "rose_outfit": "her plain dark-gray travelling dress and a small black hat (not the wedding dress yet)",
-      "full_prompt": "A crowded Kansas Pacific railroad car at night, Rose sitting upright on a wooden bench, a carpetbag on her knees, oil lamps swaying. Rose wears: her plain dark-gray travelling dress and a small black hat (not the wedding dress yet). Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun",
-      "ref_files": [
-        "visuals/refs/CHAR_ROSE_front.png",
-        "visuals/refs/CHAR_ROSE_full.png"
-      ],
-      "file": "visuals/images/I46.png"
-    },
-    {
-      "id": "I47",
-      "type": "image",
-      "prompt": "Morning at the lonely way station below the pass: Rose stepping out from behind a blanket hung on the corral fence in her ivory wedding dress, old Amos smiling, the stagecoach waiting.",
-      "refs": [
-        "CHAR_ROSE",
-        "CHAR_AMOS",
-        "PROP_STAGE",
-        "LOC_STATION"
-      ],
-      "motion": "slow pull out",
-      "night": false,
-      "rose_outfit": "A: ivory lace wedding dress",
-      "full_prompt": "Morning at the lonely way station below the pass: Rose stepping out from behind a blanket hung on the corral fence in her ivory wedding dress, old Amos smiling, the stagecoach waiting. Rose wears: A: ivory lace wedding dress. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Amos Pruitt: 66-year-old man, short white beard, kind tired eyes behind small round spectacles, brown wool coat, battered brown hat, double-barreled coach gun | The stagecoach: dark-green Concord stagecoach with yellow spoked wheels, leather thoroughbraces, luggage rack on top, open window frames with roll-up leather curtains, pulled by a team of six brown horses; no lettering or company name anywhere | Way station at Raven Pass: lonely stage way station of rough logs with a corral and a water trough, a lantern on a post, the stage road running past, mountains behind",
-      "ref_files": [
-        "visuals/refs/CHAR_ROSE_front.png",
-        "visuals/refs/CHAR_ROSE_full.png",
-        "visuals/refs/CHAR_AMOS_front.png",
-        "visuals/refs/CHAR_AMOS_full.png",
-        "visuals/refs/PROP_STAGE.png",
-        "visuals/refs/LOC_STATION.png"
-      ],
-      "file": "visuals/images/I47.png"
-    },
-    {
-      "id": "I48",
-      "type": "image",
-      "prompt": "A lone rider half hidden among the pines on the slope above the way station, watching, then turning his horse uphill.",
-      "refs": [
-        "LOC_STATION"
-      ],
-      "motion": "slow push in",
-      "night": false,
-      "full_prompt": "A lone rider half hidden among the pines on the slope above the way station, watching, then turning his horse uphill. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Way station at Raven Pass: lonely stage way station of rough logs with a corral and a water trough, a lantern on a post, the stage road running past, mountains behind",
-      "ref_files": [
-        "visuals/refs/LOC_STATION.png"
-      ],
-      "file": "visuals/images/I48.png"
-    },
-    {
       "id": "N04",
       "type": "narration",
-      "text": "They hit the stage at the top of the pass, just after noon, exactly where the road narrows between the rocks and a sixty-foot drop.\n\nFive riders. Black bandanas. The first shot killed the lead horse. The second took the driver's hat clean off his head."
+      "text": "They hit the stage at the top of the pass, just after noon, exactly where the road narrows between the rocks and a sixty-foot drop.\n\nFive riders. Black bandanas. The first shot killed the lead horse. The second took the driver's hat clean off his head.\n\nAnd the third found Amos Pruitt."
     },
     {
       "id": "I13",
@@ -929,7 +934,7 @@
     {
       "id": "N05",
       "type": "narration",
-      "text": "Rose Calloway did not know who Crane was. She did not know what was in the box. She only knew that an old man who had been kind to her for three days was bleeding on the floor of a stagecoach, and that he had asked her for one thing.\n\nSo she ran.\n\nShe ran in her mother's wedding dress, up a mountain she had never seen, with a box she could not open, while men with guns searched the rocks below and called to each other that she could not have gone far.\n\nShe hid until dark in a crack between two boulders. When the stars came out, she was still holding the box."
+      "text": "Rose did not know who Crane was. She did not know what was in the box. She only knew that an old man who had been kind to her for three days was bleeding on the floor of a stagecoach, and that he had asked her for one thing.\n\nSo she ran.\n\nShe ran in her mother's wedding dress, up a mountain she had never seen, with a box she could not open, while men with guns searched the rocks below and shouted to each other that she could not have gone far.\n\nShe hid until dark in a crack between two boulders. When the stars came out, she was still holding the box.\n\nAnd somewhere below her, in the dark, someone was still looking for it."
     },
     {
       "id": "I15",
@@ -992,7 +997,7 @@
     {
       "id": "N06",
       "type": "narration",
-      "text": "The news reached Cedar Bluff at sundown. The stage robbed. The driver alive. The old guard, Amos Pruitt, found at the way station with a bullet in his side, too weak to talk.\n\nAnd the bride, gone.\n\nCaleb Ward was in the saddle before the marshal finished reading the telegram. But it was John Mercer who found her. He had tracked men and cattle across half the West, and a woman in a lace dress leaves a trail like a lantern."
+      "text": "The news reached Cedar Bluff at sundown. The stage robbed. The driver alive. The old guard, Amos Pruitt, found at the way station with a bullet in his side, too weak to say a word.\n\nAnd the bride, gone.\n\nCaleb Ward searched the pass all night with a lantern, calling a name into the dark that he had written forty-nine times and never once said out loud. He found the coach on its side at the edge of the drop, and a scrap of ivory lace on the step. He did not find her.\n\nAt dawn the marshal made him come down the mountain to sleep. He did not sleep.\n\nIt did not matter. By then, someone else had found her."
     },
     {
       "id": "I18",
@@ -1014,11 +1019,6 @@
         "visuals/refs/LOC_JAIL.png"
       ],
       "file": "visuals/images/I18.png"
-    },
-    {
-      "id": "N06b",
-      "type": "narration",
-      "text": "Caleb searched the pass all night with a lantern, calling her name into the dark. A name he had written forty-nine times and never once said out loud.\n\nHe found the stagecoach on its side at the edge of the drop, the lead horse dead in the traces, and a scrap of ivory lace on the step. He did not find her.\n\nAt dawn the marshal made him come down the mountain to sleep. He didn't sleep."
     },
     {
       "id": "I49",
@@ -1186,7 +1186,7 @@
     {
       "id": "N07",
       "type": "narration",
-      "text": "Rose slept fourteen hours in Clara's bed. When she woke, there was a faded green gingham dress folded on the chair, and the smell of bacon, and a little girl sitting at the foot of the bed with a rag doll, staring at her.\n\n\"Are you the bride?\" Lily asked.\n\n\"I was supposed to be,\" said Rose.\n\nThey tried to open the box that afternoon. The brass key from Amos fit the padlock. But inside the box was a second lock, a small steel one, and no key in the world that any of them had.\n\nMercer turned the box over in his hands for a long time. Gold, he said, would have rattled."
+      "text": "Rose slept fourteen hours in Clara's bed. When she woke, there was a faded green gingham dress folded on the chair, the smell of bacon, and a little girl sitting at the foot of the bed with a rag doll, staring at her.\n\n\"Are you the bride?\" Lily asked.\n\n\"I was supposed to be,\" said Rose.\n\nThat afternoon they tried to open the box. The brass key from Amos fit the padlock. But inside was a second lock, a small steel one, and no key that any of them had.\n\nMercer turned the box over in his hands for a long time. Then he shook it gently, next to his ear.\n\n\"Gold would rattle,\" he said.\n\nSo what, asked Clara, would five armed men want with a box that doesn't rattle?\n\nNobody had an answer. But the next day, the man who did came calling."
     },
     {
       "id": "I22",
@@ -1238,19 +1238,19 @@
     {
       "id": "N07b",
       "type": "narration",
-      "text": "Silas Crane came to the Whitmore ranch on Wednesday, in his black buggy, with a basket of oranges for the little girl.\n\nHe was very sorry to hear about the poor bride. Such a terrible thing. He understood she had something that belonged to his company. A small green box. There would be a reward, of course. Five hundred dollars, for its safe return, and no questions asked.\n\nClara said she had not seen any box.\n\nCrane smiled, and looked for a long time at the barn, and at the porch, and at the window of the room where Rose was hiding. Then he tipped his cream-colored hat and drove away.\n\n\"That man,\" said Clara, when the dust had settled, \"just counted my doors.\""
+      "text": "Silas Crane drove up to the Whitmore ranch on Wednesday in his black buggy, with a basket of oranges for the little girl and one of his men waiting on horseback by the gate.\n\nHe was so very sorry to hear about the poor bride. Such a terrible thing. He understood she might have something that belonged to his company. A small green box. There would be a reward, of course. Five hundred dollars for its safe return, and no questions asked.\n\nClara said she had not seen any box.\n\nCrane smiled, and looked for a long time at the barn, and at the porch, and at the window of the room where Rose was hiding. Then he tipped his cream-colored hat and drove away.\n\n\"That man,\" said Clara, when the dust had settled, \"just counted my doors.\"\n\nMercer did not answer. He had not been watching Crane at all. He had been watching the horse by the gate. A tall roan, with a shoe on the left front hoof that rang wrong on the stones of the yard.\n\nHe did not know yet why that mattered."
     },
     {
       "id": "I50",
       "type": "image",
-      "prompt": "A fancy black buggy coming up the dirt road to the Whitmore ranch, Silas Crane in his cream hat holding the reins, a basket of oranges on the seat.",
+      "prompt": "A fancy black buggy coming up the dirt road to the Whitmore ranch, Silas Crane in his cream hat holding the reins, a basket of oranges on the seat, a rider on a tall roan horse following behind.",
       "refs": [
         "CHAR_CRANE",
         "LOC_RANCH"
       ],
       "motion": "slow push in",
       "night": false,
-      "full_prompt": "A fancy black buggy coming up the dirt road to the Whitmore ranch, Silas Crane in his cream hat holding the reins, a basket of oranges on the seat. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+      "full_prompt": "A fancy black buggy coming up the dirt road to the Whitmore ranch, Silas Crane in his cream hat holding the reins, a basket of oranges on the seat, a rider on a tall roan horse following behind. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
       "ref_files": [
         "visuals/refs/CHAR_CRANE_front.png",
         "visuals/refs/CHAR_CRANE_full.png",
@@ -1297,9 +1297,68 @@
       "file": "visuals/images/I52.png"
     },
     {
+      "id": "I53",
+      "type": "image",
+      "prompt": "Close-up at ground level: the left front hoof of a tall roan horse standing by the ranch gate, a horseshoe with one nail head missing; in soft focus behind, Mercer watching from the barn door.",
+      "refs": [
+        "CHAR_MERCER",
+        "LOC_RANCH"
+      ],
+      "motion": "slow push in",
+      "night": false,
+      "full_prompt": "Close-up at ground level: the left front hoof of a tall roan horse standing by the ranch gate, a horseshoe with one nail head missing; in soft focus behind, Mercer watching from the barn door. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+      ],
+      "file": "visuals/images/I53.png"
+    },
+    {
+      "id": "N07c",
+      "type": "narration",
+      "text": "That night, the dog in the yard went quiet all at once.\n\nMercer was awake before the barn door creaked. A man in a black bandana was already inside, tearing through the hay with a knife, looking for something small and green.\n\nThey went down together in the dark. A lantern smashed. The horses screamed. The man slashed once, caught nothing but Mercer's coat, and was out the back of the barn and onto his horse before Mercer could get up off the floor with his bad leg.\n\nBut as the rider crossed the stony yard at a gallop, Mercer heard it again. The same wrong note. A loose shoe, ringing on the left front hoof.\n\nIn three days, that sound would save four lives."
+    },
+    {
+      "id": "I59",
+      "type": "image",
+      "prompt": "Night inside the barn: Mercer grappling with a masked man in a black bandana among scattered hay, a smashed lantern burning on the floor, horses rearing in their stalls, a knife glinting.",
+      "refs": [
+        "CHAR_MERCER",
+        "LOC_BARN"
+      ],
+      "motion": "fast push in",
+      "night": true,
+      "full_prompt": "Night inside the barn: Mercer grappling with a masked man in a black bandana among scattered hay, a smashed lantern burning on the floor, horses rearing in their stalls, a knife glinting. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Barn: small wooden barn interior, hay bales, a stall with the dark bay horse, hanging lantern, tools on the wall, a bedroll on the hay",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_BARN.png"
+      ],
+      "file": "visuals/images/I59.png"
+    },
+    {
+      "id": "I60",
+      "type": "image",
+      "prompt": "Moonlit ranch yard: a masked rider on a tall roan horse galloping away across stony ground toward the road, sparks from the horseshoes, Mercer limping out of the barn door behind him.",
+      "refs": [
+        "CHAR_MERCER",
+        "LOC_RANCH"
+      ],
+      "motion": "slow pan right",
+      "night": true,
+      "full_prompt": "Moonlit ranch yard: a masked rider on a tall roan horse galloping away across stony ground toward the road, sparks from the horseshoes, Mercer limping out of the barn door behind him. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+      ],
+      "file": "visuals/images/I60.png"
+    },
+    {
       "id": "N08",
       "type": "narration",
-      "text": "On Thursday morning, Silas Crane walked into the marshal's office with his hat in his hand and a paper in his pocket.\n\nThe paper was a bill of lading. It said that the green strongbox belonged to the Crane Cattle and Mining Company, and that it held eleven thousand dollars in gold.\n\nAnd then, very gently, as if it pained him, Silas Crane told the marshal what everyone in town would be saying by supper."
+      "text": "On Thursday morning, Silas Crane walked into the marshal's office with his hat in his hand and a paper in his pocket.\n\nThe paper was a bill of lading, signed in his own neat hand. It said the green strongbox belonged to the Crane Cattle and Mining Company, and that it held eleven thousand dollars in gold.\n\nAnd then, very gently, as if it pained him, Silas Crane told the marshal what everyone in town would be saying by supper."
     },
     {
       "id": "I24",
@@ -1363,40 +1422,6 @@
       }
     },
     {
-      "id": "C16",
-      "type": "clip",
-      "duration_s": 6,
-      "action": "On the main street Agatha Pell stands among a small crowd and spreads the news with relish, tapping her closed parasol on the boardwalk.",
-      "camera": "medium shot",
-      "dialogue": [
-        {
-          "speaker": "CHAR_AGATHA",
-          "line": "I told you. No decent woman comes by mail."
-        }
-      ],
-      "refs": [
-        "CHAR_AGATHA",
-        "LOC_STREET"
-      ],
-      "priority": "optional",
-      "night": false,
-      "action_shot": false,
-      "start_frame_prompt": "On the main street Agatha Pell stands among a small crowd and spreads the news with relish, tapping her closed parasol on the boardwalk.",
-      "end_frame_prompt": null,
-      "start_frame_full_prompt": "On the main street Agatha Pell stands among a small crowd and spreads the news with relish, tapping her closed parasol on the boardwalk. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Agatha Pell: 50-year-old woman, tight gray bun, pinched face, high-collared plum-purple silk dress, ivory cameo brooch, white lace parasol | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
-      "ref_files": [
-        "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_front.png",
-        "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_full.png",
-        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
-      ],
-      "video_prompt": "On the main street Agatha Pell stands among a small crowd and spreads the news with relish, tapping her closed parasol on the boardwalk. Camera: medium shot. Dialogue: Agatha Pell (shrill, mocking, upper-class American woman's voice) says: \"I told you. No decent woman comes by mail.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 10,
-      "files": {
-        "start_frame": "visuals/images/C16_first.png",
-        "video": "visuals/video/C16.mp4"
-      }
-    },
-    {
       "id": "C17",
       "type": "clip",
       "duration_s": 6,
@@ -1436,7 +1461,7 @@
     {
       "id": "N09",
       "type": "narration",
-      "text": "Caleb rode out to the Whitmore place alone. He had dreamed for six months about the moment he would first see Rose Calloway.\n\nHe had never dreamed it would be with a warrant in his pocket."
+      "text": "The marshal gave the warrant to Caleb. Maybe he thought it would be kinder. Maybe he wanted to see what the boy would do.\n\nAnd if you're still riding with me tonight, tell me in the comments: would you have trusted Rose Calloway, or would you have believed the man with the silver hair?\n\nCaleb rode out to the Whitmore place alone. He had dreamed for six months about the moment he would first see her face.\n\nHe had never dreamed it would be with a warrant in his pocket."
     },
     {
       "id": "I25",
@@ -1493,13 +1518,13 @@
     {
       "id": "C19",
       "type": "clip",
-      "duration_s": 6,
+      "duration_s": 4,
       "action": "Rose, in the faded green gingham dress, comes out beside Clara and gently pushes the shotgun barrels down, her eyes on Caleb.",
       "camera": "medium shot",
       "dialogue": [
         {
           "speaker": "CHAR_ROSE",
-          "line": "It's all right, Clara. I'll go with him."
+          "line": "It's all right. I'll go."
         }
       ],
       "refs": [
@@ -1521,8 +1546,8 @@
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
         "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
       ],
-      "video_prompt": "Rose, in the faded green gingham dress, comes out beside Clara and gently pushes the shotgun barrels down, her eyes on Caleb. Camera: medium shot. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"It's all right, Clara. I'll go with him.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 10,
+      "video_prompt": "Rose, in the faded green gingham dress, comes out beside Clara and gently pushes the shotgun barrels down, her eyes on Caleb. Camera: medium shot. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"It's all right. I'll go.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "credits": 7,
       "files": {
         "start_frame": "visuals/images/C19_first.png",
         "video": "visuals/video/C19.mp4"
@@ -1553,7 +1578,92 @@
     {
       "id": "N10",
       "type": "narration",
-      "text": "So that was how they met. Not at the stage stop, with flowers. At a ranch gate, with a shotgun and a warrant.\n\nCaleb took off his hat. Rose looked at him for a long moment, at the freckles on his ears, at the hands that had written forty-nine letters.\n\n\"You're taller than I imagined,\" she said.\n\n\"You're... you're under arrest,\" said Caleb, and wished the ground would open."
+      "text": "So that was how they met. Not at the stage stop, with flowers. At a ranch gate, with a shotgun and a warrant.\n\nCaleb took off his hat. Rose looked at him for a long moment, at the freckles on his ears, at the hands that had written forty-nine letters.\n\n\"You're taller than I imagined,\" she said.\n\n\"You're... you're under arrest,\" said Caleb, and wished the ground would open.\n\nIt was not how either of them had imagined it. And it was about to get worse."
+    },
+    {
+      "id": "N10b",
+      "type": "narration",
+      "text": "The jail was at the far end of Main Street. To get there, Caleb had to walk her past every door in Cedar Bluff.\n\nWord had gone ahead of them. The boardwalks were full. Men stopped loading wagons. Women came out of the mercantile with their parcels still in their arms. Somebody said the word thief, and then everybody was saying it."
+    },
+    {
+      "id": "I54",
+      "type": "image",
+      "prompt": "Main street in the afternoon: Rose in the faded green gingham dress, her wrists in iron handcuffs, walking with her head held high beside Caleb; townspeople crowding the boardwalks, staring and whispering.",
+      "refs": [
+        "CHAR_ROSE",
+        "CHAR_CALEB",
+        "LOC_STREET"
+      ],
+      "motion": "slow tracking drift",
+      "night": false,
+      "rose_outfit": "B: faded green gingham dress, low bun",
+      "full_prompt": "Main street in the afternoon: Rose in the faded green gingham dress, her wrists in iron handcuffs, walking with her head held high beside Caleb; townspeople crowding the boardwalks, staring and whispering. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full_B.png",
+        "visuals/refs/CHAR_CALEB_front.png",
+        "visuals/refs/CHAR_CALEB_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+      ],
+      "file": "visuals/images/I54.png"
+    },
+    {
+      "id": "C16",
+      "type": "clip",
+      "duration_s": 6,
+      "action": "On the boardwalk Agatha Pell steps forward from the crowd, points her closed lace parasol at the young woman in handcuffs walking past, and speaks loudly so the whole street can hear.",
+      "camera": "medium shot, the crowd behind her",
+      "dialogue": [
+        {
+          "speaker": "CHAR_AGATHA",
+          "line": "Look at her, ladies. A thief, delivered by mail."
+        }
+      ],
+      "refs": [
+        "CHAR_AGATHA",
+        "LOC_STREET"
+      ],
+      "priority": "core",
+      "night": false,
+      "action_shot": false,
+      "start_frame_prompt": "On the boardwalk Agatha Pell steps forward from the crowd, points her closed lace parasol at the young woman in handcuffs walking past, and speaks loudly so the whole street can hear.",
+      "end_frame_prompt": null,
+      "start_frame_full_prompt": "On the boardwalk Agatha Pell steps forward from the crowd, points her closed lace parasol at the young woman in handcuffs walking past, and speaks loudly so the whole street can hear. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Agatha Pell: 50-year-old woman, tight gray bun, pinched face, high-collared plum-purple silk dress, ivory cameo brooch, white lace parasol | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+      ],
+      "video_prompt": "On the boardwalk Agatha Pell steps forward from the crowd, points her closed lace parasol at the young woman in handcuffs walking past, and speaks loudly so the whole street can hear. Camera: medium shot, the crowd behind her. Dialogue: Agatha Pell (shrill, mocking, upper-class American woman's voice) says: \"Look at her, ladies. A thief, delivered by mail.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "credits": 10,
+      "files": {
+        "start_frame": "visuals/images/C16_first.png",
+        "video": "visuals/video/C16.mp4"
+      }
+    },
+    {
+      "id": "I55",
+      "type": "image",
+      "prompt": "Close-up of Rose's face as she walks: chin up, eyes fixed straight ahead, a single tear on her cheek that she does not wipe away.",
+      "refs": [
+        "CHAR_ROSE",
+        "LOC_STREET"
+      ],
+      "motion": "very slow push in",
+      "night": false,
+      "rose_outfit": "B: faded green gingham dress, low bun",
+      "full_prompt": "Close-up of Rose's face as she walks: chin up, eyes fixed straight ahead, a single tear on her cheek that she does not wipe away. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full_B.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+      ],
+      "file": "visuals/images/I55.png"
+    },
+    {
+      "id": "N10c",
+      "type": "narration",
+      "text": "Rose Calloway kept her chin up all the way to the jail. She did not look at Agatha Pell. She did not look at anyone.\n\nOnly when the cell door closed behind her did she let herself shake.\n\nCaleb saw it. He never forgot it. And he made himself a promise right there, with the key still in his hand."
     },
     {
       "id": "I27",
@@ -1615,13 +1725,13 @@
     {
       "id": "C21",
       "type": "clip",
-      "duration_s": 6,
+      "duration_s": 4,
       "action": "Rose comes to the bars and holds them, looking straight at Caleb, her voice steady.",
       "camera": "close-up through the bars",
       "dialogue": [
         {
           "speaker": "CHAR_ROSE",
-          "line": "Then believe me now, Caleb. I didn't steal anything."
+          "line": "I didn't steal anything, Caleb."
         }
       ],
       "refs": [
@@ -1643,8 +1753,8 @@
         "visuals/refs/CHAR_CALEB_full.png",
         "visuals/refs/LOC_JAIL.png"
       ],
-      "video_prompt": "Rose comes to the bars and holds them, looking straight at Caleb, her voice steady. Camera: close-up through the bars. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"Then believe me now, Caleb. I didn't steal anything.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 10,
+      "video_prompt": "Rose comes to the bars and holds them, looking straight at Caleb, her voice steady. Camera: close-up through the bars. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I didn't steal anything, Caleb.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "credits": 7,
       "files": {
         "start_frame": "visuals/images/C21_first.png",
         "video": "visuals/video/C21.mp4"
@@ -1687,10 +1797,15 @@
     {
       "id": "C23",
       "type": "clip",
-      "duration_s": 6,
-      "action": "In the smoke-filled jail Caleb throws himself in front of the cell, is hit in the left shoulder, and fires back through the window, gritting his teeth; Rose behind the bars, terrified.",
+      "duration_s": 4,
+      "action": "In the smoke-filled jail Caleb throws himself in front of the cell bars, revolver up, shouting over his shoulder to Rose; a bullet hits his left shoulder and he staggers but keeps firing at the window.",
       "camera": "handheld medium shot, smoke and muzzle flashes",
-      "dialogue": [],
+      "dialogue": [
+        {
+          "speaker": "CHAR_CALEB",
+          "line": "Stay behind me, Rose!"
+        }
+      ],
       "refs": [
         "CHAR_CALEB",
         "CHAR_ROSE",
@@ -1699,10 +1814,10 @@
       "priority": "core",
       "night": true,
       "action_shot": true,
-      "start_frame_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell, is hit in the left shoulder, and fires back through the window, gritting his teeth; Rose behind the bars, terrified.",
+      "start_frame_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell bars, revolver up, shouting over his shoulder to Rose; a bullet hits his left shoulder and he staggers but keeps firing at the window.",
       "end_frame_prompt": null,
       "rose_outfit": "B: faded green gingham dress, low bun",
-      "start_frame_full_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell, is hit in the left shoulder, and fires back through the window, gritting his teeth; Rose behind the bars, terrified. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+      "start_frame_full_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell bars, revolver up, shouting over his shoulder to Rose; a bullet hits his left shoulder and he staggers but keeps firing at the window. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
       "ref_files": [
         "visuals/refs/CHAR_CALEB_front.png",
         "visuals/refs/CHAR_CALEB_full.png",
@@ -1710,8 +1825,8 @@
         "visuals/refs/CHAR_ROSE_full_B.png",
         "visuals/refs/LOC_JAIL.png"
       ],
-      "video_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell, is hit in the left shoulder, and fires back through the window, gritting his teeth; Rose behind the bars, terrified. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: handheld medium shot, smoke and muzzle flashes. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 10,
+      "video_prompt": "In the smoke-filled jail Caleb throws himself in front of the cell bars, revolver up, shouting over his shoulder to Rose; a bullet hits his left shoulder and he staggers but keeps firing at the window. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: handheld medium shot, smoke and muzzle flashes. Dialogue: Caleb Ward (earnest, warm young American man's voice with a slight Western drawl, a little shy) says: \"Stay behind me, Rose!\" ONLY Caleb Ward speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "credits": 7,
       "files": {
         "start_frame": "visuals/images/C23_first.png",
         "video": "visuals/video/C23.mp4"
@@ -1749,7 +1864,7 @@
     {
       "id": "N12",
       "type": "narration",
-      "text": "They wanted the box. They thought it was in the jail. It was not.\n\nMercer had come to town that night because a horse had thrown a shoe on the Whitmore road, and something about that shoe had kept him awake. He got there in time to drag Caleb out of the smoke, and to unlock a cell door with a ring of keys too hot to hold.\n\nBy sunrise, the marshal's office was a black shell. Caleb had a bullet hole in his shoulder and a girl's hand in his.\n\nAnd John Mercer had a horseshoe in his pocket."
+      "text": "They wanted the box. They thought it was in the jail. It was not. It was under a loose board in Clara Whitmore's kitchen.\n\nMercer had been watching the jail since midnight. Something about that roan horse had kept him awake. He got there in time to drag Caleb out of the smoke, and to unlock a cell door with a ring of keys too hot to hold.\n\nBy sunrise, the marshal's office was a black shell. Caleb had a bullet hole in his shoulder and a girl's hand in his.\n\nAnd in the ashes by the hitching rail, John Mercer found a horseshoe, thrown in the night by one of the raiders' horses.\n\nOne nail on the left side was snapped off short."
     },
     {
       "id": "I28",
@@ -1776,13 +1891,13 @@
     {
       "id": "I29",
       "type": "image",
-      "prompt": "Close-up: a worn horseshoe in Mercer's weathered palm, one nail on the left side snapped off short and bent.",
+      "prompt": "Close-up: a worn horseshoe in Mercer's weathered palm, one nail on the left side snapped off short and bent, ash on his fingers.",
       "refs": [
         "CHAR_MERCER"
       ],
       "motion": "slow push in",
       "night": false,
-      "full_prompt": "Close-up: a worn horseshoe in Mercer's weathered palm, one nail on the left side snapped off short and bent. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg",
+      "full_prompt": "Close-up: a worn horseshoe in Mercer's weathered palm, one nail on the left side snapped off short and bent, ash on his fingers. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg",
       "ref_files": [
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png"
@@ -1793,33 +1908,33 @@
       "id": "C25",
       "type": "clip",
       "duration_s": 6,
-      "action": "On the dusty road Mercer kneels beside a hoofprint, holds up the horseshoe next to it, and speaks to Caleb, who stands with his arm in a sling.",
-      "camera": "low angle close on the hoofprint, then up to Mercer",
+      "action": "On the dusty road Mercer holds up the horseshoe and speaks to Caleb, who stands with his arm in a sling. Mercer's face is grim and certain.",
+      "camera": "low angle close on the horseshoe, then up to Mercer",
       "dialogue": [
         {
           "speaker": "CHAR_MERCER",
-          "line": "Broken nail, left fore. Same horse was on the pass."
+          "line": "Broken nail, left fore. That horse stood at Clara's gate."
         }
       ],
       "refs": [
         "CHAR_MERCER",
         "CHAR_CALEB",
-        "LOC_PASS"
+        "LOC_STREET"
       ],
       "priority": "core",
       "night": false,
       "action_shot": false,
-      "start_frame_prompt": "On the dusty road Mercer kneels beside a hoofprint, holds up the horseshoe next to it, and speaks to Caleb, who stands with his arm in a sling.",
+      "start_frame_prompt": "On the dusty road Mercer holds up the horseshoe and speaks to Caleb, who stands with his arm in a sling. Mercer's face is grim and certain.",
       "end_frame_prompt": null,
-      "start_frame_full_prompt": "On the dusty road Mercer kneels beside a hoofprint, holds up the horseshoe next to it, and speaks to Caleb, who stands with his arm in a sling. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+      "start_frame_full_prompt": "On the dusty road Mercer holds up the horseshoe and speaks to Caleb, who stands with his arm in a sling. Mercer's face is grim and certain. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
       "ref_files": [
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
         "visuals/refs/CHAR_CALEB_front.png",
         "visuals/refs/CHAR_CALEB_full.png",
-        "visuals/refs/LOC_PASS.png"
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
       ],
-      "video_prompt": "On the dusty road Mercer kneels beside a hoofprint, holds up the horseshoe next to it, and speaks to Caleb, who stands with his arm in a sling. Camera: low angle close on the hoofprint, then up to Mercer. Dialogue: John Mercer (deep, quiet, unhurried American baritone, few words, never raises his voice) says: \"Broken nail, left fore. Same horse was on the pass.\" ONLY John Mercer speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "video_prompt": "On the dusty road Mercer holds up the horseshoe and speaks to Caleb, who stands with his arm in a sling. Mercer's face is grim and certain. Camera: low angle close on the horseshoe, then up to Mercer. Dialogue: John Mercer (deep, quiet, unhurried American baritone, few words, never raises his voice) says: \"Broken nail, left fore. That horse stood at Clara's gate.\" ONLY John Mercer speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 10,
       "files": {
         "start_frame": "visuals/images/C25_first.png",
@@ -1829,12 +1944,12 @@
     {
       "id": "N13",
       "type": "narration",
-      "text": "The tracks led north, around the town, through two creeks and across a stretch of bare rock where most men would have lost them. Mercer did not lose them.\n\nThey ended at a long row of horses at a hitching rail, in front of a white house with a wide veranda.\n\nThe house of Silas Crane.\n\nThat night, at the Whitmore kitchen table, Rose finally opened the second lock. Not with a key. With one of Clara's hairpins and a trick her father had taught her, back when he printed handbills for every locksmith in St. Louis.\n\nInside there was no gold at all. There was a stack of letters, tied with string, in a fine slanting hand."
+      "text": "The tall roan with the broken nail belonged to a man named Buck Tolliver. Buck was Silas Crane's foreman.\n\nBut a horseshoe was not proof. Not against the most respected man in the valley. They needed what was in the box.\n\nThat night, at the Whitmore kitchen table, Rose Calloway asked Clara for a hairpin.\n\nThe men looked at each other. Clara handed it over. And the bride who came by mail bent over the steel lock, listened, turned the pin twice, and opened it in less than a minute. Her father had printed handbills for every locksmith in St. Louis. He had believed that a girl should know how things work.\n\nInside there was no gold at all. There was a stack of letters, tied with string, in a fine, slanting hand."
     },
     {
       "id": "I30",
       "type": "image",
-      "prompt": "Mercer and Caleb on horseback on a rise at dusk, looking down at a large white ranch house with a red barn and corrals, a long line of horses at the rail.",
+      "prompt": "Mercer and Caleb on horseback on a rise at dusk, looking down at a large white ranch house with a red barn and corrals, a tall roan horse among the horses at the rail.",
       "refs": [
         "CHAR_MERCER",
         "CHAR_CALEB",
@@ -1842,7 +1957,7 @@
       ],
       "motion": "slow push in",
       "night": false,
-      "full_prompt": "Mercer and Caleb on horseback on a rise at dusk, looking down at a large white ranch house with a red barn and corrals, a long line of horses at the rail. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
+      "full_prompt": "Mercer and Caleb on horseback on a rise at dusk, looking down at a large white ranch house with a red barn and corrals, a tall roan horse among the horses at the rail. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
       "ref_files": [
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
@@ -1855,7 +1970,7 @@
     {
       "id": "I31",
       "type": "image",
-      "prompt": "Night, the Whitmore kitchen: Rose bent over the strongbox picking the small steel lock with a hairpin, Clara holding the lamp close, Mercer and Caleb watching.",
+      "prompt": "Night, the Whitmore kitchen: Rose bent over the strongbox picking the small steel lock with a hairpin, Clara holding the lamp close, Mercer and Caleb watching in astonishment.",
       "refs": [
         "CHAR_ROSE",
         "CHAR_CLARA",
@@ -1867,7 +1982,7 @@
       "motion": "slow push in",
       "night": true,
       "rose_outfit": "B: faded green gingham dress, low bun",
-      "full_prompt": "Night, the Whitmore kitchen: Rose bent over the strongbox picking the small steel lock with a hairpin, Clara holding the lamp close, Mercer and Caleb watching. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+      "full_prompt": "Night, the Whitmore kitchen: Rose bent over the strongbox picking the small steel lock with a hairpin, Clara holding the lamp close, Mercer and Caleb watching in astonishment. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
       "ref_files": [
         "visuals/refs/CHAR_ROSE_front.png",
         "visuals/refs/CHAR_ROSE_full_B.png",
@@ -1906,7 +2021,7 @@
       "dialogue": [
         {
           "speaker": "CHAR_CLARA",
-          "line": "Crane's own hand. Every gold shipment date, for two years."
+          "line": "Every gold shipment date, for two years."
         }
       ],
       "refs": [
@@ -1924,7 +2039,7 @@
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
         "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
       ],
-      "video_prompt": "Clara reads one of the letters by lamplight; her face goes pale. She looks up at the others across the kitchen table. Camera: slow push in on Clara. Dialogue: Clara Whitmore (warm, low, steady American woman's voice, late twenties, never shrill) says: \"Crane's own hand. Every gold shipment date, for two years.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "video_prompt": "Clara reads one of the letters by lamplight; her face goes pale. She looks up at the others across the kitchen table. Camera: slow push in on Clara. Dialogue: Clara Whitmore (warm, low, steady American woman's voice, late twenties, never shrill) says: \"Every gold shipment date, for two years.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 10,
       "files": {
         "start_frame": "visuals/images/C26_first.png",
@@ -1934,7 +2049,26 @@
     {
       "id": "N14",
       "type": "narration",
-      "text": "Amos Pruitt had been an express guard for thirty years. For two of them, he had been collecting proof.\n\nCrane had a clerk in the Denver office who sent him the shipment dates. Crane wrote back. And the clerk, who was not a brave man but was a careful one, had kept every letter. When he finally lost his nerve, he gave them to the only honest man he knew. Amos was carrying them to the marshal in Cedar Bluff.\n\nThe gold had never been in the box at all. Crane had lied about that too. He had only needed a reason to hang the bride before anyone read what she was carrying."
+      "text": "The letters were unsigned. Every one of them. Shipment dates, hours, which stage, which guard. Somebody in Denver had been selling the gold schedule for two years, and somebody in Cedar Bluff had been buying it.\n\nUnsigned letters prove nothing, said the marshal.\n\nRose asked him for one thing. The bill of lading Crane had left on his desk, the one that called her a thief.\n\nShe laid it on the table next to the letters, under the lamp, and she showed them. The tall, leaning capitals. The little hook on every letter C. The way the writer crossed his T's twice, like a man who never trusts a thing to stay done.\n\n\"My father set type for thirty years,\" Rose said. \"He taught me that a man can change his name. He can't change his hand.\"\n\nThe same man had written both. Silas Crane had signed his own confession and handed it to the law.\n\nFor the first time, they had proof.\n\nAnd up in his white house on the hill, Silas Crane already knew it."
+    },
+    {
+      "id": "I56",
+      "type": "image",
+      "prompt": "Close-up on the kitchen table under an oil lamp: a printed bill of lading and an old handwritten letter side by side, Rose's finger pointing at matching curved capital letters; the words themselves are not legible.",
+      "refs": [
+        "CHAR_ROSE",
+        "LOC_KITCHEN"
+      ],
+      "motion": "slow push in",
+      "night": true,
+      "rose_outfit": "B: faded green gingham dress, low bun",
+      "full_prompt": "Close-up on the kitchen table under an oil lamp: a printed bill of lading and an old handwritten letter side by side, Rose's finger pointing at matching curved capital letters; the words themselves are not legible. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full_B.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+      ],
+      "file": "visuals/images/I56.png"
     },
     {
       "id": "I33",
@@ -1955,7 +2089,7 @@
     {
       "id": "N15",
       "type": "narration",
-      "text": "Crane was not a patient man. When the marshal rode out to his ranch the next morning with a warrant, the white house was empty, the safe was open, and six of the best horses were gone.\n\nMercer read the ground for less than a minute. Red Canyon, he said. The old trail south to New Mexico.\n\nCaleb rode with his arm in a sling. Nobody could talk him out of it."
+      "text": "Crane was not a patient man. When the marshal rode out to his ranch at dawn with a warrant, the white house was empty, the safe was open, and six of the best horses were gone.\n\nMercer read the ground for less than a minute. Red Canyon, he said. The old trail south to New Mexico.\n\nCaleb rode with his arm in a sling. Nobody could talk him out of it.\n\nRose watched them go from the porch with the box in her lap. Clara stood beside her with the shotgun.\n\nNeither of them knew that the trail south was a lie."
     },
     {
       "id": "I34",
@@ -2078,7 +2212,7 @@
     {
       "id": "N16",
       "type": "narration",
-      "text": "Buck Tolliver had picked the place well. High rock, sun at his back, two men pinned in a dry creek bed with nowhere to go.\n\nWhat Buck did not know was that the Union cavalry had taught John Mercer one thing above all others. When a man holds the high ground, you do not go up. You go around.\n\nIt took Mercer forty minutes to climb the back of the canyon wall with a bad leg. It took him four seconds to put Buck Tolliver on his face in the dirt.\n\nBut by then, Silas Crane was gone. Not south, toward New Mexico.\n\nNorth. Back to Cedar Bluff."
+      "text": "Buck Tolliver had picked the place well. High rock, sun at his back, two men pinned in a dry creek bed with nowhere to go.\n\nWhat Buck did not know was that the Union cavalry had taught John Mercer one thing above all others. When a man holds the high ground, you do not go up. You go around.\n\nIt took Mercer forty minutes to climb the back of the canyon wall with a bad leg. It took him four seconds to put Buck Tolliver on his face in the dirt.\n\n\"Where's Crane?\" Mercer asked.\n\nBuck spat blood and laughed. \"Ask the bride.\"\n\nThe riders in the canyon had been a decoy. Silas Crane had never gone south at all.\n\nHe had gone back to Cedar Bluff. Back to the one thing he still needed."
     },
     {
       "id": "I37",
@@ -2120,9 +2254,30 @@
       "file": "visuals/images/I38.png"
     },
     {
+      "id": "I57",
+      "type": "image",
+      "prompt": "Mercer and Caleb galloping flat out back along a dirt road toward a distant small town, dust behind them, desperate faces.",
+      "refs": [
+        "CHAR_MERCER",
+        "CHAR_CALEB",
+        "PROP_HORSE"
+      ],
+      "motion": "fast push in",
+      "night": false,
+      "full_prompt": "Mercer and Caleb galloping flat out back along a dirt road toward a distant small town, dust behind them, desperate faces. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Mercer's horse: tall dark bay horse with a white blaze on the face and black mane, worn brown western saddle with a rolled gray blanket",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "visuals/refs/CHAR_CALEB_front.png",
+        "visuals/refs/CHAR_CALEB_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/PROP_HORSE.png"
+      ],
+      "file": "visuals/images/I57.png"
+    },
+    {
       "id": "N17",
       "type": "narration",
-      "text": "Crane came back for the letters. As long as they existed, he would hang. And he knew exactly where they were.\n\nHe came into Cedar Bluff at noon, by the back way, with two men and a derringer in his sleeve. He walked into the Whitmore kitchen without knocking.\n\nClara was in town. Lily was at the schoolhouse.\n\nRose Calloway was alone, and she was holding the box."
+      "text": "Crane came into Cedar Bluff at noon, by the back way, with two men and a derringer in his sleeve. As long as those letters existed, he would hang. And he knew exactly where they were.\n\nClara had gone to town for the doctor. Lily was at the schoolhouse.\n\nRose Calloway was alone in the kitchen, and she was holding the box."
     },
     {
       "id": "I39",
@@ -2183,9 +2338,14 @@
       }
     },
     {
+      "id": "N17b",
+      "type": "narration",
+      "text": "He needed a hostage to get out of the valley, and a bride was the best hostage of all.\n\nHe walked her down Main Street at noon with the derringer against her ribs and the box in her arms, past the same boardwalks where the town had called her a thief three days before.\n\nNobody said a word now.\n\nAnd at the end of the street, in front of the burned-out jail, a young deputy with one arm in a sling stepped off his lathered horse and into the middle of the road."
+    },
+    {
       "id": "I40",
       "type": "image",
-      "prompt": "Main street at noon, deserted, Silas Crane pushing Rose ahead of him toward a saddled horse, the strongbox in her arms, townspeople watching from doorways.",
+      "prompt": "Main street at noon, deserted, Silas Crane pushing Rose ahead of him toward a saddled horse, the strongbox in her arms, townspeople watching silently from doorways.",
       "refs": [
         "CHAR_CRANE",
         "CHAR_ROSE",
@@ -2195,7 +2355,7 @@
       "motion": "slow push in",
       "night": false,
       "rose_outfit": "B: faded green gingham dress, low bun",
-      "full_prompt": "Main street at noon, deserted, Silas Crane pushing Rose ahead of him toward a saddled horse, the strongbox in her arms, townspeople watching from doorways. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "full_prompt": "Main street at noon, deserted, Silas Crane pushing Rose ahead of him toward a saddled horse, the strongbox in her arms, townspeople watching silently from doorways. Rose wears: B: faded green gingham dress, low bun. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Rose Calloway: 24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
       "ref_files": [
         "visuals/refs/CHAR_CRANE_front.png",
         "visuals/refs/CHAR_CRANE_full.png",
@@ -2276,7 +2436,7 @@
     {
       "id": "N18",
       "type": "narration",
-      "text": "Afterwards, half the town claimed to have seen it, and the story grew a little every time it was told.\n\nBut the truth was simple. Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.\n\nAnd a bride who came by mail."
+      "text": "Caleb never had to draw. From the rooftop of the livery, John Mercer's rifle had been on Crane's two men since the moment they turned into Main Street, and they knew it.\n\nAfterwards, half the town claimed to have seen the whole thing, and the story grew a little every time it was told.\n\nBut the truth was simple. Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.\n\nAnd a bride who came by mail."
     },
     {
       "id": "C32",
@@ -2314,6 +2474,24 @@
         "start_frame": "visuals/images/C32_first.png",
         "video": "visuals/video/C32.mp4"
       }
+    },
+    {
+      "id": "I58",
+      "type": "image",
+      "prompt": "Mercer on the flat roof of the livery stable, kneeling with a rifle aimed down at the main street, calm and steady.",
+      "refs": [
+        "CHAR_MERCER",
+        "LOC_STREET"
+      ],
+      "motion": "slow push in",
+      "night": false,
+      "full_prompt": "Mercer on the flat roof of the livery stable, kneeling with a rifle aimed down at the main street, calm and steady. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "ref_files": [
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+        "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+      ],
+      "file": "visuals/images/I58.png"
     },
     {
       "id": "I41",
@@ -2357,7 +2535,7 @@
     {
       "id": "N19",
       "type": "narration",
-      "text": "Amos Pruitt lived. He testified in Denver in November with his arm in a sling and his spectacles mended with wire, and he shook Rose's hand in front of the whole courtroom.\n\nSilas Crane went to the penitentiary at Cañon City. Buck Tolliver went with him.\n\nAnd on a golden Sunday afternoon in Cedar Bluff, in front of the burned-out marshal's office, with half the town watching, Deputy Caleb Ward got down on one knee in the dirt."
+      "text": "Amos Pruitt lived. He testified in Denver in November with his arm in a sling and his spectacles mended with wire, and in front of the whole courtroom he shook the bride's hand.\n\nSilas Crane went to the penitentiary at Cañon City. Buck Tolliver went with him.\n\nAnd on a golden Sunday afternoon in Cedar Bluff, on the same street where the whole town had called her a thief, Deputy Caleb Ward got down on one knee in the dirt."
     },
     {
       "id": "C33",
@@ -2460,7 +2638,7 @@
     {
       "id": "N20",
       "type": "narration",
-      "text": "Even Agatha Pell came to shake the bride's hand. It was said to be the first apology she had made since the war, and possibly the last.\n\nBut the best moment of the day happened later, and almost nobody saw it."
+      "text": "Even Agatha Pell came to shake the bride's hand. It was said to be the first apology she had made since the war, and very possibly the last.\n\nBut the best moment of that day happened later, at sunset, and almost nobody saw it."
     },
     {
       "id": "C35",
@@ -2542,7 +2720,7 @@
     {
       "id": "N21",
       "type": "narration",
-      "text": "They were married in October, when the aspens turned gold, in the little white church at the end of Main Street. Caleb and Rose stood up for them.\n\nAnd the following spring, it was their turn.\n\nThank you for riding along to Cedar Bluff tonight. If this story warmed your heart, there are more stories waiting for you on this channel.\n\nUntil next time, keep a light in the window."
+      "text": "They were married in October, when the aspens turned gold, in the little white church at the end of Main Street. Caleb and Rose stood up for them. And the following spring, it was their turn.\n\nThank you for riding along to Cedar Bluff tonight. If this story warmed your heart, tell me in the comments where you're watching from, and subscribe, because there are more stories waiting in this little town.\n\nUntil next time, keep a light in the window."
     },
     {
       "id": "I44",

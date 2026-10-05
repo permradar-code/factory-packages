@@ -4,7 +4,7 @@
  "cues": [
   {
    "id": "M01",
-   "covers": "C01–C04 cold open (stagecoach attack)",
+   "covers": "C01–C04 + N00 (cold open and the narrator's hook)",
    "target_s": 50,
    "mood": "explosive chase",
    "new": true,
@@ -64,8 +64,8 @@
   },
   {
    "id": "M08",
-   "covers": "C13 rescue, I20–I23, N07, N07b (Crane's visit), N08, C15–C17",
-   "target_s": 210,
+   "covers": "C13 rescue, I20–I23, N07, N07b (Crane's visit), N07c (night fight in the barn), N08, C15",
+   "target_s": 240,
    "mood": "relief turning into suspicion and dread",
    "new": true,
    "prompt": "Western drama cue at 76 BPM: begins with warm relief on acoustic guitar and soft strings, then turns suspicious: muted trumpet, ticking rim clicks like a pocket watch, low pizzicato bass walking slowly, strings tightening into dread, a feeling of being watched and judged. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
@@ -73,8 +73,8 @@
   },
   {
    "id": "M09",
-   "covers": "N09, C18–C19, N10, I27, C20–C21, N11 (arrest and the night in jail)",
-   "target_s": 180,
+   "covers": "N09, C18–C19, N10, N10b–N10c (walk through town), I27, C20–C21, N11",
+   "target_s": 240,
    "mood": "tender love through iron bars",
    "new": true,
    "prompt": "Intimate love theme at 66 BPM in D major: solo acoustic guitar fingerpicking, a soft harmonica answering, then a warm solo fiddle; quiet, tender and hopeful, like two people holding hands through iron bars by lamplight. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
@@ -108,7 +108,7 @@
   },
   {
    "id": "M13",
-   "covers": "N17, I39, C29, I40, C30–C31, N18 (the showdown)",
+   "covers": "N17, I39, C29, N17b, I40, C30–C31, N18 (the showdown)",
    "target_s": 110,
    "mood": "high noon standoff then release",
    "new": true,

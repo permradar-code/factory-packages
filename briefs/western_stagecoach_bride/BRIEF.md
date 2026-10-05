@@ -1,4 +1,4 @@
-# Google Flow brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, ~20 min, 16:9)
+# Google Flow brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, ~25 min, 16:9)
 
 **Project id:** `western_stagecoach_bride_v1`.
 **Deliver as an orphan branch** `pkg/western_stagecoach_bride_v1` in `permradar-code/factory-packages`, same layout as `pkg/western_widows_piano_v1` (README.md + manifest.json + `visuals/refs/` + `visuals/images/` + `visuals/video/` + `visuals/hooks/` + `audio/narration/` + `audio/music/`).
@@ -18,14 +18,15 @@
    - Music cues with `reuse_from` in `music_cues.json` (M02, M04, M05, M11, M14): copy the files from `pkg/western_widows_piano_v1/audio/music/` into `audio/music/` under the new IDs before running the music script.
    - Narrator: the same voice **Bill** (`pqHfZKP75CvOlQylNhV4`), same settings as film 1.
 3. **Rose has two outfits.** Outfit A (ivory lace wedding dress, short veil pinned back) in every Rose shot up to and including **I20**. Outfit B (faded green gingham dress, low bun) from **I22** on (I22 shows the green dress folded on a chair; Rose is still in a nightgown under a blanket there). Make two full-body refs: `CHAR_ROSE_full.png` (A) and `CHAR_ROSE_full_B.png` (B); for shots after I20 attach `_full_B` instead of `_full`.
-4. **Image IDs are not in timeline order** (I46–I52 were added later). Always follow the order of `timeline`, not the numbers.
-5. **Violence rule:** gunfights and fire, but no blood close-ups, no gore. When Caleb is hit (C23) he clutches his shoulder; no blood spray.
+4. **Image IDs are not in timeline order** (I46–I60 were added later). Always follow the order of `timeline`, not the numbers.
+5. **Retention version (v2).** The story is written so every block ends on a hook. Keep the order exactly; the montage depends on it. Key setups and payoffs: the watcher at the station (I48) → the roan's broken horseshoe (I53, N07c night fight in the barn, I29, C25) → the handwriting proof (I56).
+6. **Violence rule:** gunfights and fire, but no blood close-ups, no gore. When Caleb is hit (C23) he clutches his shoulder; no blood spray.
 
 ## Credits (Flow balance about 397 on 5 Oct)
 | Group | Clips | One take |
 |---|---|---|
-| Core clips (`"priority": "core"`) | 25 | 243 credits |
-| Optional clips | 11 | 110 credits |
+| Core clips (`"priority": "core"`) | 26 | 244 credits |
+| Optional clips | 10 | 100 credits |
 | Hook clips for Shorts (`hooks`, 9:16) | 3 | 21 credits |
 
 - **Stop line: 150 credits.** Check the balance before every video. If the next generation would take it under 150, stop and report what is done and what remains.
@@ -68,7 +69,7 @@ All remaining `priority: core` clips in timeline order: first frame (`start_fram
 
 ## Phase 6: narration (ElevenLabs, no Flow credits)
 Script `tts_elevenlabs.py`, key only from the environment variable `ELEVENLABS_API_KEY` (never print it, never write it to files or git).
-1. `python tts_elevenlabs.py --check`: report characters left vs needed (**~12,300 characters** for one pass of N01–N21; the user is topping up the account).
+1. `python tts_elevenlabs.py --check`: report characters left vs needed (**~16,800 characters** for one pass of N00–N21; the user is topping up the account).
 2. `python tts_elevenlabs.py --voice pqHfZKP75CvOlQylNhV4` for all blocks (existing ones are skipped). No voice test needed: same voice as film 1.
 3. Push `audio/narration/*.mp3` and `*.alignment.json`.
 
