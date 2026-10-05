@@ -1,0 +1,127 @@
+{
+ "film": "The Stagecoach Bride",
+ "note": "Cues with reuse_from are copied from film 1 (series sound). Copy them into audio/music/ first: music_elevenlabs.py skips files that already exist.",
+ "cues": [
+  {
+   "id": "M01",
+   "covers": "C01–C04 cold open (stagecoach attack)",
+   "target_s": 50,
+   "mood": "explosive chase",
+   "new": true,
+   "prompt": "Driving western chase cue at 150 BPM: galloping low strings in ostinato, pounding timpani and frame drum like hooves, urgent fiddle runs, brass stabs on every gunshot accent, building to a sudden cut-off on a held string chord. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M02",
+   "covers": "T00/T01 title + start of N01",
+   "target_s": 40,
+   "mood": "series main theme",
+   "reuse_from": "pkg/western_widows_piano_v1/audio/music/M02.mp3",
+   "instrumental": true
+  },
+  {
+   "id": "M03",
+   "covers": "N01–N02, C05–C08 (the letters, the town, the ranch)",
+   "target_s": 180,
+   "mood": "hopeful young romance with a light comic touch",
+   "new": true,
+   "prompt": "Tender, hopeful romantic western cue at 88 BPM in G major: fingerpicked acoustic guitar and a warm solo fiddle carry a sweet love melody, soft upright bass, a light playful pizzicato figure for nervous young love, gentle and sunny like a letter read by a window. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M04",
+   "covers": "N02 ranch part, I06–I07",
+   "target_s": 60,
+   "mood": "warm homestead",
+   "reuse_from": "pkg/western_widows_piano_v1/audio/music/M05.mp3",
+   "instrumental": true
+  },
+  {
+   "id": "M05",
+   "covers": "N03, I08–I12 (the stage, Silas Crane)",
+   "target_s": 90,
+   "mood": "villain menace",
+   "reuse_from": "pkg/western_widows_piano_v1/audio/music/M08.mp3",
+   "instrumental": true
+  },
+  {
+   "id": "M06",
+   "covers": "N03b, C09–C10 journey, then N04, C11 robbery",
+   "target_s": 150,
+   "mood": "journey that turns into danger",
+   "new": true,
+   "prompt": "Western travel cue at 96 BPM: steady trotting rhythm on brushed snare and upright bass, harmonica and acoustic guitar carry an optimistic travelling melody; halfway through it darkens, low cello and tremolo strings creep in, the rhythm tightens into anxious pulsing, ending on a tense unresolved chord. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M07",
+   "covers": "C12, N05, I15–I17, N06, N06b, I49 (alone on the mountain, the search)",
+   "target_s": 150,
+   "mood": "night, fear and loneliness",
+   "new": true,
+   "prompt": "Quiet, tense night cue at 60 BPM: high sustained violin harmonics, a lonely solo cello line, sparse low piano notes, distant wind-like strings, a heartbeat-slow bass drum, fragile and frightened under a sky full of stars. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M08",
+   "covers": "C13 rescue, I20–I23, N07, N07b (Crane's visit), N08, C15–C17",
+   "target_s": 210,
+   "mood": "relief turning into suspicion and dread",
+   "new": true,
+   "prompt": "Western drama cue at 76 BPM: begins with warm relief on acoustic guitar and soft strings, then turns suspicious: muted trumpet, ticking rim clicks like a pocket watch, low pizzicato bass walking slowly, strings tightening into dread, a feeling of being watched and judged. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M09",
+   "covers": "N09, C18–C19, N10, I27, C20–C21, N11 (arrest and the night in jail)",
+   "target_s": 180,
+   "mood": "tender love through iron bars",
+   "new": true,
+   "prompt": "Intimate love theme at 66 BPM in D major: solo acoustic guitar fingerpicking, a soft harmonica answering, then a warm solo fiddle; quiet, tender and hopeful, like two people holding hands through iron bars by lamplight. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M10",
+   "covers": "C22–C24, N12 (night raid on the jail)",
+   "target_s": 80,
+   "mood": "sudden violent action",
+   "new": true,
+   "prompt": "Sudden western action cue at 140 BPM: a crash of low brass and timpani, frantic tremolo strings, pounding drums, fiddle shrieks, chaos and fire, then dying down into an exhausted, smoky low drone at dawn. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M11",
+   "covers": "I28–I29, C25, N13, I30–I33, N14 (the horseshoe, the letters)",
+   "target_s": 150,
+   "mood": "mystery and discovery",
+   "reuse_from": "pkg/western_widows_piano_v1/audio/music/M07.mp3",
+   "instrumental": true
+  },
+  {
+   "id": "M12",
+   "covers": "N15, I34, C27–C28, I35–I38, N16 (Red Canyon)",
+   "target_s": 150,
+   "mood": "canyon chase and ambush",
+   "new": true,
+   "prompt": "Epic western chase cue at 132 BPM: galloping string ostinato, booming tom drums echoing like canyon walls, heroic French horn melody, rifle-crack percussion accents, then a tense quieter middle section with plucked strings and a lone trumpet, rising again to a triumphant brass hit. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M13",
+   "covers": "N17, I39, C29, I40, C30–C31, N18 (the showdown)",
+   "target_s": 110,
+   "mood": "high noon standoff then release",
+   "new": true,
+   "prompt": "High-noon showdown cue at 70 BPM: a lone whistled melody over a ticking clock-like percussion, a deep twangy acoustic guitar, a long sustained string tension that keeps rising, sudden silence, then one explosive orchestral release. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880 American frontier feel, no modern drums, no synths, no electric guitar.",
+   "instrumental": true
+  },
+  {
+   "id": "M14",
+   "covers": "C32, I41–I43, N19, C33–C36, N20, N21, I44–I45 (justice, two proposals, finale)",
+   "target_s": 150,
+   "mood": "warm resolution",
+   "reuse_from": "pkg/western_widows_piano_v1/audio/music/M13.mp3",
+   "instrumental": true
+  }
+ ]
+}
