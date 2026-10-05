@@ -1,0 +1,46 @@
+{
+  "schema": "moiastro.montage.package.v2",
+  "project_id": "western_stagecoach_bride_v1",
+  "title": "The Stagecoach Bride",
+  "series": "Tales of Cedar Bluff",
+  "language": "en",
+  "aspect_ratio": "16:9",
+  "fps": 24,
+  "source": "Google Flow (Nano Banana Pro images); Rose portrait also ChatGPT; narration/music ElevenLabs",
+  "flow_credits_spent": 0,
+  "phase": "0-1 refs (in progress)",
+  "refs": {
+    "reused_from_film_1": [
+      "CHAR_AGATHA_front",
+      "CHAR_AGATHA_full",
+      "CHAR_CLARA_front",
+      "CHAR_CLARA_full",
+      "CHAR_LILY_front",
+      "CHAR_LILY_full",
+      "CHAR_MARSHAL_front",
+      "CHAR_MARSHAL_full",
+      "CHAR_MERCER_front",
+      "CHAR_MERCER_full",
+      "LOC_BARN",
+      "LOC_KITCHEN",
+      "LOC_RANCH",
+      "LOC_STREET",
+      "PROP_HORSE"
+    ],
+    "new": {}
+  },
+  "reused": {
+    "images": {
+      "I01": "film1 I01",
+      "I45": "film1 I69"
+    },
+    "music": {
+      "M02": "film1 M02",
+      "M04": "film1 M05",
+      "M05": "film1 M08",
+      "M11": "film1 M07",
+      "M14": "film1 M13"
+    }
+  },
+  "scenes": []
+}
