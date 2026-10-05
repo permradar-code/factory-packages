@@ -6,8 +6,8 @@
   "aspect_ratio": "16:9",
   "fps": 24,
   "source": "Google Flow (Omni 1.1 Flash 720p clips; Nano Banana Pro images); narration ElevenLabs",
-  "flow_credits_spent": 484,
-  "flow_credits_left": 421,
+  "flow_credits_spent": 508,
+  "flow_credits_left": 397,
   "phase": "done",
   "narration": {
     "voice_id": "pqHfZKP75CvOlQylNhV4",
@@ -1363,11 +1363,13 @@
     "Flow viewport changed between 641 and 585 px high between tabs; the Flow tab froze twice in this session (reopened, nothing was charged).",
     "Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).",
     "C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame.",
-    "Epilogue (after C38, before N10): narration N09b, images I70, I71, I72 (ChatGPT, film look, 1672x941, one try each). The epilogue has no video clips: use the stills with slow moves."
+    "Epilogue (after C38, before N10): narration N09b, images I70, I71, I72 (ChatGPT, film look, 1672x941, one try each). The epilogue has no video clips: use the stills with slow moves.",
+    "Hooks H01-H03 (9:16, for Shorts openers) are in visuals/hooks. Order made: H01, H03, H02. All first frames are Flow images; clips Omni 1.1 Flash 720p."
   ],
   "questions_extra": [
     "C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.",
-    "Gemini image generation without references gives wrong faces silently: after every sent message the attach input is spent, so click '+' then 'Upload files' again (a fresh input must appear) and check that the reference chips are visible before sending."
+    "Gemini image generation without references gives wrong faces silently: after every sent message the attach input is spent, so click '+' then 'Upload files' again (a fresh input must appear) and check that the reference chips are visible before sending.",
+    "Flow web tabs froze about 15 times in this session (also when opening the settings popup with a saved 9:16 image ratio, and after viewing a tile). Workarounds that held: a fresh tab per step, never opening a tile while it renders, and switching mode/ratio/duration through localStorage key 'flow-prompt-box-settings' (mode IMAGE / VIDEO_FRAMES, aspectRatio LANDSCAPE / PORTRAIT, QC = duration). Two harmless extras exist in the Flow project: a stray image tile named LOC_PLATFORM.jpg (portrait, has a sign) which can be deleted."
   ],
   "thumbnails": [
     {
@@ -1406,5 +1408,51 @@
     }
   ],
   "elevenlabs_left": 9641,
-  "elevenlabs_limit": 23736
+  "elevenlabs_limit": 23736,
+  "hooks": [
+    {
+      "id": "H01",
+      "file": "visuals/hooks/H01.mp4",
+      "first_frame": "visuals/hooks/H01_first.png",
+      "duration": 4,
+      "credits": 7,
+      "takes": 1,
+      "frame_tries": 1,
+      "aspect": "9:16 vertical (Flow Omni 1.1 Flash offers 9:16; first frames also 9:16, Nano Banana Pro)",
+      "resolution": "720x1280 720p 24 fps",
+      "has_audio": true,
+      "note": "Gold on the auction table: hand slams the leather pouch, coins burst and spin, Deke flinches with the gavel raised. Motion starts at once (slam within ~0.5 s). Coins are plain with a small building emblem, no readable text; the ledger has illegible scribbles. A second small pouch sits near Deke's hand (minor)."
+    },
+    {
+      "id": "H03",
+      "file": "visuals/hooks/H03.mp4",
+      "first_frame": "visuals/hooks/H03_first.png",
+      "duration": 6,
+      "credits": 10,
+      "takes": 1,
+      "frame_tries": 2,
+      "aspect": "9:16 vertical (Flow Omni 1.1 Flash offers 9:16; first frames also 9:16, Nano Banana Pro)",
+      "resolution": "720x1280 720p 24 fps",
+      "has_audio": true,
+      "note": "Clara's warning shot: shotgun raised at t=0, muzzle flash at ~0.35 s, then she lowers the barrels and speaks 'The next one goes lower!' (line timing seen on the lips and audio level; wording not checked by ear). Frame try 1 (visuals not kept in package, _variants only) had Clara too small; try 2 added tight close-medium framing. Face, braided crown, shawl match the refs."
+    },
+    {
+      "id": "H02",
+      "file": "visuals/hooks/H02.mp4",
+      "first_frame": "visuals/hooks/H02_first.png",
+      "duration": 4,
+      "credits": 7,
+      "takes": 1,
+      "frame_tries": 1,
+      "aspect": "9:16 vertical (Flow Omni 1.1 Flash offers 9:16; first frames also 9:16, Nano Banana Pro)",
+      "resolution": "720x1280 720p 24 fps",
+      "has_audio": true,
+      "note": "Torch into the barn: torch lands in the hay at ~0.25 s, flames race up the wall, horse rears, sparks and smoke, flames grow toward the camera. Realistic fire, no people. In the last second the bay horse looks lighter than the reference (minor)."
+    }
+  ],
+  "hooks_summary": {
+    "aspect_used": "9:16",
+    "credits_hooks": 24,
+    "regenerations_used": "H03 frame x1 (first frame try 1 rejected); no video regenerations"
+  }
 }

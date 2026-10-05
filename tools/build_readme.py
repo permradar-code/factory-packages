@@ -15,12 +15,13 @@ skipped.sort(key=lambda s: order.get(s["shot_id"], 999))
 rows += "".join(f"\n| {s['shot_id']} | skipped | 0 | 0 | | NOT MADE: {s['reason']} Start frame `{s['start_frame']}`. {s.get('montage_plan','')} |" for s in skipped)
 clip_total = sum(c["credits"] for c in clips)
 spent = m["flow_credits_spent"]; left = m["flow_credits_left"]
-outside = spent - clip_total
-rows += f"\n| **Total** | | **{clip_total}** | | | {len(clips)} clips; plus {outside} spent outside the package = {spent} |"
+hooks=m.get("hooks",[]); hooks_total=sum(h["credits"] for h in hooks); outside = spent - clip_total - hooks_total
+rows += f"\n| **Total** | | **{clip_total}** | | | {len(clips)} clips; plus {hooks_total} for the 3 hooks (below) plus {outside} spent outside the package = {spent} |"
 state = "Finished" if m["phase"] == "done" else "Work in progress"
 thumbs = [f"- Thumbnail {x['id']}: `{x['file']}` ({x['size']}), Gemini tries: {x['gemini_tries']}. {x['note']}" for x in m.get("thumbnails", [])]
 dlg = [f"- Dialogue {d['id']} ({d['for']}): " + ", ".join("`" + f + "`" for f in d["files"]) + f". Text: \"{d['text']}\". {d['note']}" for d in m.get("dialogue", [])]
-extras = chr(10).join(thumbs + dlg + ["- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s."])
+hk = [f"- Hook {h['id']} ({h['duration']} s, 9:16): `{h['file']}`, first frame `{h['first_frame']}`, {h['credits']} credits, takes {h['takes']}, frame tries {h['frame_tries']}. {h['note']}" for h in m.get("hooks",[])]
+extras = chr(10).join(hk + thumbs + dlg + ["- N10 narration re-voiced with the updated sign-off text (tools/montage commit 0d49d1a), voice Bill, 14.2 s."])
 t = f"""# western_widows_piano_v1 (The Widow's Piano, western, 16:9)
 
 {state} (phase: {m['phase']}). Source of truth: `briefs/western_widows_piano/shotlist.json` (branch `tools/montage`, shotlist commit 7d0f9ec, brief commit bb32e99: 49 clips of 4/6/8 s, one speaker per clip).

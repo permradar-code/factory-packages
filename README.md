@@ -19,7 +19,7 @@ Finished (phase: done). Source of truth: `briefs/western_widows_piano/shotlist.j
 - `audio/narration/`, `audio/music/`, `docs/`, `manifest.json`, `HANDOFF.md` (working notes for the next session), `tools/` (helper scripts).
 
 ## Credits (Flow, per clip; balance is not shown in the UI)
-Spent 484, left 421 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
+Spent 508, left 397 (905 reported on 3 Oct). Spent outside the package: 7 (Mercer test) + 12 (C11 with the rejected Clara v2).
 
 | Clip | Length | Credits | Takes | Frame tries | Note |
 |---|---|---|---|---|---|
@@ -72,11 +72,14 @@ Spent 484, left 421 (905 reported on 3 Oct). Spent outside the package: 7 (Merce
 | C38 | 6 s | 10 | 1 | 1 | Final wide shot, ranch at dusk, crane up and pull back, stars; ambient only, no dialogue; Flow tab froze once between frame and video (reopened, no charge) |
 | C19a | skipped | 0 | 0 | | NOT MADE: Flow refused 3 times in a row (policy error 'content violates our rules', no charge). Not retried further by decision of 4 Oct 2026. Start frame `visuals/images/C19a_first.png`. Close at montage from the start frame C19a_first.png (Pike holding the paper) and still I57; the line is also covered by C19b. |
 | C33 | skipped | 0 | 0 | | NOT MADE: Flow refused 3 times in a row ('cannot create videos that may harm the reputation of people or current events', no charge). Not retried further by decision of 4 Oct 2026. Start frame `visuals/images/C33_first.png`. Close at montage from the start frame C33_first.png (Marshal handcuffing Pike, crowd, Agatha with parasol) and still I57. |
-| **Total** | | **465** | | | 47 clips; plus 19 spent outside the package = 484 |
+| **Total** | | **465** | | | 47 clips; plus 24 for the 3 hooks (below) plus 19 spent outside the package = 508 |
 
 ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 9476, N10 re-voice and the C19a Pike candidates after that; left 9641 of 23736.
 
 ## Extras (outside the 49 clips)
+- Hook H01 (4 s, 9:16): `visuals/hooks/H01.mp4`, first frame `visuals/hooks/H01_first.png`, 7 credits, takes 1, frame tries 1. Gold on the auction table: hand slams the leather pouch, coins burst and spin, Deke flinches with the gavel raised. Motion starts at once (slam within ~0.5 s). Coins are plain with a small building emblem, no readable text; the ledger has illegible scribbles. A second small pouch sits near Deke's hand (minor).
+- Hook H03 (6 s, 9:16): `visuals/hooks/H03.mp4`, first frame `visuals/hooks/H03_first.png`, 10 credits, takes 1, frame tries 2. Clara's warning shot: shotgun raised at t=0, muzzle flash at ~0.35 s, then she lowers the barrels and speaks 'The next one goes lower!' (line timing seen on the lips and audio level; wording not checked by ear). Frame try 1 (visuals not kept in package, _variants only) had Clara too small; try 2 added tight close-medium framing. Face, braided crown, shawl match the refs.
+- Hook H02 (4 s, 9:16): `visuals/hooks/H02.mp4`, first frame `visuals/hooks/H02_first.png`, 7 credits, takes 1, frame tries 1. Torch into the barn: torch lands in the hay at ~0.25 s, flames race up the wall, horse rears, sparks and smoke, flames grow toward the camera. Realistic fire, no people. In the last second the bay horse looks lighter than the reference (minor).
 - Thumbnail A: `docs/thumbs/A.png` (2752x1536), Gemini tries: 1. Main. Sunny ranch morning: Clara left, double-barrel aimed at Mercer, Mercer right by the gate with the bay horse, hat on chest, piano under tarp on a wagon, empty sky top right for the title.
 - Thumbnail B: `docs/thumbs/B.png` (2752x1536), Gemini tries: 3. Night, burning barn. Try 1 rejected (references did not attach, faces did not match); try 2 rejected (unrequested piano on the porch with garbled lettering); try 3 accepted (2 regenerations used, the maximum). Riders are silhouettes, rearing is mild.
 - Thumbnail C: `docs/thumbs/C.png` (2752x1536), Gemini tries: 1. Auction: Clara in tears left, piano on the wagon, Deke with the gavel, Agatha laughing with the parasol, Mercer raising a hand in the crowd.
@@ -98,6 +101,7 @@ ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 94
 - Thumbnails A, B, C are in docs/thumbs (2752x1536, bright style, no text). A is the main one (free sky top right for the title).
 - C19a Pike line: two ElevenLabs voice candidates in audio/dialogue (v1 Edward, v2 Monty) for the montage to lay over the start frame.
 - Epilogue (after C38, before N10): narration N09b, images I70, I71, I72 (ChatGPT, film look, 1672x941, one try each). The epilogue has no video clips: use the stills with slow moves.
+- Hooks H01-H03 (9:16, for Shorts openers) are in visuals/hooks. Order made: H01, H03, H02. All first frames are Flow images; clips Omni 1.1 Flash 720p.
 
 ## Questions
 - Flow image limit: first hit 3 Oct ~01:30 after ~60 images in ~25 min; reset by 4 Oct 10:30 (daily limit). On 4 Oct about 40 frame images were made in about 6 hours without hitting it again.
@@ -106,3 +110,4 @@ ElevenLabs (pay-as-you-go plan, resets 24 Oct): narration 1549 credits, music 94
 - Gemini images come out 16:9 (2752x1536) even when the aspect pill is not set after "new chat".
 - C19a and C33 are NOT made: Flow refused each of them 3 times in a row (no credits charged). Decision of 4 Oct 2026: no more attempts; both beats are closed at montage from the start frames (visuals/images/C19a_first.png, visuals/images/C33_first.png) and the still I57. They are recorded in the manifest as type 'skipped'.
 - Gemini image generation without references gives wrong faces silently: after every sent message the attach input is spent, so click '+' then 'Upload files' again (a fresh input must appear) and check that the reference chips are visible before sending.
+- Flow web tabs froze about 15 times in this session (also when opening the settings popup with a saved 9:16 image ratio, and after viewing a tile). Workarounds that held: a fresh tab per step, never opening a tile while it renders, and switching mode/ratio/duration through localStorage key 'flow-prompt-box-settings' (mode IMAGE / VIDEO_FRAMES, aspectRatio LANDSCAPE / PORTRAIT, QC = duration). Two harmless extras exist in the Flow project: a stray image tile named LOC_PLATFORM.jpg (portrait, has a sign) which can be deleted.

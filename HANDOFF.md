@@ -121,3 +121,7 @@ Faces/quality notes: C11 frame needed 3 tries (wide shots made Clara tiny). Titl
 
 ## 13. Epilogue (session 6)
 - N09b voiced (Bill, 31.3 s); N01_fix voiced (5.1 s); I70, I71, I72 made in ChatGPT (film look, 1672x941, one try each). All pushed; manifest updated.
+
+## 14. Hooks (session 7, 5 Oct 2026)
+- H01, H02, H03 made as 9:16 openers for Shorts (visuals/hooks, 24 credits; Flow left 397). Details in manifest "hooks" and README Extras.
+- Flow tab freezes: use a fresh tab per step, never open a tile while it renders, switch Flow settings via localStorage key flow-prompt-box-settings (mode IMAGE or VIDEO_FRAMES, aspectRatio LANDSCAPE or PORTRAIT, QC = seconds). Opening the settings popup while the saved IMAGE ratio is 9:16 froze the tab; set LANDSCAPE first, then pick 9:16 inside the Video popup.
