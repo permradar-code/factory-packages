@@ -6,9 +6,9 @@
   "language": "en",
   "aspect_ratio": "16:9",
   "fps": 24,
-  "source": "Google Flow (Nano Banana Pro images); Rose portrait also ChatGPT; narration/music ElevenLabs",
+  "source": "Refs: ChatGPT image generation (user decision 5 Oct: Flow tab unstable, ChatGPT gives better faces). Flow project 25886d44-bf88-49ae-b9ca-00ac2dc0467f (film 2) created but unused so far.",
   "flow_credits_spent": 0,
-  "phase": "0-1 refs (in progress)",
+  "phase": "1 refs done, waiting STOP 1 approval",
   "refs": {
     "reused_from_film_1": [
       "CHAR_AGATHA_front",
@@ -27,7 +27,101 @@
       "LOC_STREET",
       "PROP_HORSE"
     ],
-    "new": {}
+    "new": {
+      "CHAR_AMOS_34.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_AMOS_front.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_AMOS_full.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_BUCK_34.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_BUCK_front.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_BUCK_full.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CALEB_34.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CALEB_front.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CALEB_full.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CRANE_34.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CRANE_front.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_CRANE_full.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_ROSE_34.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_ROSE_front.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_ROSE_full.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "CHAR_ROSE_full_B.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "LOC_CANYON.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "LOC_CRANE.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "LOC_JAIL.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "LOC_PASS.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "LOC_STATION.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "PROP_BOX.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      },
+      "PROP_STAGE.png": {
+        "source": "chatgpt",
+        "size": "1672x941"
+      }
+    },
+    "note": "Rose face chosen by user = ChatGPT v1 (Flow v1/v2 rejected as plain). 34/full/full_B generated in the same ChatGPT chat with the front in context. Prompts = shotlist ref_prompts + prefix \"Create an image, wide 16:9 landscape format.\" and, for 34/full, \"Keep EXACTLY the same person as in the portrait above\". Buck: scar shows on the cheek at image-left (character right cheek) instead of left; Rose: scar on left eyebrow barely visible. Props/locations without people."
   },
   "reused": {
     "images": {
