@@ -1,0 +1,48 @@
+# Tales of Cedar Bluff — передача в новый чат (5 окт 2026)
+
+## Что это
+YouTube-канал **Tales of Cedar Bluff** (@TalesofCedarBluff), английский long-form: ИИ-вестерны, драма и романтика, аудитория США 55+. Вымышленный городок Cedar Bluff в Колорадо, 1879 год. Колорадо стал штатом в 1876, поэтому НЕ пишем «Colorado Territory».
+Первый фильм **The Widow's Piano** (14:12) опубликован 4 окт около 23:00 МСК. Идёт A/B-тест трёх пар «название + превью». Плейлист создан. На утро 5 окт 4 показа: для нового канала это нормально.
+
+## Как устроено производство
+- **Claude Code** в Chrome пользователя генерирует: картинки (Gemini app / Flow Nano Banana Pro / ChatGPT), первые кадры и клипы (Google Flow, Omni 1.1 Flash 720p, 4/6/8 с = 7/10/12 кредитов), озвучку и музыку (ElevenLabs API). Всё пушит в ветку `pkg/...`.
+- **Этот чат (монтаж):** пишет бриф и shotlist, забирает пакет, монтирует ffmpeg/numpy, делает субтитры и упаковку, отдаёт фильм в ветку `film/...`.
+- Правила для Flow: один говорящий на клип (восьмёрка), длина клипа под реплику, в промпте «ONLY X speaks». Запросы по одному, x1, пауза 30–60 с, не больше ~30 картинок в час. Лимит картинок суточный. Фильтр знаменитостей: лица делать оригинальными, фильтр не обходить.
+- Остатки на 4–5 окт (примерно): Flow 421 кредит, ElevenLabs около 9 200 символов.
+- Голоса ElevenLabs: рассказчик **Bill**, Пайк **Edward**. Ключ лежит ТОЛЬКО в Windows-переменной ELEVENLABS_API_KEY пользователя. Не выводить, не писать в файлы и git.
+
+## Где что лежит (repo github.com/permradar-code/factory-packages)
+| Ветка / путь | Что там |
+|---|---|
+| `tools/montage` → `briefs/western_widows_piano/` | BRIEF.md (фазы и правила для Claude Code), **shotlist.json** (единственный источник правды: персонажи с внешностью и голосом, таймлайн, готовые промпты), screenplay.md, build_shotlist.py, narration/*.txt, tts_elevenlabs.py, music_elevenlabs.py, music_cues.json/md (M01–M13), epilogue_task.md |
+| `tools/montage` → `montage/western_widows_piano/` | Монтажные скрипты: build_timeline.py → edl.json, render_video.py (W/H/SCALE/PRESET; 1080p: W=1920 H=1080 SCALE=1.5 PRESET=medium), mix_audio.py (OUT=файл), make_srt.py; шрифт Rye-Regular.ttf; финальный edl.json и .srt; brand/ (avatar_CB_800.png, banner_2560x1440.jpg, watermark_300.png); thumbs/ (A_shotgun, B_fire, C_auction_6) |
+| `pkg/western_widows_piano_v1` | Все исходники от Claude Code: visuals/images (I01–I72, *_first.png), visuals/video (47 клипов C01–C38), audio/narration (N01–N10, N09b, N01_fix + alignment.json), audio/dialogue, audio/music (M01–M13), manifest.json, README, HANDOFF |
+| `film/western_widows_piano_v1` | Готовый фильм v2 (1080p, 851.96 с, −14 LUFS) частями .part00–04 + join.ps1 (склейка и проверка SHA256 4230b8b9…), .srt, thumb_A/B/C.jpg |
+
+В скриптах захардкожены пути `/home/claude/montage` (монтаж), `/home/claude/wwp_pkg` (содержимое ветки pkg), `/home/claude/fonts/Rye-Regular.ttf`. В новом контейнере их нужно воссоздать: развернуть ветку pkg в wwp_pkg, скрипты положить в montage. Или поправить пути.
+Пайплайн: `build_timeline.py` → `render_video.py` (сегменты в seg/NNN_ID.mp4, затем concat) → `mix_audio.py` (громкость голоса −20 dB RMS, ducking музыки −15/−6 dB, loudnorm −14 LUFS) → `make_srt.py`.
+Особенности фильма: клипы C19a и C33 Flow отказался делать, в монтаже вместо них стоп-кадры (C19a с репликой Пайка голосом Edward). Эпилог (N09b + I70–I72) вставляется в build_timeline после C38.
+
+## Упаковка (уже на YouTube)
+- Пары теста: A ружьё «THAT'S FAR ENOUGH.» + «The Widow Aimed Her Shotgun at the Stranger — Until She Saw What Was on His Wagon»; B пожар «THE NEXT ONE GOES LOWER!» + «Night Riders Torched the Widow's Barn — They Didn't Know Who She'd Let Sleep Inside»; C «SOLD FOR $6?» + «The Town Laughed as the Widow's Piano Hit the Auction Block — Until a Silent Cowboy Raised His Hand».
+- Пианино НЕ продали за $6: Мерсер перебил ставку на 200 в золоте. В названиях «sold for $6» не писать.
+- Текст на превью не дублирует название. Синтетический контент = Да, не для детей, Фильмы и анимация, EN, публикация около 22:00 МСК.
+
+## Таймкоды фильма v2 для Shorts
+- 0:00–1:05 аукцион: «Lot thirty-one!», Агата «Six dollars! It will make lovely kindling», «going once… going twice…», 0:43 Мерсер поднимает руку: «Two hundred.» — «In gold.» — «Sold.» **Лучший шортс.**
+- ~4:30–5:00 повозка с пианино у ворот, 4:40 «That's far enough…» с ружьём, 4:51 пианино снимают.
+- 8:31–9:00 ночные всадники, поджог амбара, Мерсер выскакивает, 8:51 «The next one goes lower!»
+- 10:22–11:17 второй аукцион, маршал, «That's fraud», «The Whitmore note is paid. In full.», арест Пайка.
+- 11:17–11:35 «It's Saturday. Why?» и ответ Мерсера.
+- 13:21–13:54 эпилог: свадьба, «This time, nobody laughed».
+
+## Мысли по продвижению
+1. **Shorts — главный рычаг для нового канала.** 3–5 вертикальных 9:16 по 30–55 с из сцен выше. Крупные субтитры (вжечь из .srt), хук в первые 2 секунды (начинать с реплики или смеха толпы, а не с пейзажа). В конце плашка «Full story on the channel». В каждом шортсе «Связанное видео» = полный фильм. Шорты выпускать по одному в день или через день, а не пачкой. Кадрирование: кроп 16:9 → 9:16 по лицу говорящего, Ken Burns на стоп-кадрах. Название шортса — интрига, а не спойлер («They laughed at the widow… then he raised his hand»).
+2. **Второй фильм в течение 7–10 дней,** дальше по одному в неделю (в описании канала обещано «New story every week»). Длина 20+ минут: аудитория 55+ любит длинные истории, а длинный ролик даёт больше времени просмотра. Сильнее романтическая линия, повторяющиеся жители Cedar Bluff (Агата, маршал Abel Hart, Deke), чтобы складывалась вселенная.
+3. **Формула названий в нише:** унижение или угроза + конкретная деталь + поворот через «Until…/They didn't know…» + архетип (вдова, молчаливый ковбой). Превью: героиня крупно, эмоция, 2–4 слова реплики.
+4. **Закреплённый коммент с вопросом** («Where are you watching from tonight?»). В первые дни отвечать на комментарии.
+5. **Через 2–3 дня, потом через неделю** смотреть: CTR показов, среднюю длительность просмотра, удержание первых 30 секунд, источники трафика, итог A/B. Если просаживается начало, во втором фильме раньше давать конфликт.
+6. Не перезаливать, не накручивать, не менять название и превью во время теста.
+
+## Ограничения
+Ключи и пароли не печатать и не коммитить. Аккаунты за пользователя не создавать. Региональные блокировки (Gemini из Сочи) и фильтры Flow не обходить. Файлы больше 100 MB в git не класть: резать на части по 90 MB. Выдача через SendUserFile до 30 MB.

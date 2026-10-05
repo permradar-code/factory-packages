@@ -1,0 +1,1229 @@
+{
+ "total": 851.73,
+ "events": [
+  {
+   "kind": "clip",
+   "id": "C01",
+   "file": "/home/claude/wwp_pkg/visuals/video/C01.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 0.0
+  },
+  {
+   "kind": "clip",
+   "id": "C02a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C02a.mp4",
+   "src_dur": 6.016,
+   "dur": 4.35,
+   "dialogue": true,
+   "priority": "core",
+   "start": 8.0
+  },
+  {
+   "kind": "clip",
+   "id": "C02b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C02b.mp4",
+   "src_dur": 6.016,
+   "dur": 5.5,
+   "dialogue": true,
+   "priority": "core",
+   "start": 12.35
+  },
+  {
+   "kind": "clip",
+   "id": "C03",
+   "file": "/home/claude/wwp_pkg/visuals/video/C03.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 17.85
+  },
+  {
+   "kind": "clip",
+   "id": "C04",
+   "file": "/home/claude/wwp_pkg/visuals/video/C04.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": true,
+   "priority": "core",
+   "start": 25.85
+  },
+  {
+   "kind": "clip",
+   "id": "C05",
+   "file": "/home/claude/wwp_pkg/visuals/video/C05.mp4",
+   "src_dur": 6.016,
+   "dur": 5.95,
+   "dialogue": true,
+   "priority": "core",
+   "start": 31.866
+  },
+  {
+   "kind": "clip",
+   "id": "C06",
+   "file": "/home/claude/wwp_pkg/visuals/video/C06.mp4",
+   "src_dur": 6.016,
+   "dur": 5.15,
+   "dialogue": true,
+   "priority": "optional",
+   "start": 37.816
+  },
+  {
+   "kind": "clip",
+   "id": "C07",
+   "file": "/home/claude/wwp_pkg/visuals/video/C07.mp4",
+   "src_dur": 4.01,
+   "dur": 3.4,
+   "dialogue": true,
+   "priority": "core",
+   "start": 42.966
+  },
+  {
+   "kind": "clip",
+   "id": "C08a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C08a.mp4",
+   "src_dur": 6.016,
+   "dur": 3.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 46.366
+  },
+  {
+   "kind": "clip",
+   "id": "C08b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C08b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.5,
+   "dialogue": true,
+   "priority": "core",
+   "start": 49.366
+  },
+  {
+   "kind": "clip",
+   "id": "C09a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C09a.mp4",
+   "src_dur": 4.01,
+   "dur": 2.9,
+   "dialogue": true,
+   "priority": "core",
+   "start": 51.866
+  },
+  {
+   "kind": "clip",
+   "id": "C09b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C09b.mp4",
+   "src_dur": 6.016,
+   "dur": 4.8,
+   "dialogue": true,
+   "priority": "core",
+   "start": 54.766
+  },
+  {
+   "kind": "clip",
+   "id": "C10",
+   "file": "/home/claude/wwp_pkg/visuals/video/C10.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": false,
+   "priority": "core",
+   "start": 59.566
+  },
+  {
+   "kind": "title",
+   "id": "T01",
+   "text": "THE WIDOW'S PIANO",
+   "dur": 5.0,
+   "start": 65.582
+  },
+  {
+   "kind": "narration",
+   "id": "N01",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N01.mp3",
+   "audio_dur": 175.490612,
+   "images": [
+    {
+     "id": "I01",
+     "file": "/home/claude/wwp_pkg/visuals/images/I01.png",
+     "motion": "slow aerial drift forward",
+     "flashback": false,
+     "start": 70.582,
+     "dur": 8.825
+    },
+    {
+     "id": "I02",
+     "file": "/home/claude/wwp_pkg/visuals/images/I02.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 79.407,
+     "dur": 8.825
+    },
+    {
+     "id": "I03",
+     "file": "/home/claude/wwp_pkg/visuals/images/I03.png",
+     "motion": "slow pan right",
+     "flashback": true,
+     "start": 88.231,
+     "dur": 8.825
+    },
+    {
+     "id": "I04",
+     "file": "/home/claude/wwp_pkg/visuals/images/I04.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 97.056,
+     "dur": 8.825
+    },
+    {
+     "id": "I05",
+     "file": "/home/claude/wwp_pkg/visuals/images/I05.png",
+     "motion": "slow pull out",
+     "flashback": true,
+     "start": 105.88,
+     "dur": 8.825
+    },
+    {
+     "id": "I06",
+     "file": "/home/claude/wwp_pkg/visuals/images/I06.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 114.705,
+     "dur": 8.825
+    },
+    {
+     "id": "I07",
+     "file": "/home/claude/wwp_pkg/visuals/images/I07.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 123.529,
+     "dur": 8.825
+    },
+    {
+     "id": "I08",
+     "file": "/home/claude/wwp_pkg/visuals/images/I08.png",
+     "motion": "very slow push in",
+     "flashback": true,
+     "start": 132.354,
+     "dur": 8.825
+    },
+    {
+     "id": "I09",
+     "file": "/home/claude/wwp_pkg/visuals/images/I09.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 141.178,
+     "dur": 8.825
+    },
+    {
+     "id": "I10",
+     "file": "/home/claude/wwp_pkg/visuals/images/I10.png",
+     "motion": "slow pan left",
+     "flashback": false,
+     "start": 150.003,
+     "dur": 8.825
+    },
+    {
+     "id": "I11",
+     "file": "/home/claude/wwp_pkg/visuals/images/I11.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 158.827,
+     "dur": 8.825
+    },
+    {
+     "id": "I12",
+     "file": "/home/claude/wwp_pkg/visuals/images/I12.png",
+     "motion": "slow pan right",
+     "flashback": false,
+     "start": 167.652,
+     "dur": 8.825
+    },
+    {
+     "id": "I13",
+     "file": "/home/claude/wwp_pkg/visuals/images/I13.png",
+     "motion": "slow pan across the carving",
+     "flashback": false,
+     "start": 176.476,
+     "dur": 8.825
+    },
+    {
+     "id": "I14",
+     "file": "/home/claude/wwp_pkg/visuals/images/I14.png",
+     "motion": "slow pan right",
+     "flashback": true,
+     "start": 185.301,
+     "dur": 8.825
+    },
+    {
+     "id": "I15",
+     "file": "/home/claude/wwp_pkg/visuals/images/I15.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 194.125,
+     "dur": 8.825
+    },
+    {
+     "id": "I16",
+     "file": "/home/claude/wwp_pkg/visuals/images/I16.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 202.95,
+     "dur": 8.825
+    },
+    {
+     "id": "I17",
+     "file": "/home/claude/wwp_pkg/visuals/images/I17.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 211.774,
+     "dur": 8.825
+    },
+    {
+     "id": "I18",
+     "file": "/home/claude/wwp_pkg/visuals/images/I18.png",
+     "motion": "slow pan left",
+     "flashback": false,
+     "start": 220.599,
+     "dur": 8.825
+    },
+    {
+     "id": "I19",
+     "file": "/home/claude/wwp_pkg/visuals/images/I19.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 229.424,
+     "dur": 8.825
+    },
+    {
+     "id": "I20",
+     "file": "/home/claude/wwp_pkg/visuals/images/I20.png",
+     "motion": "slow tracking drift",
+     "flashback": false,
+     "start": 238.248,
+     "dur": 8.825
+    }
+   ],
+   "start": 70.582,
+   "dur": 176.491,
+   "voice_start": 70.982
+  },
+  {
+   "kind": "narration",
+   "id": "N02",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N02.mp3",
+   "audio_dur": 32.496327,
+   "images": [
+    {
+     "id": "I21",
+     "file": "/home/claude/wwp_pkg/visuals/images/I21.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 247.073,
+     "dur": 6.699
+    },
+    {
+     "id": "I22",
+     "file": "/home/claude/wwp_pkg/visuals/images/I22.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 253.772,
+     "dur": 6.699
+    },
+    {
+     "id": "I23",
+     "file": "/home/claude/wwp_pkg/visuals/images/I23.png",
+     "motion": "very slow push in",
+     "flashback": false,
+     "start": 260.472,
+     "dur": 6.699
+    },
+    {
+     "id": "I24",
+     "file": "/home/claude/wwp_pkg/visuals/images/I24.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 267.171,
+     "dur": 6.699
+    },
+    {
+     "id": "I25",
+     "file": "/home/claude/wwp_pkg/visuals/images/I25.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 273.87,
+     "dur": 6.699
+    }
+   ],
+   "start": 247.073,
+   "dur": 33.496,
+   "voice_start": 247.473
+  },
+  {
+   "kind": "clip",
+   "id": "C11",
+   "file": "/home/claude/wwp_pkg/visuals/video/C11.mp4",
+   "src_dur": 8.0,
+   "dur": 5.55,
+   "dialogue": true,
+   "priority": "core",
+   "start": 280.569
+  },
+  {
+   "kind": "clip",
+   "id": "C12",
+   "file": "/home/claude/wwp_pkg/visuals/video/C12.mp4",
+   "src_dur": 6.016,
+   "dur": 4.95,
+   "dialogue": true,
+   "priority": "core",
+   "start": 286.119
+  },
+  {
+   "kind": "clip",
+   "id": "C13",
+   "file": "/home/claude/wwp_pkg/visuals/video/C13.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": true,
+   "priority": "core",
+   "start": 291.069
+  },
+  {
+   "kind": "clip",
+   "id": "C14",
+   "file": "/home/claude/wwp_pkg/visuals/video/C14.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 297.085
+  },
+  {
+   "kind": "clip",
+   "id": "C15a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C15a.mp4",
+   "src_dur": 6.016,
+   "dur": 4.75,
+   "dialogue": true,
+   "priority": "core",
+   "start": 305.085
+  },
+  {
+   "kind": "clip",
+   "id": "C15b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C15b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.5,
+   "dialogue": true,
+   "priority": "core",
+   "start": 309.835
+  },
+  {
+   "kind": "narration",
+   "id": "N03",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N03.mp3",
+   "audio_dur": 75.964082,
+   "images": [
+    {
+     "id": "I26",
+     "file": "/home/claude/wwp_pkg/visuals/images/I26.png",
+     "motion": "slow pan right",
+     "flashback": false,
+     "start": 312.335,
+     "dur": 9.621
+    },
+    {
+     "id": "I27",
+     "file": "/home/claude/wwp_pkg/visuals/images/I27.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 321.956,
+     "dur": 9.621
+    },
+    {
+     "id": "I28",
+     "file": "/home/claude/wwp_pkg/visuals/images/I28.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 331.576,
+     "dur": 9.621
+    },
+    {
+     "id": "I29",
+     "file": "/home/claude/wwp_pkg/visuals/images/I29.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 341.197,
+     "dur": 9.621
+    },
+    {
+     "id": "I30",
+     "file": "/home/claude/wwp_pkg/visuals/images/I30.png",
+     "motion": "slow pan left",
+     "flashback": false,
+     "start": 350.817,
+     "dur": 9.621
+    },
+    {
+     "id": "I31",
+     "file": "/home/claude/wwp_pkg/visuals/images/I31.png",
+     "motion": "very slow push in",
+     "flashback": false,
+     "start": 360.438,
+     "dur": 9.621
+    },
+    {
+     "id": "I32",
+     "file": "/home/claude/wwp_pkg/visuals/images/I32.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 370.058,
+     "dur": 9.621
+    },
+    {
+     "id": "I33",
+     "file": "/home/claude/wwp_pkg/visuals/images/I33.png",
+     "motion": "very slow push in",
+     "flashback": false,
+     "start": 379.679,
+     "dur": 9.621
+    }
+   ],
+   "start": 312.335,
+   "dur": 76.964,
+   "voice_start": 312.735
+  },
+  {
+   "kind": "clip",
+   "id": "C16a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C16a.mp4",
+   "src_dur": 6.016,
+   "dur": 3.3,
+   "dialogue": true,
+   "priority": "core",
+   "start": 389.299
+  },
+  {
+   "kind": "clip",
+   "id": "C16b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C16b.mp4",
+   "src_dur": 6.016,
+   "dur": 4.45,
+   "dialogue": true,
+   "priority": "core",
+   "start": 392.599
+  },
+  {
+   "kind": "narration",
+   "id": "N04",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N04.mp3",
+   "audio_dur": 43.911837,
+   "images": [
+    {
+     "id": "I34",
+     "file": "/home/claude/wwp_pkg/visuals/images/I34.png",
+     "motion": "slow tracking drift",
+     "flashback": false,
+     "start": 397.049,
+     "dur": 8.982
+    },
+    {
+     "id": "I35",
+     "file": "/home/claude/wwp_pkg/visuals/images/I35.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 406.031,
+     "dur": 8.982
+    },
+    {
+     "id": "I36",
+     "file": "/home/claude/wwp_pkg/visuals/images/I36.png",
+     "motion": "slow pan along the stakes",
+     "flashback": false,
+     "start": 415.014,
+     "dur": 8.982
+    },
+    {
+     "id": "I37",
+     "file": "/home/claude/wwp_pkg/visuals/images/I37.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 423.996,
+     "dur": 8.982
+    },
+    {
+     "id": "I38",
+     "file": "/home/claude/wwp_pkg/visuals/images/I38.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 432.978,
+     "dur": 8.982
+    }
+   ],
+   "start": 397.049,
+   "dur": 44.912,
+   "voice_start": 397.449
+  },
+  {
+   "kind": "clip",
+   "id": "C17",
+   "file": "/home/claude/wwp_pkg/visuals/video/C17.mp4",
+   "src_dur": 6.016,
+   "dur": 5.35,
+   "dialogue": true,
+   "priority": "core",
+   "start": 441.961
+  },
+  {
+   "kind": "clip",
+   "id": "C18",
+   "file": "/home/claude/wwp_pkg/visuals/video/C18.mp4",
+   "src_dur": 6.016,
+   "dur": 5.8,
+   "dialogue": true,
+   "priority": "core",
+   "start": 447.311
+  },
+  {
+   "kind": "image",
+   "id": "C19a",
+   "file": "/home/claude/wwp_pkg/visuals/images/C19a_first.png",
+   "motion": "slow push in",
+   "flashback": false,
+   "dur": 6.916,
+   "skipped_clip": true,
+   "dialogue": [
+    {
+     "speaker": "CHAR_PIKE",
+     "line": "Five hundred for the land. Clears your debt and buys you a ticket east."
+    }
+   ],
+   "line_audio": "/home/claude/wwp_pkg/audio/dialogue/C19a_pike_v1.mp3",
+   "start": 453.111
+  },
+  {
+   "kind": "clip",
+   "id": "C19b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C19b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.6,
+   "dialogue": true,
+   "priority": "core",
+   "start": 460.027
+  },
+  {
+   "kind": "clip",
+   "id": "C20a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C20a.mp4",
+   "src_dur": 4.01,
+   "dur": 2.85,
+   "dialogue": true,
+   "priority": "core",
+   "start": 462.627
+  },
+  {
+   "kind": "clip",
+   "id": "C20b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C20b.mp4",
+   "src_dur": 6.016,
+   "dur": 3.1,
+   "dialogue": true,
+   "priority": "core",
+   "start": 465.477
+  },
+  {
+   "kind": "clip",
+   "id": "C21",
+   "file": "/home/claude/wwp_pkg/visuals/video/C21.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "optional",
+   "start": 468.577
+  },
+  {
+   "kind": "narration",
+   "id": "N05",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N05.mp3",
+   "audio_dur": 33.515102,
+   "images": [
+    {
+     "id": "I39",
+     "file": "/home/claude/wwp_pkg/visuals/images/I39.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 476.577,
+     "dur": 8.629
+    },
+    {
+     "id": "I40",
+     "file": "/home/claude/wwp_pkg/visuals/images/I40.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 485.206,
+     "dur": 8.629
+    },
+    {
+     "id": "I41",
+     "file": "/home/claude/wwp_pkg/visuals/images/I41.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 493.835,
+     "dur": 8.629
+    },
+    {
+     "id": "I42",
+     "file": "/home/claude/wwp_pkg/visuals/images/I42.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 502.463,
+     "dur": 8.629
+    }
+   ],
+   "start": 476.577,
+   "dur": 34.515,
+   "voice_start": 476.977
+  },
+  {
+   "kind": "narration",
+   "id": "N06",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N06.mp3",
+   "audio_dur": 12.669388,
+   "images": [
+    {
+     "id": "I43",
+     "file": "/home/claude/wwp_pkg/visuals/images/I43.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 511.092,
+     "dur": 6.835
+    },
+    {
+     "id": "I44",
+     "file": "/home/claude/wwp_pkg/visuals/images/I44.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 517.927,
+     "dur": 6.835
+    }
+   ],
+   "start": 511.092,
+   "dur": 13.669,
+   "voice_start": 511.492
+  },
+  {
+   "kind": "clip",
+   "id": "C22",
+   "file": "/home/claude/wwp_pkg/visuals/video/C22.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": false,
+   "priority": "core",
+   "start": 524.761
+  },
+  {
+   "kind": "clip",
+   "id": "C23",
+   "file": "/home/claude/wwp_pkg/visuals/video/C23.mp4",
+   "src_dur": 4.01,
+   "dur": 3.05,
+   "dialogue": true,
+   "priority": "core",
+   "start": 530.777
+  },
+  {
+   "kind": "clip",
+   "id": "C24",
+   "file": "/home/claude/wwp_pkg/visuals/video/C24.mp4",
+   "src_dur": 6.016,
+   "dur": 3.55,
+   "dialogue": true,
+   "priority": "core",
+   "start": 533.827
+  },
+  {
+   "kind": "image",
+   "id": "I45",
+   "file": "/home/claude/wwp_pkg/visuals/images/I45.png",
+   "motion": "slow pan left",
+   "flashback": false,
+   "dur": 4.0,
+   "start": 537.377
+  },
+  {
+   "kind": "image",
+   "id": "I46",
+   "file": "/home/claude/wwp_pkg/visuals/images/I46.png",
+   "motion": "slow push in",
+   "flashback": false,
+   "dur": 4.0,
+   "start": 541.377
+  },
+  {
+   "kind": "clip",
+   "id": "C25a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C25a.mp4",
+   "src_dur": 6.016,
+   "dur": 4.35,
+   "dialogue": true,
+   "priority": "core",
+   "start": 545.377
+  },
+  {
+   "kind": "clip",
+   "id": "C25b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C25b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.5,
+   "dialogue": true,
+   "priority": "core",
+   "start": 549.727
+  },
+  {
+   "kind": "narration",
+   "id": "N07a",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N07a.mp3",
+   "audio_dur": 22.883265,
+   "images": [
+    {
+     "id": "I47",
+     "file": "/home/claude/wwp_pkg/visuals/images/I47.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 552.227,
+     "dur": 7.961
+    },
+    {
+     "id": "I48",
+     "file": "/home/claude/wwp_pkg/visuals/images/I48.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 560.188,
+     "dur": 7.961
+    },
+    {
+     "id": "I49",
+     "file": "/home/claude/wwp_pkg/visuals/images/I49.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 568.149,
+     "dur": 7.961
+    }
+   ],
+   "start": 552.227,
+   "dur": 23.883,
+   "voice_start": 552.627
+  },
+  {
+   "kind": "clip",
+   "id": "C26a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C26a.mp4",
+   "src_dur": 6.016,
+   "dur": 3.7,
+   "dialogue": true,
+   "priority": "core",
+   "start": 576.11
+  },
+  {
+   "kind": "clip",
+   "id": "C26b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C26b.mp4",
+   "src_dur": 6.016,
+   "dur": 3.1,
+   "dialogue": true,
+   "priority": "core",
+   "start": 579.81
+  },
+  {
+   "kind": "narration",
+   "id": "N07b",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N07b.mp3",
+   "audio_dur": 38.217143,
+   "images": [
+    {
+     "id": "I50",
+     "file": "/home/claude/wwp_pkg/visuals/images/I50.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 582.91,
+     "dur": 5.602
+    },
+    {
+     "id": "I51",
+     "file": "/home/claude/wwp_pkg/visuals/images/I51.png",
+     "motion": "slow tracking drift",
+     "flashback": false,
+     "start": 588.512,
+     "dur": 5.602
+    },
+    {
+     "id": "I52",
+     "file": "/home/claude/wwp_pkg/visuals/images/I52.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 594.115,
+     "dur": 5.602
+    },
+    {
+     "id": "I53",
+     "file": "/home/claude/wwp_pkg/visuals/images/I53.png",
+     "motion": "very slow push in",
+     "flashback": false,
+     "start": 599.717,
+     "dur": 5.602
+    },
+    {
+     "id": "I54",
+     "file": "/home/claude/wwp_pkg/visuals/images/I54.png",
+     "motion": "slow crane down",
+     "flashback": false,
+     "start": 605.32,
+     "dur": 5.602
+    },
+    {
+     "id": "I55",
+     "file": "/home/claude/wwp_pkg/visuals/images/I55.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 610.922,
+     "dur": 5.602
+    },
+    {
+     "id": "I56",
+     "file": "/home/claude/wwp_pkg/visuals/images/I56.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 616.525,
+     "dur": 5.602
+    }
+   ],
+   "start": 582.91,
+   "dur": 39.217,
+   "voice_start": 583.31
+  },
+  {
+   "kind": "clip",
+   "id": "C27",
+   "file": "/home/claude/wwp_pkg/visuals/video/C27.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 622.127
+  },
+  {
+   "kind": "clip",
+   "id": "C28",
+   "file": "/home/claude/wwp_pkg/visuals/video/C28.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": true,
+   "priority": "optional",
+   "start": 630.127
+  },
+  {
+   "kind": "clip",
+   "id": "C29",
+   "file": "/home/claude/wwp_pkg/visuals/video/C29.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": false,
+   "priority": "core",
+   "start": 636.143
+  },
+  {
+   "kind": "clip",
+   "id": "C30",
+   "file": "/home/claude/wwp_pkg/visuals/video/C30.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": true,
+   "priority": "core",
+   "start": 642.159
+  },
+  {
+   "kind": "clip",
+   "id": "C31a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C31a.mp4",
+   "src_dur": 8.0,
+   "dur": 8.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 648.175
+  },
+  {
+   "kind": "clip",
+   "id": "C31b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C31b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.7,
+   "dialogue": true,
+   "priority": "core",
+   "start": 656.175
+  },
+  {
+   "kind": "clip",
+   "id": "C32",
+   "file": "/home/claude/wwp_pkg/visuals/video/C32.mp4",
+   "src_dur": 6.016,
+   "dur": 5.95,
+   "dialogue": true,
+   "priority": "core",
+   "start": 658.875
+  },
+  {
+   "kind": "image",
+   "id": "C33",
+   "file": "/home/claude/wwp_pkg/visuals/images/C33_first.png",
+   "motion": "slow push in",
+   "flashback": false,
+   "dur": 4.5,
+   "skipped_clip": true,
+   "dialogue": [],
+   "start": 664.825
+  },
+  {
+   "kind": "image",
+   "id": "I57",
+   "file": "/home/claude/wwp_pkg/visuals/images/I57.png",
+   "motion": "slow tracking drift",
+   "flashback": false,
+   "dur": 4.0,
+   "start": 669.325
+  },
+  {
+   "kind": "image",
+   "id": "I58",
+   "file": "/home/claude/wwp_pkg/visuals/images/I58.png",
+   "motion": "slow push in",
+   "flashback": false,
+   "dur": 4.0,
+   "start": 673.325
+  },
+  {
+   "kind": "clip",
+   "id": "C34",
+   "file": "/home/claude/wwp_pkg/visuals/video/C34.mp4",
+   "src_dur": 4.01,
+   "dur": 4.0,
+   "dialogue": true,
+   "priority": "core",
+   "start": 677.325
+  },
+  {
+   "kind": "clip",
+   "id": "C35",
+   "file": "/home/claude/wwp_pkg/visuals/video/C35.mp4",
+   "src_dur": 8.0,
+   "dur": 7.15,
+   "dialogue": true,
+   "priority": "core",
+   "start": 681.325
+  },
+  {
+   "kind": "clip",
+   "id": "C36",
+   "file": "/home/claude/wwp_pkg/visuals/video/C36.mp4",
+   "src_dur": 8.0,
+   "dur": 6.7,
+   "dialogue": true,
+   "priority": "core",
+   "start": 688.475
+  },
+  {
+   "kind": "narration",
+   "id": "N08",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N08.mp3",
+   "audio_dur": 55.301224,
+   "images": [
+    {
+     "id": "I59",
+     "file": "/home/claude/wwp_pkg/visuals/images/I59.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 695.175,
+     "dur": 9.384
+    },
+    {
+     "id": "I60",
+     "file": "/home/claude/wwp_pkg/visuals/images/I60.png",
+     "motion": "slow tracking drift",
+     "flashback": true,
+     "start": 704.559,
+     "dur": 9.384
+    },
+    {
+     "id": "I61",
+     "file": "/home/claude/wwp_pkg/visuals/images/I61.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 713.942,
+     "dur": 9.384
+    },
+    {
+     "id": "I62",
+     "file": "/home/claude/wwp_pkg/visuals/images/I62.png",
+     "motion": "slow push in",
+     "flashback": true,
+     "start": 723.326,
+     "dur": 9.384
+    },
+    {
+     "id": "I63",
+     "file": "/home/claude/wwp_pkg/visuals/images/I63.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 732.709,
+     "dur": 9.384
+    },
+    {
+     "id": "I64",
+     "file": "/home/claude/wwp_pkg/visuals/images/I64.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 742.093,
+     "dur": 9.384
+    }
+   ],
+   "start": 695.175,
+   "dur": 56.301,
+   "voice_start": 695.575
+  },
+  {
+   "kind": "narration",
+   "id": "N09",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N09.mp3",
+   "audio_dur": 34.586122,
+   "images": [
+    {
+     "id": "I65",
+     "file": "/home/claude/wwp_pkg/visuals/images/I65.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 751.476,
+     "dur": 8.897
+    },
+    {
+     "id": "I66",
+     "file": "/home/claude/wwp_pkg/visuals/images/I66.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 760.373,
+     "dur": 8.897
+    },
+    {
+     "id": "I67",
+     "file": "/home/claude/wwp_pkg/visuals/images/I67.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 769.269,
+     "dur": 8.897
+    },
+    {
+     "id": "I68",
+     "file": "/home/claude/wwp_pkg/visuals/images/I68.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 778.166,
+     "dur": 8.897
+    }
+   ],
+   "start": 751.476,
+   "dur": 35.586,
+   "voice_start": 751.876
+  },
+  {
+   "kind": "clip",
+   "id": "C37a",
+   "file": "/home/claude/wwp_pkg/visuals/video/C37a.mp4",
+   "src_dur": 6.016,
+   "dur": 5.65,
+   "dialogue": true,
+   "priority": "core",
+   "start": 787.062
+  },
+  {
+   "kind": "clip",
+   "id": "C37b",
+   "file": "/home/claude/wwp_pkg/visuals/video/C37b.mp4",
+   "src_dur": 4.01,
+   "dur": 2.5,
+   "dialogue": true,
+   "priority": "core",
+   "start": 792.712
+  },
+  {
+   "kind": "clip",
+   "id": "C38",
+   "file": "/home/claude/wwp_pkg/visuals/video/C38.mp4",
+   "src_dur": 6.016,
+   "dur": 6.016,
+   "dialogue": false,
+   "priority": "core",
+   "start": 795.212
+  },
+  {
+   "kind": "narration",
+   "id": "N09b",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N09b.mp3",
+   "audio_dur": 31.346939,
+   "images": [
+    {
+     "id": "I70",
+     "file": "/home/claude/wwp_pkg/visuals/images/I70.png",
+     "motion": "slow push in",
+     "flashback": false,
+     "start": 801.228,
+     "dur": 10.782
+    },
+    {
+     "id": "I71",
+     "file": "/home/claude/wwp_pkg/visuals/images/I71.png",
+     "motion": "slow tracking drift",
+     "flashback": false,
+     "start": 812.01,
+     "dur": 10.782
+    },
+    {
+     "id": "I72",
+     "file": "/home/claude/wwp_pkg/visuals/images/I72.png",
+     "motion": "very slow push in",
+     "flashback": false,
+     "start": 822.793,
+     "dur": 10.782
+    }
+   ],
+   "start": 801.228,
+   "dur": 32.347,
+   "voice_start": 801.628
+  },
+  {
+   "kind": "narration",
+   "id": "N10",
+   "audio": "/home/claude/wwp_pkg/audio/narration/N10.mp3",
+   "audio_dur": 14.158367,
+   "images": [
+    {
+     "id": "I69",
+     "file": "/home/claude/wwp_pkg/visuals/images/I69.png",
+     "motion": "slow pull out",
+     "flashback": false,
+     "start": 833.575,
+     "dur": 15.158
+    }
+   ],
+   "start": 833.575,
+   "dur": 15.158,
+   "voice_start": 833.975
+  },
+  {
+   "kind": "title",
+   "id": "T02",
+   "text": "",
+   "dur": 3.0,
+   "start": 848.733
+  }
+ ]
+}
