@@ -38,7 +38,7 @@ CHARACTERS = {
    "voice": "gruff, flat, authoritative American man's voice"},
  # ---- new faces (refs to make in Phase 1) ----
  "CHAR_ROSE": {"name": "Rose Calloway", "role": "the mail-order bride from St. Louis, 24",
-   "look": "24-year-old American woman, an original fictional character (not a celebrity lookalike), slender, oval face, large warm dark-brown eyes, straight dark brows, a few faint freckles across the nose, full lips, fair skin, glossy dark-brown almost black hair pinned up with soft loose curls at the temples. "
+   "look": "24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. "
            "OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. "
            "OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun",
    "voice": "soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure"},
@@ -102,7 +102,7 @@ def _dur(lines, action=False):
     return 4 if w <= 5 else 6 if w <= 12 else 8
 
 
-def clip(id_, action, refs, lines=(), camera="", priority="core", night=False, action_shot=False, dur=None):
+def clip(id_, action, refs, lines=(), camera="", priority="core", night=False, action_shot=False, dur=None, end=None):
     lines = list(lines)
     speakers = []
     for sp, _ in lines:
@@ -111,7 +111,7 @@ def clip(id_, action, refs, lines=(), camera="", priority="core", night=False, a
     assert len(speakers) <= 1, f"{id_}: one speaker per clip"
     SHOTS.append({"id": id_, "type": "clip", "duration_s": dur or _dur(lines), "action": action, "camera": camera,
                   "dialogue": [{"speaker": sp, "line": l} for sp, l in lines], "refs": refs, "priority": priority,
-                  "night": night, "action_shot": action_shot, "start_frame_prompt": action, "end_frame_prompt": None})
+                  "night": night, "action_shot": action_shot, "start_frame_prompt": action, "end_frame_prompt": end})
 
 
 def narr(id_, text):
@@ -124,15 +124,19 @@ def card(id_, text, seconds):
 
 # =============== COLD OPEN: the stagecoach attack (stops before the outcome) ===============
 clip("C01", "A dark-green stagecoach with yellow wheels races flat out along a narrow mountain road, six horses at full gallop, the old driver cracking the reins, dust boiling behind the wheels, the coach rocking on its leather straps.",
-     ["PROP_STAGE", "LOC_PASS"], [], camera="low tracking shot alongside the galloping team", action_shot=True)
+     ["PROP_STAGE", "LOC_PASS"], [], camera="low tracking shot alongside the galloping team", action_shot=True,
+     end='The same stagecoach a few seconds later, further along the same road, still at full gallop, the driver half standing, dust behind; same team, same colours.')
 clip("C02", "Behind the coach, five riders with black bandanas over their faces gallop out of the pines, firing revolvers; gun smoke trails behind them.",
-     ["CHAR_BUCK", "LOC_PASS"], [], camera="handheld tracking shot from the back of the coach toward the riders", action_shot=True)
+     ["CHAR_BUCK", "LOC_PASS"], [], camera="handheld tracking shot from the back of the coach toward the riders", action_shot=True,
+     end='The same five masked riders now closer to the camera, two of them aiming revolvers forward, gun smoke trailing, the same pines behind.')
 clip("C03", "Inside the bouncing stagecoach a young woman in an ivory lace wedding dress clutches a small iron-banded strongbox to her chest. Across from her an old guard with a white beard and spectacles fires his coach gun out of the window, then turns to her and shouts.",
-     ["CHAR_AMOS", "CHAR_ROSE", "PROP_BOX", "PROP_STAGE"], [("CHAR_AMOS", "When I say jump, girl, you jump!")], camera="handheld inside the shaking coach", action_shot=True)
+     ["CHAR_AMOS", "CHAR_ROSE", "PROP_BOX", "PROP_STAGE"], [("CHAR_AMOS", "When I say jump, girl, you jump!")], camera="handheld inside the shaking coach", action_shot=True,
+     end='Same coach interior: the young woman in the ivory wedding dress has turned toward the open door, strongbox in her arms, the old guard pointing at the door with his free hand.')
 clip("C04", "The coach door flies open. The young woman in the ivory wedding dress leaps out with the strongbox in her arms and tumbles into the sagebrush, the dress and veil billowing; behind her the stagecoach swerves toward the edge of the road.",
-     ["CHAR_ROSE", "PROP_BOX", "PROP_STAGE", "LOC_PASS"], [], camera="wide shot, the coach thundering past camera", action_shot=True)
+     ["CHAR_ROSE", "PROP_BOX", "PROP_STAGE", "LOC_PASS"], [], camera="wide shot, the coach thundering past camera", action_shot=True,
+     end='The young woman in the torn ivory wedding dress lies in the sagebrush beside the road, clutching the strongbox, looking up; the stagecoach is a cloud of dust further down the road.')
 narr("N00", """
-Her name was Rose Calloway. She was twenty-four years old. She had never fired a gun, never seen a mountain, and never once seen the face of the man she had come two thousand miles to marry.
+Her name was Rose Calloway. She was twenty-four years old. She had never fired a gun, never seen a mountain, and never once seen the face of the man she had come a thousand miles to marry.
 
 Within a week, the whole town of Cedar Bluff would call her a thief.
 
@@ -233,15 +237,18 @@ Five riders. Black bandanas. The first shot killed the lead horse. The second to
 And the third found Amos Pruitt.
 """)
 img("I13", "Masked riders bursting out of the pines on both sides of the stage road at full gallop, guns raised, dust and gun smoke.", ["CHAR_BUCK", "LOC_PASS"], "fast push in")
+clip("X01", "Masked riders flank the racing stagecoach on both sides at full gallop, one rider leaning out of his saddle to grab the lead horse's bridle, the driver lashing at him with the whip, dust everywhere.", ["CHAR_BUCK", "PROP_STAGE", "LOC_PASS"], [], camera="tracking shot alongside the team", priority="extra", action_shot=True)
 img("I14", "The stagecoach careening at the edge of the road with a sheer drop beside it, horses rearing, the driver hauling on the reins.", ["PROP_STAGE", "LOC_PASS"], "slow push in")
-clip("C11", "Inside the coach after the crash, dust drifting through the broken window, old Amos lies wounded against the seat and presses the strongbox and a small brass key into Rose's hands, gripping her wrist.",
-     ["CHAR_AMOS", "CHAR_ROSE", "PROP_BOX", "PROP_STAGE"], [("CHAR_AMOS", "Don't let Crane have it. Whatever they tell you.")], camera="close two-shot inside the tilted coach")
+clip("C11", "Inside the racing, bouncing stagecoach, old Amos, hit and pale, slumps against the seat and presses the strongbox and a small brass key into Rose's hands, gripping her wrist hard; dust and gun smoke blow through the window.",
+     ["CHAR_AMOS", "CHAR_ROSE", "PROP_BOX", "PROP_STAGE"], [("CHAR_AMOS", "Don't let Crane have it. Whatever they tell you.")], camera="close two-shot inside the shaking coach")
+SHOTS[-1]["montage_note"] = "Right after C11 the montage repeats C03 (end) and C04 (the jump) from the cold open: the audience now understands it."
 clip("C12", "Rose in her torn ivory wedding dress runs up a rocky hillside through pines and sagebrush, clutching the strongbox, veil streaming, looking back over her shoulder at riders on the road below.",
-     ["CHAR_ROSE", "PROP_BOX", "LOC_PASS"], [], camera="tracking shot from the side, then from behind", priority="optional", action_shot=True)
+     ["CHAR_ROSE", "PROP_BOX", "LOC_PASS"], [], camera="tracking shot from the side, then from behind", priority="optional", action_shot=True,
+     end='Rose higher up the same rocky hillside, crouching behind a boulder with the strongbox, veil torn, looking down.')
 narr("N05", """
-Rose did not know who Crane was. She did not know what was in the box. She only knew that an old man who had been kind to her for three days was bleeding on the floor of a stagecoach, and that he had asked her for one thing.
+Rose did not know who Crane was. She did not know what was in the box. She only knew that an old man who had been kind to her for three days was bleeding on the seat of a runaway stagecoach, and that he had asked her for one thing.
 
-So she ran.
+So when he shouted, she jumped. And then she ran.
 
 She ran in her mother's wedding dress, up a mountain she had never seen, with a box she could not open, while men with guns searched the rocks below and shouted to each other that she could not have gone far.
 
@@ -259,7 +266,7 @@ The news reached Cedar Bluff at sundown. The stage robbed. The driver alive. The
 
 And the bride, gone.
 
-Caleb Ward searched the pass all night with a lantern, calling a name into the dark that he had written forty-nine times and never once said out loud. He found the coach on its side at the edge of the drop, and a scrap of ivory lace on the step. He did not find her.
+Caleb Ward searched the pass all night with a lantern, calling a name into the dark that he had written twenty-six times and never once said out loud. He found the coach on its side at the edge of the drop, and a scrap of ivory lace on the step. He did not find her.
 
 At dawn the marshal made him come down the mountain to sleep. He did not sleep.
 
@@ -275,13 +282,13 @@ img("I21", "The Whitmore ranch at morning: Clara running down the porch steps to
 clip("C14", "In the warm kitchen Clara wraps a shawl around Rose's shoulders, sets a cup of coffee in front of her, and speaks firmly, one hand on the young woman's shoulder.",
      ["CHAR_CLARA", "CHAR_ROSE", "LOC_KITCHEN"], [("CHAR_CLARA", "You'll stay here. Nobody touches a woman under my roof.")], camera="medium two-shot, warm lamplight")
 narr("N07", """
-Rose slept fourteen hours in Clara's bed. When she woke, there was a faded green gingham dress folded on the chair, the smell of bacon, and a little girl sitting at the foot of the bed with a rag doll, staring at her.
+Rose slept the whole day through in Clara's bed. When she woke at sunset, there was a faded green gingham dress folded on the chair, the smell of bacon, and a little girl sitting at the foot of the bed with a rag doll, staring at her.
 
 "Are you the bride?" Lily asked.
 
 "I was supposed to be," said Rose.
 
-That afternoon they tried to open the box. The brass key from Amos fit the padlock. But inside was a second lock, a small steel one, and no key that any of them had.
+That evening they tried to open the box. The brass key from Amos fit the padlock. But inside was a second lock, a small steel one, and no key that any of them had.
 
 Mercer turned the box over in his hands for a long time. Then he shook it gently, next to his ear.
 
@@ -296,7 +303,7 @@ img("I23", "Kitchen table: the open iron-banded strongbox revealing a second sma
 
 # =============== ACT 2b: Crane's visit (the clue is planted) ===============
 narr("N07b", """
-Silas Crane drove up to the Whitmore ranch on Wednesday in his black buggy, with a basket of oranges for the little girl and one of his men waiting on horseback by the gate.
+Silas Crane drove up to the Whitmore ranch on Thursday morning in his black buggy, with a basket of oranges for the little girl and one of his men waiting on horseback by the gate.
 
 He was so very sorry to hear about the poor bride. Such a terrible thing. He understood she might have something that belonged to his company. A small green box. There would be a reward, of course. Five hundred dollars for its safe return, and no questions asked.
 
@@ -324,14 +331,16 @@ They went down together in the dark. A lantern smashed. The horses screamed. The
 
 But as the rider crossed the stony yard at a gallop, Mercer heard it again. The same wrong note. A loose shoe, ringing on the left front hoof.
 
-In three days, that sound would save four lives.
+Three days later, that sound would lead him straight to the man who wanted them all dead.
 """)
+clip("X02", "Night inside the barn: Mercer and a masked man in a black bandana crash together into the hay, a lantern smashes and flares on the floor, horses rear in their stalls, a knife glints.", ["CHAR_MERCER", "LOC_BARN"], [], camera="handheld, low and close", priority="extra", night=True, action_shot=True)
 img("I59", "Night inside the barn: Mercer grappling with a masked man in a black bandana among scattered hay, a smashed lantern burning on the floor, horses rearing in their stalls, a knife glinting.", ["CHAR_MERCER", "LOC_BARN"], "fast push in", night=True)
+clip("X03", "A masked rider on a tall roan horse gallops out of the moonlit ranch yard across stony ground, sparks flying from the horseshoes; Mercer limps out of the barn door behind him.", ["CHAR_MERCER", "LOC_RANCH"], [], camera="wide static shot from the porch", priority="extra", night=True, action_shot=True)
 img("I60", "Moonlit ranch yard: a masked rider on a tall roan horse galloping away across stony ground toward the road, sparks from the horseshoes, Mercer limping out of the barn door behind him.", ["CHAR_MERCER", "LOC_RANCH"], "slow pan right", night=True)
 
 # =============== ACT 2c: the accusation and the arrest ===============
 narr("N08", """
-On Thursday morning, Silas Crane walked into the marshal's office with his hat in his hand and a paper in his pocket.
+On Friday morning, Silas Crane walked into the marshal's office with his hat in his hand and a paper in his pocket.
 
 The paper was a bill of lading, signed in his own neat hand. It said the green strongbox belonged to the Crane Cattle and Mining Company, and that it held eleven thousand dollars in gold.
 
@@ -360,7 +369,7 @@ img("I26", "Caleb and Rose face to face for the first time at the gate of the ra
 narr("N10", """
 So that was how they met. Not at the stage stop, with flowers. At a ranch gate, with a shotgun and a warrant.
 
-Caleb took off his hat. Rose looked at him for a long moment, at the freckles on his ears, at the hands that had written forty-nine letters.
+Caleb took off his hat. Rose looked at him for a long moment, at the freckles on his ears, at the hands that had written twenty-six letters.
 
 "You're taller than I imagined," she said.
 
@@ -408,18 +417,22 @@ At two in the morning, the window of the marshal's office exploded.
 """)
 
 # =============== ACTION 2: the night raid on the jail ===============
+clip("X04", "Night outside the small log jail on Main Street: five masked riders circle in the street at a gallop, two of them hurling burning torches at the jail window.", ["CHAR_BUCK", "LOC_JAIL", "LOC_STREET"], [], camera="wide shot from across the street", priority="extra", night=True, action_shot=True)
 clip("C22", "Night. A burning torch smashes through the window of the marshal's office and lands on the floor, flames racing across spilled lamp oil; through the broken window masked riders fire revolvers.",
-     ["CHAR_BUCK", "LOC_JAIL"], [], camera="static wide shot inside the office", night=True, action_shot=True)
+     ["CHAR_BUCK", "LOC_JAIL"], [], camera="static wide shot inside the office", night=True, action_shot=True,
+     end='The same office: flames spreading across the floorboards and up the desk legs, smoke filling the room, the broken window glowing with muzzle flashes.')
 clip("C23", "In the smoke-filled jail Caleb throws himself in front of the cell bars, revolver up, shouting over his shoulder to Rose; a bullet hits his left shoulder and he staggers but keeps firing at the window.",
-     ["CHAR_CALEB", "CHAR_ROSE", "LOC_JAIL"], [("CHAR_CALEB", "Stay behind me, Rose!")], camera="handheld medium shot, smoke and muzzle flashes", night=True, action_shot=True)
+     ["CHAR_CALEB", "CHAR_ROSE", "LOC_JAIL"], [("CHAR_CALEB", "Stay behind me, Rose!")], camera="handheld medium shot, smoke and muzzle flashes", night=True, action_shot=True,
+     end='Caleb kneeling in front of the cell bars clutching his left shoulder, revolver still raised toward the window, Rose behind the bars reaching for him; smoke and firelight.')
 clip("C24", "The jail door is kicked open; Mercer storms in through the smoke with a rifle, firing at the window, then grabs the keys from the desk.",
-     ["CHAR_MERCER", "LOC_JAIL"], [], camera="low angle from the floor", night=True, priority="optional", action_shot=True)
+     ["CHAR_MERCER", "LOC_JAIL"], [], camera="low angle from the floor", night=True, priority="optional", action_shot=True,
+     end='Mercer at the cell door with the ring of keys in his hand, rifle under his arm, smoke behind him.')
 narr("N12", """
 They wanted the box. They thought it was in the jail. It was not. It was under a loose board in Clara Whitmore's kitchen.
 
 Mercer had been watching the jail since midnight. Something about that roan horse had kept him awake. He got there in time to drag Caleb out of the smoke, and to unlock a cell door with a ring of keys too hot to hold.
 
-By sunrise, the marshal's office was a black shell. Caleb had a bullet hole in his shoulder and a girl's hand in his.
+By sunrise, the marshal's office was a black shell. Caleb had a bullet hole in his shoulder and a girl's hand in his. A jail with no roof holds nobody, so the marshal released Rose into Clara Whitmore's keeping, until the judge came.
 
 And in the ashes by the hitching rail, John Mercer found a horseshoe, thrown in the night by one of the raiders' horses.
 
@@ -460,6 +473,10 @@ She laid it on the table next to the letters, under the lamp, and she showed the
 
 The same man had written both. Silas Crane had signed his own confession and handed it to the law.
 
+The rest came out later. A frightened clerk in the Denver express office had been selling Crane the shipment dates for two years. When he finally lost his nerve, he gave Crane's letters to the only honest man he knew, an old guard named Amos Pruitt. Then he made one more mistake. He told Crane which stage Amos would be on.
+
+There had never been any gold in that box. Crane had invented it, so that the bride would hang for stealing it before anyone read what she was carrying. And the rider watching from the trees at the way station had been Buck Tolliver, on a tall roan horse with a broken shoe.
+
 For the first time, they had proof.
 
 And up in his white house on the hill, Silas Crane already knew it.
@@ -481,15 +498,17 @@ Neither of them knew that the trail south was a lie.
 """)
 img("I34", "Crane's empty office in the white ranch house, the iron safe door hanging open, papers scattered on the floor, a cream-colored hat left on the desk.", ["LOC_CRANE"], "slow push in")
 clip("C27", "Five riders gallop flat out through a narrow red sandstone canyon, Silas Crane in his cream hat in the middle, dust and pebbles flying; far behind, two riders chase them.",
-     ["CHAR_CRANE", "CHAR_BUCK", "LOC_CANYON"], [], camera="low wide shot, riders racing past camera", action_shot=True)
+     ["CHAR_CRANE", "CHAR_BUCK", "LOC_CANYON"], [], camera="low wide shot, riders racing past camera", action_shot=True,
+     end='The riders further down the same red canyon, almost at a bend, dust hanging in the air; the two pursuers closer now.')
 clip("C28", "Rifle shots crack from the canyon rim. Mercer leaps from his horse and drags Caleb down behind a big boulder as bullets kick up dust and splinter the rock beside them.",
-     ["CHAR_MERCER", "CHAR_CALEB", "LOC_CANYON"], [], camera="handheld, low behind the boulder", priority="optional", action_shot=True)
+     ["CHAR_MERCER", "CHAR_CALEB", "LOC_CANYON"], [], camera="handheld, low behind the boulder", priority="optional", action_shot=True,
+     end='Mercer and Caleb crouched safely behind the big boulder, rifles up, dust and splinters settling around them.')
 img("I35", "Mercer and Caleb crouched behind a boulder in the red canyon, rifles raised, gun smoke drifting, dust in the air.", ["CHAR_MERCER", "CHAR_CALEB", "LOC_CANYON"], "slow push in")
 img("I36", "Buck Tolliver on the canyon rim, bandana down, aiming a rifle into the canyon, the sun behind him.", ["CHAR_BUCK", "LOC_CANYON"], "slow push in")
 narr("N16", """
 Buck Tolliver had picked the place well. High rock, sun at his back, two men pinned in a dry creek bed with nowhere to go.
 
-What Buck did not know was that the Union cavalry had taught John Mercer one thing above all others. When a man holds the high ground, you do not go up. You go around.
+What Buck did not know was that the war had taught John Mercer one thing above all others. When a man holds the high ground, you do not go up. You go around.
 
 It took Mercer forty minutes to climb the back of the canyon wall with a bad leg. It took him four seconds to put Buck Tolliver on his face in the dirt.
 
@@ -501,7 +520,9 @@ The riders in the canyon had been a decoy. Silas Crane had never gone south at a
 
 He had gone back to Cedar Bluff. Back to the one thing he still needed.
 """)
+clip("X05", "Mercer climbs a steep red rock wall from behind, rifle slung across his back, his bad leg dragging, pebbles falling away under his boots.", ["CHAR_MERCER", "LOC_CANYON"], [], camera="low angle tilting up the rock face", priority="extra", action_shot=True)
 img("I37", "Mercer climbing a steep red rock wall from behind, rifle slung over his back, sweat on his face.", ["CHAR_MERCER", "LOC_CANYON"], "slow tilt up")
+clip("X06", "On the canyon rim Mercer rises up behind Buck Tolliver, who is aiming a rifle down into the canyon, and slams him face down into the red dust, kicking the rifle away.", ["CHAR_MERCER", "CHAR_BUCK", "LOC_CANYON"], [], camera="medium shot along the rim", priority="extra", action_shot=True)
 img("I38", "Buck Tolliver face down in the red dust on the canyon rim, his rifle kicked away, Mercer standing over him.", ["CHAR_MERCER", "CHAR_BUCK", "LOC_CANYON"], "slow push in")
 img("I57", "Mercer and Caleb galloping flat out back along a dirt road toward a distant small town, dust behind them, desperate faces.", ["CHAR_MERCER", "CHAR_CALEB", "PROP_HORSE"], "fast push in")
 
@@ -509,7 +530,7 @@ img("I57", "Mercer and Caleb galloping flat out back along a dirt road toward a 
 narr("N17", """
 Crane came into Cedar Bluff at noon, by the back way, with two men and a derringer in his sleeve. As long as those letters existed, he would hang. And he knew exactly where they were.
 
-Clara had gone to town for the doctor. Lily was at the schoolhouse.
+Clara had taken Lily into town for flour and news.
 
 Rose Calloway was alone in the kitchen, and she was holding the box.
 """)
@@ -519,17 +540,20 @@ clip("C29", "In the kitchen Crane stops across the table from Rose, smiling cold
 narr("N17b", """
 He needed a hostage to get out of the valley, and a bride was the best hostage of all.
 
-He walked her down Main Street at noon with the derringer against her ribs and the box in her arms, past the same boardwalks where the town had called her a thief three days before.
+He walked her down Main Street at noon with the derringer against her ribs and the box in her arms, past the same boardwalks where the town had called her a thief two days before.
 
 Nobody said a word now.
 
 And at the end of the street, in front of the burned-out jail, a young deputy with one arm in a sling stepped off his lathered horse and into the middle of the road.
 """)
+clip("X07", "Noon on the deserted main street: Silas Crane walks Rose forward at gunpoint, a small derringer at her ribs, the strongbox in her arms; townspeople watch silently from the doorways.", ["CHAR_CRANE", "CHAR_ROSE", "PROP_BOX", "LOC_STREET"], [], camera="slow tracking shot walking backwards in front of them", priority="extra")
 img("I40", "Main street at noon, deserted, Silas Crane pushing Rose ahead of him toward a saddled horse, the strongbox in her arms, townspeople watching silently from doorways.", ["CHAR_CRANE", "CHAR_ROSE", "PROP_BOX", "LOC_STREET"], "slow push in")
 clip("C30", "On the dusty main street at high noon Caleb steps out into the middle of the road, his left arm in a sling, his right hand by his revolver, facing Crane and two of his men. The townspeople pull back into the doorways.",
-     ["CHAR_CALEB", "CHAR_CRANE", "LOC_STREET"], [], camera="low wide shot down the empty street", action_shot=True)
+     ["CHAR_CALEB", "CHAR_CRANE", "LOC_STREET"], [], camera="low wide shot down the empty street", action_shot=True,
+     end='Same street: Caleb still standing in the middle of the road, right hand on his holstered revolver, Crane and his two men frozen a few steps away.')
 clip("C31", "Rose suddenly swings the heavy iron-banded strongbox with both hands into Crane's wrist; the small derringer flies out of his hand and spins into the dust.",
-     ["CHAR_ROSE", "CHAR_CRANE", "PROP_BOX", "LOC_STREET"], [], camera="close-up, slow motion feel", action_shot=True, dur=4)
+     ["CHAR_ROSE", "CHAR_CRANE", "PROP_BOX", "LOC_STREET"], [], camera="close-up, slow motion feel", action_shot=True, dur=4,
+     end='The small derringer lying in the dust of the street, Crane clutching his wrist, Rose holding the strongbox raised in both hands.')
 narr("N18", """
 Caleb never had to draw. From the rooftop of the livery, John Mercer's rifle had been on Crane's two men since the moment they turned into Main Street, and they knew it.
 
@@ -541,6 +565,7 @@ And a bride who came by mail.
 """)
 clip("C32", "The marshal snaps handcuffs on Silas Crane in the middle of the main street. Crane's cream hat lies in the dust beside the derringer.",
      ["CHAR_MARSHAL", "CHAR_CRANE", "LOC_STREET"], [("CHAR_MARSHAL", "Silas Crane. You're under arrest for robbing the mail.")], camera="medium two-shot", priority="optional")
+clip("X08", "Mercer on the flat roof of the livery stable kneels and brings his rifle up to his shoulder, aiming down into the main street, perfectly calm.", ["CHAR_MERCER", "LOC_STREET"], [], camera="low angle from the street up to the roof", priority="extra")
 img("I58", "Mercer on the flat roof of the livery stable, kneeling with a rifle aimed down at the main street, calm and steady.", ["CHAR_MERCER", "LOC_STREET"], "slow push in")
 img("I41", "The marshal leading a handcuffed Silas Crane down the main street, Crane bareheaded, his silver hair disordered, the townspeople silent on the boardwalks.", ["CHAR_MARSHAL", "CHAR_CRANE", "LOC_STREET"], "slow tracking drift")
 img("I42", "Agatha Pell on the boardwalk, her parasol lowered, her mouth open in shock.", ["CHAR_AGATHA", "LOC_STREET"], "slow push in")
@@ -551,7 +576,7 @@ Amos Pruitt lived. He testified in Denver in November with his arm in a sling an
 
 Silas Crane went to the penitentiary at Cañon City. Buck Tolliver went with him.
 
-And on a golden Sunday afternoon in Cedar Bluff, on the same street where the whole town had called her a thief, Deputy Caleb Ward got down on one knee in the dirt.
+And a week later, on a golden Sunday afternoon in Cedar Bluff, on the same street where the whole town had called her a thief, Deputy Caleb Ward got down on one knee in the dirt.
 """)
 clip("C33", "On the sunny main street, Caleb, his arm still in a sling, kneels on one knee in the dust in front of Rose and holds up a small plain ring. Townspeople gather around smiling.",
      ["CHAR_CALEB", "CHAR_ROSE", "LOC_STREET"], [("CHAR_CALEB", "Rose Calloway. Will you marry me? Properly, this time.")], camera="slow push in on Caleb")
@@ -602,11 +627,13 @@ narrs = [s for s in SHOTS if s["type"] == "narration"]
 words = sum(wc(n["text"]) for n in narrs)
 WPM = 140
 core = [c for c in clips if c["priority"] == "core"]
-est = {"clips": len(clips), "clips_core": len(core), "clips_optional": len(clips) - len(core),
+extra = [c for c in clips if c["priority"] == "extra"]
+est = {"clips": len(clips), "clips_core": len(core), "clips_optional": sum(c["priority"] == "optional" for c in clips),
        "images_new": sum("reuse_from" not in i for i in images), "images_reused": sum("reuse_from" in i for i in images),
        "narration_words": words, "narration_chars": sum(len(n["text"]) for n in narrs), "narration_min": round(words / WPM, 1),
        "clip_min_core": round(sum(c["duration_s"] for c in core) / 60, 1), "clip_min_all": round(sum(c["duration_s"] for c in clips) / 60, 1),
-       "credits_core_one_take": sum(PRICE[c["duration_s"]] for c in core), "credits_optional_one_take": sum(PRICE[c["duration_s"]] for c in clips if c["priority"] != "core"),
+       "credits_core_one_take": sum(PRICE[c["duration_s"]] for c in core), "credits_optional_one_take": sum(PRICE[c["duration_s"]] for c in clips if c["priority"] == "optional"),
+       "clips_extra": len(extra), "credits_extra_one_take": sum(PRICE[c["duration_s"]] for c in extra),
        "credits_hooks": sum(PRICE[h["duration_s"]] for h in HOOKS),
        "est_total_min_core": round(words / WPM + sum(c["duration_s"] for c in core) / 60 + 0.5, 1)}
 
@@ -658,6 +685,11 @@ for i, s in enumerate(SHOTS):
                              + " " + CLIP_STYLE)
         s["credits"] = PRICE[s["duration_s"]]
         s["files"] = {"start_frame": f"visuals/images/{s['id']}_first.png", "video": f"visuals/video/{s['id']}.mp4"}
+        if s.get("end_frame_prompt"):
+            s["end_frame_full_prompt"] = (s["end_frame_prompt"] + (f" Rose wears: {s['rose_outfit']}." if "rose_outfit" in s else "")
+                                          + " Last frame of the same shot: same characters, same costumes, same place and light as the first frame. "
+                                          + STYLE + (NIGHT if s["night"] else "") + " Characters/places: " + ref_text(s["refs"]))
+            s["files"]["end_frame"] = f"visuals/images/{s['id']}_last.png"
 
 for h in HOOKS:
     h["first_frame_full_prompt"] = h["first_frame"] + " " + STYLE.replace("16:9 widescreen", "9:16 vertical") + " Characters/places: " + ref_text(h["refs"])
@@ -666,6 +698,35 @@ for h in HOOKS:
     h["credits"] = PRICE[h["duration_s"]]
     h["files"] = {"start_frame": f"visuals/hooks/{h['id']}_first.png", "video": f"visuals/hooks/{h['id']}.mp4"}
 
+
+# ---------------- REFERENCE PROMPTS (Phase 1) ----------------
+REF_BG = ("Character reference sheet photo, photorealistic, 1880 American West period clothing, plain warm neutral studio background, "
+          "soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.")
+REF_PROMPTS = []
+for cid, c in CHARACTERS.items():
+    if c.get("reuse_refs"):
+        continue
+    look = c["look"]
+    if cid == "CHAR_ROSE":
+        base, outfit_a, outfit_b = look.split(" OUTFIT A")[0], "OUTFIT A" + look.split("OUTFIT A")[1].split(" OUTFIT B")[0], "OUTFIT B" + look.split("OUTFIT B")[1]
+        REF_PROMPTS += [
+            {"file": f"visuals/refs/{cid}_front.png", "prompt": f"Head-and-shoulders portrait, facing the camera, calm gentle expression. {base} {outfit_a.rstrip('. ')}. {REF_BG}"},
+            {"file": f"visuals/refs/{cid}_34.png", "prompt": f"Three-quarter view portrait from the waist up, slight smile. {base} {outfit_a.rstrip('. ')}. {REF_BG}", "use_ref": f"visuals/refs/{cid}_front.png"},
+            {"file": f"visuals/refs/{cid}_full.png", "prompt": f"Full-body standing pose, the whole dress visible. {base} {outfit_a.rstrip('. ')}. {REF_BG}", "use_ref": f"visuals/refs/{cid}_front.png"},
+            {"file": f"visuals/refs/{cid}_full_B.png", "prompt": f"Full-body standing pose. {base} {outfit_b.rstrip('. ')}. {REF_BG}", "use_ref": f"visuals/refs/{cid}_front.png"},
+        ]
+    else:
+        REF_PROMPTS += [
+            {"file": f"visuals/refs/{cid}_front.png", "prompt": f"Head-and-shoulders portrait, facing the camera. {look} {REF_BG}"},
+            {"file": f"visuals/refs/{cid}_34.png", "prompt": f"Three-quarter view portrait from the waist up. {look} {REF_BG}", "use_ref": f"visuals/refs/{cid}_front.png"},
+            {"file": f"visuals/refs/{cid}_full.png", "prompt": f"Full-body standing pose. {look} {REF_BG}", "use_ref": f"visuals/refs/{cid}_front.png"},
+        ]
+for group in (PROPS, LOCATIONS):
+    for rid, r in group.items():
+        if r.get("reuse_refs"):
+            continue
+        REF_PROMPTS.append({"file": f"visuals/refs/{rid}.png", "prompt": f"{r['look']}. Clear reference image of {r['name'].lower()}, no people unless needed for scale. " + STYLE})
+
 TITLE = "The Stagecoach Bride"
 YT = "They Called the Mail-Order Bride a Thief and Made Her Groom Arrest Her — They Didn't Know What Was in Her Box"
 out = {"title": TITLE, "series": "Tales of Cedar Bluff", "episode": 2, "working_title_youtube": YT,
@@ -673,7 +734,7 @@ out = {"title": TITLE, "series": "Tales of Cedar Bluff", "episode": 2, "working_
        "format": {"aspect": "16:9 (hooks 9:16)", "video_model": "Omni 1.1 Flash 720p", "image_model": "Nano Banana Pro", "fps": 24,
                   "clip_durations_allowed_s": [4, 6, 8], "credits_by_duration": {"4": 7, "6": 10, "8": 12}},
        "estimate": est, "style": STYLE, "clip_style": CLIP_STYLE, "reused_refs_from": PREV,
-       "characters": CHARACTERS, "props": PROPS, "locations": LOCATIONS, "timeline": SHOTS, "hooks": HOOKS}
+       "characters": CHARACTERS, "props": PROPS, "locations": LOCATIONS, "ref_prompts": REF_PROMPTS, "timeline": SHOTS, "hooks": HOOKS}
 
 here = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(f"{here}/narration", exist_ok=True)
@@ -682,14 +743,18 @@ for n in narrs:
     open(f"{here}/narration/{n['id']}.txt", "w", encoding="utf-8").write(n["text"] + "\n")
 
 L = [f"# {TITLE.upper()}\n", f"*Tales of Cedar Bluff, фильм 2 · {YT}*\n",
-     f"Оценка: ~{est['est_total_min_core']} мин (только обязательные клипы) · клипов {est['clips']} (обязательных {est['clips_core']} ≈ {est['credits_core_one_take']} кредитов за один дубль, по желанию {est['clips_optional']} ≈ {est['credits_optional_one_take']}) · хуки для шортсов 3 ≈ {est['credits_hooks']} · картинок новых {est['images_new']}, из первого фильма {est['images_reused']} · рассказчик {words} слов, {est['narration_chars']} символов (~{est['narration_min']} мин)\n",
+     f"Оценка: ~{est['est_total_min_core']} мин (только обязательные клипы) · клипов {est['clips']} (обязательных {est['clips_core']} ≈ {est['credits_core_one_take']} кредитов за один дубль, по желанию {est['clips_optional']} ≈ {est['credits_optional_one_take']}, доп. экшен {est['clips_extra']} ≈ {est['credits_extra_one_take']}) · хуки для шортсов 3 ≈ {est['credits_hooks']} · картинок новых {est['images_new']}, из первого фильма {est['images_reused']} · рассказчик {words} слов, {est['narration_chars']} символов (~{est['narration_min']} мин)\n",
      "Обозначения: **C** — видеоклип 4–8 с, говорит один персонаж · **I** — картинка с движением камеры под голос рассказчика · **N** — рассказчик · **T** — титр · ⚡ — экшен-клип.\n"]
 for s in SHOTS:
     if s["type"] == "clip":
-        tag = "" if s["priority"] == "core" else " *(по желанию)*"
+        tag = {"core": "", "optional": " *(по желанию)*", "extra": " *(доп. экшен: только при API / докупке кредитов)*"}[s["priority"]]
         L.append(f"\n**{s['id']} · КЛИП {s['duration_s']} с{' ⚡' if s['action_shot'] else ''}**{tag} — {s['action']}" + (f"  \n_Камера: {s['camera']}_" if s['camera'] else ""))
         for d in s["dialogue"]:
             L.append(f"> **{CHARACTERS[d['speaker']]['name'].upper()}:** {d['line']}")
+        if s.get("end_frame_prompt"):
+            L.append(f"_Последний кадр: {s['end_frame_prompt']}_")
+        if s.get("montage_note"):
+            L.append(f"_Монтаж: {s['montage_note']}_")
     elif s["type"] == "image":
         L.append(f"- {s['id']} · {s['prompt']} _({s['motion']}{'; из первого фильма' if 'reuse_from' in s else ''})_")
     elif s["type"] == "narration":
