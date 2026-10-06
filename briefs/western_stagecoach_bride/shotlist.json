@@ -4486,6 +4486,9 @@
       "M14": "N17"
     },
     "review_gates": {
+      "references": {
+        "enabled": true
+      },
       "audio": {
         "enabled": true,
         "narration_sample_id": "N01",
