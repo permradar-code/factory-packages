@@ -4556,6 +4556,19 @@
     "subtitle": {
       "language": "en",
       "name": "English"
+    },
+    "qc": {
+      "long_duration_min_seconds": 960,
+      "long_duration_max_seconds": 1110,
+      "required_prefix_ids": [
+        "C60",
+        "C61",
+        "C102",
+        "C103",
+        "C104",
+        "T00"
+      ],
+      "black_silence_max_seconds": 1.5
     }
   }
 }
