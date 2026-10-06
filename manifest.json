@@ -8,7 +8,7 @@
   "fps": 24,
   "source": "Refs: ChatGPT image generation (user decision 5 Oct: Flow tab unstable, ChatGPT gives better faces). Flow project 25886d44-bf88-49ae-b9ca-00ac2dc0467f (film 2) created but unused so far.",
   "flow_credits_spent": 0,
-  "phase": "2 stills I01-I11 done; phase 3 cold open C01-C04 in progress; STOP 2 pending",
+  "phase": "3 cold open C01-C04 frames done; STOP 2 pending user approval",
   "refs": {
     "reused_from_film_1": [
       "CHAR_AGATHA_front",
@@ -231,8 +231,40 @@
       "file": "visuals/images/C13_first.png",
       "source": "chatgpt",
       "note": "REDO: needs hands folding dress into carpetbag"
+    },
+    {
+      "id": "C01",
+      "type": "clip_frames",
+      "first": "visuals/images/C01_first.png",
+      "last": "visuals/images/C01_last.png",
+      "first_source": "chatgpt",
+      "last_source": "chatgpt"
+    },
+    {
+      "id": "C02",
+      "type": "clip_frames",
+      "first": "visuals/images/C02_first.png",
+      "last": "visuals/images/C02_last.png",
+      "first_source": "chatgpt",
+      "last_source": "flow"
+    },
+    {
+      "id": "C03",
+      "type": "clip_frames",
+      "first": "visuals/images/C03_first.png",
+      "last": "visuals/images/C03_last.png",
+      "first_source": "chatgpt",
+      "last_source": "flow"
+    },
+    {
+      "id": "C04",
+      "type": "clip_frames",
+      "first": "visuals/images/C04_first.png",
+      "last": "visuals/images/C04_last.png",
+      "first_source": "flow",
+      "last_source": "flow edit of first"
     }
   ],
   "shotlist_version": "v3 (tools/montage 316323b, 6 Oct 2026)",
-  "note": "v2->v3 switch 6 Oct: old v2 stills renamed I02->C12_first, I03->C11_first, I04->C13_first; v2 I01/I45 (copied from film 1) removed. C11_first: Rose in dark-grey travel dress and black hat reading a letter by a window: matches v3. C13_first: shows the dress and letters on a table, but v3 wants hands folding the dress into a carpetbag: REDO later. C12_first matches v3 (Caleb writing at night). Reused cues M02,M04,M05,M11,M14 and refs from film 1 as before. All stills in ChatGPT (user decision), prompt = full_prompt, refs attached as numbered jpg + 00_prompt txt."
+  "note": "v2->v3 switch 6 Oct: old v2 stills renamed I02->C12_first, I03->C11_first, I04->C13_first; v2 I01/I45 (copied from film 1) removed. C11_first: Rose in dark-grey travel dress and black hat reading a letter by a window: matches v3. C13_first: shows the dress and letters on a table, but v3 wants hands folding the dress into a carpetbag: REDO later. C12_first matches v3 (Caleb writing at night). Reused cues M02,M04,M05,M11,M14 and refs from film 1 as before. All stills in ChatGPT (user decision), prompt = full_prompt, refs attached as numbered jpg + 00_prompt txt. Cold open: ChatGPT hit its file-attachment limit (until 15:09 on 6 Oct), so C02_last, C03_last, C04_first/last were made in Flow (Nano Banana Pro x1, 0 credits, 1376x768). C02_first/last: prompt had an appended correction (camera behind the coach, riders masked, no foreground person) because the first take showed Buck unmasked on the coach. C04_last = Flow edit of C04_first. C01_last and C02_last differ little from their first frames (video model will move between them)."
 }

@@ -1,31 +1,29 @@
-# HANDOFF: western_stagecoach_bride_v1 (5 Oct 2026, end of session 1)
+# HANDOFF: western_stagecoach_bride_v1 (6 Oct 2026, session 2) — shotlist v3
 
-Talk to the user in Russian, briefly. Branch `pkg/western_stagecoach_bride_v1` in `permradar-code/factory-packages`; local worktree `C:\Users\permr\fl_work\wsb` (main checkout `C:\Users\permr\fl_work\wwp` stays on the film-1 branch). Source of truth: `briefs/western_stagecoach_bride/shotlist.json` + `BRIEF.md` on `tools/montage` (re-read with `git show origin/tools/montage:<path>`; local copies in `_variants/brief/`, gitignored).
+Talk to the user in Russian, briefly. Branch `pkg/western_stagecoach_bride_v1` in `permradar-code/factory-packages`; local worktree `C:\Users\permr\fl_work\wsb` (main checkout `C:\Users\permr\fl_work\wwp` stays on the film-1 branch). **Source of truth is shotlist v3** (tools/montage commit 316323b, 6 Oct; 101 clips, 11 stills, 22 narration blocks, ~18 min). Re-read with `git show origin/tools/montage:briefs/western_stagecoach_bride/shotlist.json` (and BRIEF.md); local copies in `_variants/brief/` (gitignored). The old v2 (60 stills) is obsolete.
 
 ## Status
-- Phase 0 done. Phase 1 (23 new refs + 15 reused) done and APPROVED by the user at STOP 1 (all images of refs in ChatGPT, 1672x941).
-- Phase 2 (stills): done I02, I03, I04 (+ I01, I45 reused). Pending: 55 images, order in `_variants/order.json` (timeline order, not ID order). Next: I05.
-- Phases 3-5 not started. VIDEO waits for the user's decision (no Flow credits for video).
-- Flow credits spent: 0.
+- Phase 0, 1 (refs 38 files, approved at STOP 1): done.
+- Phase 2 (v3 stills): **I01–I11 done** (visuals/images/I01..I11.png, ChatGPT, 1672x941).
+- v2 stills reused as first frames: I02→`C12_first.png` (ok), I03→`C11_first.png` (ok, grey travel dress), I04→`C13_first.png` (**REDO**: v3 wants hands folding the wedding dress into a carpetbag; the picture shows dress + letters on a table).
+- Phase 3 now: **only cold open C01–C04 (first + last), then STOP 2.** ALL DONE (C01-C04 first+last) -> STOP 2 waiting for the user. C02_last, C03_last, C04_first/last came from Flow because ChatGPT's file-attachment limit was reached until 15:09 6 Oct.
+- Flow route that works (new project 25886d44..., refs already uploaded by name): fresh tab, click the prompt bar once to wake the page, click '+' (457,538), TYPE the file name (search is focused), Enter; repeat per ref; type prompt; send at (896,540); ~30 s; open tile, download icon (1144,30) -> '1K' (1188,70). A last frame can be made by EDITING the first-frame tile (type the change in the edit bar, send at (806,535)). Tabs freeze often: use a fresh tab, never close old ones. Last frames are made with the first frame attached (`tools/build_frame.py C01:last` builds the package, first frame = `01_FIRST_FRAME.jpg`).
+- The other ~110 frames are NOT to be made here: the user plans to generate them via API on the server. Do not start them.
+- Phases 4 (narration), 5 (music), video: not started. Flow credits spent: 0.
 
-## User decisions
-- Rose face = ChatGPT variant 1. "Where it works better, do it there": ChatGPT for faces/refs, Flow/Gemini only if faster.
-- Buck's scar on the wrong cheek and Rose's faint brow scar were accepted.
+## Decisions
+- All stills in ChatGPT (user: "where it works better"). Flow project 25886d44-... is empty apart from a few uploads; do not use it.
+- Rose face = ChatGPT variant 1; Buck scar side and Rose's faint brow scar accepted.
 
-## What works (ChatGPT, tested)
-1. `python tools/build_stage.py I05 ...` makes `_variants/stage/<ID>/`: `00_prompt_<ID>.txt` (scene + numbered ref list) and numbered 1024px jpg refs from `_variants/up/` (rebuild `up/` from `visuals/refs` with PIL, thumbnail 1024).
-2. In a ChatGPT chat: upload those files (file_upload to the "Прикрепить файлы" input found by `find`, or to your own `<input type=file multiple>` and paste them into `.ProseMirror` via a ClipboardEvent), type "New separate image. Generate ONE image exactly as described in the attached file 00_prompt_<ID>.txt, using the attached reference images as described there. Output a single wide 16:9 landscape image.", Enter.
-3. Wait ~90-100 s (slower in long chats: new chat every 3-4 images; a fresh chat is ~70-90 s). Look at the screenshot: image must be finished (no "%").
-4. Click the image (668,245) to open the viewer, click download (1164,26), Escape. `tools/grab.ps1 -Dest visuals\images\<ID>.png` converts the newest file in Downloads (it polls up to 90 s).
-5. ChatGPT limit: 10 files per message. Shots with 10-11 refs (I31, I44, ...) need a merged ref sheet for minor characters.
+## ChatGPT workflow (tested, ~1.5-3 min per image; two tabs in parallel work)
+1. `python tools/build_stage.py I05` (stills) or `python tools/build_frame.py C02:first C02:last` (frames) -> `_variants/stage/<ID>/` with `00_prompt_<ID>.txt` and numbered 1024px refs (`_variants/up/`, rebuild from `visuals/refs` with PIL thumbnail 1024 if missing).
+2. New chat in the tab (`navigate https://chatgpt.com/`, new chat every 2-3 images). `find "Прикрепить файлы"` -> ref, `file_upload` the files (max 10 incl. the txt). Then click the composer and type "New separate image. Generate ONE image exactly as described in the attached file 00_prompt_<ID>.txt, using the attached reference images as described there. Output a single wide 16:9 landscape image." **The first typing after a page load is swallowed: look at a screenshot and repeat the click+type if the text is missing.** Enter to send. (A leftover draft may appear: ctrl+a before typing.)
+3. Wait until the image is finished (no "%", "Редактировать" button visible), click the image to open the viewer, **verify with a screenshot that the viewer is open**, click download at (1164,26), Escape. `tools/grab.ps1 -Dest visuals\images\<ID>.png` (polls the newest file in Downloads).
+4. Check faces vs refs, no text, correct outfit; max 3 regenerations.
 
 ## What burned us
-- NEVER click (1164,26) unless the image viewer is open: on the chat page that spot is the "Поделиться" button and creates a PUBLIC link (happened once; I deleted it in "Общие ссылки", the user's old links were untouched).
-- After `navigate` the first typing/clicking is swallowed: do the typing in a second call.
-- Closing a Chrome tab makes the extension lose the whole tab group; the other tabs become uncontrollable. Do not close tabs; open new ones via `tabs_context_mcp {createIfEmpty:true}`.
-- The extension disconnects now and then ("not connected"): retry once, then stop and tell the user.
-- Flow (new project 25886d44-bf88-49ae-b9ca-00ac2dc0467f): tabs freeze; attaching refs through the "+" picker mis-clicks into tiles and opens editors. Uploaded 33 refs there already (jpg names like CHAR_ROSE_front.jpg). Not faster than ChatGPT in practice. Gemini not tried.
-- Local servers cannot be fetched from https pages (blocked); pass data through `file_upload` instead.
-
-## Open ChatGPT chats (user can see them in history)
-"Generate Image" (I02-I05 chat; I05 was stuck at 99%) and "ChatGPT" (I05 files pasted, not sent). Check the history before regenerating I05.
+- (1164,26) outside the viewer is "Поделиться" and creates a PUBLIC link (once; deleted in "Общие ссылки").
+- Never close Chrome tabs (the extension loses the tab group); open new ones via `tabs_context_mcp {createIfEmpty:true}`. Extension disconnects sometimes: retry once, then stop and tell the user.
+- A local web server cannot be reached from https pages; pass files via `file_upload`.
+- ChatGPT limit: 10 files per message.
+- Flow tabs freeze; Gemini not tried.
