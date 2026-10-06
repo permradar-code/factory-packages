@@ -1,4 +1,14 @@
-# Production brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, v3, ~18 min, 16:9)
+# Production brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, v4, ~18 min, 16:9)
+
+## v4 (6 Oct evening) — what changed since v3
+- **New cold open = the title scene:** Caleb walks Rose down Main Street in handcuffs, in her mended wedding dress, the town laughing (C60, C61, C102, C103, C104) → "THREE DAYS EARLIER" → the robbery as one continuous action sequence (C28, C29, C31, C01, C02, C32, C03, C33, C04, C05, C34, C35).
+- **Shot IDs are stable.** Kept shots keep their v3 IDs, so frames already made stay valid (C01–C04, C11–C13, I01–I11). New shots: C102–C111. Removed: C19, C20, C23–C27, C30 (do not make them). Timeline order = list order in `shotlist.json`, not ID order.
+- **Rose's outfits now:** A (wedding dress) on the stage and the mountain up to C42 → B (gingham) from C43 → **A2 = the same wedding dress, cleaned and mended** from C57 (the arrest) through the walk of shame, the jail and the fire (C60, C61-C104 cold open, C62–C69, I06) → B again from I07 (dawn after the fire). Each shot's `rose_outfit` says which; A2 uses the normal `CHAR_ROSE_full.png` ref.
+- **Redo I06** (walk close-up): it was made in gingham, now she wears the mended wedding dress.
+- **C33 changed:** Amos presses only the brass key into her hand (she already holds the box in C03).
+- New payoff scenes: C107 (Mercer sends Crane away), C108 (Rose: "I promised you'd see me in it first"), C109–C110 (Clara silences Agatha). C70, C97, C98 are now core.
+- Narration renumbered N01–N21 (no audio was made yet). Music cue boundaries in `music_cues.json` still describe v3 sections; the montage re-maps them.
+
 
 **Project id:** `western_stagecoach_bride_v1`.
 **Deliver as an orphan branch** `pkg/western_stagecoach_bride_v1` in `permradar-code/factory-packages`, same layout as `pkg/western_widows_piano_v1` (README.md + manifest.json + `visuals/refs/` + `visuals/images/` + `visuals/video/` + `visuals/hooks/` + `audio/narration/` + `audio/music/`).
@@ -22,8 +32,8 @@
 - Every image and every clip frame has `ref_files` in the shotlist. **Always attach all of them.** Upload all refs into the Flow project once and reuse them.
 - Recurring residents (Clara, Lily, Mercer, Agatha, Marshal Hart), Mercer's horse, main street, ranch, kitchen, barn, parlor: **reuse the approved refs from film 1** (`pkg/western_widows_piano_v1/visuals/refs/`, Flow project `7a937194-22cf-4e10-a8ea-406b0d82a514`). Do not regenerate them.
 - Music M02, M04, M05, M11, M14: copy from film 1 (`reuse_from`), do not generate.
-- **Rose has two outfits.** Outfit A (ivory lace wedding dress) up to and including **C42** (Clara wraps a shawl over the torn wedding dress in the kitchen); outfit B (faded green gingham) from **C43** on. C11 and C13 (St. Louis, packing the dress) use her grey travelling dress. Every shot already says which (`rose_outfit`) and attaches the matching full-body ref (`CHAR_ROSE_full.png` or `CHAR_ROSE_full_B.png`).
-- **v3 (6 Oct): mostly video.** 97 core clips, 68 of them with dialogue; only 11 still images. Clips marked `"broll": true` are silent and play under the narrator. The film is all video until about minute 6.
+- **Rose's outfits** (v4, see above): A up to C42, B from C43, A2 (mended wedding dress) from C57 to the jail fire, B again from I07. C11 and C13 (St. Louis, packing the dress) use her grey travelling dress. Every shot already says which (`rose_outfit`) and attaches the matching full-body ref (`CHAR_ROSE_full.png` or `CHAR_ROSE_full_B.png`).
+- **Mostly video:** 102 core clips (606 s), 70 of them with dialogue, 21 action clips; only 11 still images. Clips marked `"broll": true` are silent and play under the narrator. The film is all video until about minute 6.
 - **Tone:** serious, grounded drama; no comedic voices or overacting (a viewer of film 1 called the comic auctioneer opening "a buffoon story"). Agatha's voice is now cold and haughty, never shrill.
 
 ## Rose must be beautiful (and Flow must not choke on it)
