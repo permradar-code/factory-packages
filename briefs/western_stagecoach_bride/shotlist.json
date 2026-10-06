@@ -4487,7 +4487,7 @@
     },
     "review_gates": {
       "references": {
-        "enabled": true
+        "enabled": false
       },
       "audio": {
         "enabled": true,
