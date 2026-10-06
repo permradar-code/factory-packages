@@ -4539,6 +4539,23 @@
     "export": {
       "package_branch": "pkg/western_stagecoach_bride_v1",
       "film_branch": "film/western_stagecoach_bride_v1"
+    },
+    "voice": {
+      "provider": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "model": "eleven_multilingual_v2",
+      "speed": 1,
+      "timestamps": true,
+      "output_format": "mp3_44100_128",
+      "stability": 0.55,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "context_chars": 400
+    },
+    "subtitle": {
+      "language": "en",
+      "name": "English"
     }
   }
 }
