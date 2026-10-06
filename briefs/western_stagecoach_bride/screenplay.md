@@ -2,7 +2,7 @@
 
 *Tales of Cedar Bluff, фильм 2 · They Laughed as the Groom Led His Mail-Order Bride Away in Chains — They Didn't Know What Was in Her Box*
 
-Оценка: ~17.6 мин · клипов 103 (обязательных 102: 606 с ≈ 985 кредитов Flow или ≈ $60.6 через API; по желанию 1: ≈ 10 кредитов) · с репликами 70, экшен 21 · хуки 3 ≈ 21 · картинок новых 11, из первого фильма 0 · рассказчик 1008 слов, 5242 символов (~7.2 мин)
+Оценка: ~17.0 мин · клипов 103 (обязательных 102: 596 с ≈ 973 кредитов Flow или ≈ $59.6 через API; по желанию 1: ≈ 10 кредитов) · с репликами 71, экшен 21 · хуки 3 ≈ 21 · картинок новых 11, из первого фильма 0 · рассказчик 872 слов, 4521 символов (~6.2 мин)
 
 Обозначения: **C** — видеоклип 4–8 с, говорит один персонаж · **I** — картинка с движением камеры под голос рассказчика · **N** — рассказчик · **T** — титр · ⚡ — экшен-клип.
 
@@ -98,23 +98,19 @@ _Камера: medium shot on Buck_
 _Камера: slow push in, close-up on Crane_
 > **SILAS CRANE:** Then find her. Mountains are full of sad accidents.
 
+**C107 · КЛИП 6 с** — Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face.  
+_Камера: low close shot from inside the crack, the boot in the foreground_
+
 **N02 · РАССКАЗЧИК**
 
-> Silas Crane had come to Cedar Bluff that spring. He bought the dead banker's share of the bank and paid for a new church roof. He had silver hair, a soft Southern voice, and the finest manners in the valley.
+> Silas Crane was the most respected man in Cedar Bluff. He sat in the front pew of the church he had paid for.
 >
-> For two years, masked riders had robbed the stage on Raven Pass, always on the one day it carried the miners' gold. Nobody could explain how they knew.
->
-> People liked Silas Crane. People always liked him.
+> For two years the gold stage had been robbed on Raven Pass. Nobody had ever suspected him.
 
 **C21 · КЛИП 8 с** *(под рассказчика)* — In front of a small white church on Main Street, Silas Crane in his charcoal suit and cream hat shakes the preacher's hand warmly; townspeople smile and tip their hats to him.  
 _Камера: slow pan_
 
-**C22 · КЛИП 8 с** *(под рассказчика)* — Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold.  
-_Камера: slow push in_
-
-**N03 · РАССКАЗЧИК**
-
-> That same morning in Cedar Bluff, the man she had come to marry was standing in front of a mirror.
+**T03 · ТИТР** — THAT MORNING · CEDAR BLUFF (3 с)
 
 **C07 · КЛИП 6 с** — In the small marshal's office Caleb stands in front of a cracked mirror on the wall, nervously straightening his red bandana and rehearsing his greeting with a hopeful, shy smile.  
 _Камера: medium shot over his shoulder into the mirror_
@@ -132,20 +128,15 @@ _Камера: medium close-up on Caleb_
 _Камера: medium close-up on the marshal_
 > **MARSHAL ABEL HART:** Then you know more than most husbands ever do.
 
-**C12 · КЛИП 8 с** *(под рассказчика)* — Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on.  
+**C12 · КЛИП 4 с** — Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on.  
 _Камера: slow push in_
 
-**C11 · КЛИП 8 с** *(под рассказчика)* — A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her.  
+**C11 · КЛИП 8 с** — A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her.  
 _Камера: slow push in_
+> **ROSE CALLOWAY:** I'll wear my mother's wedding dress, so you'll see me in it first.
 
-**C13 · КЛИП 8 с** *(под рассказчика)* — Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon.  
+**C13 · КЛИП 4 с** — Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon.  
 _Камера: static close-up, slow push in_
-
-**N04 · РАССКАЗЧИК**
-
-> For six months, Deputy Caleb Ward had written to a woman in St. Louis every Sunday. He had found her name in a matrimonial paper, between a hardware advertisement and a notice about a lost mule.
->
-> Rose wrote back about her father, a printer who had died and left her nothing but debts and a box of books. In her last letter she promised to come in her mother's wedding dress, so that he would see her in it first.
 
 **C14 · КЛИП 8 с** — Afternoon at the stage stop on Main Street: Caleb waits in a clean shirt with a small bunch of wildflowers. On the boardwalk behind him Agatha Pell, with her closed white lace parasol, speaks coolly to two other ladies, loud enough for him to hear. They smile thinly behind their gloves.  
 _Камера: medium shot, Caleb in the foreground_
@@ -166,7 +157,7 @@ _Камера: low angle on the flowers, Caleb running out of focus_
 _Камера: wide, then push in_
 > **CALEB WARD:** Rose! Rose Calloway!
 
-**N05 · РАССКАЗЧИК**
+**N03 · РАССКАЗЧИК**
 
 > He searched the pass all night, calling a name he had written twenty-six times and never once said out loud.
 >
@@ -207,7 +198,7 @@ _Камера: medium shot_
 _Камера: medium close-up on Clara_
 > **CLARA WHITMORE:** Eat your supper, Lily.
 
-**N06 · РАССКАЗЧИК**
+**N04 · РАССКАЗЧИК**
 
 > It had been almost a year since a quiet stranger named John Mercer saved Clara Whitmore's ranch. He had never left. Every night after supper he said good night at the kitchen door and went out to sleep in the barn.
 >
@@ -239,12 +230,12 @@ _Камера: close-up on Clara_
 _Камера: close-up on Crane_
 > **SILAS CRANE:** Lovely house. So many doors.
 
-**C107 · КЛИП 6 с** — Mercer steps out of the barn door behind Crane with a rifle held loosely across his chest and speaks quietly, without any expression; Crane's smile freezes, he puts on his hat and walks back to his buggy.  
+**C108 · КЛИП 6 с** — Mercer steps out of the barn door behind Crane with a rifle held loosely across his chest and speaks quietly, without any expression; Crane's smile freezes, he puts on his hat and walks back to his buggy.  
 _Камера: low angle on Mercer, Crane in the foreground out of focus_
 > **JOHN MERCER:** Mrs. Whitmore said good day, Mr. Crane.
 - I05 · Close-up at ground level: the left front hoof of a tall roan horse held at the ranch gate, a horseshoe with one nail head missing; in soft focus behind, Mercer watching from the barn door. _(slow push in)_
 
-**N07 · РАССКАЗЧИК**
+**N05 · РАССКАЗЧИК**
 
 > Mercer was not watching Crane. He was watching the tall roan that Crane's man held at the gate, and the shoe on its left front hoof that rang wrong on the stones of the yard.
 >
@@ -257,7 +248,7 @@ _Последний кадр: The masked man breaking free and running for the b
 **C51 · КЛИП 6 с ⚡** — A masked rider on a tall roan horse gallops out of the moonlit ranch yard across stony ground, sparks flying from the horseshoes; Mercer limps out of the barn door behind him.  
 _Камера: wide static shot from the porch_
 
-**N08 · РАССКАЗЧИК**
+**N06 · РАССКАЗЧИК**
 
 > The man got away. But as he crossed the yard, Mercer heard it again. A loose shoe, ringing on the left front hoof.
 >
@@ -279,7 +270,7 @@ _Камера: close-up on Caleb_
 _Камера: close-up on the marshal_
 > **MARSHAL ABEL HART:** Then prove it. But bring her in.
 
-**N09 · РАССКАЗЧИК**
+**N07 · РАССКАЗЧИК**
 
 > Rose had spent two days mending her mother's wedding dress by the kitchen lamp. She had promised him he would see her in it first.
 >
@@ -297,7 +288,7 @@ _Камера: medium shot_
 _Камера: close-up on Rose, golden light_
 > **ROSE CALLOWAY:** You're taller than I imagined.
 
-**C108 · КЛИП 6 с** — Rose smooths the mended lace of her wedding dress with one hand and gives him a small, brave smile.  
+**C109 · КЛИП 6 с** — Rose smooths the mended lace of her wedding dress with one hand and gives him a small, brave smile.  
 _Камера: medium close-up on Rose, golden light_
 > **ROSE CALLOWAY:** I promised you'd see me in it first.
 
@@ -305,19 +296,19 @@ _Камера: medium close-up on Rose, golden light_
 _Камера: close-up on Caleb_
 > **CALEB WARD:** And you're under arrest, ma'am.
 
-**N10 · РАССКАЗЧИК**
+**N08 · РАССКАЗЧИК**
 
 > The jail was at the far end of Main Street. Caleb had to walk her past every door in Cedar Bluff.
 - I06 · Close-up of Rose's face as she walks: chin up, eyes straight ahead, a single tear on her cheek that she does not wipe away. _(very slow push in)_
 
-**C109 · КЛИП 8 с** — On the boardwalk, as the bride in handcuffs passes, Clara steps in front of Agatha Pell and speaks to her quietly, very close, so that only the ladies around them can hear.  
+**C110 · КЛИП 8 с** — On the boardwalk, as the bride in handcuffs passes, Clara steps in front of Agatha Pell and speaks to her quietly, very close, so that only the ladies around them can hear.  
 _Камера: close two-shot, Clara in focus_
 > **CLARA WHITMORE:** One more word, Agatha, and I'll tell them about Denver.
 
-**C110 · КЛИП 4 с** — Agatha Pell goes pale, lowers her parasol and says nothing; the two ladies beside her slowly step away from her, exchanging looks.  
+**C111 · КЛИП 4 с** — Agatha Pell goes pale, lowers her parasol and says nothing; the two ladies beside her slowly step away from her, exchanging looks.  
 _Камера: medium close-up on Agatha_
 
-**C111 · КЛИП 8 с** *(под рассказчика)* — Main street in the afternoon: Rose in her wedding dress and handcuffs walks on beside Caleb toward the small log jail at the end of the street; the crowd has gone quiet.  
+**C112 · КЛИП 8 с** *(под рассказчика)* — Main street in the afternoon: Rose in her wedding dress and handcuffs walks on beside Caleb toward the small log jail at the end of the street; the crowd has gone quiet.  
 _Камера: wide shot from behind them_
 
 **C62 · КЛИП 8 с** — Night in the jail. Caleb sits on a stool outside the cell bars, turning his hat in his hands, speaking quietly without looking at her.  
@@ -332,7 +323,7 @@ _Камера: close-up through the bars_
 _Камера: close-up on Caleb_
 > **CALEB WARD:** I know.
 
-**N11 · РАССКАЗЧИК**
+**N09 · РАССКАЗЧИК**
 
 > He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice.
 
@@ -344,7 +335,7 @@ _Камера: close two-shot through the bars_
 _Камера: close-up on Caleb_
 > **CALEB WARD:** Out here, nobody ever asked what I was thinking. You did.
 
-**N12 · РАССКАЗЧИК**
+**N10 · РАССКАЗЧИК**
 
 > She put her hand through the bars, and he held it, and neither of them let go.
 >
@@ -365,7 +356,7 @@ _Последний кадр: Caleb kneeling in front of the cell bars clutching
 **C70 · КЛИП 6 с ⚡** — The jail door is kicked open; Mercer storms in through the smoke with a rifle, firing at the window, then grabs the ring of keys from the burning desk.  
 _Камера: low angle from the floor_
 
-**N13 · РАССКАЗЧИК**
+**N11 · РАССКАЗЧИК**
 
 > They wanted the box. It was not in the jail.
 >
@@ -390,7 +381,7 @@ _Камера: low angle close on the horseshoe, then up to Mercer_
 _Камера: close-up on Caleb_
 > **CALEB WARD:** Buck Tolliver's roan.
 
-**N14 · РАССКАЗЧИК**
+**N12 · РАССКАЗЧИК**
 
 > But a horseshoe was not proof against the most respected man in the valley. They needed what was in the box.
 >
@@ -412,7 +403,7 @@ _Камера: medium close-up_
 _Камера: close-up on the papers, then Rose_
 > **ROSE CALLOWAY:** A man can change his name. He can't change his hand.
 
-**N15 · РАССКАЗЧИК**
+**N13 · РАССКАЗЧИК**
 
 > The same hand had written both. Silas Crane had signed his own confession and handed it to the law.
 >
@@ -429,7 +420,7 @@ _Камера: medium two-shot from the yard_
 _Камера: close-up on Mercer_
 > **JOHN MERCER:** You know why.
 
-**N16 · РАССКАЗЧИК**
+**N14 · РАССКАЗЧИК**
 
 > At dawn the marshal rode out with a warrant. Crane's house was empty and the safe stood open. Mercer read the ground for less than a minute.
 >
@@ -444,7 +435,7 @@ _Последний кадр: The riders further down the same canyon near a ben
 _Камера: handheld, low behind the boulder_
 _Последний кадр: Mercer and Caleb crouched behind the boulder, rifles up, dust settling around them._
 
-**N17 · РАССКАЗЧИК**
+**N15 · РАССКАЗЧИК**
 
 > Buck Tolliver had the high ground. But the war had taught John Mercer one thing above all others.
 >
@@ -465,7 +456,7 @@ _Камера: close two-shot_
 _Камера: close-up on Buck_
 > **BUCK TOLLIVER:** Ask the bride.
 
-**N18 · РАССКАЗЧИК**
+**N16 · РАССКАЗЧИК**
 
 > The canyon was a decoy. Crane had gone back to Cedar Bluff for the one thing he still needed.
 >
@@ -501,7 +492,7 @@ _Камера: low angle from the street up to the roof_
 _Камера: medium two-shot_
 > **MARSHAL ABEL HART:** Silas Crane. You're under arrest for robbing the mail.
 
-**N19 · РАССКАЗЧИК**
+**N17 · РАССКАЗЧИК**
 
 > Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.
 >
@@ -528,7 +519,7 @@ _Камера: medium close-up on Agatha_
 _Камера: close-up on Rose_
 > **ROSE CALLOWAY:** Then come to the wedding, Mrs. Pell.
 
-**N20 · РАССКАЗЧИК**
+**N18 · РАССКАЗЧИК**
 
 > But the best moment of that day happened at sunset, and almost nobody saw it.
 
@@ -543,7 +534,7 @@ _Камера: close-up on Clara, Lily in soft focus behind_
 **C101 · КЛИП 8 с** *(под рассказчика)* — Final wide shot: the ranch house at dusk with warm glowing windows; the camera slowly rises and pulls back over the valley as the first stars appear.  
 _Камера: slow crane up and pull back_
 
-**N21 · РАССКАЗЧИК**
+**N19 · РАССКАЗЧИК**
 
 > They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.
 >

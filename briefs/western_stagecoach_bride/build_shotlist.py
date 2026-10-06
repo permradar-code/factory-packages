@@ -161,11 +161,11 @@ clip("Main street in the afternoon: Rose in her ivory lace wedding dress, her wr
 clip("On the boardwalk Agatha Pell steps forward from the crowd, points her closed lace parasol at the young woman in handcuffs walking past, and speaks clearly so the whole street can hear.",
      ["CHAR_AGATHA", "LOC_STREET"], [("CHAR_AGATHA", "Look at her, ladies. A thief, delivered by mail.")], camera="medium shot, the crowd behind her", id="C61")
 clip("Townspeople on the boardwalk laugh out loud and point at the bride in handcuffs; two well-dressed ladies hide their smiles behind their gloves; a man in a bowler hat shakes his head.",
-     ["LOC_STREET"], camera="slow pan along the laughing crowd", dur=4)
+     ["LOC_STREET"], camera="slow pan along the laughing crowd", dur=4, id="C102")
 clip("In the middle of the street Rose stops, turns to Caleb and speaks quietly, her chin up, her eyes wet but steady.",
-     ["CHAR_ROSE", "CHAR_CALEB", "LOC_STREET"], [("CHAR_ROSE", "I wore it for you, Caleb. Like I promised.")], camera="close-up on Rose, the crowd blurred behind")
+     ["CHAR_ROSE", "CHAR_CALEB", "LOC_STREET"], [("CHAR_ROSE", "I wore it for you, Caleb. Like I promised.")], camera="close-up on Rose, the crowd blurred behind", id="C103")
 clip("Caleb, pale, his jaw tight, cannot meet her eyes; he takes her arm and answers in a low voice.",
-     ["CHAR_CALEB", "CHAR_ROSE", "LOC_STREET"], [("CHAR_CALEB", "Keep walking, ma'am.")], camera="close-up on Caleb")
+     ["CHAR_CALEB", "CHAR_ROSE", "LOC_STREET"], [("CHAR_CALEB", "Keep walking, ma'am.")], camera="close-up on Caleb", id="C104")
 card("T00", "THREE DAYS EARLIER", 3)
 
 # ======================= THE ROBBERY: one continuous action sequence =======================
@@ -216,25 +216,21 @@ card("T01", "THE STAGECOACH BRIDE", 4)
 
 # ======================= THE VILLAIN (the audience knows, the town doesn't) =======================
 clip("Night, Crane's dark office in his white ranch house: Buck Tolliver, dusty from the ride, stands in the doorway with his hat in his hand and reports to the man at the window.",
-     ["CHAR_BUCK", "CHAR_CRANE", "LOC_CRANE"], [("CHAR_BUCK", "She jumped with the box, boss. Went up the rocks.")], camera="medium shot on Buck", night=True)
+     ["CHAR_BUCK", "CHAR_CRANE", "LOC_CRANE"], [("CHAR_BUCK", "She jumped with the box, boss. Went up the rocks.")], camera="medium shot on Buck", night=True, id="C105")
 clip("Silas Crane turns from the window with a thin cigar; his pale eyes are perfectly calm, his voice soft.",
-     ["CHAR_CRANE", "CHAR_BUCK", "LOC_CRANE"], [("CHAR_CRANE", "Then find her. Mountains are full of sad accidents.")], camera="slow push in, close-up on Crane", night=True)
+     ["CHAR_CRANE", "CHAR_BUCK", "LOC_CRANE"], [("CHAR_CRANE", "Then find her. Mountains are full of sad accidents.")], camera="slow push in, close-up on Crane", night=True, id="C106")
+clip("Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face.",
+     ["CHAR_ROSE", "CHAR_BUCK", "PROP_BOX", "LOC_PASS"], camera="low close shot from inside the crack, the boot in the foreground", night=True, dur=6, id="C107")
 narr("""
-Silas Crane had come to Cedar Bluff that spring. He bought the dead banker's share of the bank and paid for a new church roof. He had silver hair, a soft Southern voice, and the finest manners in the valley.
+Silas Crane was the most respected man in Cedar Bluff. He sat in the front pew of the church he had paid for.
 
-For two years, masked riders had robbed the stage on Raven Pass, always on the one day it carried the miners' gold. Nobody could explain how they knew.
-
-People liked Silas Crane. People always liked him.
+For two years the gold stage had been robbed on Raven Pass. Nobody had ever suspected him.
 """)
 clip("In front of a small white church on Main Street, Silas Crane in his charcoal suit and cream hat shakes the preacher's hand warmly; townspeople smile and tip their hats to him.",
      ["CHAR_CRANE", "LOC_STREET"], camera="slow pan", broll=True, dur=8, id="C21")
-clip("Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold.",
-     ["CHAR_CRANE", "LOC_CRANE"], camera="slow push in", broll=True, dur=8, id="C22")
 
 # ======================= THE GROOM (same day, that morning) =======================
-narr("""
-That same morning in Cedar Bluff, the man she had come to marry was standing in front of a mirror.
-""")
+card("T03", "THAT MORNING · CEDAR BLUFF", 3)
 clip("In the small marshal's office Caleb stands in front of a cracked mirror on the wall, nervously straightening his red bandana and rehearsing his greeting with a hopeful, shy smile.",
      ["CHAR_CALEB", "LOC_JAIL"], [("CHAR_CALEB", "Miss Calloway. Welcome to Cedar Bluff, ma'am.")], camera="medium shot over his shoulder into the mirror", id="C07")
 clip("Behind him Marshal Abel Hart leans back in his chair with his boots on the desk and speaks without looking up from his newspaper, dry and fond.",
@@ -244,16 +240,11 @@ clip("Caleb turns and holds up a thick bundle of letters tied with a faded blue 
 clip("The marshal lowers his newspaper and looks at the young man for a long moment, then speaks quietly, with half a smile under his gray mustache.",
      ["CHAR_MARSHAL", "CHAR_CALEB", "LOC_JAIL"], [("CHAR_MARSHAL", "Then you know more than most husbands ever do.")], camera="medium close-up on the marshal", id="C10")
 clip("Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on.",
-     ["CHAR_CALEB", "LOC_JAIL"], camera="slow push in", broll=True, night=True, dur=8, id="C12")
-clip("A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her.",
-     ["CHAR_ROSE"], camera="slow push in", broll=True, dur=8, rose=TRAVEL, id="C11")
+     ["CHAR_CALEB", "LOC_JAIL"], camera="slow push in", night=True, dur=4, id="C12")
+clip("A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her.",
+     ["CHAR_ROSE"], [("CHAR_ROSE", "I'll wear my mother's wedding dress, so you'll see me in it first.")], camera="slow push in", rose=TRAVEL, id="C11")
 clip("Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon.",
-     ["CHAR_ROSE"], camera="static close-up, slow push in", broll=True, dur=8, rose=TRAVEL, id="C13")
-narr("""
-For six months, Deputy Caleb Ward had written to a woman in St. Louis every Sunday. He had found her name in a matrimonial paper, between a hardware advertisement and a notice about a lost mule.
-
-Rose wrote back about her father, a printer who had died and left her nothing but debts and a box of books. In her last letter she promised to come in her mother's wedding dress, so that he would see her in it first.
-""")
+     ["CHAR_ROSE"], camera="static close-up, slow push in", dur=4, rose=TRAVEL, id="C13")
 clip("Afternoon at the stage stop on Main Street: Caleb waits in a clean shirt with a small bunch of wildflowers. On the boardwalk behind him Agatha Pell, with her closed white lace parasol, speaks coolly to two other ladies, loud enough for him to hear. They smile thinly behind their gloves.",
      ["CHAR_AGATHA", "CHAR_CALEB", "LOC_STREET"], [("CHAR_AGATHA", "A bride by mail. Like a sack of flour from Denver.")], camera="medium shot, Caleb in the foreground", id="C14")
 clip("Clara, passing along the boardwalk with a basket on her arm, stops beside Agatha and answers her calmly, without raising her voice; one of the ladies stifles a laugh at Agatha, then Clara walks on.",
@@ -314,7 +305,7 @@ clip("Clara, arms folded in the doorway, answers flatly.",
 clip("Crane smiles politely; his pale eyes move slowly over the windows and the barn.",
      ["CHAR_CRANE", "LOC_RANCH"], [("CHAR_CRANE", "Lovely house. So many doors.")], camera="close-up on Crane", id="C49")
 clip("Mercer steps out of the barn door behind Crane with a rifle held loosely across his chest and speaks quietly, without any expression; Crane's smile freezes, he puts on his hat and walks back to his buggy.",
-     ["CHAR_MERCER", "CHAR_CRANE", "LOC_RANCH"], [("CHAR_MERCER", "Mrs. Whitmore said good day, Mr. Crane.")], camera="low angle on Mercer, Crane in the foreground out of focus")
+     ["CHAR_MERCER", "CHAR_CRANE", "LOC_RANCH"], [("CHAR_MERCER", "Mrs. Whitmore said good day, Mr. Crane.")], camera="low angle on Mercer, Crane in the foreground out of focus", id="C108")
 img("Close-up at ground level: the left front hoof of a tall roan horse held at the ranch gate, a horseshoe with one nail head missing; in soft focus behind, Mercer watching from the barn door.", ["CHAR_MERCER", "LOC_RANCH"], "slow push in", id="I05")
 narr("""
 Mercer was not watching Crane. He was watching the tall roan that Crane's man held at the gate, and the shoe on its left front hoof that rang wrong on the stones of the yard.
@@ -356,7 +347,7 @@ clip("Rose, in her mended ivory wedding dress, comes out beside Clara and gently
 clip("At the gate, face to face for the first time, Rose in her wedding dress looks up at Caleb for a long moment.",
      ["CHAR_ROSE", "CHAR_CALEB", "LOC_RANCH"], [("CHAR_ROSE", "You're taller than I imagined.")], camera="close-up on Rose, golden light", id="C58")
 clip("Rose smooths the mended lace of her wedding dress with one hand and gives him a small, brave smile.",
-     ["CHAR_ROSE", "CHAR_CALEB", "LOC_RANCH"], [("CHAR_ROSE", "I promised you'd see me in it first.")], camera="medium close-up on Rose, golden light")
+     ["CHAR_ROSE", "CHAR_CALEB", "LOC_RANCH"], [("CHAR_ROSE", "I promised you'd see me in it first.")], camera="medium close-up on Rose, golden light", id="C109")
 clip("Caleb takes off his hat, miserable, the warrant in his other hand.",
      ["CHAR_CALEB", "CHAR_ROSE", "LOC_RANCH"], [("CHAR_CALEB", "And you're under arrest, ma'am.")], camera="close-up on Caleb", id="C59")
 narr("""
@@ -366,11 +357,11 @@ img("Close-up of Rose's face as she walks: chin up, eyes straight ahead, a singl
 
 # ======================= PAYOFF: Clara silences Agatha =======================
 clip("On the boardwalk, as the bride in handcuffs passes, Clara steps in front of Agatha Pell and speaks to her quietly, very close, so that only the ladies around them can hear.",
-     ["CHAR_CLARA", "CHAR_AGATHA", "LOC_STREET"], [("CHAR_CLARA", "One more word, Agatha, and I'll tell them about Denver.")], camera="close two-shot, Clara in focus")
+     ["CHAR_CLARA", "CHAR_AGATHA", "LOC_STREET"], [("CHAR_CLARA", "One more word, Agatha, and I'll tell them about Denver.")], camera="close two-shot, Clara in focus", id="C110")
 clip("Agatha Pell goes pale, lowers her parasol and says nothing; the two ladies beside her slowly step away from her, exchanging looks.",
-     ["CHAR_AGATHA", "LOC_STREET"], camera="medium close-up on Agatha", dur=4)
+     ["CHAR_AGATHA", "LOC_STREET"], camera="medium close-up on Agatha", dur=4, id="C111")
 clip("Main street in the afternoon: Rose in her wedding dress and handcuffs walks on beside Caleb toward the small log jail at the end of the street; the crowd has gone quiet.",
-     ["CHAR_ROSE", "CHAR_CALEB", "LOC_STREET", "LOC_JAIL"], camera="wide shot from behind them", broll=True, dur=8)
+     ["CHAR_ROSE", "CHAR_CALEB", "LOC_STREET", "LOC_JAIL"], camera="wide shot from behind them", broll=True, dur=8, id="C112")
 
 # ======================= THE NIGHT IN JAIL =======================
 clip("Night in the jail. Caleb sits on a stool outside the cell bars, turning his hat in his hands, speaking quietly without looking at her.",

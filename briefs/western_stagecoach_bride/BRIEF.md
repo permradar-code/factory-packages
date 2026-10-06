@@ -2,12 +2,13 @@
 
 ## v4 (6 Oct evening) — what changed since v3
 - **New cold open = the title scene:** Caleb walks Rose down Main Street in handcuffs, in her mended wedding dress, the town laughing (C60, C61, C102, C103, C104) → "THREE DAYS EARLIER" → the robbery as one continuous action sequence (C28, C29, C31, C01, C02, C32, C03, C33, C04, C05, C34, C35).
-- **Shot IDs are stable.** Kept shots keep their v3 IDs, so frames already made stay valid (C01–C04, C11–C13, I01–I11). New shots: C102–C111. Removed: C19, C20, C23–C27, C30 (do not make them). Timeline order = list order in `shotlist.json`, not ID order.
+- **Shot IDs are stable.** Kept shots keep their v3 IDs, so frames already made stay valid (C01–C04, C11–C13, I01–I11). New shots: C102–C112 (IDs pinned). Removed: C19, C20, C22, C23–C27, C30 (do not make them). Timeline order = list order in `shotlist.json`, not ID order.
 - **Rose's outfits now:** A (wedding dress) on the stage and the mountain up to C42 → B (gingham) from C43 → **A2 = the same wedding dress, cleaned and mended** from C57 (the arrest) through the walk of shame, the jail and the fire (C60, C61-C104 cold open, C62–C69, I06) → B again from I07 (dawn after the fire). Each shot's `rose_outfit` says which; A2 uses the normal `CHAR_ROSE_full.png` ref.
 - **Redo I06** (walk close-up): it was made in gingham, now she wears the mended wedding dress.
 - **C33 changed:** Amos presses only the brass key into her hand (she already holds the box in C03).
 - New payoff scenes: C107 (Mercer sends Crane away), C108 (Rose: "I promised you'd see me in it first"), C109–C110 (Clara silences Agatha). C70, C97, C98 are now core.
-- Narration renumbered N01–N21 (no audio was made yet). Music cue boundaries in `music_cues.json` still describe v3 sections; the montage re-maps them.
+- Minutes 2:40–4:20 reworked (less narration): night search on the mountain C107, Rose reads her letter aloud in C11 (now a dialogue clip, the existing C11_first frame still works), C12 and C13 are short on-screen clips without narration.
+- Narration renumbered N01–N19 (no audio was made yet). Music cue boundaries in `music_cues.json` still describe v3 sections; the montage re-maps them.
 
 
 **Project id:** `western_stagecoach_bride_v1`.

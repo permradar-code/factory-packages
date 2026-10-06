@@ -24,20 +24,20 @@
     "clips": 103,
     "clips_core": 102,
     "clips_optional": 1,
-    "clips_dialogue": 70,
+    "clips_dialogue": 71,
     "clips_action": 21,
-    "clip_seconds_core": 606,
+    "clip_seconds_core": 596,
     "clip_seconds_optional": 6,
     "images_new": 11,
     "images_reused": 0,
-    "narration_words": 1008,
-    "narration_chars": 5242,
-    "narration_min": 7.2,
-    "credits_core_one_take": 985,
+    "narration_words": 872,
+    "narration_chars": 4521,
+    "narration_min": 6.2,
+    "credits_core_one_take": 973,
     "credits_optional_one_take": 10,
     "credits_hooks": 21,
-    "api_usd_core_at_0_10_per_s": 60.6,
-    "est_total_min_core": 17.6
+    "api_usd_core_at_0_10_per_s": 59.6,
+    "est_total_min_core": 17.0
   },
   "style": "Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects.",
   "clip_style": "Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
@@ -1046,9 +1046,45 @@
       }
     },
     {
+      "id": "C107",
+      "type": "clip",
+      "duration_s": 6,
+      "action": "Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face.",
+      "camera": "low close shot from inside the crack, the boot in the foreground",
+      "dialogue": [],
+      "refs": [
+        "CHAR_ROSE",
+        "CHAR_BUCK",
+        "PROP_BOX",
+        "LOC_PASS"
+      ],
+      "priority": "core",
+      "night": true,
+      "action_shot": false,
+      "broll": false,
+      "start_frame_prompt": "Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face.",
+      "end_frame_prompt": null,
+      "rose_outfit": "A: ivory lace wedding dress",
+      "start_frame_full_prompt": "Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face. Rose wears: A: ivory lace wedding dress. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Buck Tolliver: 35-year-old rough man, an original fictional character, a pale scar across the left cheek, unshaven black stubble, narrow dark eyes, black bandana around the neck (pulled over the face when masked), shaggy sheepskin-lined brown coat, battered gray hat, two revolvers | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+      "ref_files": [
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full.png",
+        "visuals/refs/CHAR_BUCK_front.png",
+        "visuals/refs/CHAR_BUCK_full.png",
+        "visuals/refs/PROP_BOX.png",
+        "visuals/refs/LOC_PASS.png"
+      ],
+      "video_prompt": "Night on the mountainside: masked riders with lanterns pick their way between the boulders; one man's boot stops a step away from the narrow crack where Rose hides in her torn wedding dress, the strongbox pressed to her chest, holding her breath, lantern light sliding across her face. Camera: low close shot from inside the crack, the boot in the foreground. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "credits": 10,
+      "files": {
+        "start_frame": "visuals/images/C107_first.png",
+        "video": "visuals/video/C107.mp4"
+      }
+    },
+    {
       "id": "N02",
       "type": "narration",
-      "text": "Silas Crane had come to Cedar Bluff that spring. He bought the dead banker's share of the bank and paid for a new church roof. He had silver hair, a soft Southern voice, and the finest manners in the valley.\n\nFor two years, masked riders had robbed the stage on Raven Pass, always on the one day it carried the miners' gold. Nobody could explain how they knew.\n\nPeople liked Silas Crane. People always liked him."
+      "text": "Silas Crane was the most respected man in Cedar Bluff. He sat in the front pew of the church he had paid for.\n\nFor two years the gold stage had been robbed on Raven Pass. Nobody had ever suspected him."
     },
     {
       "id": "C21",
@@ -1081,39 +1117,10 @@
       }
     },
     {
-      "id": "C22",
-      "type": "clip",
-      "duration_s": 8,
-      "action": "Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold.",
-      "camera": "slow push in",
-      "dialogue": [],
-      "refs": [
-        "CHAR_CRANE",
-        "LOC_CRANE"
-      ],
-      "priority": "core",
-      "night": false,
-      "action_shot": false,
-      "broll": true,
-      "start_frame_prompt": "Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold.",
-      "end_frame_prompt": null,
-      "start_frame_full_prompt": "Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
-      "ref_files": [
-        "visuals/refs/CHAR_CRANE_front.png",
-        "visuals/refs/CHAR_CRANE_full.png",
-        "visuals/refs/LOC_CRANE.png"
-      ],
-      "video_prompt": "Silas Crane on the veranda of his white ranch house at sunset, smoking a thin cigar, looking down at his long corrals full of cattle; his pale eyes are cold. Camera: slow push in. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 12,
-      "files": {
-        "start_frame": "visuals/images/C22_first.png",
-        "video": "visuals/video/C22.mp4"
-      }
-    },
-    {
-      "id": "N03",
-      "type": "narration",
-      "text": "That same morning in Cedar Bluff, the man she had come to marry was standing in front of a mirror."
+      "id": "T03",
+      "type": "title_card",
+      "text": "THAT MORNING · CEDAR BLUFF",
+      "duration_s": 3
     },
     {
       "id": "C07",
@@ -1267,7 +1274,7 @@
     {
       "id": "C12",
       "type": "clip",
-      "duration_s": 8,
+      "duration_s": 4,
       "action": "Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on.",
       "camera": "slow push in",
       "dialogue": [],
@@ -1278,7 +1285,7 @@
       "priority": "core",
       "night": true,
       "action_shot": false,
-      "broll": true,
+      "broll": false,
       "start_frame_prompt": "Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on.",
       "end_frame_prompt": null,
       "start_frame_full_prompt": "Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
@@ -1288,7 +1295,7 @@
         "visuals/refs/LOC_JAIL.png"
       ],
       "video_prompt": "Night in the marshal's office: Caleb writes a letter at the desk with a dip pen by lamplight, pauses, smiles, and writes on. Camera: slow push in. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 12,
+      "credits": 7,
       "files": {
         "start_frame": "visuals/images/C12_first.png",
         "video": "visuals/video/C12.mp4"
@@ -1298,25 +1305,30 @@
       "id": "C11",
       "type": "clip",
       "duration_s": 8,
-      "action": "A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her.",
+      "action": "A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her.",
       "camera": "slow push in",
-      "dialogue": [],
+      "dialogue": [
+        {
+          "speaker": "CHAR_ROSE",
+          "line": "I'll wear my mother's wedding dress, so you'll see me in it first."
+        }
+      ],
       "refs": [
         "CHAR_ROSE"
       ],
       "priority": "core",
       "night": false,
       "action_shot": false,
-      "broll": true,
-      "start_frame_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her.",
+      "broll": false,
+      "start_frame_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her.",
       "end_frame_prompt": null,
       "rose_outfit": "her plain dark-gray travelling dress and a small black hat (not the wedding dress yet)",
-      "start_frame_full_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her. Rose wears: her plain dark-gray travelling dress and a small black hat (not the wedding dress yet). First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun",
+      "start_frame_full_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her. Rose wears: her plain dark-gray travelling dress and a small black hat (not the wedding dress yet). First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun",
       "ref_files": [
         "visuals/refs/CHAR_ROSE_front.png",
         "visuals/refs/CHAR_ROSE_full.png"
       ],
-      "video_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window reading a letter in soft daylight, smiling to herself; a box of old books on the floor beside her. Camera: slow push in. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "video_prompt": "A narrow room in a St. Louis boarding house: Rose sits by the window in soft daylight and reads the last lines of her letter aloud to herself before she folds it, smiling shyly; a box of old books on the floor beside her. Camera: slow push in. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I'll wear my mother's wedding dress, so you'll see me in it first.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 12,
       "files": {
         "start_frame": "visuals/images/C11_first.png",
@@ -1326,7 +1338,7 @@
     {
       "id": "C13",
       "type": "clip",
-      "duration_s": 8,
+      "duration_s": 4,
       "action": "Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon.",
       "camera": "static close-up, slow push in",
       "dialogue": [],
@@ -1336,7 +1348,7 @@
       "priority": "core",
       "night": false,
       "action_shot": false,
-      "broll": true,
+      "broll": false,
       "start_frame_prompt": "Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon.",
       "end_frame_prompt": null,
       "rose_outfit": "her plain dark-gray travelling dress and a small black hat (not the wedding dress yet)",
@@ -1346,16 +1358,11 @@
         "visuals/refs/CHAR_ROSE_full.png"
       ],
       "video_prompt": "Close-up: a woman's hands fold an ivory lace wedding dress and a small lace veil into a worn carpetbag, beside a bundle of letters tied with a faded blue ribbon. Camera: static close-up, slow push in. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
-      "credits": 12,
+      "credits": 7,
       "files": {
         "start_frame": "visuals/images/C13_first.png",
         "video": "visuals/video/C13.mp4"
       }
-    },
-    {
-      "id": "N04",
-      "type": "narration",
-      "text": "For six months, Deputy Caleb Ward had written to a woman in St. Louis every Sunday. He had found her name in a matrimonial paper, between a hardware advertisement and a notice about a lost mule.\n\nRose wrote back about her father, a printer who had died and left her nothing but debts and a box of books. In her last letter she promised to come in her mother's wedding dress, so that he would see her in it first."
     },
     {
       "id": "C14",
@@ -1539,7 +1546,7 @@
       }
     },
     {
-      "id": "N05",
+      "id": "N03",
       "type": "narration",
       "text": "He searched the pass all night, calling a name he had written twenty-six times and never once said out loud.\n\nHe did not find her.\n\nSomeone else did."
     },
@@ -1885,7 +1892,7 @@
       }
     },
     {
-      "id": "N06",
+      "id": "N04",
       "type": "narration",
       "text": "It had been almost a year since a quiet stranger named John Mercer saved Clara Whitmore's ranch. He had never left. Every night after supper he said good night at the kitchen door and went out to sleep in the barn.\n\nThe whole town was waiting for him to ask her.\n\nThat night, after Lily was asleep, they tried the box. The brass key from Amos opened the padlock. Inside was a second lock, a small steel one, and no key that any of them had."
     },
@@ -2137,7 +2144,7 @@
       }
     },
     {
-      "id": "C107",
+      "id": "C108",
       "type": "clip",
       "duration_s": 6,
       "action": "Mercer steps out of the barn door behind Crane with a rifle held loosely across his chest and speaks quietly, without any expression; Crane's smile freezes, he puts on his hat and walks back to his buggy.",
@@ -2170,8 +2177,8 @@
       "video_prompt": "Mercer steps out of the barn door behind Crane with a rifle held loosely across his chest and speaks quietly, without any expression; Crane's smile freezes, he puts on his hat and walks back to his buggy. Camera: low angle on Mercer, Crane in the foreground out of focus. Dialogue: John Mercer (deep, quiet, unhurried American baritone, few words, never raises his voice) says: \"Mrs. Whitmore said good day, Mr. Crane.\" ONLY John Mercer speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 10,
       "files": {
-        "start_frame": "visuals/images/C107_first.png",
-        "video": "visuals/video/C107.mp4"
+        "start_frame": "visuals/images/C108_first.png",
+        "video": "visuals/video/C108.mp4"
       }
     },
     {
@@ -2193,7 +2200,7 @@
       "file": "visuals/images/I05.png"
     },
     {
-      "id": "N07",
+      "id": "N05",
       "type": "narration",
       "text": "Mercer was not watching Crane. He was watching the tall roan that Crane's man held at the gate, and the shoe on its left front hoof that rang wrong on the stones of the yard.\n\nThat night, the dog in the yard went quiet all at once."
     },
@@ -2260,7 +2267,7 @@
       }
     },
     {
-      "id": "N08",
+      "id": "N06",
       "type": "narration",
       "text": "The man got away. But as he crossed the yard, Mercer heard it again. A loose shoe, ringing on the left front hoof.\n\nThe box was not in the barn. It was under a loose board in Clara's kitchen. And Silas Crane had run out of patience."
     },
@@ -2417,7 +2424,7 @@
       }
     },
     {
-      "id": "N09",
+      "id": "N07",
       "type": "narration",
       "text": "Rose had spent two days mending her mother's wedding dress by the kitchen lamp. She had promised him he would see her in it first.\n\nHe came for her that afternoon. With a warrant."
     },
@@ -2535,7 +2542,7 @@
       }
     },
     {
-      "id": "C108",
+      "id": "C109",
       "type": "clip",
       "duration_s": 6,
       "action": "Rose smooths the mended lace of her wedding dress with one hand and gives him a small, brave smile.",
@@ -2569,8 +2576,8 @@
       "video_prompt": "Rose smooths the mended lace of her wedding dress with one hand and gives him a small, brave smile. Camera: medium close-up on Rose, golden light. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I promised you'd see me in it first.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 10,
       "files": {
-        "start_frame": "visuals/images/C108_first.png",
-        "video": "visuals/video/C108.mp4"
+        "start_frame": "visuals/images/C109_first.png",
+        "video": "visuals/video/C109.mp4"
       }
     },
     {
@@ -2613,7 +2620,7 @@
       }
     },
     {
-      "id": "N10",
+      "id": "N08",
       "type": "narration",
       "text": "The jail was at the far end of Main Street. Caleb had to walk her past every door in Cedar Bluff."
     },
@@ -2637,7 +2644,7 @@
       "file": "visuals/images/I06.png"
     },
     {
-      "id": "C109",
+      "id": "C110",
       "type": "clip",
       "duration_s": 8,
       "action": "On the boardwalk, as the bride in handcuffs passes, Clara steps in front of Agatha Pell and speaks to her quietly, very close, so that only the ladies around them can hear.",
@@ -2670,12 +2677,12 @@
       "video_prompt": "On the boardwalk, as the bride in handcuffs passes, Clara steps in front of Agatha Pell and speaks to her quietly, very close, so that only the ladies around them can hear. Camera: close two-shot, Clara in focus. Dialogue: Clara Whitmore (warm, low, steady American woman's voice, late twenties, never shrill) says: \"One more word, Agatha, and I'll tell them about Denver.\" ONLY Clara Whitmore speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 12,
       "files": {
-        "start_frame": "visuals/images/C109_first.png",
-        "video": "visuals/video/C109.mp4"
+        "start_frame": "visuals/images/C110_first.png",
+        "video": "visuals/video/C110.mp4"
       }
     },
     {
-      "id": "C110",
+      "id": "C111",
       "type": "clip",
       "duration_s": 4,
       "action": "Agatha Pell goes pale, lowers her parasol and says nothing; the two ladies beside her slowly step away from her, exchanging looks.",
@@ -2700,12 +2707,12 @@
       "video_prompt": "Agatha Pell goes pale, lowers her parasol and says nothing; the two ladies beside her slowly step away from her, exchanging looks. Camera: medium close-up on Agatha. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 7,
       "files": {
-        "start_frame": "visuals/images/C110_first.png",
-        "video": "visuals/video/C110.mp4"
+        "start_frame": "visuals/images/C111_first.png",
+        "video": "visuals/video/C111.mp4"
       }
     },
     {
-      "id": "C111",
+      "id": "C112",
       "type": "clip",
       "duration_s": 8,
       "action": "Main street in the afternoon: Rose in her wedding dress and handcuffs walks on beside Caleb toward the small log jail at the end of the street; the crowd has gone quiet.",
@@ -2736,8 +2743,8 @@
       "video_prompt": "Main street in the afternoon: Rose in her wedding dress and handcuffs walks on beside Caleb toward the small log jail at the end of the street; the crowd has gone quiet. Camera: wide shot from behind them. No dialogue, natural sound effects only (hooves, gunshots, fire, wind), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 12,
       "files": {
-        "start_frame": "visuals/images/C111_first.png",
-        "video": "visuals/video/C111.mp4"
+        "start_frame": "visuals/images/C112_first.png",
+        "video": "visuals/video/C112.mp4"
       }
     },
     {
@@ -2858,7 +2865,7 @@
       }
     },
     {
-      "id": "N11",
+      "id": "N09",
       "type": "narration",
       "text": "He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice."
     },
@@ -2941,7 +2948,7 @@
       }
     },
     {
-      "id": "N12",
+      "id": "N10",
       "type": "narration",
       "text": "She put her hand through the bars, and he held it, and neither of them let go.\n\nAt two in the morning, the window exploded."
     },
@@ -3078,7 +3085,7 @@
       }
     },
     {
-      "id": "N13",
+      "id": "N11",
       "type": "narration",
       "text": "They wanted the box. It was not in the jail.\n\nMercer dragged Caleb out of the smoke and unlocked the cell with keys too hot to hold. By sunrise the jail was a black shell, Clara had brought Rose a dress, and the marshal released her into Clara's keeping.\n\nAnd in the ashes by the hitching rail, Mercer found a horseshoe. One nail on the left side was snapped off short."
     },
@@ -3259,7 +3266,7 @@
       }
     },
     {
-      "id": "N14",
+      "id": "N12",
       "type": "narration",
       "text": "But a horseshoe was not proof against the most respected man in the valley. They needed what was in the box.\n\nThat night, Rose Calloway asked Clara for a hairpin."
     },
@@ -3419,7 +3426,7 @@
       }
     },
     {
-      "id": "N15",
+      "id": "N13",
       "type": "narration",
       "text": "The same hand had written both. Silas Crane had signed his own confession and handed it to the law.\n\nA frightened clerk in Denver had been selling him the gold schedule. When the clerk lost his nerve, he gave Crane's letters to the only honest man he knew. Amos Pruitt.\n\nThere had never been any gold in that box. Crane had invented it, so the bride would hang before anyone read what she was carrying."
     },
@@ -3519,7 +3526,7 @@
       }
     },
     {
-      "id": "N16",
+      "id": "N14",
       "type": "narration",
       "text": "At dawn the marshal rode out with a warrant. Crane's house was empty and the safe stood open. Mercer read the ground for less than a minute.\n\nRed Canyon, he said. Caleb rode with his arm in a sling. Nobody could talk him out of it."
     },
@@ -3606,7 +3613,7 @@
       "end_frame_full_prompt": "Mercer and Caleb crouched behind the boulder, rifles up, dust settling around them. Last frame of the same shot: same characters, same costumes, same place and light as the first frame. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Red Canyon: narrow winding canyon of red sandstone walls, a dry creek bed of pale stones, scattered junipers, boulders big enough to hide behind, a strip of blue sky above"
     },
     {
-      "id": "N17",
+      "id": "N15",
       "type": "narration",
       "text": "Buck Tolliver had the high ground. But the war had taught John Mercer one thing above all others.\n\nYou don't go up. You go around."
     },
@@ -3752,7 +3759,7 @@
       }
     },
     {
-      "id": "N18",
+      "id": "N16",
       "type": "narration",
       "text": "The canyon was a decoy. Crane had gone back to Cedar Bluff for the one thing he still needed.\n\nClara had taken Lily into town. Rose was alone in the kitchen."
     },
@@ -4068,7 +4075,7 @@
       }
     },
     {
-      "id": "N19",
+      "id": "N17",
       "type": "narration",
       "text": "Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.\n\nAnd a bride who came by mail.\n\nAmos Pruitt lived to testify in Denver. Crane and Buck Tolliver went to the penitentiary at Cañon City.\n\nAnd a week later, on the same street where the town had laughed at her, Caleb Ward got down on one knee."
     },
@@ -4247,7 +4254,7 @@
       }
     },
     {
-      "id": "N20",
+      "id": "N18",
       "type": "narration",
       "text": "But the best moment of that day happened at sunset, and almost nobody saw it."
     },
@@ -4358,7 +4365,7 @@
       }
     },
     {
-      "id": "N21",
+      "id": "N19",
       "type": "narration",
       "text": "They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.\n\nWould you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments, and tell me where you're watching from. And subscribe, because there are more stories waiting in Cedar Bluff.\n\nUntil next time, keep a light in the window."
     },
