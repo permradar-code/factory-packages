@@ -4,7 +4,7 @@
  "cues": [
   {
    "id": "M01",
-   "covers": "C01–C04 + N00 (cold open and the narrator's hook)",
+   "covers": "cold open C01–C06 + N01",
    "target_s": 50,
    "mood": "explosive chase",
    "new": true,
@@ -13,7 +13,7 @@
   },
   {
    "id": "M02",
-   "covers": "T00/T01 title + start of N01",
+   "covers": "T00/T01 title, start of act 1",
    "target_s": 40,
    "mood": "series main theme",
    "reuse_from": "pkg/western_widows_piano_v1/audio/music/M02.mp3",
@@ -21,7 +21,7 @@
   },
   {
    "id": "M03",
-   "covers": "N01–N02, C05–C08 (the letters, the town, the ranch)",
+   "covers": "act 1: Caleb, letters, Agatha, the ranch (to N03)",
    "target_s": 180,
    "mood": "hopeful young romance with a light comic touch",
    "new": true,
@@ -30,7 +30,7 @@
   },
   {
    "id": "M04",
-   "covers": "N02 ranch part, I06–I07",
+   "covers": "N03 ranch montage",
    "target_s": 60,
    "mood": "warm homestead",
    "reuse_from": "pkg/western_widows_piano_v1/audio/music/M05.mp3",
@@ -38,7 +38,7 @@
   },
   {
    "id": "M05",
-   "covers": "N03, I08–I12 (the stage, Silas Crane)",
+   "covers": "N04 + Crane's office scene",
    "target_s": 90,
    "mood": "villain menace",
    "reuse_from": "pkg/western_widows_piano_v1/audio/music/M08.mp3",
@@ -46,7 +46,7 @@
   },
   {
    "id": "M06",
-   "covers": "N03b, C09–C10 journey, then N04, C11 robbery",
+   "covers": "on the stage, the watcher, the robbery",
    "target_s": 150,
    "mood": "journey that turns into danger",
    "new": true,
@@ -55,7 +55,7 @@
   },
   {
    "id": "M07",
-   "covers": "C12, N05, I15–I17, N06, N06b, I49 (alone on the mountain, the search)",
+   "covers": "Rose alone on the mountain, Caleb's search",
    "target_s": 150,
    "mood": "night, fear and loneliness",
    "new": true,
@@ -64,7 +64,7 @@
   },
   {
    "id": "M08",
-   "covers": "C13 rescue, I20–I23, N07, N07b (Crane's visit), N07c (night fight in the barn), N08, C15",
+   "covers": "rescue, the box, Crane's visit, barn fight, accusation",
    "target_s": 240,
    "mood": "relief turning into suspicion and dread",
    "new": true,
@@ -73,7 +73,7 @@
   },
   {
    "id": "M09",
-   "covers": "N09, C18–C19, N10, N10b–N10c (walk through town), I27, C20–C21, N11",
+   "covers": "arrest, walk through town, the night in jail",
    "target_s": 240,
    "mood": "tender love through iron bars",
    "new": true,
@@ -82,7 +82,7 @@
   },
   {
    "id": "M10",
-   "covers": "C22–C24, N12 (night raid on the jail)",
+   "covers": "night raid on the jail",
    "target_s": 80,
    "mood": "sudden violent action",
    "new": true,
@@ -91,7 +91,7 @@
   },
   {
    "id": "M11",
-   "covers": "I28–I29, C25, N13, I30–I33, N14 (the horseshoe, the letters)",
+   "covers": "dawn, the horseshoe, the proof, the porch",
    "target_s": 150,
    "mood": "mystery and discovery",
    "reuse_from": "pkg/western_widows_piano_v1/audio/music/M07.mp3",
@@ -99,7 +99,7 @@
   },
   {
    "id": "M12",
-   "covers": "N15, I34, C27–C28, I35–I38, N16 (Red Canyon)",
+   "covers": "Red Canyon",
    "target_s": 150,
    "mood": "canyon chase and ambush",
    "new": true,
@@ -108,7 +108,7 @@
   },
   {
    "id": "M13",
-   "covers": "N17, I39, C29, N17b, I40, C30–C31, N18 (the showdown)",
+   "covers": "the showdown on Main Street",
    "target_s": 110,
    "mood": "high noon standoff then release",
    "new": true,
@@ -117,7 +117,7 @@
   },
   {
    "id": "M14",
-   "covers": "C32, I41–I43, N19, C33–C36, N20, N21, I44–I45 (justice, two proposals, finale)",
+   "covers": "justice, two proposals, finale",
    "target_s": 150,
    "mood": "warm resolution",
    "reuse_from": "pkg/western_widows_piano_v1/audio/music/M13.mp3",

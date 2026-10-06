@@ -1,4 +1,4 @@
-# Production brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, ~27 min, 16:9)
+# Production brief: "The Stagecoach Bride" (Tales of Cedar Bluff, film 2, v3, ~18 min, 16:9)
 
 **Project id:** `western_stagecoach_bride_v1`.
 **Deliver as an orphan branch** `pkg/western_stagecoach_bride_v1` in `permradar-code/factory-packages`, same layout as `pkg/western_widows_piano_v1` (README.md + manifest.json + `visuals/refs/` + `visuals/images/` + `visuals/video/` + `visuals/hooks/` + `audio/narration/` + `audio/music/`).
@@ -21,9 +21,10 @@
 ## References: use them to the maximum
 - Every image and every clip frame has `ref_files` in the shotlist. **Always attach all of them.** Upload all refs into the Flow project once and reuse them.
 - Recurring residents (Clara, Lily, Mercer, Agatha, Marshal Hart), Mercer's horse, main street, ranch, kitchen, barn, parlor: **reuse the approved refs from film 1** (`pkg/western_widows_piano_v1/visuals/refs/`, Flow project `7a937194-22cf-4e10-a8ea-406b0d82a514`). Do not regenerate them.
-- Images `I01`, `I45` and music M02, M04, M05, M11, M14: copy from film 1 (`reuse_from`), do not generate.
-- **Rose has two outfits.** Outfit A (ivory lace wedding dress) up to and including **I20**; outfit B (faded green gingham) from I22 on. Every shot already says which (`rose_outfit`) and attaches the matching full-body ref (`CHAR_ROSE_full.png` or `CHAR_ROSE_full_B.png`).
-- **Image IDs are not in timeline order** (I46–I60 were added later). Always follow the order of `timeline`.
+- Music M02, M04, M05, M11, M14: copy from film 1 (`reuse_from`), do not generate.
+- **Rose has two outfits.** Outfit A (ivory lace wedding dress) up to and including **C42** (Clara wraps a shawl over the torn wedding dress in the kitchen); outfit B (faded green gingham) from **C43** on. C11 and C13 (St. Louis, packing the dress) use her grey travelling dress. Every shot already says which (`rose_outfit`) and attaches the matching full-body ref (`CHAR_ROSE_full.png` or `CHAR_ROSE_full_B.png`).
+- **v3 (6 Oct): mostly video.** 97 core clips, 68 of them with dialogue; only 11 still images. Clips marked `"broll": true` are silent and play under the narrator. The film is all video until about minute 6.
+- **Tone:** serious, grounded drama; no comedic voices or overacting (a viewer of film 1 called the comic auctioneer opening "a buffoon story"). Agatha's voice is now cold and haughty, never shrill.
 
 ## Rose must be beautiful (and Flow must not choke on it)
 She is the face of the film and of the thumbnail: unmistakably lovely, warm, feminine. Her `look` already describes specific original features (oval face, high cheekbones, large dark-brown eyes, faint freckles, a tiny pale scar on the left eyebrow) instead of vague words.
@@ -44,13 +45,13 @@ Prompts are ready in `shotlist.json` → `ref_prompts` (23 files). For each pers
 All `type: image` steps except the reused ones: prompt = `full_prompt`, refs = `ref_files`. One variant at a time; regenerate up to 3 times if needed. Reject: wrong face, wrong Rose outfit, broken hands, any text or lettering, modern objects, company names on the stagecoach.
 
 ## Phase 3: clip frames (free)
-For every clip (core first, then optional, then extra): first frame from `start_frame_full_prompt` → `visuals/images/<ID>_first.png`. For clips that have `end_frame_prompt` (all the action clips) also the last frame from `end_frame_full_prompt` → `<ID>_last.png`, made **with the first frame attached as reference** so the people, costumes, place and light match. First and last frame together keep the action clips from drifting.
+For every clip (core first, then optional): first frame from `start_frame_full_prompt` → `visuals/images/<ID>_first.png`. For clips that have `end_frame_prompt` (all the action clips) also the last frame from `end_frame_full_prompt` → `<ID>_last.png`, made **with the first frame attached as reference** so the people, costumes, place and light match. First and last frame together keep the action clips from drifting.
 Action clips (`action_shot: true`): the first frame must already show motion (dust, flying hair, a horse mid-stride), never a calm pose.
 **STOP 2.** Push and show the user the cold-open frames C01–C04 (first + last).
 
 ## Phase 4: narration (ElevenLabs, no Flow credits)
 Script `tts_elevenlabs.py`; the key only from the environment variable `ELEVENLABS_API_KEY` (never print it, never write it to files or git).
-1. `python tts_elevenlabs.py --check`: report characters left vs needed (**~17,600 characters** for one pass of N00–N21).
+1. `python tts_elevenlabs.py --check`: report characters left vs needed (**~6,000 characters** for one pass of N01–N21).
 2. `python tts_elevenlabs.py --voice pqHfZKP75CvOlQylNhV4` (Bill, same as film 1) for all blocks.
 3. Push `audio/narration/*.mp3` and `*.alignment.json`.
 
@@ -60,14 +61,14 @@ Copy the 5 reused cues first. Then `python music_elevenlabs.py --check`, `--only
 ## VIDEO (waits for the user's decision)
 | Group | Clips | One take in Flow credits |
 |---|---|---|
-| Core (`priority: core`) | 26 | 244 |
-| Optional | 10 | 100 |
-| Extra action (`priority: extra`, X01–X08) | 8 | 80 |
+| Core (`priority: core`) | 97 (592 s) | 955 credits, or ≈ $59.2 via API at $0.10/s |
+| Optional | 4 (22 s) | 37 credits |
 | Hooks for Shorts (9:16) | 3 | 21 |
-Order when it starts: cold open C01–C04 first, then core in timeline order, then optional, then extra, then hooks. Frames-to-video with first + last frame where the model supports it. One speaker per clip; lines word for word; reject a take if a face morphs, the wrong person talks or a line changes. At most 1 regeneration per clip (2 for C01–C04 and C31). In Flow: stop if the balance would fall under 150.
+The Flow balance (~397) covers about 40 core clips. The user decides the split: Flow for part, Omni Flash / Veo via API for the rest.
+Order when it starts: cold open C01–C04 first, then core in timeline order, then optional, then hooks. Frames-to-video with first + last frame where the model supports it. One speaker per clip; lines word for word; reject a take if a face morphs, the wrong person talks or a line changes. At most 1 regeneration per clip (2 for C01–C04 and C92). In Flow: stop if the balance would fall under 150.
 
 ## Rules that do not change
-- No blood close-ups, no gore. When Caleb is hit (C23) he clutches his shoulder.
+- No blood close-ups, no gore. When Caleb is hit (C69) he clutches his shoulder.
 - Faces original; never work around the celebrity filter.
 - No text, titles, logos or watermarks in frames.
 - Do not make captions or the montage.
