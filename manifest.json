@@ -8,7 +8,7 @@
   "fps": 24,
   "source": "Refs: ChatGPT image generation (user decision 5 Oct: Flow tab unstable, ChatGPT gives better faces). Flow project 25886d44-bf88-49ae-b9ca-00ac2dc0467f (film 2) created but unused so far.",
   "flow_credits_spent": 0,
-  "phase": "1 refs done, waiting STOP 1 approval",
+  "phase": "2 stills I01-I11 done; phase 3 cold open C01-C04 in progress; STOP 2 pending",
   "refs": {
     "reused_from_film_1": [
       "CHAR_AGATHA_front",
@@ -124,10 +124,7 @@
     "note": "Rose face chosen by user = ChatGPT v1 (Flow v1/v2 rejected as plain). 34/full/full_B generated in the same ChatGPT chat with the front in context. Prompts = shotlist ref_prompts + prefix \"Create an image, wide 16:9 landscape format.\" and, for 34/full, \"Keep EXACTLY the same person as in the portrait above\". Buck: scar shows on the cheek at image-left (character right cheek) instead of left; Rose: scar on left eyebrow barely visible. Props/locations without people."
   },
   "reused": {
-    "images": {
-      "I01": "film1 I01",
-      "I45": "film1 I69"
-    },
+    "images": {},
     "music": {
       "M02": "film1 M02",
       "M04": "film1 M05",
@@ -136,5 +133,106 @@
       "M14": "film1 M13"
     }
   },
-  "scenes": []
+  "scenes": [
+    {
+      "id": "I01",
+      "type": "image",
+      "file": "visuals/images/I01.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I02",
+      "type": "image",
+      "file": "visuals/images/I02.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I03",
+      "type": "image",
+      "file": "visuals/images/I03.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I04",
+      "type": "image",
+      "file": "visuals/images/I04.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I05",
+      "type": "image",
+      "file": "visuals/images/I05.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I06",
+      "type": "image",
+      "file": "visuals/images/I06.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I07",
+      "type": "image",
+      "file": "visuals/images/I07.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I08",
+      "type": "image",
+      "file": "visuals/images/I08.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I09",
+      "type": "image",
+      "file": "visuals/images/I09.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I10",
+      "type": "image",
+      "file": "visuals/images/I10.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "I11",
+      "type": "image",
+      "file": "visuals/images/I11.png",
+      "source": "chatgpt",
+      "takes": 1
+    },
+    {
+      "id": "C11",
+      "type": "clip_first_frame",
+      "file": "visuals/images/C11_first.png",
+      "source": "chatgpt",
+      "note": "ok"
+    },
+    {
+      "id": "C12",
+      "type": "clip_first_frame",
+      "file": "visuals/images/C12_first.png",
+      "source": "chatgpt",
+      "note": "ok"
+    },
+    {
+      "id": "C13",
+      "type": "clip_first_frame",
+      "file": "visuals/images/C13_first.png",
+      "source": "chatgpt",
+      "note": "REDO: needs hands folding dress into carpetbag"
+    }
+  ],
+  "shotlist_version": "v3 (tools/montage 316323b, 6 Oct 2026)",
+  "note": "v2->v3 switch 6 Oct: old v2 stills renamed I02->C12_first, I03->C11_first, I04->C13_first; v2 I01/I45 (copied from film 1) removed. C11_first: Rose in dark-grey travel dress and black hat reading a letter by a window: matches v3. C13_first: shows the dress and letters on a table, but v3 wants hands folding the dress into a carpetbag: REDO later. C12_first matches v3 (Caleb writing at night). Reused cues M02,M04,M05,M11,M14 and refs from film 1 as before. All stills in ChatGPT (user decision), prompt = full_prompt, refs attached as numbered jpg + 00_prompt txt."
 }
