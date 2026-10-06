@@ -1868,6 +1868,7 @@
       "refs": [
         "CHAR_CLARA",
         "CHAR_MERCER",
+        "CHAR_ROSE",
         "LOC_KITCHEN"
       ],
       "priority": "core",
@@ -1876,12 +1877,15 @@
       "broll": false,
       "start_frame_prompt": "Clara, drying a plate by the stove, blushes and tries not to smile; behind her Mercer looks down at his hat and Rose hides a smile.",
       "end_frame_prompt": null,
-      "start_frame_full_prompt": "Clara, drying a plate by the stove, blushes and tries not to smile; behind her Mercer looks down at his hat and Rose hides a smile. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+      "rose_outfit": "B: faded green gingham dress, low bun",
+      "start_frame_full_prompt": "Clara, drying a plate by the stove, blushes and tries not to smile; behind her Mercer looks down at his hat and Rose hides a smile. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
       "ref_files": [
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
         "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+        "visuals/refs/CHAR_ROSE_front.png",
+        "visuals/refs/CHAR_ROSE_full_B.png",
         "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
       ],
       "video_prompt": "Clara, drying a plate by the stove, blushes and tries not to smile; behind her Mercer looks down at his hat and Rose hides a smile. Camera: medium close-up on Clara. Dialogue: Clara Whitmore (warm, low, steady American woman's voice, late twenties, never shrill) says: \"Eat your supper, Lily.\" ONLY Clara Whitmore speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
@@ -3115,7 +3119,7 @@
       "id": "C71",
       "type": "clip",
       "duration_s": 4,
-      "action": "At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears.",
+      "action": "At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears.",
       "camera": "close two-shot",
       "dialogue": [
         {
@@ -3132,10 +3136,10 @@
       "night": false,
       "action_shot": false,
       "broll": false,
-      "start_frame_prompt": "At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears.",
+      "start_frame_prompt": "At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears.",
       "end_frame_prompt": null,
       "rose_outfit": "B: faded green gingham dress, low bun",
-      "start_frame_full_prompt": "At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+      "start_frame_full_prompt": "At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
       "ref_files": [
         "visuals/refs/CHAR_ROSE_front.png",
         "visuals/refs/CHAR_ROSE_full_B.png",
@@ -3143,7 +3147,7 @@
         "visuals/refs/CHAR_CALEB_full.png",
         "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
       ],
-      "video_prompt": "At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears. Camera: close two-shot. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"You could have been killed.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+      "video_prompt": "At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears. Camera: close two-shot. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"You could have been killed.\" ONLY Rose Calloway speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
       "credits": 7,
       "files": {
         "start_frame": "visuals/images/C71_first.png",
@@ -4075,11 +4079,6 @@
       }
     },
     {
-      "id": "N17",
-      "type": "narration",
-      "text": "Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.\n\nAnd a bride who came by mail.\n\nAmos Pruitt lived to testify in Denver. Crane and Buck Tolliver went to the penitentiary at Cañon City.\n\nAnd a week later, on the same street where the town had laughed at her, Caleb Ward got down on one knee."
-    },
-    {
       "id": "I11",
       "type": "image",
       "prompt": "Agatha Pell on the boardwalk, her parasol lowered, staring in shock as Crane is led away.",
@@ -4096,6 +4095,11 @@
         "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
       ],
       "file": "visuals/images/I11.png"
+    },
+    {
+      "id": "N17",
+      "type": "narration",
+      "text": "Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.\n\nAnd a bride who came by mail.\n\nAmos Pruitt lived to testify in Denver. Crane and Buck Tolliver went to the penitentiary at Cañon City.\n\nAnd a week later, on the same street where the town had laughed at her, Caleb Ward got down on one knee."
     },
     {
       "id": "C95",

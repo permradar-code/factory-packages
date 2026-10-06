@@ -365,7 +365,7 @@ _Камера: low angle from the floor_
 > And in the ashes by the hitching rail, Mercer found a horseshoe. One nail on the left side was snapped off short.
 - I07 · Dawn: the burned-out jail smoking, townspeople with water buckets, Caleb on the boardwalk with his shoulder bandaged, Rose kneeling beside him holding his hand. _(slow pull out)_
 
-**C71 · КЛИП 4 с** — At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears.  
+**C71 · КЛИП 4 с** — At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears.  
 _Камера: close two-shot_
 > **ROSE CALLOWAY:** You could have been killed.
 
@@ -491,6 +491,7 @@ _Камера: low angle from the street up to the roof_
 **C94 · КЛИП 6 с** — The marshal snaps handcuffs on Silas Crane in the middle of the street; Crane's cream hat lies in the dust beside the derringer.  
 _Камера: medium two-shot_
 > **MARSHAL ABEL HART:** Silas Crane. You're under arrest for robbing the mail.
+- I11 · Agatha Pell on the boardwalk, her parasol lowered, staring in shock as Crane is led away. _(slow push in)_
 
 **N17 · РАССКАЗЧИК**
 
@@ -501,7 +502,6 @@ _Камера: medium two-shot_
 > Amos Pruitt lived to testify in Denver. Crane and Buck Tolliver went to the penitentiary at Cañon City.
 >
 > And a week later, on the same street where the town had laughed at her, Caleb Ward got down on one knee.
-- I11 · Agatha Pell on the boardwalk, her parasol lowered, staring in shock as Crane is led away. _(slow push in)_
 
 **C95 · КЛИП 6 с** — On the sunny main street Caleb, his arm still in a sling, kneels in the dust in front of Rose and holds up a small plain ring. Townspeople gather around.  
 _Камера: slow push in on Caleb_

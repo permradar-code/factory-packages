@@ -281,7 +281,7 @@ clip("Rose, still sleepy, smiles sadly at the girl.",
 clip("Evening in the Whitmore kitchen at supper, Rose at the table in a borrowed gingham dress. Lily leans on the table on her elbows and asks her mother the question with mock innocence, glancing at Mercer by the door.",
      ["CHAR_LILY", "CHAR_CLARA", "CHAR_MERCER", "CHAR_ROSE", "LOC_KITCHEN"], [("CHAR_LILY", "Mama, is Mr. Mercer ever going to ask you?")], camera="medium shot", night=True, id="C16")
 clip("Clara, drying a plate by the stove, blushes and tries not to smile; behind her Mercer looks down at his hat and Rose hides a smile.",
-     ["CHAR_CLARA", "CHAR_MERCER", "LOC_KITCHEN"], [("CHAR_CLARA", "Eat your supper, Lily.")], camera="medium close-up on Clara", night=True, id="C17")
+     ["CHAR_CLARA", "CHAR_MERCER", "CHAR_ROSE", "LOC_KITCHEN"], [("CHAR_CLARA", "Eat your supper, Lily.")], camera="medium close-up on Clara", night=True, id="C17")
 narr("""
 It had been almost a year since a quiet stranger named John Mercer saved Clara Whitmore's ranch. He had never left. Every night after supper he said good night at the kitchen door and went out to sleep in the barn.
 
@@ -403,7 +403,7 @@ And in the ashes by the hitching rail, Mercer found a horseshoe. One nail on the
 """)
 outfit("B")
 img("Dawn: the burned-out jail smoking, townspeople with water buckets, Caleb on the boardwalk with his shoulder bandaged, Rose kneeling beside him holding his hand.", ["CHAR_CALEB", "CHAR_ROSE", "LOC_STREET"], "slow pull out", id="I07")
-clip("At dawn on the boardwalk Rose ties a bandage around Caleb's shoulder, her hands shaking, and speaks to him angrily, close to tears.",
+clip("At dawn on the boardwalk Rose pulls the bandage on Caleb's shoulder tighter, her hands shaking, and speaks to him angrily, close to tears.",
      ["CHAR_ROSE", "CHAR_CALEB", "LOC_STREET"], [("CHAR_ROSE", "You could have been killed.")], camera="close two-shot", id="C71")
 clip("Caleb manages a tired smile.",
      ["CHAR_CALEB", "CHAR_ROSE", "LOC_STREET"], [("CHAR_CALEB", "I wrote you I'd look after you. Meant that too.")], camera="close-up on Caleb", id="C72")
@@ -491,6 +491,7 @@ clip("On the flat roof of the livery stable Mercer kneels with his rifle aimed d
      ["CHAR_MERCER", "LOC_STREET"], camera="low angle from the street up to the roof", id="C93")
 clip("The marshal snaps handcuffs on Silas Crane in the middle of the street; Crane's cream hat lies in the dust beside the derringer.",
      ["CHAR_MARSHAL", "CHAR_CRANE", "LOC_STREET"], [("CHAR_MARSHAL", "Silas Crane. You're under arrest for robbing the mail.")], camera="medium two-shot", id="C94")
+img("Agatha Pell on the boardwalk, her parasol lowered, staring in shock as Crane is led away.", ["CHAR_AGATHA", "LOC_STREET"], "slow push in", id="I11")
 narr("""
 Silas Crane had spent his whole life underestimating people. Ranchers. Old guards. Shy deputies.
 
@@ -500,7 +501,6 @@ Amos Pruitt lived to testify in Denver. Crane and Buck Tolliver went to the peni
 
 And a week later, on the same street where the town had laughed at her, Caleb Ward got down on one knee.
 """)
-img("Agatha Pell on the boardwalk, her parasol lowered, staring in shock as Crane is led away.", ["CHAR_AGATHA", "LOC_STREET"], "slow push in", id="I11")
 
 # ======================= FINALE (with the last payoff for Agatha) =======================
 clip("On the sunny main street Caleb, his arm still in a sling, kneels in the dust in front of Rose and holds up a small plain ring. Townspeople gather around.",
