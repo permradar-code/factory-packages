@@ -666,7 +666,7 @@ for group in (PROPS, LOCATIONS):
         REF_PROMPTS.append({"file": f"visuals/refs/{rid}.png", "prompt": f"{r['look']}. Clear reference image of {r['name'].lower()}, no people unless needed for scale. " + STYLE})
 
 TITLE = "The Stagecoach Bride"
-YT = "They Laughed as the Groom Led His Mail-Order Bride Away in Chains — They Didn't Know What Was in Her Box"
+YT = "Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie"
 out = {"title": TITLE, "series": "Tales of Cedar Bluff", "episode": 2, "working_title_youtube": YT,
        "setting": "Cedar Bluff, Colorado (a state since 1876), September 1880, golden aspens",
        "format": {"aspect": "16:9 (hooks 9:16)", "video_model": "Omni 1.1 Flash 720p", "image_model": "Nano Banana Pro", "fps": 24,

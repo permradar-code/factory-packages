@@ -1,6 +1,6 @@
 # THE STAGECOACH BRIDE
 
-*Tales of Cedar Bluff, фильм 2 · They Laughed as the Groom Led His Mail-Order Bride Away in Chains — They Didn't Know What Was in Her Box*
+*Tales of Cedar Bluff, фильм 2 · Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie*
 
 Оценка: ~17.0 мин · клипов 103 (обязательных 102: 596 с ≈ 973 кредитов Flow или ≈ $59.6 через API; по желанию 1: ≈ 10 кредитов) · с репликами 71, экшен 21 · хуки 3 ≈ 21 · картинок новых 11, из первого фильма 0 · рассказчик 872 слов, 4521 символов (~6.2 мин)
 

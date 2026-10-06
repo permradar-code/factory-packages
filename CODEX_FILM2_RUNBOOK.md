@@ -133,10 +133,10 @@ python tts_elevenlabs.py --voice pqHfZKP75CvOlQylNhV4         # голос Bill,
 
 ## 9. Публикация на YouTube
 - Настройки: синтетический/изменённый контент = **Да**; не для детей; категория **Фильмы и анимация**; язык EN; субтитры EN (`.srt`). Публикация около **22:00 МСК** (утро/день в США).
-- Название (выбрать или протестировать 3 через «Тест и сравнение»):
-  1. They Laughed as the Groom Led His Mail-Order Bride Away in Chains — They Didn't Know What Was in Her Box
-  2. Her Own Groom Arrested Her in Her Wedding Dress — The Whole Town Laughed Until They Opened Her Box
-  3. The Town Called the Mail-Order Bride a Thief — Then the Quiet Cowboy in the Barn Stepped In | Full Western Movie
+- Название — **всегда с хвостом «| Full Western Movie»** (люди ищут «полный фильм», так делает Nameless Wild West). **Лимит YouTube — 100 символов, проверять длину.** Три варианта для «Тест и сравнение»:
+  1. Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie (96)
+  2. They Laughed at the Mail-Order Bride in Chains — Until They Opened Her Box | Full Western Movie (95)
+  3. The Town Called the Mail-Order Bride a Thief — Then the Quiet Cowboy Stepped In | Full Western Movie (100)
 - Превью: невеста в свадебном платье в наручниках на главной улице, жених рядом отводит глаза, толпа размыта. Текст на превью 2–3 слова и **не повторяет название** (например «HER OWN GROOM» или «IN HER WEDDING DRESS»). Сделать 3 варианта для теста.
 - Описание: 2–3 предложения завязки без спойлера; вопрос для комментариев («Would you have stood up for Rose on that street?»); строчка «Subscribe for a new Cedar Bluff story every week»; ссылка на фильм 1; дисклеймер «This film is fiction… created with the help of AI tools»; хэштеги #WesternMovie #FullMovie #WildWest #WesternRomance #MailOrderBride.
 - Главы (таймкоды) по ключевым сценам — после монтажа.
