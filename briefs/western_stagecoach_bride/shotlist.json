@@ -4459,5 +4459,86 @@
         "video": "visuals/hooks/H03.mp4"
       }
     }
-  ]
+  ],
+  "production": {
+    "schema_version": 1,
+    "first_frame_only_ids": [
+      "C01",
+      "C02"
+    ],
+    "force_regenerate_image_ids": [
+      "I06"
+    ],
+    "music_anchor_map": {
+      "M01": "C60",
+      "M07": "N01",
+      "M02": "T01",
+      "M05": "C105",
+      "M03": "T03",
+      "M06": "C36",
+      "M04": "N03",
+      "M08": "C45",
+      "M09": "N07",
+      "M10": "N10",
+      "M11": "N11",
+      "M12": "N14",
+      "M13": "N16",
+      "M14": "N17"
+    },
+    "review_gates": {
+      "audio": {
+        "enabled": true,
+        "narration_sample_id": "N01",
+        "music_sample_id": "M01"
+      },
+      "visuals": {
+        "enabled": true
+      },
+      "video_sample": {
+        "enabled": true,
+        "shot_ids": [
+          "C60",
+          "C61",
+          "C102",
+          "C103",
+          "C104"
+        ]
+      },
+      "videos": {
+        "enabled": true
+      }
+    },
+    "edit": {
+      "dialogue_tail_seconds": 0.8,
+      "narration_voice_offset_seconds": 0.4,
+      "transition_seconds": 0.7,
+      "end_screen_tail_seconds": 20,
+      "contact_sheet": "one_frame_per_timeline_visual"
+    },
+    "audio_mix": {
+      "speech_active_rms_db": -20,
+      "ambient_clip_rms_db": -24,
+      "music_base_rms_db": -18,
+      "duck_under_speech_db": -15,
+      "duck_under_clip_db": -6,
+      "duck_attack_seconds": 0.15,
+      "duck_release_seconds": 0.6,
+      "integrated_lufs": -14,
+      "true_peak_db": -1.5
+    },
+    "branding": {
+      "title_font_source": "git:tools/montage:montage/fonts/Rye-Regular.ttf",
+      "ui_font_source": "git:tools/montage:montage/fonts/Inter-ExtraBold.otf",
+      "subscribe_overlay_source": "git:tools/montage:montage/overlays/subscribe_badge.py",
+      "subscribe_times_s": [
+        110,
+        410,
+        750
+      ]
+    },
+    "export": {
+      "package_branch": "pkg/western_stagecoach_bride_v1",
+      "film_branch": "film/western_stagecoach_bride_v1"
+    }
+  }
 }
