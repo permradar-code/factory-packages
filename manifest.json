@@ -8,7 +8,7 @@
   "fps": 24,
   "source": "Refs: ChatGPT image generation (user decision 5 Oct: Flow tab unstable, ChatGPT gives better faces). Flow project 25886d44-bf88-49ae-b9ca-00ac2dc0467f (film 2) created but unused so far.",
   "flow_credits_spent": 0,
-  "phase": "3 cold open C01-C04 frames done; STOP 2 pending user approval",
+  "phase": "3 cold open approved at STOP 2 except 3 redone frames (C04_first, C03_last, C13_first); waiting for user",
   "refs": {
     "reused_from_film_1": [
       "CHAR_AGATHA_front",
@@ -226,19 +226,13 @@
       "note": "ok"
     },
     {
-      "id": "C13",
-      "type": "clip_first_frame",
-      "file": "visuals/images/C13_first.png",
-      "source": "chatgpt",
-      "note": "REDO: needs hands folding dress into carpetbag"
-    },
-    {
       "id": "C01",
       "type": "clip_frames",
       "first": "visuals/images/C01_first.png",
       "last": "visuals/images/C01_last.png",
       "first_source": "chatgpt",
-      "last_source": "chatgpt"
+      "last_source": "chatgpt",
+      "last_frame_use": "do not use: video for this clip is generated from the FIRST frame only (user decision 6 Oct); C01_last.png kept for reference"
     },
     {
       "id": "C02",
@@ -246,7 +240,8 @@
       "first": "visuals/images/C02_first.png",
       "last": "visuals/images/C02_last.png",
       "first_source": "chatgpt",
-      "last_source": "flow"
+      "last_source": "flow",
+      "last_frame_use": "do not use: video for this clip is generated from the FIRST frame only (user decision 6 Oct); C02_last.png kept for reference"
     },
     {
       "id": "C03",
@@ -254,17 +249,24 @@
       "first": "visuals/images/C03_first.png",
       "last": "visuals/images/C03_last.png",
       "first_source": "chatgpt",
-      "last_source": "flow"
+      "last_source": "flow edit of C03_first (v2, guard lowers gun and points at open door, Rose turned to door)"
     },
     {
       "id": "C04",
       "type": "clip_frames",
       "first": "visuals/images/C04_first.png",
       "last": "visuals/images/C04_last.png",
-      "first_source": "flow",
+      "first_source": "flow (v3 of 3 candidates; edited twice from v1; Rose airborne out of the open door)",
       "last_source": "flow edit of first"
+    },
+    {
+      "id": "C13",
+      "type": "clip_first_frame",
+      "file": "visuals/images/C13_first.png",
+      "source": "flow",
+      "note": "redone: hands folding the wedding dress into a carpetbag"
     }
   ],
   "shotlist_version": "v3 (tools/montage 316323b, 6 Oct 2026)",
-  "note": "v2->v3 switch 6 Oct: old v2 stills renamed I02->C12_first, I03->C11_first, I04->C13_first; v2 I01/I45 (copied from film 1) removed. C11_first: Rose in dark-grey travel dress and black hat reading a letter by a window: matches v3. C13_first: shows the dress and letters on a table, but v3 wants hands folding the dress into a carpetbag: REDO later. C12_first matches v3 (Caleb writing at night). Reused cues M02,M04,M05,M11,M14 and refs from film 1 as before. All stills in ChatGPT (user decision), prompt = full_prompt, refs attached as numbered jpg + 00_prompt txt. Cold open: ChatGPT hit its file-attachment limit (until 15:09 on 6 Oct), so C02_last, C03_last, C04_first/last were made in Flow (Nano Banana Pro x1, 0 credits, 1376x768). C02_first/last: prompt had an appended correction (camera behind the coach, riders masked, no foreground person) because the first take showed Buck unmasked on the coach. C04_last = Flow edit of C04_first. C01_last and C02_last differ little from their first frames (video model will move between them)."
+  "note": "v2->v3 switch 6 Oct: old v2 stills renamed I02->C12_first, I03->C11_first, I04->C13_first; v2 I01/I45 (copied from film 1) removed. C11_first: Rose in dark-grey travel dress and black hat reading a letter by a window: matches v3. C13_first: shows the dress and letters on a table, but v3 wants hands folding the dress into a carpetbag: REDO later. C12_first matches v3 (Caleb writing at night). Reused cues M02,M04,M05,M11,M14 and refs from film 1 as before. All stills in ChatGPT (user decision), prompt = full_prompt, refs attached as numbered jpg + 00_prompt txt. Cold open: ChatGPT hit its file-attachment limit (until 15:09 on 6 Oct), so C02_last, C03_last, C04_first/last were made in Flow (Nano Banana Pro x1, 0 credits, 1376x768). C02_first/last: prompt had an appended correction (camera behind the coach, riders masked, no foreground person) because the first take showed Buck unmasked on the coach. C04_last = Flow edit of C04_first. C01_last and C02_last differ little from their first frames (video model will move between them). STOP 2 (user, 6 Oct): I01-I11, C01, C02, C03_first, C04_last approved. Redone: C04_first (3 candidates in _variants, v3 chosen: both feet off the ground, open door), C03_last (Flow edit of C03_first), C13_first (hands folding the dress into a carpetbag, Flow). C01_last/C02_last are not used (video from first frame only)."
 }
