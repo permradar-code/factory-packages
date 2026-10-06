@@ -2,7 +2,7 @@
   "title": "The Stagecoach Bride",
   "series": "Tales of Cedar Bluff",
   "episode": 2,
-  "working_title_youtube": "Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie",
+  "working_title_youtube": "He Arrested His Own Mail-Order Bride… She Said 'I Wore It for You' | Full Western Movie",
   "setting": "Cedar Bluff, Colorado (a state since 1876), September 1880, golden aspens",
   "format": {
     "aspect": "16:9 (hooks 9:16)",
@@ -30,14 +30,14 @@
     "clip_seconds_optional": 6,
     "images_new": 11,
     "images_reused": 0,
-    "narration_words": 872,
-    "narration_chars": 4521,
-    "narration_min": 6.2,
+    "narration_words": 916,
+    "narration_chars": 4750,
+    "narration_min": 6.5,
     "credits_core_one_take": 973,
     "credits_optional_one_take": 10,
     "credits_hooks": 21,
     "api_usd_core_at_0_10_per_s": 59.6,
-    "est_total_min_core": 17.0
+    "est_total_min_core": 17.3
   },
   "style": "Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects.",
   "clip_style": "Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
@@ -2871,7 +2871,7 @@
     {
       "id": "N09",
       "type": "narration",
-      "text": "He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice."
+      "text": "He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice.\n\nBefore we go on: many of you are listening tonight while you cook, or drive, or sit somewhere quiet. If Rose and Caleb are keeping you company, tell me in the comments where you're listening from. I read every one. Now, back to the jail. That night was far from over."
     },
     {
       "id": "C65",
@@ -4371,7 +4371,7 @@
     {
       "id": "N19",
       "type": "narration",
-      "text": "They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.\n\nWould you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments, and tell me where you're watching from. And subscribe, because there are more stories waiting in Cedar Bluff.\n\nUntil next time, keep a light in the window."
+      "text": "They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.\n\nWould you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments. And subscribe, because there are more stories waiting in Cedar Bluff.\n\nUntil next time, keep a light in the window."
     },
     {
       "id": "T02",

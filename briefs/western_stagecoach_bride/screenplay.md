@@ -1,8 +1,8 @@
 # THE STAGECOACH BRIDE
 
-*Tales of Cedar Bluff, фильм 2 · Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie*
+*Tales of Cedar Bluff, фильм 2 · He Arrested His Own Mail-Order Bride… She Said 'I Wore It for You' | Full Western Movie*
 
-Оценка: ~17.0 мин · клипов 103 (обязательных 102: 596 с ≈ 973 кредитов Flow или ≈ $59.6 через API; по желанию 1: ≈ 10 кредитов) · с репликами 71, экшен 21 · хуки 3 ≈ 21 · картинок новых 11, из первого фильма 0 · рассказчик 872 слов, 4521 символов (~6.2 мин)
+Оценка: ~17.3 мин · клипов 103 (обязательных 102: 596 с ≈ 973 кредитов Flow или ≈ $59.6 через API; по желанию 1: ≈ 10 кредитов) · с репликами 71, экшен 21 · хуки 3 ≈ 21 · картинок новых 11, из первого фильма 0 · рассказчик 916 слов, 4750 символов (~6.5 мин)
 
 Обозначения: **C** — видеоклип 4–8 с, говорит один персонаж · **I** — картинка с движением камеры под голос рассказчика · **N** — рассказчик · **T** — титр · ⚡ — экшен-клип.
 
@@ -326,6 +326,8 @@ _Камера: close-up on Caleb_
 **N09 · РАССКАЗЧИК**
 
 > He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice.
+>
+> Before we go on: many of you are listening tonight while you cook, or drive, or sit somewhere quiet. If Rose and Caleb are keeping you company, tell me in the comments where you're listening from. I read every one. Now, back to the jail. That night was far from over.
 
 **C65 · КЛИП 8 с** — Late at night in the jail, lamplight low. Rose sits on the floor against the bars, Caleb on the other side with an old book open on his knee; she asks him softly.  
 _Камера: close two-shot through the bars_
@@ -538,7 +540,7 @@ _Камера: slow crane up and pull back_
 
 > They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.
 >
-> Would you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments, and tell me where you're watching from. And subscribe, because there are more stories waiting in Cedar Bluff.
+> Would you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments. And subscribe, because there are more stories waiting in Cedar Bluff.
 >
 > Until next time, keep a light in the window.
 

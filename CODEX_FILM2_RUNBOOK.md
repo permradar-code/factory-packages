@@ -134,11 +134,12 @@ python tts_elevenlabs.py --voice pqHfZKP75CvOlQylNhV4         # голос Bill,
 ## 9. Публикация на YouTube
 - Настройки: синтетический/изменённый контент = **Да**; не для детей; категория **Фильмы и анимация**; язык EN; субтитры EN (`.srt`). Публикация около **22:00 МСК** (утро/день в США).
 - Название — **всегда с хвостом «| Full Western Movie»** (люди ищут «полный фильм», так делает Nameless Wild West). **Лимит YouTube — 100 символов, проверять длину.** Три варианта для «Тест и сравнение»:
-  1. Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie (96)
-  2. They Laughed at the Mail-Order Bride in Chains — Until They Opened Her Box | Full Western Movie (95)
-  3. The Town Called the Mail-Order Bride a Thief — Then the Quiet Cowboy Stepped In | Full Western Movie (100)
+  1. **Рабочее:** He Arrested His Own Mail-Order Bride… She Said 'I Wore It for You' | Full Western Movie (87)
+  2. Запасное: Her Groom Marched Her Through Town in Chains… She Whispered 'I Wore It for You, Caleb' (86; с хвостом 107 — не влезает, укороченный вариант с хвостом: «Her Groom Marched Her Through Town in Chains… 'I Wore It for You' | Full Western Movie», 86)
+  3. Запасное: 'You're Taller Than I Imagined,' the Mail-Order Bride Said… 'And You're Under Arrest,' He Replied (97; с хвостом не влезает, укороченный: «'You're Taller Than I Imagined'… 'And You're Under Arrest' | Full Western Movie», 79)
+  Окончательно выбирает пользователь вместе с превью.
 - Превью: невеста в свадебном платье в наручниках на главной улице, жених рядом отводит глаза, толпа размыта. Текст на превью 2–3 слова и **не повторяет название** (например «HER OWN GROOM» или «IN HER WEDDING DRESS»). Сделать 3 варианта для теста.
-- Описание: 2–3 предложения завязки без спойлера; вопрос для комментариев («Would you have stood up for Rose on that street?»); строчка «Subscribe for a new Cedar Bluff story every week»; ссылка на фильм 1; дисклеймер «This film is fiction… created with the help of AI tools»; хэштеги #WesternMovie #FullMovie #WildWest #WesternRomance #MailOrderBride.
+- Описание: 2–3 предложения завязки без спойлера; просьба написать, откуда смотрят/слушают (рассказчик просит об этом в N09); вопрос для комментариев («Would you have stood up for Rose on that street?»); строчка «Subscribe for a new Cedar Bluff story every week»; ссылка на фильм 1; дисклеймер «This film is fiction… created with the help of AI tools»; хэштеги #WesternMovie #FullMovie #WildWest #WesternRomance #MailOrderBride.
 - Главы (таймкоды) по ключевым сценам — после монтажа.
 - Конечная заставка: фильм 1 «The Widow's Piano» + кнопка подписки.
 - Закреплённый комментарий: тот же вопрос, что в описании.

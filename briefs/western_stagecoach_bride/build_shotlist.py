@@ -372,6 +372,8 @@ clip("Caleb finally looks up at her.",
      ["CHAR_CALEB", "CHAR_ROSE", "LOC_JAIL"], [("CHAR_CALEB", "I know.")], camera="close-up on Caleb", night=True, id="C64")
 narr("""
 He read to her that night through the bars, from a battered copy of Ivanhoe. She corrected his pronunciation twice.
+
+Before we go on: many of you are listening tonight while you cook, or drive, or sit somewhere quiet. If Rose and Caleb are keeping you company, tell me in the comments where you're listening from. I read every one. Now, back to the jail. That night was far from over.
 """)
 clip("Late at night in the jail, lamplight low. Rose sits on the floor against the bars, Caleb on the other side with an old book open on his knee; she asks him softly.",
      ["CHAR_ROSE", "CHAR_CALEB", "LOC_JAIL"], [("CHAR_ROSE", "Why did a man who writes like you need a matrimonial paper?")], camera="close two-shot through the bars", night=True, id="C65")
@@ -523,7 +525,7 @@ clip("Final wide shot: the ranch house at dusk with warm glowing windows; the ca
 narr("""
 They were married in October, when the aspens turned gold. Caleb and Rose stood up for them, and the next spring it was their turn.
 
-Would you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments, and tell me where you're watching from. And subscribe, because there are more stories waiting in Cedar Bluff.
+Would you have stood up for Rose on that street, or stayed quiet like the rest of the town? Tell me in the comments. And subscribe, because there are more stories waiting in Cedar Bluff.
 
 Until next time, keep a light in the window.
 """)
@@ -666,7 +668,7 @@ for group in (PROPS, LOCATIONS):
         REF_PROMPTS.append({"file": f"visuals/refs/{rid}.png", "prompt": f"{r['look']}. Clear reference image of {r['name'].lower()}, no people unless needed for scale. " + STYLE})
 
 TITLE = "The Stagecoach Bride"
-YT = "Her Own Groom Led Her Away in Chains — They Didn't Know What Was in Her Box | Full Western Movie"
+YT = "He Arrested His Own Mail-Order Bride… She Said 'I Wore It for You' | Full Western Movie"
 out = {"title": TITLE, "series": "Tales of Cedar Bluff", "episode": 2, "working_title_youtube": YT,
        "setting": "Cedar Bluff, Colorado (a state since 1876), September 1880, golden aspens",
        "format": {"aspect": "16:9 (hooks 9:16)", "video_model": "Omni 1.1 Flash 720p", "image_model": "Nano Banana Pro", "fps": 24,
