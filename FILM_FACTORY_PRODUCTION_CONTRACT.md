@@ -85,6 +85,10 @@
 - `timeline` остаётся единственным источником порядка фильма.
 - Все `ref_files` задаются в shotlist. Engine выбирает максимум шесть детерминированно: персонажи, затем локация, затем props/other.
 - Уже существующие файлы из package автоматически reused и не входят в стоимость.
+- Reuse — предпочтение, а не обязательная зависимость: если заявленного файла реально нет в package, Factory должна перейти на generation fallback до budget approval и пересчитать смету.
+- Для любого reused asset должен существовать generation recipe: image/video prompts в shotlist, ref_prompt для canonical ref, а для reused music — `fallback_prompt`.
+- Если source существует, но временно не скачался из-за Git/SSH/network ошибки, Factory не должна тратить деньги на замену: preflight остаётся незавершённым и повторяется.
+- Если нет ни source, ни generation recipe, preflight блокируется как неполный контракт.
 - `force_regenerate_image_ids` позволяет намеренно игнорировать плохой готовый still.
 - `first_frame_only_ids` отключает end-frame для конкретных клипов.
 - `music_anchor_map` задаётся редактором фильма; engine не угадывает музыкальную драматургию по старым descriptions.
