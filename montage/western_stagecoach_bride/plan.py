@@ -22,19 +22,20 @@ Numbers after "|" are relative weights (default = clip length or 4.5 for stills)
 #       end   -> end screen (seconds)
 PLAN = [
     # ---------- COLD OPEN: a line from the very first second (film 1 lost 40% in the first 30 s) ----------
+    # Film 1 retention: 91% at 0:09 -> 64% at 0:34 -> 48% at 0:43 (slow, half-comic auction; the payoff came at 0:43).
+    # So: three hard beats in 15 s, the narrator's hook over the walk, gunfire by ~0:30.
     ("clip", "C103", None),            # 0:00 "I wore it for you, Caleb. Like I promised."
     ("clip", "C104", None),            # "Keep walking, ma'am."
-    ("clip", "C60", "0-5"),            # the walk, the town staring
     ("clip", "C61R", None),            # Agatha: "Look at her, ladies..."
-    ("clip", "C102R", "0-3.5"),        # the crowd laughs
-    # the hook: first sentence of N01 ("...never seen the face of the man she had come a thousand miles to marry")
-    ("narr", "N00", {"src": "N01", "from": 0.0, "to": 10.9, "vis": ["C112@0-7", "frame:C103@3.6|4"]}),
-    ("title", "T00", ("THREE DAYS EARLIER", 2.4)),
-    # ---------- the robbery ----------
+    ("clip", "C102R", "0-3"),          # the crowd laughs
+    # the hook over the walk: first sentence of N01 ("...never seen the face of the man she had come a thousand miles to marry")
+    ("narr", "N00", {"src": "N01", "from": 0.0, "to": 10.9, "vis": ["C60@0-6", "C112@1-7"]}),
+    ("title", "T00", ("THREE DAYS EARLIER", 2.0)),
+    # ---------- the robbery: in medias res, gunfire first ----------
+    ("clip", "C31", None),
+    ("clip", "C01", "0-4"),
     ("clip", "C28", None),
     ("clip", "C29", None),
-    ("clip", "C31", None),
-    ("clip", "C01", "0-5"),
     ("clip", "C02", "0-5"),
     ("clip", "C32", "0-2.3"),
     ("clip", "C03", None),
@@ -156,8 +157,7 @@ PLAN = [
 # music: (cue, anchor event id, offset seconds). Each cue plays until the next one starts (2 s crossfade).
 MUSIC = [
     ("M09", "C103", 0.0),    # cold open: the tender, sad theme (comes back at the arrest)
-    ("M06", "T00", 0.0),     # on the stage, danger coming
-    ("M01", "C31", 0.0),     # the robbery chase
+    ("M01", "T00", 0.0),     # the robbery chase starts on the card
     ("M07", "N01", 0.0),     # alone on the mountain
     ("M02", "T01", 0.0),     # series theme under the title
     ("M05", "C105", 0.0),    # Crane and Buck
