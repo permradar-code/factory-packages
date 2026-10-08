@@ -483,7 +483,7 @@ for s in SHOTS:
     if s["type"] == "image":
         s["full_prompt"] = s["prompt"] + " " + STYLE + (NIGHT if s["night"] else "") + (" Characters/places: " + ref_text(s["refs"]) if s["refs"] else "")
         s["ref_files"] = ref_files(s["refs"])
-        s["file"] = f"visuals/images/{s['id']}.png"
+        s["file"] = f"visuals/images/bs_{s['id']}.png"
     elif s["type"] == "clip":
         s["start_frame_full_prompt"] = (s["start_frame_prompt"] + " First frame of the shot, characters in position" + (", mouths closed" if s["dialogue"] else "")
                                         + (", the action already in motion" if s["action_shot"] else "") + ". " + STYLE + (NIGHT if s["night"] else "")
@@ -500,7 +500,7 @@ for s in SHOTS:
             dl = " No dialogue, natural sound only (rain, thunder, hooves, wind, birds), nobody speaks."
         s["video_prompt"] = (s["action"] + (ACTION if s["action_shot"] else "") + (" Camera: " + s["camera"] + "." if s["camera"] else "")
                              + dl + " " + CLIP_STYLE)
-        s["files"] = {"start_frame": f"visuals/images/{s['id']}_first.png", "video": f"visuals/video/{s['id']}.mp4"}
+        s["files"] = {"start_frame": f"visuals/images/bs_{s['id']}_first.png", "video": f"visuals/video/bs_{s['id']}.mp4"}
 VSTYLE = STYLE.replace("16:9 widescreen", "9:16 vertical portrait frame") + " Bright, faces large and clearly lit."
 for h in HOOKS:
     h["first_frame_full_prompt"] = h["first_frame"] + " " + VSTYLE + (NIGHT if h["night"] else "") + " Characters/places: " + ref_text(h["refs"])
@@ -509,7 +509,7 @@ for h in HOOKS:
     h["video_prompt"] = (h["video"] + f' Dialogue: {c["name"]} ({c["voice"]}) says: "{d["line"]}" The line starts within the first second; no extra words. '
                          + CLIP_STYLE.replace("16:9", "9:16 vertical portrait frame, subjects large and centered"))
     h["ref_files"] = ref_files(h["refs"])
-    h["files"] = {"start_frame": f"visuals/hooks/{h['id']}_first.png", "video": f"visuals/hooks/{h['id']}.mp4"}
+    h["files"] = {"start_frame": f"visuals/hooks/bs_{h['id']}_first.png", "video": f"visuals/hooks/bs_{h['id']}.mp4"}
 
 REF_BG = ("Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, "
           "soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.")
