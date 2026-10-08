@@ -14,7 +14,7 @@ import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from plan import PLAN, MUSIC, BADGE_AT  # noqa: E402
+from plan import PLAN, MUSIC, BADGE_AT, LINE_FIX  # noqa: E402
 
 SRC = os.environ.get("SRC", "/mnt/user-data/uploads/stagecoach_bride")
 FIX = os.environ.get("FIX", "/home/claude/wsb_fix1")
@@ -23,6 +23,8 @@ REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 SHOT = json.load(open(os.path.join(REPO, "briefs/western_stagecoach_bride/shotlist.json"), encoding="utf-8"))
 FIXSHOT = json.load(open(os.path.join(REPO, "briefs/western_stagecoach_bride/fix1/shotlist.json"), encoding="utf-8"))
 LINES = {s["id"]: s.get("dialogue") or [] for s in SHOT["timeline"] + FIXSHOT["timeline"]}
+for _cid, _line in LINE_FIX.items():
+    LINES[_cid] = [dict((LINES.get(_cid) or [{}])[0], line=_line)]
 # factory cut points (whisper word timings + 0.8 s tail). Not trusted where whisper heard only part of the line.
 try:
     FACTORY_CUT = {e["id"]: (e["source_in"], e["source_out"])
@@ -105,7 +107,41 @@ def parse_vis(spec):
     f = clip_path(spec)
     d = probe(f) if f else 6.0
     a, b = rng or (0.0, d)
-    return {"type": "video", "id": spec, "file": f, "in": a, "out": min(b, d), "w": w or (min(b, d) - a)}
+    return {"type": "video", "id": spec, "file": f, "in": a, "out": min(b, d), "w": w or (min(b, d) - a), "wx": w is not None}
+
+
+STILL_MAX = 7.0   # a still (Ken Burns) may hold this long before videos get slowed down
+
+
+def alloc(vis, need):
+    """Videos keep their natural speed where possible; stills absorb a shortfall first (they move anyway),
+    then videos are slowed (render: up to 1.25x, beyond that the last frame holds)."""
+    base = []
+    for v in vis:
+        if v["type"] == "video":
+            nat = v["out"] - v["in"]
+            base.append(min(nat, v["w"]) if v.get("wx") else nat)
+        else:
+            base.append(v["w"])
+    tot = sum(base)
+    gap = need - tot
+    if gap <= 0:
+        lens = [b * need / tot for b in base]
+    else:
+        lens = list(base)
+        room = [max(0.0, STILL_MAX - b) if v["type"] != "video" else 0.0 for v, b in zip(vis, base)]
+        give = min(gap, sum(room))
+        if give > 0:
+            lens = [l + give * r / sum(room) for l, r in zip(lens, room)]
+        gap -= give
+        vt = sum(b for v, b in zip(vis, base) if v["type"] == "video")
+        if gap > 0:
+            if vt > 0:
+                lens = [l * (1 + gap / vt) if v["type"] == "video" else l for v, l in zip(vis, lens)]
+            else:
+                lens = [l * need / sum(lens) for l in lens]
+    for v, l in zip(vis, lens):
+        v["len"] = round(l, 3)
 
 
 # ------------------------------------------------------------------ EDL
@@ -158,11 +194,9 @@ def build_edl():
             extra = spec["vis"]
             ev["dur"] = round(VOFF + ev["voice_dur"] + VTAIL, 3)
             vis = [parse_vis(s) for s in extra]
-            total_w = sum(v["w"] for v in vis)
             # visual lengths include the crossfade overlap: sum(len) - X*(n-1) = block length
             need = ev["dur"] + X * (len(vis) - 1)
-            for v in vis:
-                v["len"] = round(need * v["w"] / total_w, 3)
+            alloc(vis, need)
             ev["visuals"] = vis
         events.append(ev)
         t += ev["dur"]
