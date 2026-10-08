@@ -115,9 +115,26 @@ def caption_plan(cid, d):
     return caps, (a, b)
 
 
-def png(path, hook, text, end):
+def arrow(d, cx, top, w=70, h=80, fill=(255, 214, 0)):
+    d.polygon([(cx - w // 4, top), (cx + w // 4, top), (cx + w // 4, top + h // 2), (cx + w // 2, top + h // 2),
+               (cx, top + h), (cx - w // 2, top + h // 2), (cx - w // 4, top + h // 2)], fill=fill, outline=(0, 0, 0), width=5)
+
+
+def png(path, hook, text, end, pill=True):
     im = Image.new("RGBA", (W, HH), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
+    if end:   # end card: darken, big call to action pointing at the related-video link under the player
+        d.rectangle((0, 0, W, HH), fill=(0, 0, 0, 150))
+        d.text((W // 2, 520), "WHAT HAPPENS NEXT?", font=ImageFont.truetype(FONT, 110), fill=(255, 255, 255), anchor="ma",
+               stroke_width=10, stroke_fill=(0, 0, 0))
+        d.text((W // 2, 700), "WATCH THE FULL MOVIE", font=ImageFont.truetype(FONT, 104), fill=(255, 214, 0), anchor="ma",
+               stroke_width=10, stroke_fill=(0, 0, 0))
+        d.text((W // 2, 880), "TAP THE LINK BELOW", font=ImageFont.truetype(FONT, 92), fill=(255, 255, 255), anchor="ma",
+               stroke_width=9, stroke_fill=(0, 0, 0))
+        for cx in (W // 2 - 220, W // 2, W // 2 + 220):
+            arrow(d, cx, 1060, 110, 150)
+        im.save(path)
+        return
     d.multiline_text((W // 2, 120), hook, font=ImageFont.truetype(FONT, 84), fill=(255, 214, 0), anchor="ma",
                      align="center", stroke_width=9, stroke_fill=(0, 0, 0), spacing=4)
     if text:
@@ -126,9 +143,14 @@ def png(path, hook, text, end):
             f = ImageFont.truetype(FONT, f.size - 6)
         d.text((W // 2, 1180), text.upper(), font=f, fill=(255, 255, 255), anchor="ma", stroke_width=10,
                stroke_fill=(0, 0, 0))
-    if end:
-        d.text((W // 2, 1420), END, font=ImageFont.truetype(FONT, 66), fill=(255, 214, 0), anchor="ma",
-               stroke_width=8, stroke_fill=(0, 0, 0))
+    if pill:  # permanent reminder that this is the start of a full movie
+        f = ImageFont.truetype(FONT, 50)
+        t = "FULL MOVIE - LINK BELOW"
+        tw = d.textlength(t, font=f)
+        x0, y0 = (W - tw) / 2 - 70, 1395
+        d.rounded_rectangle((x0, y0, x0 + tw + 140, y0 + 84), radius=40, fill=(200, 20, 20, 235), outline=(0, 0, 0), width=4)
+        d.text((W // 2 + 22, y0 + 14), t, font=f, fill=(255, 255, 255), anchor="ma")
+        arrow(d, int(x0) + 48, int(y0) + 16, 40, 52, fill=(255, 255, 255))
     im.save(path)
 
 
@@ -145,14 +167,14 @@ def build(name, hook, seq):
         # overlay timeline: one PNG per caption state
         states, t = [], 0.0
         events = sorted({0.0, L, *[max(0, c0 - a) for c0, _, _ in caps], *[min(L, c1 - a) for _, c1, _ in caps]}
-                        | ({max(0.0, L - 2.0)} if last else set()))
+                        | set())
         for i in range(len(events) - 1):
             t0, t1 = events[i], events[i + 1]
             if t1 - t0 < 0.02:
                 continue
             mid = (t0 + t1) / 2 + a
             txt = next((c for c0, c1, c in caps if c0 <= mid < c1), "")
-            states.append((t0, t1, txt, last and t0 >= L - 2.01))
+            states.append((t0, t1, txt, False))
         inputs, fc, prev = ["-ss", f"{a:.3f}", "-t", f"{L:.3f}", "-i", p], [], "[v0]"
         fc.append(f"[0:v]scale={W}:{HH}:flags=lanczos,eq=contrast=1.04:saturation=1.08,fps=24[v0]")
         for j, (t0, t1, txt, end) in enumerate(states):
@@ -168,6 +190,16 @@ def build(name, hook, seq):
                         "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2",
                         out], check=True)
         parts.append(out)
+    # end card: 3 s on the frozen last frame, darkened, with the call to action
+    lastp, endpng, endmp4 = parts[-1], f"{tmp}/end.png", f"{tmp}/end.mp4"
+    png(endpng, hook, "", True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-sseof", "-0.1", "-i", lastp, "-frames:v", "1", f"{tmp}/last.png"], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", "3", "-i", f"{tmp}/last.png", "-i", endpng,
+                    "-f", "lavfi", "-t", "3", "-i", "anullsrc=r=48000:cl=stereo",
+                    "-filter_complex", "[0:v]fps=24,format=yuv420p[a];[a][1:v]overlay=0:0[o]", "-map", "[o]", "-map", "2:a",
+                    "-t", "3", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", endmp4], check=True)
+    parts.append(endmp4)
     with open(f"{tmp}/list.txt", "w") as fh:
         fh.writelines(f"file '{x}'\n" for x in parts)
     out = f"{OUT}/{name}.mp4"
