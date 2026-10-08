@@ -66,16 +66,6 @@
 - *Ночь. Элли спит в кресле у двери, младенец на руках. Из-под шали видна рукоять маленького револьвера.* Уэйд замечает, молча накрывает её одеялом и уходит.
 - **N02:** "She slept sitting up, between her children and the door. Wade knew that kind of sleep. He had slept like that himself, a long time ago, in a country where the next knock on the door could be the last."
 
-### СЦЕНА 1б. Дни на ранчо (монтаж, ~1:30)
-*Солнечные дни. Молли ходит за Уэйдом хвостом: к колодцу, к коровнику, к забору.*
-
-- **N02b:** "The rain did not stop the next day, or the day after. And somewhere in those days the house began to sound different. A spoon against a pot. A little girl's boots on the stairs. A baby who laughed when the rooster crowed. Wade found his shirts mended without being asked, and the clock in the hall wound again, and a jar of wildflowers on a table where nothing had stood for three years."
-- **MOLLY** (сидит на заборе, пока Уэйд чинит жердь): "How come you never smile, Mister Wade?"
-- **WADE:** "Forgot how, I guess."
-- **MOLLY:** "That's all right. I'll show you. It's easy."
-- *Она растягивает щёки пальцами. Уэйд отворачивается — но камера видит: он улыбается.*
-- **N02c:** "He taught her to milk the brown cow and to tell a hawk from a buzzard by the way it held its wings. She taught him the names of all four of her dolls, three of which she had left behind in Leadville. He never asked why they had left in such a hurry. Some questions, Wade knew, you only ask when you are ready to hear the answer."
-
 ### СЦЕНА 2. Утро. Колыбель
 *Яркое весеннее утро, солнце после грозы, капли на траве.*
 
@@ -101,10 +91,20 @@
 - **WADE:** "Wade."
 - **N03b:** "Henry Vance had been nothing like his father. He had married a schoolteacher's daughter against the old man's orders, and worked his own shifts in his father's mine to prove he could. He wrote poems on the backs of assay slips, and was teaching Molly her letters, and was going to buy a little farm in the valley when the boy was old enough to ride. Then, one Tuesday morning, a beam gave way four hundred feet underground."
 
+### СЦЕНА 2в. Дни на ранчо (монтаж, ~1:30)
+*Солнечные дни. Молли ходит за Уэйдом хвостом: к колодцу, к коровнику, к забору.*
+
+- **N02b:** "The rain came and went for days, one storm after another rolling over the ridge. And somewhere in those days the house began to sound different. A spoon against a pot. A little girl's boots on the stairs. A baby who laughed when the rooster crowed. Wade found his shirts mended without being asked, and the clock in the hall wound again, and a jar of wildflowers on a table where nothing had stood for three years."
+- **MOLLY** (сидит на заборе, пока Уэйд чинит жердь): "How come you never smile, Mister Wade?"
+- **WADE:** "Forgot how, I guess."
+- **MOLLY:** "That's all right. I'll show you. It's easy."
+- *Она растягивает щёки пальцами. Уэйд отворачивается — но камера видит: он улыбается.*
+- **N02c:** "He taught her to milk the brown cow and to tell a hawk from a buzzard by the way it held its wings. She taught him the names of all four of her dolls, three of which she had left behind in Leadville. He never asked why they had left in such a hurry. Some questions, Wade knew, you only ask when you are ready to hear the answer."
+
 ### СЦЕНА 3. Город
 *Яркий день, главная улица Сидар-Блаффа, лавка Хоббса.*
 
-- **N04:** "On the third day Wade hitched the wagon and drove them into Cedar Bluff. The girl needed shoes. The baby needed milk. And Wade needed to know who sends three men through a storm after a widow with a baby."
+- **N04:** "On the fourth day Wade hitched the wagon and drove them into Cedar Bluff. The girl needed shoes. The baby needed milk. And Wade needed to know who sends three men through a storm after a widow with a baby."
 - В лавке. Молли не отрывает глаз от новых башмачков на полке.
 - **ELLIE:** "The small boots, please. I can pay half now and…"
 - **HOBBS:** "No credit to strangers, ma'am. Cash or nothing."
