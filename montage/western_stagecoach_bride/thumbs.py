@@ -88,8 +88,7 @@ def thumb_a():
     for r, wdt, col in ((62, 12, (0, 0, 0)), (60, 8, (230, 20, 20))):
         d.ellipse((cx - r * 1.3, cy - r, cx + r * 1.3, cy + r), outline=col, width=wdt)
     mid = LW + (W - LW) // 2
-    text(im, "HER OWN", (mid, H - 175), 132, anchor="ms", max_w=W - LW - 30)
-    text(im, "GROOM", (mid, H - 30), 150, anchor="ms", max_w=W - LW - 30)
+    text(im, "HER OWN GROOM", (mid, 14), 92, anchor="ma", max_w=W - LW - 24, stroke=8)
     return im
 
 
@@ -98,7 +97,7 @@ def thumb_b():
     jump = grade(frame("C04", 1.0), bright=1.05, color=1.3)
     im = panel(jump, (360, 10, 900, 506), (W, H))
     im = vignette(im, 0.22)
-    text(im, "SHE JUMPED", (40, H - 30), 170, anchor="ls")
+    text(im, "SHE JUMPED", (W - 36, 24), 150, anchor="ra")
     return im
 
 
