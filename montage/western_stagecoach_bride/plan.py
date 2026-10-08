@@ -26,7 +26,6 @@ PLAN = [
     # So: three hard beats in 15 s, the narrator's hook over the walk, gunfire by ~0:30.
     ("clip", "C103", None),            # 0:00 "I wore it for you, Caleb. Like I promised."
     ("clip", "C104", None),            # "Keep walking, ma'am."
-    ("clip", "C61R", None),            # Agatha: "Look at her, ladies..."
     ("clip", "C102R", "0-3"),          # the crowd laughs
     # the hook over the walk: first sentence of N01 ("...never seen the face of the man she had come a thousand miles to marry")
     ("narr", "N00", {"src": "N01", "from": 0.0, "to": 10.9, "vis": ["C60@0-6", "C112@1-7"]}),
@@ -96,7 +95,8 @@ PLAN = [
     ("clip", "C109", None),
     ("clip", "C59", None),
     ("narr", "N08", ["img:I06|4", "C112@0-4|4"]),
-    ("clip", "C110", None),
+    ("clip", "C61R", None),            # Agatha mocks her during the walk (no "thief" in the first 30 s) ...
+    ("clip", "C110", None),            # ... and Clara shuts her up: "One more word, Agatha..."
     ("clip", "C111", None),
     ("clip", "C112", "4-8"),
     ("clip", "C62", None),
