@@ -14,7 +14,8 @@
   - `montage/western_stagecoach_bride/shorts.py`, `thumbs.py` — Shorts and thumbnails (Phase 2, read only for now)
   - `briefs/western_stagecoach_bride/fix1/build_fix1.py` — how b-roll per narration block is specified (`"for": "N04"`)
   - `briefs/western_stagecoach_bride/shorts1/build_shorts1.py` — vertical 9:16 clips as `hooks`
-- **Branch:** `feature/factory-v2-phase1` from the default branch. Open a **Pull Request**; do not merge.
+- **Base branch (IMPORTANT):** the code running on the server is branch **`feature/google-ai-refresh-20261006`** (commit `9039e51`), not `main` — `main` does not contain the film layer (`film_*`, dialogue clips, `dialogue_alignment`, `final_qc`, `web/studio/montage.js`).
+- **Branch:** `feature/factory-v2-phase1` created from `feature/google-ai-refresh-20261006`. Open a **Pull Request into `feature/google-ai-refresh-20261006`**; do not merge.
 - **Never:** deploy, restart services, touch the VPS, read/print/commit secrets or `.env`, change provider keys, weaken existing tests, rewrite git history.
 - **Keep existing behaviour working.** New behaviour is opt-in per project: `production.edit.engine = "v2"` in the shotlist (default stays the old engine). Existing projects must render exactly as before.
 - **Tests:** the whole existing test suite must pass. Add tests for everything new. Use synthetic media generated with ffmpeg `lavfi` (color/testsrc + sine) — no real provider calls, no network.
