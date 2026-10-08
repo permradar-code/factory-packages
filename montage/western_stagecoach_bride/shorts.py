@@ -18,9 +18,9 @@ END = "FULL MOVIE ON THE CHANNEL"
 ev = {e["id"]: e for e in EDL["events"]}
 
 SHORTS = {
-    "short_jump": ("SHE JUMPED\nWITH THE BOX", [("film", "C03"), ("film", "C33"), ("vert", "H01"), ("film", "C05"),
+    "short_jump": ("SHE JUMPED\nWITH THE BOX", [("vert", "H01"), ("film", "C03"), ("film", "C33"), ("film", "C05"),
                                                 ("film", "C35")]),
-    "short_box": ("SHE STILL HAD\nTHE BOX", [("film", "C87"), ("film", "C90"), ("film", "C91"), ("vert", "H02"),
+    "short_box": ("SHE STILL HAD\nTHE BOX", [("vert", "H02"), ("film", "C87"), ("film", "C90"), ("film", "C91"),
                                             ("film", "C94")]),
     "short_fire": ("THEY SET THE JAIL\nON FIRE", [("film", "C67"), ("vert", "H03"), ("film", "C69"), ("film", "C70"),
                                                   ("film", "C68", 3.0)]),
