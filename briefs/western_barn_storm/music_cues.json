@@ -1,5 +1,42 @@
 {
  "film": "The Barn in the Storm",
- "note": "score is reused from films 1-2 in the edit",
- "cues": []
+ "note": "4 new cues; the edit also uses the series score of films 1-2",
+ "cues": [
+  {
+   "id": "M01",
+   "covers": "cold open storm, the gate at night, the showdown",
+   "target_s": 60,
+   "mood": "storm and dread",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Dark stormy western cue at 70 BPM: low tremolo strings like distant thunder, a lonely solo fiddle line in D minor, deep piano notes, slow bass drum rolls like thunder, building tension that never fully resolves. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M02",
+   "covers": "the cradle, Anna and Daniel, Molly's prayer, the cradle comes down",
+   "target_s": 60,
+   "mood": "lullaby",
+   "new": true,
+   "instrumental": true,
+   "prompt": "A tender western lullaby at 66 BPM in G major: a music box style melody on soft celesta and fingerpicked acoustic guitar, a warm cello answering, gentle and bittersweet, like a cradle rocking. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M03",
+   "covers": "porch at night, the days on the ranch, the ride home",
+   "target_s": 90,
+   "mood": "quiet tenderness",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Quiet warm western love theme at 76 BPM in A major: fingerpicked acoustic guitar, soft harmonica, a solo violin melody, light upright bass, hopeful and shy, crickets-at-dusk feeling. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M04",
+   "covers": "the town scene payoff, the morning after the storm, the June wedding",
+   "target_s": 60,
+   "mood": "warm triumph",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Warm uplifting western finale cue at 92 BPM in D major: full strings swelling, acoustic guitar strumming, fiddle and harmonica sharing the melody, bright and joyful like sunrise after a storm, ending on a long held chord. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  }
+ ]
 }

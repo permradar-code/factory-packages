@@ -562,6 +562,18 @@ out = {"title": "The Barn in the Storm", "series": "Tales of Cedar Bluff", "epis
        }}
 here = os.path.dirname(os.path.abspath(__file__))
 json.dump(out, open(f"{here}/shotlist.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-json.dump({"film": "The Barn in the Storm", "note": "score is reused from films 1-2 in the edit", "cues": []},
-          open(f"{here}/music_cues.json", "w", encoding="utf-8"), indent=1)
+TAIL = (" Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, "
+        "no modern drums, no synths, no electric guitar.")
+CUES = [
+    {"id": "M01", "covers": "cold open storm, the gate at night, the showdown", "target_s": 60, "mood": "storm and dread", "new": True, "instrumental": True,
+     "prompt": "Dark stormy western cue at 70 BPM: low tremolo strings like distant thunder, a lonely solo fiddle line in D minor, deep piano notes, slow bass drum rolls like thunder, building tension that never fully resolves." + TAIL},
+    {"id": "M02", "covers": "the cradle, Anna and Daniel, Molly's prayer, the cradle comes down", "target_s": 60, "mood": "lullaby", "new": True, "instrumental": True,
+     "prompt": "A tender western lullaby at 66 BPM in G major: a music box style melody on soft celesta and fingerpicked acoustic guitar, a warm cello answering, gentle and bittersweet, like a cradle rocking." + TAIL},
+    {"id": "M03", "covers": "porch at night, the days on the ranch, the ride home", "target_s": 90, "mood": "quiet tenderness", "new": True, "instrumental": True,
+     "prompt": "Quiet warm western love theme at 76 BPM in A major: fingerpicked acoustic guitar, soft harmonica, a solo violin melody, light upright bass, hopeful and shy, crickets-at-dusk feeling." + TAIL},
+    {"id": "M04", "covers": "the town scene payoff, the morning after the storm, the June wedding", "target_s": 60, "mood": "warm triumph", "new": True, "instrumental": True,
+     "prompt": "Warm uplifting western finale cue at 92 BPM in D major: full strings swelling, acoustic guitar strumming, fiddle and harmonica sharing the melody, bright and joyful like sunrise after a storm, ending on a long held chord." + TAIL},
+]
+json.dump({"film": "The Barn in the Storm", "note": "4 new cues; the edit also uses the series score of films 1-2", "cues": CUES},
+          open(f"{here}/music_cues.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(json.dumps(est, indent=1))
