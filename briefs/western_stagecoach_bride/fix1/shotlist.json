@@ -1,0 +1,1493 @@
+{
+ "title": "The Stagecoach Bride - fix1 b-roll",
+ "series": "Tales of Cedar Bluff",
+ "episode": 2,
+ "format": {
+  "fps": 24
+ },
+ "estimate": {
+  "clips": 48,
+  "clip_seconds": 286,
+  "est_total_min_core": 5.0,
+  "api_usd_at_0_10_per_s": 28.6
+ },
+ "timeline": [
+  {
+   "id": "C61R",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Afternoon on the boardwalk of the main street: Agatha Pell steps forward from a crowd of townspeople, raises her closed white lace parasol and points it toward the street off-screen to the right, her chin high, cold and contemptuous. Only Agatha and the onlookers behind her are in frame; the street in front of her is out of frame.",
+   "camera": "medium shot from the street, the crowd behind her",
+   "dialogue": [
+    {
+     "speaker": "CHAR_AGATHA",
+     "line": "Look at her, ladies. A thief, delivered by mail."
+    }
+   ],
+   "refs": [
+    "CHAR_AGATHA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": false,
+   "for": "cold open",
+   "start_frame_prompt": "Afternoon on the boardwalk of the main street: Agatha Pell steps forward from a crowd of townspeople, raises her closed white lace parasol and points it toward the street off-screen to the right, her chin high, cold and contemptuous. Only Agatha and the onlookers behind her are in frame; the street in front of her is out of frame.",
+   "start_frame_full_prompt": "Afternoon on the boardwalk of the main street: Agatha Pell steps forward from a crowd of townspeople, raises her closed white lace parasol and points it toward the street off-screen to the right, her chin high, cold and contemptuous. Only Agatha and the onlookers behind her are in frame; the street in front of her is out of frame. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Agatha Pell: 50-year-old woman, tight gray bun, pinched face, high-collared plum-purple silk dress, ivory cameo brooch, white lace parasol | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Afternoon on the boardwalk of the main street: Agatha Pell steps forward from a crowd of townspeople, raises her closed white lace parasol and points it toward the street off-screen to the right, her chin high, cold and contemptuous. Only Agatha and the onlookers behind her are in frame; the street in front of her is out of frame. Camera: medium shot from the street, the crowd behind her. Dialogue: Agatha Pell (cold, haughty, clipped upper-class American woman's voice in her fifties, quietly cutting, never shrill, never comic) says: \"Look at her, ladies. A thief, delivered by mail.\" ONLY Agatha Pell speaks; everyone else keeps their mouth closed. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_AGATHA_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/C61R_first.png",
+    "video": "visuals/video/C61R.mp4"
+   }
+  },
+  {
+   "id": "C102R",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Afternoon, main street boardwalk: townspeople laugh out loud and point toward the street off-screen; two well-dressed ladies in bonnets hide their smiles behind gloved hands; a man in a bowler hat shakes his head; a boy climbs a hitching rail to see better. Only the crowd is in frame.",
+   "camera": "slow pan along the laughing crowd",
+   "dialogue": [],
+   "refs": [
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "cold open",
+   "start_frame_prompt": "Afternoon, main street boardwalk: townspeople laugh out loud and point toward the street off-screen; two well-dressed ladies in bonnets hide their smiles behind gloved hands; a man in a bowler hat shakes his head; a boy climbs a hitching rail to see better. Only the crowd is in frame.",
+   "start_frame_full_prompt": "Afternoon, main street boardwalk: townspeople laugh out loud and point toward the street off-screen; two well-dressed ladies in bonnets hide their smiles behind gloved hands; a man in a bowler hat shakes his head; a boy climbs a hitching rail to see better. Only the crowd is in frame. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Afternoon, main street boardwalk: townspeople laugh out loud and point toward the street off-screen; two well-dressed ladies in bonnets hide their smiles behind gloved hands; a man in a bowler hat shakes his head; a boy climbs a hitching rail to see better. Only the crowd is in frame. Camera: slow pan along the laughing crowd. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/C102R_first.png",
+    "video": "visuals/video/C102R.mp4"
+   }
+  },
+  {
+   "id": "B01",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Dusk on a rocky mountainside: Rose crouches hidden in a narrow gap between two huge granite boulders, clutching the small green strongbox to her chest, breathing hard, listening, her veil torn.",
+   "camera": "slow push in through the rocks",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "PROP_BOX",
+    "LOC_PASS"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N01",
+   "start_frame_prompt": "Dusk on a rocky mountainside: Rose crouches hidden in a narrow gap between two huge granite boulders, clutching the small green strongbox to her chest, breathing hard, listening, her veil torn.",
+   "start_frame_full_prompt": "Dusk on a rocky mountainside: Rose crouches hidden in a narrow gap between two huge granite boulders, clutching the small green strongbox to her chest, breathing hard, listening, her veil torn. Rose wears: A: ivory lace wedding dress. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video_prompt": "Dusk on a rocky mountainside: Rose crouches hidden in a narrow gap between two huge granite boulders, clutching the small green strongbox to her chest, breathing hard, listening, her veil torn. Camera: slow push in through the rocks. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/PROP_BOX.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B01_first.png",
+    "video": "visuals/video/B01.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress"
+  },
+  {
+   "id": "B02",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Dusk: four masked riders with rifles move slowly along the rocky slope below, scanning the boulders, one points uphill; seen from high above between the rocks, as if from Rose's hiding place.",
+   "camera": "high angle looking down through a gap in the rocks",
+   "dialogue": [],
+   "refs": [
+    "CHAR_BUCK",
+    "LOC_PASS"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N01",
+   "start_frame_prompt": "Dusk: four masked riders with rifles move slowly along the rocky slope below, scanning the boulders, one points uphill; seen from high above between the rocks, as if from Rose's hiding place.",
+   "start_frame_full_prompt": "Dusk: four masked riders with rifles move slowly along the rocky slope below, scanning the boulders, one points uphill; seen from high above between the rocks, as if from Rose's hiding place. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Buck Tolliver: 35-year-old rough man, an original fictional character, a pale scar across the left cheek, unshaven black stubble, narrow dark eyes, black bandana around the neck (pulled over the face when masked), shaggy sheepskin-lined brown coat, battered gray hat, two revolvers | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video_prompt": "Dusk: four masked riders with rifles move slowly along the rocky slope below, scanning the boulders, one points uphill; seen from high above between the rocks, as if from Rose's hiding place. Camera: high angle looking down through a gap in the rocks. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_BUCK_front.png",
+    "visuals/refs/CHAR_BUCK_full.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B02_first.png",
+    "video": "visuals/video/B02.mp4"
+   }
+  },
+  {
+   "id": "B03",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Extreme close-up in the last light of day: Rose's trembling hands in lace sleeves tighten around the brass padlock of the green strongbox.",
+   "camera": "extreme close-up, very slow push",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "PROP_BOX"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N01",
+   "start_frame_prompt": "Extreme close-up in the last light of day: Rose's trembling hands in lace sleeves tighten around the brass padlock of the green strongbox.",
+   "start_frame_full_prompt": "Extreme close-up in the last light of day: Rose's trembling hands in lace sleeves tighten around the brass padlock of the green strongbox. Rose wears: A: ivory lace wedding dress. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched",
+   "video_prompt": "Extreme close-up in the last light of day: Rose's trembling hands in lace sleeves tighten around the brass padlock of the green strongbox. Camera: extreme close-up, very slow push. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/PROP_BOX.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B03_first.png",
+    "video": "visuals/video/B03.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress"
+  },
+  {
+   "id": "B04",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Sunday morning inside a small white wooden church full of sunlight: Silas Crane sits alone in the front pew in his charcoal suit, silver-headed cane across his knees; the townspeople behind him; he turns his head slightly, a thin, cold smile.",
+   "camera": "slow dolly in from the aisle",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CRANE"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N02",
+   "start_frame_prompt": "Sunday morning inside a small white wooden church full of sunlight: Silas Crane sits alone in the front pew in his charcoal suit, silver-headed cane across his knees; the townspeople behind him; he turns his head slightly, a thin, cold smile.",
+   "start_frame_full_prompt": "Sunday morning inside a small white wooden church full of sunlight: Silas Crane sits alone in the front pew in his charcoal suit, silver-headed cane across his knees; the townspeople behind him; he turns his head slightly, a thin, cold smile. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane",
+   "video_prompt": "Sunday morning inside a small white wooden church full of sunlight: Silas Crane sits alone in the front pew in his charcoal suit, silver-headed cane across his knees; the townspeople behind him; he turns his head slightly, a thin, cold smile. Camera: slow dolly in from the aisle. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B04_first.png",
+    "video": "visuals/video/B04.mp4"
+   }
+  },
+  {
+   "id": "B05",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night on the mountain stage road: Caleb rides slowly with a lantern held high, calling out into the dark rocks, his breath steaming in the cold air.",
+   "camera": "wide tracking shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CALEB",
+    "LOC_PASS"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N03",
+   "start_frame_prompt": "Night on the mountain stage road: Caleb rides slowly with a lantern held high, calling out into the dark rocks, his breath steaming in the cold air.",
+   "start_frame_full_prompt": "Night on the mountain stage road: Caleb rides slowly with a lantern held high, calling out into the dark rocks, his breath steaming in the cold air. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video_prompt": "Night on the mountain stage road: Caleb rides slowly with a lantern held high, calling out into the dark rocks, his breath steaming in the cold air. Camera: wide tracking shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B05_first.png",
+    "video": "visuals/video/B05.mp4"
+   }
+  },
+  {
+   "id": "B06",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Grey dawn on the pass: John Mercer on his dark bay horse stops, leans down from the saddle and picks a torn scrap of white lace off a thorny bush, then looks up the slope.",
+   "camera": "medium shot, slow push in",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "PROP_HORSE",
+    "LOC_PASS"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N03",
+   "start_frame_prompt": "Grey dawn on the pass: John Mercer on his dark bay horse stops, leans down from the saddle and picks a torn scrap of white lace off a thorny bush, then looks up the slope.",
+   "start_frame_full_prompt": "Grey dawn on the pass: John Mercer on his dark bay horse stops, leans down from the saddle and picks a torn scrap of white lace off a thorny bush, then looks up the slope. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Mercer's horse: tall dark bay horse with a white blaze on the face and black mane, worn brown western saddle with a rolled gray blanket | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video_prompt": "Grey dawn on the pass: John Mercer on his dark bay horse stops, leans down from the saddle and picks a torn scrap of white lace off a thorny bush, then looks up the slope. Camera: medium shot, slow push in. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/PROP_HORSE.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B06_first.png",
+    "video": "visuals/video/B06.mp4"
+   }
+  },
+  {
+   "id": "B07",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Evening at the Whitmore ranch: at the open kitchen door John Mercer touches the brim of his hat to Clara, who stands inside in the lamplight; he turns and walks out into the dusk; she watches him go.",
+   "camera": "medium shot from inside the kitchen",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "CHAR_CLARA",
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N04",
+   "start_frame_prompt": "Evening at the Whitmore ranch: at the open kitchen door John Mercer touches the brim of his hat to Clara, who stands inside in the lamplight; he turns and walks out into the dusk; she watches him go.",
+   "start_frame_full_prompt": "Evening at the Whitmore ranch: at the open kitchen door John Mercer touches the brim of his hat to Clara, who stands inside in the lamplight; he turns and walks out into the dusk; she watches him go. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Evening at the Whitmore ranch: at the open kitchen door John Mercer touches the brim of his hat to Clara, who stands inside in the lamplight; he turns and walks out into the dusk; she watches him go. Camera: medium shot from inside the kitchen. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B07_first.png",
+    "video": "visuals/video/B07.mp4"
+   }
+  },
+  {
+   "id": "B08",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night: John Mercer crosses the moonlit ranch yard toward the small barn carrying a lantern; in the house behind him a warm window glows and a woman's silhouette stands at it.",
+   "camera": "wide shot, static",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N04",
+   "start_frame_prompt": "Night: John Mercer crosses the moonlit ranch yard toward the small barn carrying a lantern; in the house behind him a warm window glows and a woman's silhouette stands at it.",
+   "start_frame_full_prompt": "Night: John Mercer crosses the moonlit ranch yard toward the small barn carrying a lantern; in the house behind him a warm window glows and a woman's silhouette stands at it. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Night: John Mercer crosses the moonlit ranch yard toward the small barn carrying a lantern; in the house behind him a warm window glows and a woman's silhouette stands at it. Camera: wide shot, static. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B08_first.png",
+    "video": "visuals/video/B08.mp4"
+   }
+  },
+  {
+   "id": "B09",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Sunny day on the main street: John Mercer helps Clara down from a wagon; on the boardwalk two older women lean together, whispering and smiling knowingly.",
+   "camera": "medium wide shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "CHAR_CLARA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N04",
+   "start_frame_prompt": "Sunny day on the main street: John Mercer helps Clara down from a wagon; on the boardwalk two older women lean together, whispering and smiling knowingly.",
+   "start_frame_full_prompt": "Sunny day on the main street: John Mercer helps Clara down from a wagon; on the boardwalk two older women lean together, whispering and smiling knowingly. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Sunny day on the main street: John Mercer helps Clara down from a wagon; on the boardwalk two older women lean together, whispering and smiling knowingly. Camera: medium wide shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B09_first.png",
+    "video": "visuals/video/B09.mp4"
+   }
+  },
+  {
+   "id": "B10",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, kitchen table, oil lamp: a brass key turns in the heavy padlock of the green strongbox, the lid lifts, and inside is a second small steel lock fixed to an inner iron lid.",
+   "camera": "close-up from above",
+   "dialogue": [],
+   "refs": [
+    "PROP_BOX",
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N04",
+   "start_frame_prompt": "Night, kitchen table, oil lamp: a brass key turns in the heavy padlock of the green strongbox, the lid lifts, and inside is a second small steel lock fixed to an inner iron lid.",
+   "start_frame_full_prompt": "Night, kitchen table, oil lamp: a brass key turns in the heavy padlock of the green strongbox, the lid lifts, and inside is a second small steel lock fixed to an inner iron lid. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Night, kitchen table, oil lamp: a brass key turns in the heavy padlock of the green strongbox, the lid lifts, and inside is a second small steel lock fixed to an inner iron lid. Camera: close-up from above. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/PROP_BOX.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B10_first.png",
+    "video": "visuals/video/B10.mp4"
+   }
+  },
+  {
+   "id": "B11",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Close-up at a ranch gate: the left front hoof of a tall roan horse stamps on the stones of the yard; the iron horseshoe is loose and rings.",
+   "camera": "low close-up on the hoof",
+   "dialogue": [],
+   "refs": [
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N05",
+   "start_frame_prompt": "Close-up at a ranch gate: the left front hoof of a tall roan horse stamps on the stones of the yard; the iron horseshoe is loose and rings.",
+   "start_frame_full_prompt": "Close-up at a ranch gate: the left front hoof of a tall roan horse stamps on the stones of the yard; the iron horseshoe is loose and rings. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Close-up at a ranch gate: the left front hoof of a tall roan horse stamps on the stones of the yard; the iron horseshoe is loose and rings. Camera: low close-up on the hoof. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B11_first.png",
+    "video": "visuals/video/B11.mp4"
+   }
+  },
+  {
+   "id": "B12",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "John Mercer stands by the barn door, eyes narrowed, silently watching something at the gate.",
+   "camera": "close-up, very slow push",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N05",
+   "start_frame_prompt": "John Mercer stands by the barn door, eyes narrowed, silently watching something at the gate.",
+   "start_frame_full_prompt": "John Mercer stands by the barn door, eyes narrowed, silently watching something at the gate. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "John Mercer stands by the barn door, eyes narrowed, silently watching something at the gate. Camera: close-up, very slow push. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B12_first.png",
+    "video": "visuals/video/B12.mp4"
+   }
+  },
+  {
+   "id": "B13",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night at the ranch: a shaggy farm dog lying on the porch lifts its head, ears up, staring into the dark yard; then it goes still; a man's shadow slides along the barn wall.",
+   "camera": "low angle from the porch",
+   "dialogue": [],
+   "refs": [
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N05",
+   "start_frame_prompt": "Night at the ranch: a shaggy farm dog lying on the porch lifts its head, ears up, staring into the dark yard; then it goes still; a man's shadow slides along the barn wall.",
+   "start_frame_full_prompt": "Night at the ranch: a shaggy farm dog lying on the porch lifts its head, ears up, staring into the dark yard; then it goes still; a man's shadow slides along the barn wall. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Night at the ranch: a shaggy farm dog lying on the porch lifts its head, ears up, staring into the dark yard; then it goes still; a man's shadow slides along the barn wall. Camera: low angle from the porch. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B13_first.png",
+    "video": "visuals/video/B13.mp4"
+   }
+  },
+  {
+   "id": "B14",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, kitchen by lamplight: Clara kneels and lifts a loose floorboard; under it lies the green strongbox wrapped in a flour sack; she lays the board back down quietly.",
+   "camera": "high angle close-up",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CLARA",
+    "PROP_BOX",
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N06",
+   "start_frame_prompt": "Night, kitchen by lamplight: Clara kneels and lifts a loose floorboard; under it lies the green strongbox wrapped in a flour sack; she lays the board back down quietly.",
+   "start_frame_full_prompt": "Night, kitchen by lamplight: Clara kneels and lifts a loose floorboard; under it lies the green strongbox wrapped in a flour sack; she lays the board back down quietly. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Night, kitchen by lamplight: Clara kneels and lifts a loose floorboard; under it lies the green strongbox wrapped in a flour sack; she lays the board back down quietly. Camera: high angle close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "visuals/refs/PROP_BOX.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B14_first.png",
+    "video": "visuals/video/B14.mp4"
+   }
+  },
+  {
+   "id": "B15",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, a rich man's study with a fireplace: Silas Crane stands at the dark window, slowly crushes his cigar in a crystal ashtray, his reflection cold in the glass.",
+   "camera": "slow push in",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CRANE",
+    "LOC_CRANE"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N06",
+   "start_frame_prompt": "Night, a rich man's study with a fireplace: Silas Crane stands at the dark window, slowly crushes his cigar in a crystal ashtray, his reflection cold in the glass.",
+   "start_frame_full_prompt": "Night, a rich man's study with a fireplace: Silas Crane stands at the dark window, slowly crushes his cigar in a crystal ashtray, his reflection cold in the glass. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
+   "video_prompt": "Night, a rich man's study with a fireplace: Silas Crane stands at the dark window, slowly crushes his cigar in a crystal ashtray, his reflection cold in the glass. Camera: slow push in. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "visuals/refs/LOC_CRANE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B15_first.png",
+    "video": "visuals/video/B15.mp4"
+   }
+  },
+  {
+   "id": "B16",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Evening, kitchen table by the oil lamp: Rose, in the gingham dress, carefully sews a torn seam of the ivory lace wedding dress spread across her lap, a small smile.",
+   "camera": "medium close-up",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N07",
+   "start_frame_prompt": "Evening, kitchen table by the oil lamp: Rose, in the gingham dress, carefully sews a torn seam of the ivory lace wedding dress spread across her lap, a small smile.",
+   "start_frame_full_prompt": "Evening, kitchen table by the oil lamp: Rose, in the gingham dress, carefully sews a torn seam of the ivory lace wedding dress spread across her lap, a small smile. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Evening, kitchen table by the oil lamp: Rose, in the gingham dress, carefully sews a torn seam of the ivory lace wedding dress spread across her lap, a small smile. Camera: medium close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B16_first.png",
+    "video": "visuals/video/B16.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress, low bun"
+  },
+  {
+   "id": "B17",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Afternoon: Caleb rides up the dirt road toward the Whitmore ranch, a folded paper warrant in his hand, his face grim.",
+   "camera": "wide shot, then he rides past camera",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CALEB",
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N07",
+   "start_frame_prompt": "Afternoon: Caleb rides up the dirt road toward the Whitmore ranch, a folded paper warrant in his hand, his face grim.",
+   "start_frame_full_prompt": "Afternoon: Caleb rides up the dirt road toward the Whitmore ranch, a folded paper warrant in his hand, his face grim. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Afternoon: Caleb rides up the dirt road toward the Whitmore ranch, a folded paper warrant in his hand, his face grim. Camera: wide shot, then he rides past camera. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B17_first.png",
+    "video": "visuals/video/B17.mp4"
+   }
+  },
+  {
+   "id": "B18",
+   "type": "clip",
+   "duration_s": 8,
+   "action": "Night inside the jail: Caleb sits on a stool outside the iron bars, reading aloud from an old leather-bound book by lamplight; behind the bars Rose sits on the cot in her mended wedding dress, listening.",
+   "camera": "slow dolly sideways along the bars",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CALEB",
+    "CHAR_ROSE",
+    "LOC_JAIL"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N09",
+   "start_frame_prompt": "Night inside the jail: Caleb sits on a stool outside the iron bars, reading aloud from an old leather-bound book by lamplight; behind the bars Rose sits on the cot in her mended wedding dress, listening.",
+   "start_frame_full_prompt": "Night inside the jail: Caleb sits on a stool outside the iron bars, reading aloud from an old leather-bound book by lamplight; behind the bars Rose sits on the cot in her mended wedding dress, listening. Rose wears: A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+   "video_prompt": "Night inside the jail: Caleb sits on a stool outside the iron bars, reading aloud from an old leather-bound book by lamplight; behind the bars Rose sits on the cot in her mended wedding dress, listening. Camera: slow dolly sideways along the bars. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/LOC_JAIL.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B18_first.png",
+    "video": "visuals/video/B18.mp4"
+   },
+   "rose_outfit": "A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back"
+  },
+  {
+   "id": "B19",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Close-up, night: Rose behind the iron bars listens with a soft, amused smile, lamplight on her face, her lips closed.",
+   "camera": "close-up, very slow push",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "LOC_JAIL"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N09",
+   "start_frame_prompt": "Close-up, night: Rose behind the iron bars listens with a soft, amused smile, lamplight on her face, her lips closed.",
+   "start_frame_full_prompt": "Close-up, night: Rose behind the iron bars listens with a soft, amused smile, lamplight on her face, her lips closed. Rose wears: A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+   "video_prompt": "Close-up, night: Rose behind the iron bars listens with a soft, amused smile, lamplight on her face, her lips closed. Camera: close-up, very slow push. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/LOC_JAIL.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B19_first.png",
+    "video": "visuals/video/B19.mp4"
+   },
+   "rose_outfit": "A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back"
+  },
+  {
+   "id": "B20",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night exterior: the small log jail at the far end of the main street, one warm lit window, the street empty and silver in moonlight, a dog trotting past.",
+   "camera": "wide static shot",
+   "dialogue": [],
+   "refs": [
+    "LOC_STREET",
+    "LOC_JAIL"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N09",
+   "start_frame_prompt": "Night exterior: the small log jail at the far end of the main street, one warm lit window, the street empty and silver in moonlight, a dog trotting past.",
+   "start_frame_full_prompt": "Night exterior: the small log jail at the far end of the main street, one warm lit window, the street empty and silver in moonlight, a dog trotting past. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+   "video_prompt": "Night exterior: the small log jail at the far end of the main street, one warm lit window, the street empty and silver in moonlight, a dog trotting past. Camera: wide static shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png",
+    "visuals/refs/LOC_JAIL.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B20_first.png",
+    "video": "visuals/video/B20.mp4"
+   }
+  },
+  {
+   "id": "B21",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, a log ranch house far out on the plain under the stars: an oil lamp burns in the window; aspens move softly in the wind.",
+   "camera": "very slow push toward the lit window",
+   "dialogue": [],
+   "refs": [
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N09",
+   "start_frame_prompt": "Night, a log ranch house far out on the plain under the stars: an oil lamp burns in the window; aspens move softly in the wind.",
+   "start_frame_full_prompt": "Night, a log ranch house far out on the plain under the stars: an oil lamp burns in the window; aspens move softly in the wind. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Night, a log ranch house far out on the plain under the stars: an oil lamp burns in the window; aspens move softly in the wind. Camera: very slow push toward the lit window. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B21_first.png",
+    "video": "visuals/video/B21.mp4"
+   }
+  },
+  {
+   "id": "B22",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Extreme close-up by lamplight: a woman's hand in a lace sleeve reaches through the iron bars and a man's hand takes it; their fingers hold on.",
+   "camera": "extreme close-up",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "CHAR_CALEB",
+    "LOC_JAIL"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N10",
+   "start_frame_prompt": "Extreme close-up by lamplight: a woman's hand in a lace sleeve reaches through the iron bars and a man's hand takes it; their fingers hold on.",
+   "start_frame_full_prompt": "Extreme close-up by lamplight: a woman's hand in a lace sleeve reaches through the iron bars and a man's hand takes it; their fingers hold on. Rose wears: A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+   "video_prompt": "Extreme close-up by lamplight: a woman's hand in a lace sleeve reaches through the iron bars and a man's hand takes it; their fingers hold on. Camera: extreme close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "visuals/refs/LOC_JAIL.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B22_first.png",
+    "video": "visuals/video/B22.mp4"
+   },
+   "rose_outfit": "A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back"
+  },
+  {
+   "id": "B23",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, thick smoke pouring from the jail door: John Mercer drags a coughing Caleb out into the street, both blackened with soot, flames behind them.",
+   "camera": "handheld medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "CHAR_CALEB",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": true,
+   "broll": true,
+   "for": "N11",
+   "start_frame_prompt": "Night, thick smoke pouring from the jail door: John Mercer drags a coughing Caleb out into the street, both blackened with soot, flames behind them.",
+   "start_frame_full_prompt": "Night, thick smoke pouring from the jail door: John Mercer drags a coughing Caleb out into the street, both blackened with soot, flames behind them. First frame of the shot, characters in position, everyone's mouth closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Night, thick smoke pouring from the jail door: John Mercer drags a coughing Caleb out into the street, both blackened with soot, flames behind them. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: handheld medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B23_first.png",
+    "video": "visuals/video/B23.mp4"
+   }
+  },
+  {
+   "id": "B24",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Sunrise: the burned jail is a black, smoking shell of charred logs; townspeople stand silently in the street looking at it.",
+   "camera": "slow wide pan",
+   "dialogue": [],
+   "refs": [
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N11",
+   "start_frame_prompt": "Sunrise: the burned jail is a black, smoking shell of charred logs; townspeople stand silently in the street looking at it.",
+   "start_frame_full_prompt": "Sunrise: the burned jail is a black, smoking shell of charred logs; townspeople stand silently in the street looking at it. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Sunrise: the burned jail is a black, smoking shell of charred logs; townspeople stand silently in the street looking at it. Camera: slow wide pan. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B24_first.png",
+    "video": "visuals/video/B24.mp4"
+   }
+  },
+  {
+   "id": "B25",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Early morning in the street: Clara wraps a shawl around Rose's shoulders and hands her a folded green gingham dress; Rose's wedding dress is smudged with soot.",
+   "camera": "medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CLARA",
+    "CHAR_ROSE",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N11",
+   "start_frame_prompt": "Early morning in the street: Clara wraps a shawl around Rose's shoulders and hands her a folded green gingham dress; Rose's wedding dress is smudged with soot.",
+   "start_frame_full_prompt": "Early morning in the street: Clara wraps a shawl around Rose's shoulders and hands her a folded green gingham dress; Rose's wedding dress is smudged with soot. Rose wears: A: the same ivory lace wedding dress, mended, now smudged with soot at the hem and sleeves. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Early morning in the street: Clara wraps a shawl around Rose's shoulders and hands her a folded green gingham dress; Rose's wedding dress is smudged with soot. Camera: medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B25_first.png",
+    "video": "visuals/video/B25.mp4"
+   },
+   "rose_outfit": "A: the same ivory lace wedding dress, mended, now smudged with soot at the hem and sleeves"
+  },
+  {
+   "id": "B26",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "In the ashes by a hitching rail, John Mercer crouches and picks up a blackened horseshoe, turning it in his fingers to look at a nail snapped off short.",
+   "camera": "close-up on his hands, then his face",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N11",
+   "start_frame_prompt": "In the ashes by a hitching rail, John Mercer crouches and picks up a blackened horseshoe, turning it in his fingers to look at a nail snapped off short.",
+   "start_frame_full_prompt": "In the ashes by a hitching rail, John Mercer crouches and picks up a blackened horseshoe, turning it in his fingers to look at a nail snapped off short. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "In the ashes by a hitching rail, John Mercer crouches and picks up a blackened horseshoe, turning it in his fingers to look at a nail snapped off short. Camera: close-up on his hands, then his face. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B26_first.png",
+    "video": "visuals/video/B26.mp4"
+   }
+  },
+  {
+   "id": "B27",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night, kitchen, oil lamp: Clara pulls a long hairpin from her braided hair and hands it to Rose; Rose bends it straight between her fingers.",
+   "camera": "medium close-up",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CLARA",
+    "CHAR_ROSE",
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N12",
+   "start_frame_prompt": "Night, kitchen, oil lamp: Clara pulls a long hairpin from her braided hair and hands it to Rose; Rose bends it straight between her fingers.",
+   "start_frame_full_prompt": "Night, kitchen, oil lamp: Clara pulls a long hairpin from her braided hair and hands it to Rose; Rose bends it straight between her fingers. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Night, kitchen, oil lamp: Clara pulls a long hairpin from her braided hair and hands it to Rose; Rose bends it straight between her fingers. Camera: medium close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B27_first.png",
+    "video": "visuals/video/B27.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress, low bun"
+  },
+  {
+   "id": "B28",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Extreme close-up by lamplight: a bent hairpin works inside a small steel lock; it clicks open and the inner iron lid lifts to reveal a bundle of folded letters tied with string.",
+   "camera": "extreme close-up",
+   "dialogue": [],
+   "refs": [
+    "PROP_BOX"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N12",
+   "start_frame_prompt": "Extreme close-up by lamplight: a bent hairpin works inside a small steel lock; it clicks open and the inner iron lid lifts to reveal a bundle of folded letters tied with string.",
+   "start_frame_full_prompt": "Extreme close-up by lamplight: a bent hairpin works inside a small steel lock; it clicks open and the inner iron lid lifts to reveal a bundle of folded letters tied with string. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched",
+   "video_prompt": "Extreme close-up by lamplight: a bent hairpin works inside a small steel lock; it clicks open and the inner iron lid lifts to reveal a bundle of folded letters tied with string. Camera: extreme close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/PROP_BOX.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B28_first.png",
+    "video": "visuals/video/B28.mp4"
+   }
+  },
+  {
+   "id": "B29",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Close-up on a table by lamplight: two letters lie side by side, one signed, one unsigned; a woman's finger traces the same looping capital letters on both.",
+   "camera": "slow push in from above",
+   "dialogue": [],
+   "refs": [
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N13",
+   "start_frame_prompt": "Close-up on a table by lamplight: two letters lie side by side, one signed, one unsigned; a woman's finger traces the same looping capital letters on both.",
+   "start_frame_full_prompt": "Close-up on a table by lamplight: two letters lie side by side, one signed, one unsigned; a woman's finger traces the same looping capital letters on both. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Close-up on a table by lamplight: two letters lie side by side, one signed, one unsigned; a woman's finger traces the same looping capital letters on both. Camera: slow push in from above. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B29_first.png",
+    "video": "visuals/video/B29.mp4"
+   }
+  },
+  {
+   "id": "B30",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Denver, 1880, an express company office with ledgers and a wall clock: a nervous young clerk in sleeve garters and spectacles glances over his shoulder and slips a folded schedule into the gloved hand of a man in a charcoal suit.",
+   "camera": "medium shot",
+   "dialogue": [],
+   "refs": [],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N13",
+   "start_frame_prompt": "Denver, 1880, an express company office with ledgers and a wall clock: a nervous young clerk in sleeve garters and spectacles glances over his shoulder and slips a folded schedule into the gloved hand of a man in a charcoal suit.",
+   "start_frame_full_prompt": "Denver, 1880, an express company office with ledgers and a wall clock: a nervous young clerk in sleeve garters and spectacles glances over his shoulder and slips a folded schedule into the gloved hand of a man in a charcoal suit. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects.",
+   "video_prompt": "Denver, 1880, an express company office with ledgers and a wall clock: a nervous young clerk in sleeve garters and spectacles glances over his shoulder and slips a folded schedule into the gloved hand of a man in a charcoal suit. Camera: medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [],
+   "files": {
+    "start_frame": "visuals/images/B30_first.png",
+    "video": "visuals/video/B30.mp4"
+   }
+  },
+  {
+   "id": "B31",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night at a stage depot under a lantern: the same nervous young clerk presses a bundle of letters tied with string into the hands of Amos Pruitt, the old express guard; Amos nods gravely.",
+   "camera": "medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_AMOS"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N13",
+   "start_frame_prompt": "Night at a stage depot under a lantern: the same nervous young clerk presses a bundle of letters tied with string into the hands of Amos Pruitt, the old express guard; Amos nods gravely.",
+   "start_frame_full_prompt": "Night at a stage depot under a lantern: the same nervous young clerk presses a bundle of letters tied with string into the hands of Amos Pruitt, the old express guard; Amos nods gravely. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Amos Pruitt: 66-year-old man, short white beard, kind tired eyes behind small round spectacles, brown wool coat, battered brown hat, double-barreled coach gun",
+   "video_prompt": "Night at a stage depot under a lantern: the same nervous young clerk presses a bundle of letters tied with string into the hands of Amos Pruitt, the old express guard; Amos nods gravely. Camera: medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_AMOS_front.png",
+    "visuals/refs/CHAR_AMOS_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B31_first.png",
+    "video": "visuals/video/B31.mp4"
+   }
+  },
+  {
+   "id": "B32",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night: in a rich man's study, Silas Crane drops a letter into the fireplace and watches it curl and burn, his face lit orange by the flames.",
+   "camera": "close-up",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CRANE",
+    "LOC_CRANE"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N13",
+   "start_frame_prompt": "Night: in a rich man's study, Silas Crane drops a letter into the fireplace and watches it curl and burn, his face lit orange by the flames.",
+   "start_frame_full_prompt": "Night: in a rich man's study, Silas Crane drops a letter into the fireplace and watches it curl and burn, his face lit orange by the flames. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
+   "video_prompt": "Night: in a rich man's study, Silas Crane drops a letter into the fireplace and watches it curl and burn, his face lit orange by the flames. Camera: close-up. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "visuals/refs/LOC_CRANE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B32_first.png",
+    "video": "visuals/video/B32.mp4"
+   }
+  },
+  {
+   "id": "B33",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Morning in Crane's empty study: an iron safe stands wide open and empty, papers scattered on the floor; the marshal walks in slowly, holding a folded warrant.",
+   "camera": "wide shot, slow push",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MARSHAL",
+    "LOC_CRANE"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N14",
+   "start_frame_prompt": "Morning in Crane's empty study: an iron safe stands wide open and empty, papers scattered on the floor; the marshal walks in slowly, holding a folded warrant.",
+   "start_frame_full_prompt": "Morning in Crane's empty study: an iron safe stands wide open and empty, papers scattered on the floor; the marshal walks in slowly, holding a folded warrant. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Marshal Abel Hart: 50-year-old lawman, thick gray walrus mustache, deep-set eyes, long gray wool coat, five-pointed silver star badge, brown wide-brimmed hat | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
+   "video_prompt": "Morning in Crane's empty study: an iron safe stands wide open and empty, papers scattered on the floor; the marshal walks in slowly, holding a folded warrant. Camera: wide shot, slow push. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_full.png",
+    "visuals/refs/LOC_CRANE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B33_first.png",
+    "video": "visuals/video/B33.mp4"
+   }
+  },
+  {
+   "id": "B34",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "John Mercer kneels in the dust outside a big ranch house, touching fresh hoofprints with two fingers, then looks up toward distant red hills.",
+   "camera": "low medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "LOC_CRANE"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N14",
+   "start_frame_prompt": "John Mercer kneels in the dust outside a big ranch house, touching fresh hoofprints with two fingers, then looks up toward distant red hills.",
+   "start_frame_full_prompt": "John Mercer kneels in the dust outside a big ranch house, touching fresh hoofprints with two fingers, then looks up toward distant red hills. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Crane's ranch: large prosperous ranch: a two-story white clapboard house with a wide veranda, big red barn, long corrals full of cattle, a fancy black buggy by the porch, a line of horses at the hitching rail",
+   "video_prompt": "John Mercer kneels in the dust outside a big ranch house, touching fresh hoofprints with two fingers, then looks up toward distant red hills. Camera: low medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "visuals/refs/LOC_CRANE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B34_first.png",
+    "video": "visuals/video/B34.mp4"
+   }
+  },
+  {
+   "id": "B35",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Three riders gallop out across golden grassland toward red hills: the marshal in his gray coat, John Mercer on his dark bay, and Caleb with his left arm in a white sling.",
+   "camera": "wide tracking shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MARSHAL",
+    "CHAR_MERCER",
+    "CHAR_CALEB",
+    "PROP_HORSE"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": true,
+   "broll": true,
+   "for": "N14",
+   "start_frame_prompt": "Three riders gallop out across golden grassland toward red hills: the marshal in his gray coat, John Mercer on his dark bay, and Caleb with his left arm in a white sling.",
+   "start_frame_full_prompt": "Three riders gallop out across golden grassland toward red hills: the marshal in his gray coat, John Mercer on his dark bay, and Caleb with his left arm in a white sling. First frame of the shot, characters in position, everyone's mouth closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Marshal Abel Hart: 50-year-old lawman, thick gray walrus mustache, deep-set eyes, long gray wool coat, five-pointed silver star badge, brown wide-brimmed hat | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Mercer's horse: tall dark bay horse with a white blaze on the face and black mane, worn brown western saddle with a rolled gray blanket",
+   "video_prompt": "Three riders gallop out across golden grassland toward red hills: the marshal in his gray coat, John Mercer on his dark bay, and Caleb with his left arm in a white sling. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: wide tracking shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/PROP_HORSE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B35_first.png",
+    "video": "visuals/video/B35.mp4"
+   }
+  },
+  {
+   "id": "B36",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "On the rim of a red sandstone canyon, Buck Tolliver lies behind a rock with a rifle, watching the canyon floor below.",
+   "camera": "over-the-shoulder looking down into the canyon",
+   "dialogue": [],
+   "refs": [
+    "CHAR_BUCK",
+    "LOC_CANYON"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N15",
+   "start_frame_prompt": "On the rim of a red sandstone canyon, Buck Tolliver lies behind a rock with a rifle, watching the canyon floor below.",
+   "start_frame_full_prompt": "On the rim of a red sandstone canyon, Buck Tolliver lies behind a rock with a rifle, watching the canyon floor below. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Buck Tolliver: 35-year-old rough man, an original fictional character, a pale scar across the left cheek, unshaven black stubble, narrow dark eyes, black bandana around the neck (pulled over the face when masked), shaggy sheepskin-lined brown coat, battered gray hat, two revolvers | Red Canyon: narrow winding canyon of red sandstone walls, a dry creek bed of pale stones, scattered junipers, boulders big enough to hide behind, a strip of blue sky above",
+   "video_prompt": "On the rim of a red sandstone canyon, Buck Tolliver lies behind a rock with a rifle, watching the canyon floor below. Camera: over-the-shoulder looking down into the canyon. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_BUCK_front.png",
+    "visuals/refs/CHAR_BUCK_full.png",
+    "visuals/refs/LOC_CANYON.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B36_first.png",
+    "video": "visuals/video/B36.mp4"
+   }
+  },
+  {
+   "id": "B37",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "John Mercer climbs silently around through tumbled red boulders behind the canyon rim, rifle on his back, moving low and careful.",
+   "camera": "tracking shot through the rocks",
+   "dialogue": [],
+   "refs": [
+    "CHAR_MERCER",
+    "LOC_CANYON"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N15",
+   "start_frame_prompt": "John Mercer climbs silently around through tumbled red boulders behind the canyon rim, rifle on his back, moving low and careful.",
+   "start_frame_full_prompt": "John Mercer climbs silently around through tumbled red boulders behind the canyon rim, rifle on his back, moving low and careful. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Red Canyon: narrow winding canyon of red sandstone walls, a dry creek bed of pale stones, scattered junipers, boulders big enough to hide behind, a strip of blue sky above",
+   "video_prompt": "John Mercer climbs silently around through tumbled red boulders behind the canyon rim, rifle on his back, moving low and careful. Camera: tracking shot through the rocks. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "visuals/refs/LOC_CANYON.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B37_first.png",
+    "video": "visuals/video/B37.mp4"
+   }
+  },
+  {
+   "id": "B38",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Silas Crane rides alone at a trot up the dirt road toward the Whitmore ranch, his cream hat low, a revolver at his hip.",
+   "camera": "wide shot from the porch",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CRANE",
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N16",
+   "start_frame_prompt": "Silas Crane rides alone at a trot up the dirt road toward the Whitmore ranch, his cream hat low, a revolver at his hip.",
+   "start_frame_full_prompt": "Silas Crane rides alone at a trot up the dirt road toward the Whitmore ranch, his cream hat low, a revolver at his hip. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Silas Crane rides alone at a trot up the dirt road toward the Whitmore ranch, his cream hat low, a revolver at his hip. Camera: wide shot from the porch. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B38_first.png",
+    "video": "visuals/video/B38.mp4"
+   }
+  },
+  {
+   "id": "B39",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Inside the kitchen, Rose alone in her gingham dress dries a tin plate; she hears hoofbeats outside, stops, and slowly turns toward the window.",
+   "camera": "medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "LOC_KITCHEN"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N16",
+   "start_frame_prompt": "Inside the kitchen, Rose alone in her gingham dress dries a tin plate; she hears hoofbeats outside, stops, and slowly turns toward the window.",
+   "start_frame_full_prompt": "Inside the kitchen, Rose alone in her gingham dress dries a tin plate; she hears hoofbeats outside, stops, and slowly turns toward the window. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Whitmore kitchen: simple kitchen in a log house, wood stove, rough wooden table with three chairs, tin plates, oil lamp, coffee pot",
+   "video_prompt": "Inside the kitchen, Rose alone in her gingham dress dries a tin plate; she hears hoofbeats outside, stops, and slowly turns toward the window. Camera: medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_KITCHEN.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B39_first.png",
+    "video": "visuals/video/B39.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress, low bun"
+  },
+  {
+   "id": "B40",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "A wood-paneled Denver courtroom, 1880: old Amos Pruitt, one arm in a sling, stands at the witness stand and raises his right hand to swear.",
+   "camera": "slow push in",
+   "dialogue": [],
+   "refs": [
+    "CHAR_AMOS"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N17",
+   "start_frame_prompt": "A wood-paneled Denver courtroom, 1880: old Amos Pruitt, one arm in a sling, stands at the witness stand and raises his right hand to swear.",
+   "start_frame_full_prompt": "A wood-paneled Denver courtroom, 1880: old Amos Pruitt, one arm in a sling, stands at the witness stand and raises his right hand to swear. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Amos Pruitt: 66-year-old man, short white beard, kind tired eyes behind small round spectacles, brown wool coat, battered brown hat, double-barreled coach gun",
+   "video_prompt": "A wood-paneled Denver courtroom, 1880: old Amos Pruitt, one arm in a sling, stands at the witness stand and raises his right hand to swear. Camera: slow push in. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_AMOS_front.png",
+    "visuals/refs/CHAR_AMOS_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B40_first.png",
+    "video": "visuals/video/B40.mp4"
+   }
+  },
+  {
+   "id": "B41",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "A barred iron prison wagon rolls away down a dusty road toward a stone penitentiary; through the bars Silas Crane and Buck Tolliver sit in chains, staring ahead.",
+   "camera": "wide shot, the wagon rolls away from camera",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CRANE",
+    "CHAR_BUCK"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N17",
+   "start_frame_prompt": "A barred iron prison wagon rolls away down a dusty road toward a stone penitentiary; through the bars Silas Crane and Buck Tolliver sit in chains, staring ahead.",
+   "start_frame_full_prompt": "A barred iron prison wagon rolls away down a dusty road toward a stone penitentiary; through the bars Silas Crane and Buck Tolliver sit in chains, staring ahead. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Buck Tolliver: 35-year-old rough man, an original fictional character, a pale scar across the left cheek, unshaven black stubble, narrow dark eyes, black bandana around the neck (pulled over the face when masked), shaggy sheepskin-lined brown coat, battered gray hat, two revolvers",
+   "video_prompt": "A barred iron prison wagon rolls away down a dusty road toward a stone penitentiary; through the bars Silas Crane and Buck Tolliver sit in chains, staring ahead. Camera: wide shot, the wagon rolls away from camera. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "visuals/refs/CHAR_BUCK_front.png",
+    "visuals/refs/CHAR_BUCK_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B41_first.png",
+    "video": "visuals/video/B41.mp4"
+   }
+  },
+  {
+   "id": "B42",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Golden sunset over the Whitmore ranch: long shadows, aspens glowing, smoke rising from the chimney, a woman standing on the porch.",
+   "camera": "wide static shot",
+   "dialogue": [],
+   "refs": [
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N18",
+   "start_frame_prompt": "Golden sunset over the Whitmore ranch: long shadows, aspens glowing, smoke rising from the chimney, a woman standing on the porch.",
+   "start_frame_full_prompt": "Golden sunset over the Whitmore ranch: long shadows, aspens glowing, smoke rising from the chimney, a woman standing on the porch. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Golden sunset over the Whitmore ranch: long shadows, aspens glowing, smoke rising from the chimney, a woman standing on the porch. Camera: wide static shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B42_first.png",
+    "video": "visuals/video/B42.mp4"
+   }
+  },
+  {
+   "id": "B43",
+   "type": "clip",
+   "duration_s": 8,
+   "action": "A small October wedding outdoors under golden aspen trees: Clara in a simple cream dress and John Mercer in a dark suit stand before an old preacher; a few townspeople watch, and little Lily holds wildflowers.",
+   "camera": "slow dolly in",
+   "dialogue": [],
+   "refs": [
+    "CHAR_CLARA",
+    "CHAR_MERCER",
+    "CHAR_LILY"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N19",
+   "start_frame_prompt": "A small October wedding outdoors under golden aspen trees: Clara in a simple cream dress and John Mercer in a dark suit stand before an old preacher; a few townspeople watch, and little Lily holds wildflowers.",
+   "start_frame_full_prompt": "A small October wedding outdoors under golden aspen trees: Clara in a simple cream dress and John Mercer in a dark suit stand before an old preacher; a few townspeople watch, and little Lily holds wildflowers. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | John Mercer: 40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, gray at the temples, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat, faded blue Union cavalry trousers, worn brown leather gun belt, walks with a slight limp on the left leg | Lily Whitmore: 8-year-old girl, freckles, two light-brown braids tied with faded blue ribbons, pale yellow cotton pinafore dress over a white blouse, scuffed brown lace-up boots, carries a small rag doll",
+   "video_prompt": "A small October wedding outdoors under golden aspen trees: Clara in a simple cream dress and John Mercer in a dark suit stand before an old preacher; a few townspeople watch, and little Lily holds wildflowers. Camera: slow dolly in. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MERCER_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_LILY_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_LILY_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B43_first.png",
+    "video": "visuals/video/B43.mp4"
+   }
+  },
+  {
+   "id": "B44",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "At the same aspen wedding, Rose in her gingham dress and Caleb in his vest stand beside the couple as witnesses, smiling at each other.",
+   "camera": "medium shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "CHAR_CALEB"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N19",
+   "start_frame_prompt": "At the same aspen wedding, Rose in her gingham dress and Caleb in his vest stand beside the couple as witnesses, smiling at each other.",
+   "start_frame_full_prompt": "At the same aspen wedding, Rose in her gingham dress and Caleb in his vest stand beside the couple as witnesses, smiling at each other. Rose wears: B: faded green gingham dress, low bun. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster",
+   "video_prompt": "At the same aspen wedding, Rose in her gingham dress and Caleb in his vest stand beside the couple as witnesses, smiling at each other. Camera: medium shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B44_first.png",
+    "video": "visuals/video/B44.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress, low bun"
+  },
+  {
+   "id": "B45",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Spring: Rose in her ivory lace wedding dress and Caleb walk out of the little white church into sunshine and green grass; townspeople throw rice.",
+   "camera": "wide shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ROSE",
+    "CHAR_CALEB",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "action_shot": false,
+   "broll": true,
+   "for": "N19",
+   "start_frame_prompt": "Spring: Rose in her ivory lace wedding dress and Caleb walk out of the little white church into sunshine and green grass; townspeople throw rice.",
+   "start_frame_full_prompt": "Spring: Rose in her ivory lace wedding dress and Caleb walk out of the little white church into sunshine and green grass; townspeople throw rice. Rose wears: A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video_prompt": "Spring: Rose in her ivory lace wedding dress and Caleb walk out of the little white church into sunshine and green grass; townspeople throw rice. Camera: wide shot. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B45_first.png",
+    "video": "visuals/video/B45.mp4"
+   },
+   "rose_outfit": "A: the same ivory lace wedding dress, cleaned and carefully mended, veil pinned back"
+  },
+  {
+   "id": "B46",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Night: an oil lamp burning in the window of a log ranch house, seen from outside through the glass, warm and steady.",
+   "camera": "very slow push in toward the lamp",
+   "dialogue": [],
+   "refs": [
+    "LOC_RANCH"
+   ],
+   "priority": "core",
+   "night": true,
+   "action_shot": false,
+   "broll": true,
+   "for": "N19",
+   "start_frame_prompt": "Night: an oil lamp burning in the window of a log ranch house, seen from outside through the glass, warm and steady.",
+   "start_frame_full_prompt": "Night: an oil lamp burning in the window of a log ranch house, seen from outside through the glass, warm and steady. First frame of the shot, characters in position, everyone's mouth closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, early autumn 1880, natural light, 35mm film grain, muted warm earth tones with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Night scene: moonlight and warm firelight or lamplight, deep shadows, faces still clearly readable. Characters/places: Whitmore ranch exterior: small weathered log-and-plank ranch house with a covered front porch, split-rail fence, small barn with a corral, dirt road leading up, foothills and golden aspen trees, a hill with a single wooden grave cross behind the house",
+   "video_prompt": "Night: an oil lamp burning in the window of a log ranch house, seen from outside through the glass, warm and steady. Camera: very slow push in toward the lamp. No dialogue: nobody speaks, every mouth stays closed. Natural ambient sound only (wind, hooves, fire, crowd murmur, crickets). Cinematic live-action western drama, photorealistic, 16:9, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_RANCH.png"
+   ],
+   "files": {
+    "start_frame": "visuals/images/B46_first.png",
+    "video": "visuals/video/B46.mp4"
+   }
+  },
+  {
+   "id": "NX",
+   "type": "narration",
+   "text": "Tales of Cedar Bluff."
+  }
+ ],
+ "hooks": [],
+ "production": {
+  "schema_version": 1,
+  "review_gates": {
+   "references": {
+    "enabled": false
+   },
+   "audio": {
+    "enabled": false
+   },
+   "visuals": {
+    "enabled": false
+   },
+   "video_sample": {
+    "enabled": false
+   },
+   "videos": {
+    "enabled": false
+   }
+  },
+  "edit": {
+   "dialogue_tail_seconds": 0.8,
+   "narration_voice_offset_seconds": 0.4,
+   "transition_seconds": 0.3,
+   "end_screen_tail_seconds": 0,
+   "contact_sheet": "one_frame_per_timeline_visual"
+  },
+  "audio_mix": {
+   "speech_active_rms_db": -20,
+   "ambient_clip_rms_db": -24,
+   "music_base_rms_db": -18,
+   "duck_under_speech_db": -15,
+   "duck_under_clip_db": -6,
+   "duck_attack_seconds": 0.15,
+   "duck_release_seconds": 0.6,
+   "integrated_lufs": -14,
+   "true_peak_db": -1.5
+  },
+  "voice": {
+   "provider": "elevenlabs",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "model": "eleven_multilingual_v2",
+   "speed": 1,
+   "timestamps": true,
+   "output_format": "mp3_44100_128",
+   "stability": 0.55,
+   "similarity_boost": 0.8,
+   "style": 0.15,
+   "use_speaker_boost": true
+  },
+  "subtitle": {
+   "language": "en",
+   "name": "English"
+  },
+  "export": {
+   "package_branch": "pkg/western_stagecoach_bride_fix1",
+   "film_branch": "film/western_stagecoach_bride_fix1"
+  },
+  "qc": {
+   "long_duration_min_seconds": 1,
+   "long_duration_max_seconds": 3600,
+   "black_silence_max_seconds": 60
+  }
+ }
+}
