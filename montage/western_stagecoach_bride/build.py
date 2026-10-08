@@ -148,9 +148,14 @@ def build_edl():
         elif kind == "end":
             ev["dur"] = extra
         elif kind == "narr":
-            audio = f"{SRC}/audio/narration/{eid}.mp3"
-            ev["audio"] = audio
-            ev["voice_dur"] = round(probe(audio), 3)
+            spec = extra if isinstance(extra, dict) else {"vis": extra}
+            src_id = spec.get("src", eid)
+            audio = f"{SRC}/audio/narration/{src_id}.mp3"
+            ev["audio"], ev["src"] = audio, src_id
+            ev["a_from"] = float(spec.get("from", 0.0))
+            ev["a_to"] = float(spec.get("to", probe(audio)))
+            ev["voice_dur"] = round(ev["a_to"] - ev["a_from"], 3)
+            extra = spec["vis"]
             ev["dur"] = round(VOFF + ev["voice_dur"] + VTAIL, 3)
             vis = [parse_vis(s) for s in extra]
             total_w = sum(v["w"] for v in vis)
@@ -364,7 +369,7 @@ def mix(edl):
     TARGET = dbv(-20)
     for ev in edl["events"]:
         if ev["kind"] == "narr":
-            x = load(ev["audio"]); x *= TARGET / active_rms(x)
+            x = fade(load(ev["audio"], ev.get("a_from", 0.0), ev["voice_dur"]), 0.01, 0.12); x *= TARGET / active_rms(x)
             st = ev["rstart"] + VOFF
             put(speech, x, st); vact[int(st * SR):int(st * SR) + len(x)] = 1
             # quiet natural ambience of the b-roll under the narrator
@@ -456,7 +461,7 @@ def srt(edl):
     cues = []
     for ev in edl["events"]:
         if ev["kind"] == "narr":
-            al = json.load(open(f"{SRC}/audio/narration/{ev['id']}.alignment.json"))["alignment"]
+            al = json.load(open(f"{SRC}/audio/narration/{ev.get('src', ev['id'])}.alignment.json"))["alignment"]
             words, cur, ws, we = [], "", None, None
             for c, a, b in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
                 if c.isspace():
@@ -468,6 +473,8 @@ def srt(edl):
                 cur += c; we = b
             if cur:
                 words.append((cur, ws, we))
+            a0 = ev.get("a_from", 0.0)
+            words = [(w, a - a0, b - a0) for w, a, b in words if a >= a0 - 0.05 and b <= ev.get("a_to", 1e9) + 0.05]
             base = ev["rstart"] + VOFF
             group = []
             for w in words:

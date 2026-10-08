@@ -21,13 +21,15 @@ Numbers after "|" are relative weights (default = clip length or 4.5 for stills)
 #       narr  -> narration block, extra = list of visuals
 #       end   -> end screen (seconds)
 PLAN = [
-    # ---------- COLD OPEN: the title scene ----------
-    ("clip", "C60", None),
-    ("clip", "C61R", None),
-    ("clip", "C102R", "0-4.2"),
-    ("clip", "C103", None),
-    ("clip", "C104", None),
-    ("title", "T00", ("THREE DAYS EARLIER", 2.6)),
+    # ---------- COLD OPEN: a line from the very first second (film 1 lost 40% in the first 30 s) ----------
+    ("clip", "C103", None),            # 0:00 "I wore it for you, Caleb. Like I promised."
+    ("clip", "C104", None),            # "Keep walking, ma'am."
+    ("clip", "C60", "0-5"),            # the walk, the town staring
+    ("clip", "C61R", None),            # Agatha: "Look at her, ladies..."
+    ("clip", "C102R", "0-3.5"),        # the crowd laughs
+    # the hook: first sentence of N01 ("...never seen the face of the man she had come a thousand miles to marry")
+    ("narr", "N00", {"src": "N01", "from": 0.0, "to": 10.9, "vis": ["C112@0-7", "frame:C103@3.6|4"]}),
+    ("title", "T00", ("THREE DAYS EARLIER", 2.4)),
     # ---------- the robbery ----------
     ("clip", "C28", None),
     ("clip", "C29", None),
@@ -41,7 +43,7 @@ PLAN = [
     ("clip", "C05", None),
     ("clip", "C34", None),
     ("clip", "C35", None),
-    ("narr", "N01", ["B01", "B02", "img:I01", "B03", "C60@1-5|4", "img:I02", "C06|5"]),
+    ("narr", "N01", {"from": 11.0, "vis": ["B01", "B02", "img:I01", "B03", "C60@1-5|4", "img:I02", "C06|5"]}),
     ("title", "T01", ("THE STAGECOACH BRIDE", 4.0)),
     ("clip", "C105", None),
     ("clip", "C106", None),
@@ -153,7 +155,7 @@ PLAN = [
 
 # music: (cue, anchor event id, offset seconds). Each cue plays until the next one starts (2 s crossfade).
 MUSIC = [
-    ("M09", "C60", 0.0),     # cold open: the tender, sad theme (comes back at the arrest)
+    ("M09", "C103", 0.0),    # cold open: the tender, sad theme (comes back at the arrest)
     ("M06", "T00", 0.0),     # on the stage, danger coming
     ("M01", "C31", 0.0),     # the robbery chase
     ("M07", "N01", 0.0),     # alone on the mountain
@@ -173,5 +175,5 @@ MUSIC = [
 
 # the animated SUBSCRIBE badge (bell rings): event id + seconds into the event; never on N09 (the address).
 # First one at ~0:28 - average viewer leaves around 0:30 (owner's request, 8 Oct).
-BADGE_AT = [("C29", 0.6), ("N02", 1.5), ("N09", None), ("N11", 2.0), ("N16", 1.5)]
+BADGE_AT = [("N00", 6.0), ("N02", 1.5), ("N09", 9.0), ("N11", 2.0), ("N16", 1.5)]   # N09: on the narrator's address
 BADGE_AT = [b for b in BADGE_AT if b[1] is not None]
