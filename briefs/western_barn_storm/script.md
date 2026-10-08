@@ -49,7 +49,7 @@
 | 0:17 | Гребень холма, молния, трое всадников в дождевиках. Пайк разворачивает мокрый листок. | **PIKE:** "Five hundred dollars for the boy." |
 | 0:21 | Наёмник рядом. | **GUNMAN:** "And the woman?" |
 | 0:23 | Пайк комкает листок. | **PIKE:** "The woman doesn't matter." |
-| 0:25 | Окно дома загорается в грозе; всадники трогаются вниз по склону. Значок «Подписаться» ~0:28. | **NARRATOR (N00):** "Wade Harlan had not opened his door to anyone in three years. That night he opened it to a stranger, a little girl and a baby — and to the three men riding down the hill behind them." |
+| 0:25 | Окно дома загорается в грозе; всадники трогаются вниз по склону. Значок «Подписаться» ~0:28. | **NARRATOR (N00):** "Wade Harlan had not opened his door to anyone in three years. That night he opened it to a stranger, a little girl and a baby — and to the three men already on her trail." |
 | 0:36 | Титр **THE BARN IN THE STORM** / A Tale of Cedar Bluff | музыка |
 
 **N00b (0:40, под проезд фургона в дождь, мокрую дорогу, ботинки Молли в грязи):** "Ellie Price had left Leadville four days earlier, in the back of a freight wagon, under a tarp that smelled of coal oil and wet canvas. She had sixty-one cents, a Bible, a small pocket pistol that had belonged to her husband, and two children who had never once asked her where they were going. On the fourth day the teamster turned south and put them down at the crossroads. After that, they walked."
@@ -120,14 +120,14 @@
 - **CLARA:** "Lily's outgrown these. And Mrs. Price — don't mind Edna Whitcomb. She said worse about me."
 - **N04c (дорога домой, закат, Молли спит в фургоне, прижав к себе башмаки):** "They drove home with the sun going down behind the ridge. Molly fell asleep in the back of the wagon with the new boots in her arms, still in their paper. Ellie didn't say a word for three miles. Then, without looking at him, she said, 'Nobody has stood up for me in a very long time, Wade.' He didn't answer. He didn't know how. But he drove a little slower the rest of the way."
 
-### СЦЕНА 4. Телеграмма### СЦЕНА 3б. Лидвилл (флэшбэк, ~40 с)
+### СЦЕНА 3б. Лидвилл (флэшбэк, ~40 с)
 *Богатый кабинет, за окном трубы шахт. Вэнс у окна, Грир с папкой.*
 
-- **N04b:** "Two hundred miles away, in a study that smelled of cigars and silver polish, a man who had never in his life been told no was hearing it for the first time."
-- **GREER:** "The girl at the crossroads saw them heading toward Cedar Bluff, sir."
+- **N04b:** "Five days earlier and two hundred miles away, in a study that smelled of cigars and silver polish, a man who had never in his life been told no was hearing it for the first time."
+- **GREER:** "She took the boy in the night, sir. And the girl."
 - **VANCE** (не оборачиваясь): "Then send Pike. Bring me the boy, Mr. Greer. What happens to the woman is no concern of mine."
 
-
+### СЦЕНА 4. Телеграмма
 *Контора маршала.*
 
 - **MARSHAL HART:** "Wade. This came from Leadville yesterday."
@@ -138,7 +138,7 @@
 - **N05:** "Lucius Vance owned half the silver in Leadville and every judge who mattered. His only son, Henry, had died under a fallen beam in a shaft his father refused to brace. Henry left behind a wife the old man never wanted, a daughter he never visited, and a son. A boy was something Lucius Vance could use."
 
 ### СЦЕНА 4б. Салун (~1:00)
-*Тот же вечер. Сидар-Блафф, салун, ливень за дверью. Пайк у стойки, вода стекает с пыльника.*
+*Тот же вечер. Сидар-Блафф, салун, ливень за дверью. Пайк у стойки, вода стекает с пыльника. (Ливень смыл следы у ручья — три дня Пайк искал, кто заговорит.)*
 
 - **PIKE:** "Woman with a baby. Red hair. Little girl. Came through in the rain."
 - **BARTENDER:** "Lot of folks come through in the rain, mister."
