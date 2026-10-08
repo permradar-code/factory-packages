@@ -1,0 +1,494 @@
+{
+ "title": "The Stagecoach Bride - shorts1 (vertical)",
+ "series": "Tales of Cedar Bluff",
+ "episode": 2,
+ "format": {
+  "fps": 24
+ },
+ "estimate": {
+  "clips": 13,
+  "clip_seconds": 82,
+  "api_usd_at_0_10_per_s": 8.2
+ },
+ "timeline": [
+  {
+   "id": "NX",
+   "type": "narration",
+   "text": "Tales of Cedar Bluff."
+  }
+ ],
+ "hooks": [
+  {
+   "id": "V01",
+   "duration_s": 8,
+   "refs": [
+    "CHAR_ROSE",
+    "CHAR_CALEB",
+    "LOC_STREET"
+   ],
+   "short": "arrest",
+   "first_frame": "Sunlit main street of Cedar Bluff: Rose in her ivory lace wedding dress stands very close to Caleb, the young deputy, looking up at him with a shy, hopeful smile; Caleb looks down at her, pained, a pair of iron handcuffs in his hand.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street of Cedar Bluff: Rose in her ivory lace wedding dress stands very close to Caleb, the young deputy, looking up at him with a shy, hopeful smile; Caleb looks down at her, pained, a pair of iron handcuffs in his hand. Rose wears: A: ivory lace wedding dress, short lace veil pinned back. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street of Cedar Bluff: Rose in her ivory lace wedding dress stands very close to Caleb, the young deputy, looking up at him with a shy, hopeful smile; Caleb looks down at her, pained, a pair of iron handcuffs in his hand.",
+   "video_prompt": "Sunlit main street of Cedar Bluff: Rose in her ivory lace wedding dress stands very close to Caleb, the young deputy, looking up at him with a shy, hopeful smile; Caleb looks down at her, pained, a pair of iron handcuffs in his hand. Camera: vertical medium close two-shot, both faces large in frame. Dialogue: First Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I promised you'd see me in it first.\" Then Caleb Ward (earnest, warm young American man's voice with a slight Western drawl, a little shy) says: \"And you're under arrest, ma'am.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium close two-shot, both faces large in frame",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ROSE",
+     "line": "I promised you'd see me in it first."
+    },
+    {
+     "speaker": "CHAR_CALEB",
+     "line": "And you're under arrest, ma'am."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V01_first.png",
+    "video": "visuals/hooks/V01.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress, short lace veil pinned back"
+  },
+  {
+   "id": "V02",
+   "duration_s": 6,
+   "refs": [
+    "LOC_STREET"
+   ],
+   "short": "arrest+proposal",
+   "first_frame": "Sunny boardwalk of the main street: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character points her folded fan toward the street off-screen and sneers; behind her two townswomen in bonnets laugh behind gloved hands and a man in a bowler hat smirks.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunny boardwalk of the main street: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character points her folded fan toward the street off-screen and sneers; behind her two townswomen in bonnets laugh behind gloved hands and a man in a bowler hat smirks. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunny boardwalk of the main street: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character points her folded fan toward the street off-screen and sneers; behind her two townswomen in bonnets laugh behind gloved hands and a man in a bowler hat smirks.",
+   "video_prompt": "Sunny boardwalk of the main street: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character points her folded fan toward the street off-screen and sneers; behind her two townswomen in bonnets laugh behind gloved hands and a man in a bowler hat smirks. Camera: vertical medium shot, slightly low angle, the laughing crowd behind her. Dialogue: the townswoman (sharp, mocking, clipped middle-aged American woman's voice) says: \"Look at her, ladies. Ordered by mail, delivered in irons.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium shot, slightly low angle, the laughing crowd behind her",
+   "dialogue": [
+    {
+     "speaker": "TOWNSWOMAN",
+     "line": "Look at her, ladies. Ordered by mail, delivered in irons."
+    }
+   ],
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V02_first.png",
+    "video": "visuals/hooks/V02.mp4"
+   }
+  },
+  {
+   "id": "V03",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_ROSE",
+    "LOC_STREET"
+   ],
+   "short": "arrest",
+   "first_frame": "Sunlit main street: Rose in her ivory lace wedding dress walks slowly with her wrists in iron handcuffs, chin up, eyes wet with tears, a blurred crowd of townspeople watching behind her.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street: Rose in her ivory lace wedding dress walks slowly with her wrists in iron handcuffs, chin up, eyes wet with tears, a blurred crowd of townspeople watching behind her. Rose wears: A: ivory lace wedding dress, short lace veil pinned back. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street: Rose in her ivory lace wedding dress walks slowly with her wrists in iron handcuffs, chin up, eyes wet with tears, a blurred crowd of townspeople watching behind her.",
+   "video_prompt": "Sunlit main street: Rose in her ivory lace wedding dress walks slowly with her wrists in iron handcuffs, chin up, eyes wet with tears, a blurred crowd of townspeople watching behind her. Camera: vertical close-up tracking alongside her as she walks. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I wore it for you, Caleb. Like I promised.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical close-up tracking alongside her as she walks",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ROSE",
+     "line": "I wore it for you, Caleb. Like I promised."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V03_first.png",
+    "video": "visuals/hooks/V03.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress, short lace veil pinned back"
+  },
+  {
+   "id": "V04",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_ROSE",
+    "CHAR_CALEB",
+    "LOC_JAIL"
+   ],
+   "short": "arrest",
+   "first_frame": "Inside a small log jail in daytime, bright sunlight streaming through the barred window: Rose in her ivory lace wedding dress holds the iron bars of the cell; Caleb stands just outside the bars, close to her.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Inside a small log jail in daytime, bright sunlight streaming through the barred window: Rose in her ivory lace wedding dress holds the iron bars of the cell; Caleb stands just outside the bars, close to her. Rose wears: A: ivory lace wedding dress, short lace veil pinned back. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Marshal's office and jail: small log-and-plank marshal's office: a scarred desk with an oil lamp, a gun rack, a wanted-poster board with no legible text, a pot-bellied stove, and one iron-barred cell at the back with a narrow cot and a small barred window",
+   "video": "Inside a small log jail in daytime, bright sunlight streaming through the barred window: Rose in her ivory lace wedding dress holds the iron bars of the cell; Caleb stands just outside the bars, close to her.",
+   "video_prompt": "Inside a small log jail in daytime, bright sunlight streaming through the barred window: Rose in her ivory lace wedding dress holds the iron bars of the cell; Caleb stands just outside the bars, close to her. Camera: vertical close two-shot through the bars. Dialogue: First Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"I didn't steal anything, Caleb.\" Then Caleb Ward (earnest, warm young American man's voice with a slight Western drawl, a little shy) says: \"I know.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical close two-shot through the bars",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ROSE",
+     "line": "I didn't steal anything, Caleb."
+    },
+    {
+     "speaker": "CHAR_CALEB",
+     "line": "I know."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "visuals/refs/LOC_JAIL.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V04_first.png",
+    "video": "visuals/hooks/V04.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress, short lace veil pinned back"
+  },
+  {
+   "id": "V05",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_AMOS",
+    "CHAR_ROSE",
+    "PROP_BOX",
+    "PROP_STAGE"
+   ],
+   "short": "jump",
+   "first_frame": "Bright day, inside a racing dark-green stagecoach that bounces hard on a mountain road: old Amos Pruitt with a shotgun leans toward Rose, who clutches the small iron-banded green strongbox in her wedding dress; dust and sunlight through the window.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Bright day, inside a racing dark-green stagecoach that bounces hard on a mountain road: old Amos Pruitt with a shotgun leans toward Rose, who clutches the small iron-banded green strongbox in her wedding dress; dust and sunlight through the window. Rose wears: A: ivory lace wedding dress, short lace veil pinned back. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Amos Pruitt: 66-year-old man, short white beard, kind tired eyes behind small round spectacles, brown wool coat, battered brown hat, double-barreled coach gun | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | The stagecoach: dark-green Concord stagecoach with yellow spoked wheels, leather thoroughbraces, luggage rack on top, open window frames with roll-up leather curtains, pulled by a team of six brown horses; no lettering or company name anywhere",
+   "video": "Bright day, inside a racing dark-green stagecoach that bounces hard on a mountain road: old Amos Pruitt with a shotgun leans toward Rose, who clutches the small iron-banded green strongbox in her wedding dress; dust and sunlight through the window.",
+   "video_prompt": "Bright day, inside a racing dark-green stagecoach that bounces hard on a mountain road: old Amos Pruitt with a shotgun leans toward Rose, who clutches the small iron-banded green strongbox in her wedding dress; dust and sunlight through the window. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: vertical handheld close two-shot inside the coach. Dialogue: Amos Pruitt (raspy, kindly old American man's voice) says: \"When I say jump, girl, you jump!\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical handheld close two-shot inside the coach",
+   "dialogue": [
+    {
+     "speaker": "CHAR_AMOS",
+     "line": "When I say jump, girl, you jump!"
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_AMOS_front.png",
+    "visuals/refs/CHAR_AMOS_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/PROP_BOX.png",
+    "visuals/refs/PROP_STAGE.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V05_first.png",
+    "video": "visuals/hooks/V05.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress, short lace veil pinned back"
+  },
+  {
+   "id": "V06",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_BUCK",
+    "LOC_PASS"
+   ],
+   "short": "jump",
+   "first_frame": "Bright afternoon on a rocky mountain trail among golden aspens: a masked outlaw on a rearing horse reins in hard, rifle in one hand, and points up the slope; other riders gallop past in the dust.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Bright afternoon on a rocky mountain trail among golden aspens: a masked outlaw on a rearing horse reins in hard, rifle in one hand, and points up the slope; other riders gallop past in the dust. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Buck Tolliver: 35-year-old rough man, an original fictional character, a pale scar across the left cheek, unshaven black stubble, narrow dark eyes, black bandana around the neck (pulled over the face when masked), shaggy sheepskin-lined brown coat, battered gray hat, two revolvers | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video": "Bright afternoon on a rocky mountain trail among golden aspens: a masked outlaw on a rearing horse reins in hard, rifle in one hand, and points up the slope; other riders gallop past in the dust.",
+   "video_prompt": "Bright afternoon on a rocky mountain trail among golden aspens: a masked outlaw on a rearing horse reins in hard, rifle in one hand, and points up the slope; other riders gallop past in the dust. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: vertical low-angle medium shot. Dialogue: Buck Tolliver (rough, sneering, low American man's voice) says: \"She went up the mountain! Find her!\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical low-angle medium shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_BUCK",
+     "line": "She went up the mountain! Find her!"
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_BUCK_front.png",
+    "visuals/refs/CHAR_BUCK_full.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V06_first.png",
+    "video": "visuals/hooks/V06.mp4"
+   }
+  },
+  {
+   "id": "V07",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_ROSE",
+    "PROP_BOX",
+    "LOC_PASS"
+   ],
+   "short": "jump",
+   "first_frame": "Bright afternoon: Rose in her torn ivory wedding dress scrambles up between huge sunlit boulders and golden aspens, the green strongbox clutched to her chest, and glances back over her shoulder, breathless.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Bright afternoon: Rose in her torn ivory wedding dress scrambles up between huge sunlit boulders and golden aspens, the green strongbox clutched to her chest, and glances back over her shoulder, breathless. Rose wears: A: ivory lace wedding dress, short lace veil pinned back. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Raven Pass stage road: narrow dirt stage road climbing through a mountain pass, steep rocky slope on one side and a sagebrush hillside on the other, scattered pines and golden aspens, high granite peaks beyond, big sky",
+   "video": "Bright afternoon: Rose in her torn ivory wedding dress scrambles up between huge sunlit boulders and golden aspens, the green strongbox clutched to her chest, and glances back over her shoulder, breathless.",
+   "video_prompt": "Bright afternoon: Rose in her torn ivory wedding dress scrambles up between huge sunlit boulders and golden aspens, the green strongbox clutched to her chest, and glances back over her shoulder, breathless. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics, real dust, real smoke. Camera: vertical tracking shot from slightly below. No dialogue: nobody speaks. Natural sound only (wind, hooves, dust, breathing). Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical tracking shot from slightly below",
+   "dialogue": [],
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full.png",
+    "visuals/refs/PROP_BOX.png",
+    "visuals/refs/LOC_PASS.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V07_first.png",
+    "video": "visuals/hooks/V07.mp4"
+   },
+   "rose_outfit": "A: ivory lace wedding dress, short lace veil pinned back"
+  },
+  {
+   "id": "V08",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_CRANE",
+    "CHAR_ROSE",
+    "PROP_BOX",
+    "LOC_STREET"
+   ],
+   "short": "box",
+   "first_frame": "Sunlit main street: Silas Crane, silver-haired in a charcoal suit, grips Rose's arm and presses a small derringer to her side; Rose, in her green gingham dress, holds the green strongbox against her chest.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street: Silas Crane, silver-haired in a charcoal suit, grips Rose's arm and presses a small derringer to her side; Rose, in her green gingham dress, holds the green strongbox against her chest. Rose wears: B: faded green gingham dress with a white collar, hair in a simple low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | The strongbox: small dark-green wooden strongbox with black iron bands and corners, a heavy brass padlock, size of a bread loaf, worn and scratched | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street: Silas Crane, silver-haired in a charcoal suit, grips Rose's arm and presses a small derringer to her side; Rose, in her green gingham dress, holds the green strongbox against her chest.",
+   "video_prompt": "Sunlit main street: Silas Crane, silver-haired in a charcoal suit, grips Rose's arm and presses a small derringer to her side; Rose, in her green gingham dress, holds the green strongbox against her chest. Camera: vertical medium close two-shot. Dialogue: Silas Crane (soft, measured, cultured Southern gentleman's voice, never raises it, quietly menacing) says: \"The box, Miss Calloway. And then we'll take a little ride.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium close two-shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_CRANE",
+     "line": "The box, Miss Calloway. And then we'll take a little ride."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "visuals/refs/PROP_BOX.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V08_first.png",
+    "video": "visuals/hooks/V08.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress with a white collar, hair in a simple low bun"
+  },
+  {
+   "id": "V09",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_CALEB",
+    "LOC_STREET"
+   ],
+   "short": "box",
+   "first_frame": "Sunlit main street: Caleb, his left arm in a white sling, steps out into the middle of the street, his right hand near his holstered revolver, eyes hard and steady.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street: Caleb, his left arm in a white sling, steps out into the middle of the street, his right hand near his holstered revolver, eyes hard and steady. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street: Caleb, his left arm in a white sling, steps out into the middle of the street, his right hand near his holstered revolver, eyes hard and steady.",
+   "video_prompt": "Sunlit main street: Caleb, his left arm in a white sling, steps out into the middle of the street, his right hand near his holstered revolver, eyes hard and steady. Camera: vertical medium shot, low angle. Dialogue: Caleb Ward (earnest, warm young American man's voice with a slight Western drawl, a little shy) says: \"Let her go, Crane.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium shot, low angle",
+   "dialogue": [
+    {
+     "speaker": "CHAR_CALEB",
+     "line": "Let her go, Crane."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V09_first.png",
+    "video": "visuals/hooks/V09.mp4"
+   }
+  },
+  {
+   "id": "V10",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_MARSHAL",
+    "CHAR_CRANE",
+    "LOC_STREET"
+   ],
+   "short": "box",
+   "first_frame": "Sunlit main street: Silas Crane kneels in the dust clutching his hurt wrist, his derringer lying out of reach; the marshal in a long gray coat steps over him with his revolver leveled.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street: Silas Crane kneels in the dust clutching his hurt wrist, his derringer lying out of reach; the marshal in a long gray coat steps over him with his revolver leveled. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Marshal Abel Hart: 50-year-old lawman, thick gray walrus mustache, deep-set eyes, long gray wool coat, five-pointed silver star badge, brown wide-brimmed hat | Silas Crane: 52-year-old tall, elegant man, an original fictional character, silver hair combed straight back, short clipped silver beard, pale cold blue eyes, immaculate charcoal-gray three-piece suit, black string tie, silver watch chain, cream-colored wide-brimmed hat, silver-headed black cane | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street: Silas Crane kneels in the dust clutching his hurt wrist, his derringer lying out of reach; the marshal in a long gray coat steps over him with his revolver leveled.",
+   "video_prompt": "Sunlit main street: Silas Crane kneels in the dust clutching his hurt wrist, his derringer lying out of reach; the marshal in a long gray coat steps over him with his revolver leveled. Camera: vertical medium shot. Dialogue: Marshal Abel Hart (gruff, flat, authoritative American man's voice) says: \"Silas Crane. You're under arrest for robbing the mail.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_MARSHAL",
+     "line": "Silas Crane. You're under arrest for robbing the mail."
+    }
+   ],
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_MARSHAL_full.png",
+    "visuals/refs/CHAR_CRANE_front.png",
+    "visuals/refs/CHAR_CRANE_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V10_first.png",
+    "video": "visuals/hooks/V10.mp4"
+   }
+  },
+  {
+   "id": "V11",
+   "duration_s": 8,
+   "refs": [
+    "CHAR_CALEB",
+    "CHAR_ROSE",
+    "LOC_STREET"
+   ],
+   "short": "proposal",
+   "first_frame": "Sunlit main street full of townspeople: Caleb, his left arm in a white sling, kneels in the dust in front of Rose and holds up a small plain gold ring; Rose, in her green gingham dress, presses her hand to her mouth.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street full of townspeople: Caleb, his left arm in a white sling, kneels in the dust in front of Rose and holds up a small plain gold ring; Rose, in her green gingham dress, presses her hand to her mouth. Rose wears: B: faded green gingham dress with a white collar, hair in a simple low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Caleb Ward: 28-year-old American man, an original fictional character (not a celebrity lookalike), tall, lean and broad-shouldered, clean-shaven with a strong jaw, honest hazel eyes, light-brown wavy hair, light-tan flat-crowned hat, brown leather vest over a white collarless shirt, red bandana at the neck, small tin deputy star on the vest, single revolver in a plain holster | Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street full of townspeople: Caleb, his left arm in a white sling, kneels in the dust in front of Rose and holds up a small plain gold ring; Rose, in her green gingham dress, presses her hand to her mouth.",
+   "video_prompt": "Sunlit main street full of townspeople: Caleb, his left arm in a white sling, kneels in the dust in front of Rose and holds up a small plain gold ring; Rose, in her green gingham dress, presses her hand to her mouth. Camera: vertical medium two-shot, crowd behind. Dialogue: Caleb Ward (earnest, warm young American man's voice with a slight Western drawl, a little shy) says: \"Rose Calloway. Will you marry me? Properly, this time.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium two-shot, crowd behind",
+   "dialogue": [
+    {
+     "speaker": "CHAR_CALEB",
+     "line": "Rose Calloway. Will you marry me? Properly, this time."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_CALEB_front.png",
+    "visuals/refs/CHAR_CALEB_full.png",
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V11_first.png",
+    "video": "visuals/hooks/V11.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress with a white collar, hair in a simple low bun"
+  },
+  {
+   "id": "V12",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_ROSE",
+    "LOC_STREET"
+   ],
+   "short": "proposal",
+   "first_frame": "Sunlit main street: close on Rose in her green gingham dress, laughing through happy tears and nodding; townspeople behind her start to cheer and clap.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunlit main street: close on Rose in her green gingham dress, laughing through happy tears and nodding; townspeople behind her start to cheer and clap. Rose wears: B: faded green gingham dress with a white collar, hair in a simple low bun. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Rose Calloway: 24-year-old American woman of remarkable, gentle natural beauty, an original fictional character who does not resemble any actress or celebrity, slender and graceful, a soft oval face with high cheekbones and a delicate rounded chin, large luminous warm dark-brown eyes with long dark lashes, straight dark brows, a light dusting of faint freckles across a small straight nose, soft full rosy lips with a shy natural smile, clear luminous fair skin, a tiny pale scar on her left eyebrow, glossy dark-brown almost black hair pinned up with soft loose curls framing her face. OUTFIT A (wedding, scenes up to her rescue): ivory lace 1880 wedding dress with a high collar, long fitted sleeves and a row of small pearl buttons, short lace veil pinned back from her face. OUTFIT B (after the rescue): a borrowed faded green gingham dress with a white collar, her hair in a simple low bun | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunlit main street: close on Rose in her green gingham dress, laughing through happy tears and nodding; townspeople behind her start to cheer and clap.",
+   "video_prompt": "Sunlit main street: close on Rose in her green gingham dress, laughing through happy tears and nodding; townspeople behind her start to cheer and clap. Camera: vertical close-up. Dialogue: Rose Calloway (soft, clear, educated American woman's voice, mid-twenties, Midwestern, brave under pressure) says: \"Yes. Yes, Caleb.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ROSE",
+     "line": "Yes. Yes, Caleb."
+    }
+   ],
+   "ref_files": [
+    "visuals/refs/CHAR_ROSE_front.png",
+    "visuals/refs/CHAR_ROSE_full_B.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V12_first.png",
+    "video": "visuals/hooks/V12.mp4"
+   },
+   "rose_outfit": "B: faded green gingham dress with a white collar, hair in a simple low bun"
+  },
+  {
+   "id": "V13",
+   "duration_s": 6,
+   "refs": [
+    "CHAR_CLARA",
+    "LOC_STREET"
+   ],
+   "short": "proposal",
+   "first_frame": "Sunny boardwalk: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character opens her mouth to make a remark; Clara, standing beside her with a basket on her arm, raises one finger without looking at her, a calm little smile.",
+   "first_frame_full_prompt": "Vertical 9:16 portrait frame. Sunny boardwalk: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character opens her mouth to make a remark; Clara, standing beside her with a basket on her arm, raises one finger without looking at her, a calm little smile. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, early autumn 1880, natural light, 35mm film grain, warm vivid colors with golden aspen accents, shallow depth of field, period-accurate clothing and props. No text, no captions, no logos, no watermark, no modern objects. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom. Characters/places: Clara Whitmore: 26-year-old American frontier woman, very pretty and feminine, an original fictional character (not a celebrity lookalike), slender, delicate heart-shaped face, bright clear gray-green eyes with long lashes, softly arched brows, small straight nose, full soft lips, glowing smooth fair skin with a natural rosy blush, a tiny beauty mark below her left eye, warm chestnut hair with copper highlights in a soft braided crown with loose wavy strands framing her face, faded dark-blue calico dress with a patched left elbow, small oval silver locket on a chain | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings (mercantile, bank with brick front, saloon, livery), boardwalks, hitching rails, horses and wagons, mountains and golden aspens beyond; signs have no legible text",
+   "video": "Sunny boardwalk: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character opens her mouth to make a remark; Clara, standing beside her with a basket on her arm, raises one finger without looking at her, a calm little smile.",
+   "video_prompt": "Sunny boardwalk: a sharp-tongued middle-aged townswoman in a dark-green bustle dress and a small feathered hat, an original fictional character opens her mouth to make a remark; Clara, standing beside her with a basket on her arm, raises one finger without looking at her, a calm little smile. Camera: vertical medium two-shot. Dialogue: Clara Whitmore (warm, low, steady American woman's voice, late twenties, never shrill) says: \"Not one word, Agatha.\" Only these exact lines are spoken, in this order; everyone else keeps their mouth closed. The first line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1880, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music. Bright, high-key midday sunlight, vivid saturated colors, faces fully lit and clearly visible, no dark shadows, no night, no gloom.",
+   "camera": "vertical medium two-shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_CLARA",
+     "line": "Not one word, Agatha."
+    }
+   ],
+   "ref_files": [
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_front.png",
+    "pkg/western_widows_piano_v1/visuals/refs/CHAR_CLARA_full.png",
+    "pkg/western_widows_piano_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "files": {
+    "start_frame": "visuals/hooks/V13_first.png",
+    "video": "visuals/hooks/V13.mp4"
+   }
+  }
+ ],
+ "production": {
+  "schema_version": 1,
+  "review_gates": {
+   "references": {
+    "enabled": false
+   },
+   "audio": {
+    "enabled": false
+   },
+   "visuals": {
+    "enabled": false
+   },
+   "video_sample": {
+    "enabled": false
+   },
+   "videos": {
+    "enabled": false
+   }
+  },
+  "edit": {
+   "dialogue_tail_seconds": 0.8,
+   "narration_voice_offset_seconds": 0.4,
+   "transition_seconds": 0.3,
+   "end_screen_tail_seconds": 0,
+   "contact_sheet": "one_frame_per_timeline_visual"
+  },
+  "audio_mix": {
+   "speech_active_rms_db": -20,
+   "ambient_clip_rms_db": -24,
+   "music_base_rms_db": -18,
+   "duck_under_speech_db": -15,
+   "duck_under_clip_db": -6,
+   "duck_attack_seconds": 0.15,
+   "duck_release_seconds": 0.6,
+   "integrated_lufs": -14,
+   "true_peak_db": -1.5
+  },
+  "voice": {
+   "provider": "elevenlabs",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "model": "eleven_multilingual_v2",
+   "speed": 1,
+   "timestamps": true,
+   "output_format": "mp3_44100_128",
+   "stability": 0.55,
+   "similarity_boost": 0.8,
+   "style": 0.15,
+   "use_speaker_boost": true
+  },
+  "subtitle": {
+   "language": "en",
+   "name": "English"
+  },
+  "export": {
+   "package_branch": "pkg/western_stagecoach_bride_shorts1",
+   "film_branch": "film/western_stagecoach_bride_shorts1"
+  },
+  "qc": {
+   "long_duration_min_seconds": 1,
+   "long_duration_max_seconds": 3600,
+   "black_silence_max_seconds": 60
+  }
+ }
+}
