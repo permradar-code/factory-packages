@@ -84,7 +84,7 @@
 
 ## 5. Как работать в новом чате
 1. `git clone https://github.com/permradar-code/factory-packages && cd factory-packages && git checkout tools/montage` (если push не проходит — `add_repo` owner `permradar-code`, repo `factory-packages`, access `push`; для moiastro-engine — то же).
-2. Мост к компьютеру пользователя: `device_list_dir` / `device_stage_files` / `device_commit_files` (≤ ~20 МБ на файл через stagedPath; большое резать на части по 19 МБ + `join.bat`).
+2. Мост к компьютеру пользователя работает, только если чат связан с компьютером через приложение Claude для ПК («Link to this computer») и подключена папка `C:\ai\projects`. Если инструментов `mcp__remote-devices__*` нет — попросить пользователя связать чат (или прикрепить файлы). Команды: `device_list_dir` / `device_stage_files` / `device_commit_files` (≤ ~20 МБ на файл через stagedPath; большое резать на части по 19 МБ + `join.bat`).
 3. Фоновые процессы в контейнере умирают в конце хода — долгий рендер ждать в том же ходе.
 4. vidIQ работает (outliers, similar_thumbnails, video_watch — разбор чужого ролика целиком, 25 кредитов). NexLev лимит до 11 окт 20:03 UTC.
 
