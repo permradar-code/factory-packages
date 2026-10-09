@@ -17,14 +17,13 @@ PLAN = [
     # ---------- COLD OPEN: the knock, the joke, the threat ----------
     ("clip", "C01", None),             # "May we sleep in your barn, mister? Just till the rain stops."
     ("clip", "C02", None),             # "No, ma'am."
-    ("clip", "C03", "0-3"),            # she lowers her eyes
     ("clip", "C04", "0-2.1"),          # "You'll sleep in the house."  (cut before the coat falls)
     ("clip", "C05", None),             # "Does he bite, Mama?"
     ("clip", "C06", None),             # "Only on Sundays."  (Flow)
     ("clip", "C07", "4.2-8"),          # "Five hundred dollars for the boy."  (Flow/Veo, line at the end)
     ("clip", "C08", None),             # "And the woman?"
     ("clip", "C09", None),             # "The woman doesn't matter."
-    ("narr", "N01", ["B01", "frame:C03@2|5", "frame:C09@1.5|5"]),
+    ("narr", "N01", ["B01", "frame:C01@2|5", "frame:C09@1.5|5"]),   # no C03: the girl's arm is twisted
     ("title", "T01", ("THE BARN IN THE STORM", 4.0)),
     # ---------- the road, the house ----------
     ("narr", "N02", ["img:I01", "img:I03", "img:I02", "img:I04"]),
@@ -93,7 +92,7 @@ PLAN = [
     ("clip", "C54", None),
     ("clip", "C55", None),
     ("clip", "C56", None),
-    ("narr", "N15", ["img:I28", "frame:C56@1|5", "frame:C54@2|5"]),
+    ("narr", "N15", ["frame:C55@2|6", "frame:C56@1|6", "frame:C54@2|6"]),   # no I28: an extra woman in the frame
     ("narr", "N16", ["img:I29", "img:I30", "frame:C19@1|5", "img:I31", "frame:C63@1|5"]),
     ("clip", "C57", None),
     ("clip", "C58", None),

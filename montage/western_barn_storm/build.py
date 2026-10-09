@@ -241,7 +241,7 @@ def build_edl():
 
 # ------------------------------------------------------------------ VIDEO
 # brighter, warmer, livelier than film 2 (owner: the shorts looked more alive than the film)
-GRADE = os.environ.get("GRADE", "eq=contrast=1.06:saturation=1.14:gamma=1.06:brightness=0.012")
+GRADE = os.environ.get("GRADE", "eq=contrast=1.05:saturation=1.15:gamma=1.13:brightness=0.03")   # v2: owner found v1 still dark
 SCALE = f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},setsar=1,{GRADE}"
 
 
