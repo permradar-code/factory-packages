@@ -10,8 +10,8 @@
 
 ## 0. Ground rules
 
-- Repo `permradar-code/moiastro-engine`. Branch `feature/youtube-mcp-phase2` from `feature/factory-v2-phase1`;
-  PR into `feature/factory-v2-phase1`. Independent of Phase 1.5 (different files) — keep conflicts minimal.
+- Repo `permradar-code/moiastro-engine`. Branch `feature/youtube-mcp-phase2` from `feature/factory-v2-phase1-5` (deployed on the server);
+  PR into `feature/factory-v2-phase1-5`.
 - Existing modules to build on: `app/production/youtube_client.py`, `youtube_owned_analytics.py`,
   `youtube_profiles.py`, `youtube_public.py`, `youtube_reporting.py`, MCP tools `youtube_new_channel_*`,
   `youtube_public_*`.
