@@ -23,6 +23,9 @@ Lessons come from film 3 "The Barn in the Storm" (project `western_barn_storm_v1
   weaken tests, rewrite history, make real provider calls in tests.
 - Same rules as Phase 1: opt-in where behaviour changes for old projects, atomic writes with project owner/mode,
   all existing tests pass, new tests on synthetic media.
+- **Every Python import must be in `requirements.txt`.** Phase 1 used numpy without adding it: on deploy the
+  Studio crashed (`ModuleNotFoundError: numpy`); add `numpy` (and anything else new) and a test that imports
+  every app module.
 
 ## 1. What actually got stuck on film 3 (facts)
 
