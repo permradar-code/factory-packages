@@ -14,11 +14,10 @@ SRC = "/mnt/user-data/uploads/stagecoach_bride/film3_barn_storm"
 OUT = "/home/claude/wbs_edit/shorts"
 W, HH = sv.W, sv.HH
 GRADE = "eq=contrast=1.05:saturation=1.15:gamma=1.13:brightness=0.03"
-NAME = "short_barn_ranger"
 HOOK = "THEY CAME FOR HER BABY…\nWRONG RANCH."
 
 # (id, file, in, out, crop centre as fraction of width or None for native 9:16, caption line, extra post filter)
-SEQ = [
+SEQ_RANGER = [
     ("H01", "flow/H01.mp4", 2.3, 4.9, None, "May we sleep in your barn, mister?", ""),
     ("C02", "src/visuals/video/C02.mp4", 0.0, 2.4, 0.60, "No, ma'am.", ""),
     ("C04", "src/visuals/video/C04.mp4", 0.0, 2.1, 0.52, "You'll sleep in the house.", ""),
@@ -29,6 +28,9 @@ SEQ = [
     ("C09", "src/visuals/video/C09.mp4", 0.0, 2.4, 0.47, "The woman doesn't matter.", ""),
     ("H03", "src/visuals/video/H03.mp4", 0.0, 5.75, None, "Captain Harlan. Company D. Texas Rangers.", ""),
 ]
+# v2 (owner: the woman standing is a weak first frame): open on the threat, no joke, ~19 s + end card
+SEQ_THREAT = [SEQ_RANGER[5], SEQ_RANGER[6], SEQ_RANGER[0], SEQ_RANGER[1], SEQ_RANGER[2], SEQ_RANGER[7]]
+VARIANTS = {"short_barn_ranger": SEQ_RANGER, "short_barn_threat": SEQ_THREAT}
 MUSIC = f"{SRC}/src/audio/music/M01.mp3"
 
 
@@ -55,7 +57,7 @@ def vf(crop, post):
     return v + ",fps=24,setsar=1"
 
 
-def build():
+def build(NAME, SEQ):
     tmp = f"{OUT}/{NAME}_tmp"
     os.makedirs(tmp, exist_ok=True)
     parts = []
@@ -112,4 +114,5 @@ def build():
 
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    build()
+    for n in (sys.argv[1:] or ["short_barn_threat"]):
+        build(n, VARIANTS[n])
