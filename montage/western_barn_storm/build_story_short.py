@@ -14,6 +14,8 @@ FILM = os.environ.get("FILM", "/home/claude/f3/film.mp4")
 FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")
 OUTDIR = os.environ.get("OUT", "/home/claude/f3/shorts")
 CW = 608
+BRAND = os.environ.get("BRAND", "/home/claude/f3/brand")
+BADGE, BELL, BADGE_LEN = f"{BRAND}/badge.mov", f"{BRAND}/bell.wav", 5.5   # overlays/subscribe_badge.py + subscribe_bell.py
 
 SHORTS = {
     # Store scene: refused credit -> the gossip's insult -> gold coin -> "We called them mothers." -> "he does bite."
@@ -32,6 +34,22 @@ SHORTS = {
               (383.80, 385.55, "We called\\Nthem mothers.", "Y"),
               (385.87, 388.30, "Mama...\\Nhe does bite.", "Y")],
         hook=("THEY SHAMED\\NTHE WIDOW.", 4.5),
+    ),
+    # Gate standoff: the hired gun recognises the quiet rancher -> fight -> "Drop it, Pike!" -> gun lowered.
+    # Test short: animated SUBSCRIBE badge + bell over the last 5.5 s instead of "FULL STORY ON THE CHANNEL".
+    "harlan": dict(
+        out="short_harlan.mp4",
+        badge=True,
+        pieces=[(692.75, 698.75, 1080), (698.75, 701.79, 960), (701.79, 705.67, 960), (705.67, 708.33, 960),
+                (715.79, 718.79, 600), (725.79, 728.50, 990), (731.79, 734.79, (1440, 400, 2.5)),
+                (737.79, 739.71, 1080), (743.79, 746.21, 900), (746.21, 750.21, 900)],
+        caps=[(693.47, 695.90, "Harlan.\\NCaptain Wade Harlan.", "W"),
+              (695.90, 698.67, "Company D.\\NTexas Rangers.", "Y"),
+              (699.73, 701.69, "That was a long time ago.", "W"),
+              (702.63, 705.53, "You sent my brother to\\NHuntsville. He died there.", "W"),
+              (706.38, 708.22, "Then you know\\Nhow this ends, Deacon.", "Y"),
+              (744.10, 745.80, "Drop it, Pike!", "Y")],
+        hook=("THREE HIRED GUNS\\NCAME FOR HER BABY.", 4.5),
     ),
 }
 
@@ -65,12 +83,27 @@ def build(name):
     probe = f"{wd}/probe.wav"
     run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s0:.3f}", "-i", FILM, "-t", f"{e0 - s0:.3f}", "-vn", probe])
     g = -20.0 - mean_db(probe)
-    for i, (s, e, cx) in enumerate(cfg["pieces"]):
+    pieces = cfg["pieces"]
+    for i, (s, e, cx) in enumerate(pieces):
         d = e - s
-        vf = f"crop={CW}:1080:{cx2x(cx)}:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.5:5:5:0,setsar=1,fps=24,format=yuv420p"
+        if isinstance(cx, tuple):          # pan (from_x, to_x[, seconds])
+            a, b = cx2x(cx[0]), cx2x(cx[1])
+            pd = cx[2] if len(cx) > 2 else d
+            x = f"'{a}+({b}-{a})*min(t/{pd:.3f}\\,1)'"
+        else:
+            x = cx2x(cx)
+        vf = f"crop={CW}:1080:{x}:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.5:5:5:0,setsar=1,fps=24,format=yuv420p"
+        # short fades only where the cut jumps in film time (keeps continuous scenes seamless)
+        jump_in = i > 0 and abs(pieces[i - 1][1] - s) > 0.05
+        jump_out = i < len(pieces) - 1 and abs(pieces[i + 1][0] - e) > 0.05
+        af = f"volume={g:.2f}dB"
+        if jump_in:
+            af += ",afade=t=in:d=0.03"
+        if jump_out:
+            af += f",afade=t=out:st={d - 0.04:.3f}:d=0.04"
         f = f"{wd}/p{i:02d}.mp4"
         run(["ffmpeg", "-v", "error", "-y", "-ss", f"{s:.3f}", "-i", FILM, "-t", f"{d:.3f}", "-vf", vf,
-             "-af", f"volume={g:.2f}dB"] + ENC + [f])
+             "-af", af] + ENC + [f])
         parts.append(f); timeline.append((s, e, t)); t += d
     total = t
     open(f"{wd}/concat.txt", "w").writelines(f"file '{p}'\n" for p in parts)
@@ -95,12 +128,29 @@ def build(name):
         ass.append(f"Dialogue: 0,{ts(f2s(a))},{ts(f2s(b))},{st},,0,0,0,,{{\\fad(50,50)}}{txt}")
     htxt, hdur = cfg["hook"]
     ass.append(f"Dialogue: 1,{ts(0)},{ts(hdur)},Hook,,0,0,0,,{htxt}")
-    ass.append(f"Dialogue: 1,{ts(total - 3.0)},{ts(total)},End,,0,0,0,,{{\\fad(250,0)}}FULL STORY\\NON THE CHANNEL")
+    if not cfg.get("badge"):
+        ass.append(f"Dialogue: 1,{ts(total - 3.0)},{ts(total)},End,,0,0,0,,{{\\fad(250,0)}}FULL STORY\\NON THE CHANNEL")
     open(f"{wd}/caps.ass", "w").write("\n".join(ass) + "\n")
     out = f"{OUTDIR}/{cfg['out']}"
-    run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{wd}/concat.txt",
-         "-vf", f"ass={wd}/caps.ass:fontsdir={FONTS}",
-         "-af", f"afade=t=in:d=0.05,afade=t=out:st={total - 0.4:.3f}:d=0.4,loudnorm=I=-14:TP=-1.5:LRA=11",
+    inputs = ["-f", "concat", "-safe", "0", "-i", f"{wd}/concat.txt"]
+    vchain = f"[0:v]ass={wd}/caps.ass:fontsdir={FONTS}[v]"
+    achain = f"[0:a]afade=t=in:d=0.05,afade=t=out:st={total - 0.4:.3f}:d=0.4[a0]"
+    if cfg.get("badge"):
+        # animated SUBSCRIBE badge over the last 5.5 s,
+        # with its click + bell sound (overlays/subscribe_bell.py) at the same moment
+        at = max(0.0, total - BADGE_LEN)
+        inputs += ["-itsoffset", f"{at:.3f}", "-i", BADGE, "-i", BELL]
+        # card lands at x 210-870, y 1370-1520: under the captions, clear of faces, left of the Shorts buttons
+        vchain = (f"[1:v]crop=900:380:0:700[bd];"
+                  f"[0:v]ass={wd}/caps.ass:fontsdir={FONTS}[vs];[vs][bd]overlay=130:1220:eof_action=pass[v]")
+        ms = int(round(at * 1000))
+        achain += f";[2:a]adelay={ms}|{ms}[bl];[a0][bl]amix=inputs=2:duration=first:normalize=0[a1]"
+        alast = "[a1]"
+    else:
+        alast = "[a0]"
+    achain += f";{alast}loudnorm=I=-14:TP=-1.5:LRA=11[a]"
+    run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", vchain + ";" + achain,
+         "-map", "[v]", "-map", "[a]",
          "-c:v", "libx264", "-preset", "slow", "-crf", "20", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p",
          "-movflags", "+faststart", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", out])
     print(json.dumps({"out": out, "duration": round(total, 2)}))
