@@ -134,6 +134,10 @@
 - **TOMMY:** "That sounds boring."
 - **JONAH:** "It was. That's why I came to the fair."
 - **N04:** "Jonah Reed fixed the gate hinge before supper, and the pump handle after, and a loose board on the porch that Tom Cole had meant to fix for two years. He did not ask about the note on the table. He had already read it."
+- *Ханна выходит на крыльцо, наступает на доску — та больше не скрипит. Останавливается.*
+- **HANNAH:** "Tom meant to fix that board for two years."
+- **JONAH:** "I used his nails, ma'am. They were in the coffee can by the door. Seemed right."
+- *Ханна долго молчит, кивает и уходит в дом. (Тихий момент «как колыбель в фильме 3».)*
 - *Сумерки. Ханна у простого деревянного креста под осинами у ручья. Джона подходит с фонарём, останавливается в стороне.*
 - **HANNAH:** "Tom always said I was the better shot. He never minded. Most men would have."
 - **JONAH:** "Most men are fools, ma'am."
@@ -301,6 +305,19 @@
 - Рассказчик: тот же голос, что в фильме 3. 16 блоков (N00–N08b) ≈ 900 слов (≈ 6,5 мин из ~16). Реплик — 59. Табличка в банке (N07b) — только голосом, на экране без букв.
 - Музыка: тема унижения (пианино + струнные), тема ярмарки (скрипка, банджо, тихо), ночная угроза, финальный выстрел (нарастание → тишина → удар), любовный финал (скрипки). Остальное — из библиотеки серии.
 - Значок «Подписаться»: ~0:30 и ~10:35 (после ночной сцены, в начале урока стрельбы), не поверх реплик и выстрелов.
+
+## Что сказали зрители фильмов 1–3 (комментарии 9–10 окт) и что это меняет
+
+| Комментарии | Вывод для фильма 4 |
+|---|---|
+| «nicely narrated», «Outstanding Narrative!!!», «great narrator», «Well worth the hearing», «Listening from…» | Рассказчик остаётся, тот же голос. В закрепе — вопрос «откуда смотрите». |
+| «Those New Boots had me smiling», «The moment Wade brought the cradle down brought tears», «love Molly's observations» | Зрители запоминают **маленький предмет со смыслом** и **реплики ребёнка**. У нас: доска, которую не успел починить покойный муж, — Джона чинит её **его гвоздями** (сцена 3); винтовка деда над камином в финале; смешные реплики Томми. |
+| «Gunfight was a bit lame» | Перестрелки нет, но выстрелы должны выглядеть мощно: дым, отдача, попадание, реакция толпы. Все 4 выстрела Ханны — во Flow, с проверкой. |
+| «a bit unbelievable» | Список «Проверка логики» выше обязателен. |
+| «Perfect, consistent visuals» (фильм 3) / «kinda f… up video» (фильм 2) | Зрители видят брак. Список «Проверка кадров» — до монтажа, не после. |
+| «A very short but beautiful story» | Длина 15,5–16,5 мин — не короче фильма 3. |
+| «Part 2 again damn AI» (под шортсом) | Шортс — законченная мини-история, без ощущения «продолжение следует». В подписи ясно: полная история — по ссылке над названием. |
+| «I would have stood up for her first thing!!», «No ma'am, no one sleeps outside in a barn!» | Зрители-мужчины ставят себя на место защитника. Джона защищает **поступками, не кулаками**: 40 центов, мушка, ночь на крыльце, банк. |
 
 ## Решения за пользователем перед запуском
 
