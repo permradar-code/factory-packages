@@ -1,0 +1,70 @@
+{
+ "film": "The Widow's Rifle",
+ "note": "4 new cues + 4 reused from film 3 (S3) at no cost",
+ "cues": [
+  {
+   "id": "M01",
+   "covers": "cold open humiliation, the bent sight",
+   "target_s": 60,
+   "mood": "humiliation and quiet pride",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Slow aching western cue at 68 BPM in E minor: solo piano with a sparse melody, low sustained strings underneath, a lonely cello answering, dignified sadness that slowly gains resolve. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M02",
+   "covers": "the fair, qualifying, the depot",
+   "target_s": 75,
+   "mood": "sunny small-town fair, light tension",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Bright but restrained western fair cue at 96 BPM in G major: fiddle and five-string banjo playing a simple tune, light upright bass and acoustic guitar, a hint of suspense in the low strings, sunny afternoon. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M03",
+   "covers": "the map, the torches at night",
+   "target_s": 60,
+   "mood": "night threat",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Dark night-threat western cue at 72 BPM in D minor: low tremolo strings, muted horse-hoof percussion on a frame drum, a single harmonica bend, a rising tension that breaks off abruptly. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M04",
+   "covers": "the final round, the six-hundred-yard shot, the bank",
+   "target_s": 90,
+   "mood": "building suspense to triumph",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Suspense-to-triumph western cue at 84 BPM in A minor turning to A major: a slow ticking pizzicato like a clock, strings building tension over a long crescendo, a held silence, then a full warm swell of strings and fiddle. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M05s",
+   "series_source": "S3:M02",
+   "covers": "walk to the farm, supper, the porch board, the grave",
+   "target_s": 60,
+   "mood": "bittersweet lullaby"
+  },
+  {
+   "id": "M08s",
+   "series_source": "S3:M01",
+   "covers": "night, the torches",
+   "target_s": 60,
+   "mood": "storm and dread"
+  },
+  {
+   "id": "M06s",
+   "series_source": "S3:M03",
+   "covers": "the lesson at sunrise",
+   "target_s": 90,
+   "mood": "quiet tenderness"
+  },
+  {
+   "id": "M07s",
+   "series_source": "S3:M04",
+   "covers": "aftermath, the bank sign, the proposal, the wedding",
+   "target_s": 60,
+   "mood": "warm triumph"
+  }
+ ]
+}
