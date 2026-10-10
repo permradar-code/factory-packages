@@ -15,6 +15,7 @@
 | Откуда | Что взяли |
 |---|---|
 | Удержание фильма 1 | Половина зрителей уходит в первую минуту, дальше кривая ровная. → Первые 40 с — сразу сцена с репликами, без вступлений, без панорам, без титра до 0:38. |
+| Где именно уходили в фильме 1 (разбор монтажа) | Первая минута там была **целиком на репликах, рассказчика не было** — и всё равно ушла половина. Провалы: **0:26** (медленный разгон аукциона: «стартуем с пяти долларов») и **0:51** — ровно в момент «Two hundred. In gold… Sold.», когда холодное начало **само ответило на свой вопрос** (пианино спасено, история как будто кончилась). Потом титр и **один блок рассказчика на 3 минуты подряд** (1:10–4:00) — ещё −12 пунктов. → Холодное начало заканчивается **открытым вопросом** (выиграет ли? кто он?), первая расплата **после** титра (выстрел к ~1:10), предыстория — только после неё, блоки рассказчика **не длиннее ~25 с**. |
 | Фильм 3 (лучший старт, 32 тыс. за сутки) | Холодное начало реплика-в-реплику, как «May we sleep in your barn?». Рассказчик ~40% фильма короткими блоками между сценами (зрители пишут «great narrator», «listening from…»). Ребёнок со смешными репликами. Скрытая сила мужчины. Финал «Stay anyway» → у нас «He's a terrible shot!». |
 | Хит Legends in the Dust (818 тыс.) | Публичное унижение в первые секунды, расплата каждые 2–3 мин, «милостыню не беру» → работа вместо милостыни, раскрытие силы героя в конце, предложение. |
 | Хиты ниши за 3 месяца (vidIQ) | «Смеялись над вдовой на конкурсе стрелков — первый выстрел заставил замолчать» (223 тыс. у канала на 4.7 тыс.), «Думали, вдова беспомощна, пока не взяла винтовку» (586 тыс.). |
@@ -63,9 +64,9 @@
 | 0:28 | Ханна идёт к линии огня сквозь толпу, Томми несёт винтовку. Значок «Подписаться» ~0:30. | **NARRATOR (N00):** "Hannah Cole had until noon the next day to pay a two-hundred-and-fifty-dollar note. She had a ten-year-old boy, and her father's old buffalo rifle. The prize that day was two hundred and fifty dollars in gold. And the whole town of Cedar Bluff had come to watch her lose." |
 | 0:38 | Титр **THE WIDOW'S RIFLE** / A Tale of Cedar Bluff | музыка |
 
-### СЦЕНА 1. Квалификация (0:40–2:40) — первая расплата
+### СЦЕНА 1. Квалификация (0:40–2:40) — первая расплата к ~1:10
 
-**N01 (под ярмарку: флажки, пироги, лошади у коновязи, мишени на 200 ярдов):** "Her husband Tom had borrowed the money two springs before, for seed and fence wire, from the Cedar Bluff Savings Bank. Then the hail took the wheat, and the fever took Tom. The note came due on Saturday at noon. Mr. Ambrose Hale, who ran the bank, had refused her an extension twice. He had been very polite about it both times."
+*Сразу после титра — линия огня, без рассказчика и без панорам. Первый выстрел Ханны должен прозвучать не позже ~1:10.*
 
 - *Линия огня. Хоббс в жилете объявляет.*
 - **HOBBS:** "Two hundred yards, folks! Three shots each. Clay Hale, three years running champion of the county fair!"
@@ -75,6 +76,7 @@
 - **TOMMY** (шёпотом): "Breathe out, Ma. Like Grandpa said."
 - *Выстрел. Пыль. Мальчик с флажком у мишени машет белым — «в яблочко». Тишина. Второй, третий — то же.* (ключевой кадр для шортса)
 - *Лавиния перестаёт обмахиваться. Клэй больше не улыбается. Джона в толпе — едва заметная улыбка.*
+- **N01 (только теперь, после первой расплаты; под ярмарку: флажки, пироги, лошади у коновязи):** "Her husband Tom had borrowed the money two springs before, for seed and fence wire, from the Cedar Bluff Savings Bank. Then the hail took the wheat, and the fever took Tom. The note came due on Saturday at noon. Mr. Ambrose Hale, who ran the bank, had refused her an extension twice. He had been very polite about it both times."
 - **N02:** "Her father had hunted buffalo on the Arkansas and scouted for the army, back when the herds still darkened the plains. He had no sons. So he taught his daughter to read the wind in the grass, to breathe out before the trigger, and never to shoot at anything she did not mean to hit."
 
 ### СЦЕНА 2. Мушка (2:40–4:20) — подлость и вторая расплата
