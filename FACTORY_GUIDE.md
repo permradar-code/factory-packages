@@ -165,12 +165,11 @@ curl -s http://127.0.0.1:8788/health  # должно быть PASS
 - Перезапуск только когда ничего не генерируется (`film_status` / `factory_status`). `moiastro-provider-worker` перезапускать, только если менялся он.
 - git — только от `sudo -u moiastro` (у root нет ключа GitHub); pip — только конкретные пакеты: `sudo -u moiastro /opt/moiastro-engine/.venv/bin/pip install <пакет>`.
 
-## 7. Telegram (уведомления фабрики и утренняя сводка) — не настроен
-1. @BotFather → `/newbot` → токен (**в чат не присылать**), написать боту `/start`.
-2. На сервере: `nano /etc/moiastro-secrets/montage.env` → строка `MOIASTRO_TELEGRAM_TOKEN=<токен>`.
-3. chat id: `set -a; . /etc/moiastro-secrets/montage.env; set +a; curl -s "https://api.telegram.org/bot$MOIASTRO_TELEGRAM_TOKEN/getUpdates" | grep -o '"chat":{"id":[-0-9]*'` → строка `MOIASTRO_TELEGRAM_CHAT_ID=<число>` в тот же файл.
-4. Проверить `systemctl cat moiastro-studio | grep EnvironmentFile` (должен указывать на montage.env).
-5. Сводка: в `ops/moiastro-youtube-digest.service` поставить `EnvironmentFile=/etc/moiastro-secrets/montage.env`, затем `cp ops/moiastro-youtube-digest.{service,timer} /etc/systemd/system/ && systemctl daemon-reload && systemctl enable --now moiastro-youtube-digest.timer`; перезапустить studio и mcp. Проверка: `notification_test`.
+## 7. Telegram — настроен 10 окт
+- Бот владельца, chat id `5756019147`. Секреты: `/etc/moiastro-secrets/telegram.env` (`MOIASTRO_TELEGRAM_TOKEN`, `MOIASTRO_TELEGRAM_CHAT_ID`, chmod 600), подключены к `moiastro-studio` и `moiastro-mcp` через `/etc/systemd/system/<сервис>.service.d/telegram.conf`. **Токен не печатать и не просить.**
+- Уведомления фабрики: `notification_status` / `notification_configure(enabled)` / `notification_test`.
+- Сводка по каналу каждый день в 09:00 МСК (`moiastro-youtube-digest.timer`); вручную: `youtube_digest_now(send=true)`.
+- Сменить бота: заменить токен в файле → `systemctl restart moiastro-studio moiastro-mcp`.
 
 ## 8. Слить PR в moiastro-engine (руками на GitHub)
 У чатов слияние без ревью запрещено средой. Владелец: PR **#3 → #2 → #1**, у каждого «Ready for review» → «Merge pull request». Все правки 9–10 окт уже внутри ветки PR #3 (`feature/youtube-mcp-phase2`).
