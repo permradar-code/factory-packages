@@ -4611,7 +4611,13 @@
     "enabled": true
    },
    "video_sample": {
-    "enabled": true
+    "enabled": true,
+    "shot_ids": [
+     "C01",
+     "C07",
+     "C54",
+     "C74"
+    ]
    },
    "videos": {
     "enabled": false

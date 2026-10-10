@@ -590,6 +590,11 @@ ANCHORS = {
 }
 # one anchor per cue: each cue plays from its anchor until the next cue starts (2 s crossfade)
 
+SAMPLE = [MARK["open"],
+          first_of(lambda s: s["type"] == "clip" and "four silver dimes" in s["action"]),
+          first_of(lambda s: s["type"] == "clip" and "torch flies out" in s["action"]),
+          first_of(lambda s: s["type"] == "clip" and "ringing clang of steel" in s["action"])]
+
 clips = [s for s in SHOTS if s["type"] == "clip"]
 narrs = [s for s in SHOTS if s["type"] == "narration"]
 words = sum(len(re.findall(r"[A-Za-z']+", n["text"])) for n in narrs)
@@ -613,7 +618,10 @@ out = {"title": "The Widow's Rifle", "series": "Tales of Cedar Bluff", "episode"
            "hooks": {"count": 8},
            "policy_retry_max": 3,
            "review_gates": {"references": {"enabled": True}, "audio": {"enabled": False},
-                            "visuals": {"enabled": True}, "video_sample": {"enabled": True}, "videos": {"enabled": False}},
+                            "visuals": {"enabled": True},
+                            # owner checks these before the whole batch: the cold open, the dimes, the torch shot, the 600-yard shot
+                            "video_sample": {"enabled": True, "shot_ids": SAMPLE},
+                            "videos": {"enabled": False}},
            "edit": {"engine": "v2",
                     "badge_at": [[MARK["N00"], 2.0], [MARK["lesson"], 0.5]],
                     "grade": "eq=contrast=1.05:saturation=1.15:gamma=1.13:brightness=0.03",
