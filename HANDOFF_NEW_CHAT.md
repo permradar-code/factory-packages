@@ -1,3 +1,19 @@
+# Tales of Cedar Bluff: передача в новый чат
+
+> **10 окт 2026, 11:00 МСК. Сначала прочитай `FACTORY_GUIDE.md` — это полная инструкция: как делать фильмы, шортсы и правки на фабрике.** Ниже — состояние дел.
+
+## Состояние на 10 окт (утро)
+- **Фильм 4 «The Widow's Rifle»** (конкурс стрелков): сценарий `briefs/western_widows_rifle/script.md`, раскадровка `build_shotlist.py` → `shotlist.json`. На фабрике проект `western_widows_rifle_v1` импортирован: **AWAITING_APPROVAL, $81.5 + запас = $93.8**, fingerprint `2b5cd0d53eaf573eef8d07e370e38d25b0db16f5929ca5c52b3bdd5564299c96`. Ждём «ок» владельца на бюджет → `montage_assets_approve`. Если сценарий меняется — заново `film_package_prepare` (package_branch `pkg/western_stagecoach_bride_v1`).
+- **Фабрика, ветка `feature/youtube-mcp-phase2`, коммит `5df9cbf` — НЕ задеплоен** (на сервере `fc0b6db`). Новое: колокольчик плашки в монтаже v2; шортсы командами `film_short_scenes` / `film_frames` / `film_story_short`; правки фильма `film_timeline` / `film_edit_set`; починен `youtube_shorts_to_long`; понятные ошибки `film_package_prepare`. Деплой: `git pull` + перезапуск `moiastro-studio` и `moiastro-mcp` (раздел 6 инструкции), пока ничего не генерируется.
+- **Шортсы фильма 3** у владельца в `film3_barn_storm\shorts\`: `short_mothers.mp4` (без плашки, выложить 10 окт ~22:00) и `short_harlan.mp4` (плашка + колокольчик, 11 окт ~22:00). Через 2 дня сравнить подписки на 1000 просмотров (хиты ≈ 2).
+- Отчёты YouTube Reporting (показы/CTR и др., 13 шт.) заказаны 9 окт — данные с ~11–12 окт.
+- Комментарии на 10 окт 08:40 отвечены все; название шортса-справедливости исправлено.
+- Telegram не настроен; PR #3 → #2 → #1 не слиты (руками владелец).
+
+---
+
+## Архив: передача от 9 окт
+
 # Tales of Cedar Bluff: передача в новый чат (9 окт 2026, 22:00 МСК)
 
 > Документ для Claude в новом чате. Прочитай его целиком первым. Старая история и общие правила лежат в `HANDOFF_WESTERN.md`; версия этого файла от 8 окт есть в истории git.
