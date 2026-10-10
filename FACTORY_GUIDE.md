@@ -171,8 +171,8 @@ curl -s http://127.0.0.1:8788/health  # должно быть PASS
 - Сводка по каналу каждый день в 09:00 МСК (`moiastro-youtube-digest.timer`); вручную: `youtube_digest_now(send=true)`.
 - Сменить бота: заменить токен в файле → `systemctl restart moiastro-studio moiastro-mcp`.
 
-## 8. Слить PR в moiastro-engine (руками на GitHub)
-У чатов слияние без ревью запрещено средой. Владелец: PR **#3 → #2 → #1**, у каждого «Ready for review» → «Merge pull request». Все правки 9–10 окт уже внутри ветки PR #3 (`feature/youtube-mcp-phase2`).
+## 8. Ветки moiastro-engine
+PR #1–#3 слиты владельцем 10 окт: всё есть в `feature/google-ai-refresh-20261006`. Сервер работает на `feature/youtube-mcp-phase2` (новые правки пушить туда). `main` отстаёт на ~225 коммитов — не трогать без решения владельца. Слияние PR чатам запрещено средой: делает владелец кнопкой на GitHub; чат может только перевести PR из черновика.
 
 ## 9. Известные проблемы
 - `film_package_prepare` отвечает большим JSON (>50 тыс. символов) — читать только `status`, `input_fingerprint`, `cost_estimate.cost_usd`.
