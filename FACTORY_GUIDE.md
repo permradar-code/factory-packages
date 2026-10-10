@@ -39,7 +39,7 @@
 ### 1.2 Упаковка
 - Название: «She…» / реплика героини в кавычках + поворот, хвост **« | Full Western Movie»**, ≤ 100 символов (**считать скриптом**). Слова хитов: laughed, widow, stranger, shooting match.
 - **A/B-тест — три разных типа обложки**, не вариации: **тепло** (победил в фильме 3: «No, Ma'am», мольба/фонарь/дети), **сила** (победил в фильмах 1–2: она крупно с оружием), **унижение** (над ней смеются). Общее у победителей: она в центре крупно, одна эмоция, без толпы мужиков с пушками. YouTube выбирает по **времени просмотра**.
-- Подпись на обложке 1–3 слова, жёлтая, слева сверху (Anton, обводка). Картинки обложек — Flow (Claude Code) или фабрика, подпись — скрипт `thumbs_ai.py`.
+- Подпись на обложке 1–3 слова, жёлтая, слева сверху (Anton, обводка). Обложки делает фабрика: `film_thumbnail` (шаг 7). Картинки из Flow тоже годятся — положить в проект и подписать той же командой.
 - Публикация ~22:00 МСК, «Синтетический контент = Да», не для детей, «Фильмы и анимация», EN. Закреп — вопрос «Where are you watching from tonight?» или «Would you have…?».
 
 ---
@@ -110,9 +110,15 @@
 - Плохой клип целиком: `film_redo(project_id, ["C41"])` (перегенерировать, деньги!) или `film_asset_skip(project_id, "C41")`.
 - После любых правок: `film_edit_render(project_id)`. Одобрения и смета остаются в силе. `null` в film_edit_set отменяет правку.
 
-### Шаг 7. Публикация лонга
-1. `youtube_publish_video(project_id=..., kind="long", title=..., description=..., privacy="private", thumbnail=..., publish_at=...)` — сначала `dry_run=true`, показать владельцу, потом по «ок» без dry_run. Статус: `youtube_upload_status(job_id)`.
-2. Руками в Студии (API не умеет): A/B-тест 3 обложек и названий, конечная заставка (на предыдущий фильм), подсказки, закреп комментария, «Связанное видео» у шортсов.
+### Шаг 7. Обложки и публикация лонга
+0. **Обложки (3 типа для A/B):** `film_thumbnail(project_id, name="a_warm", caption="NO, MA'AM.", ...)` → превью в чат + файл `projects/<id>/thumbnails/<name>.jpg` (1280x720, ≤ 2 МБ). Картинка — одно из:
+   - `source="t:612.4"` — кадр готового фильма (сначала найти кадр через `film_frames`);
+   - `source="img:I03"` / `"gfx:<имя>"` / `"ref:<имя>"` — картинка проекта или референс героя;
+   - `prompt="..."` без source — **новая** картинка 16:9 через провайдер (~$0.07 штука), `refs_json='["ref:clara"]'` (до 6) — чтобы лицо было то же. Сохраняется как `gfx:thumb_<name>`: поменять подпись потом бесплатно — `source="gfx:thumb_<name>"`.
+   - `caption` 2–5 слов, `|` — перенос строки; `position` tl/tr/bl/tc/bc (не на лицо; br — под таймером YouTube); `focus_x` 0..1 — центр кропа для не-16:9; `brightness` 0.6–1.6.
+   - Правила картинки: она крупно в центре, одна эмоция, светло (не ночь), без толпы с оружием.
+1. `youtube_publish_video(project_id=..., kind="long", title=..., description=..., privacy="private", thumbnail="<path обложки a>", publish_at=...)` — сначала `dry_run=true`, показать владельцу, потом по «ок» без dry_run. Статус: `youtube_upload_status(job_id)`.
+2. Руками в Студии (API не умеет): A/B-тест 3 обложек и названий (файлы обложек — в `film_download_links` → thumbnails), конечная заставка (на предыдущий фильм), подсказки, закреп комментария, «Связанное видео» у шортсов.
 3. Описание: 2–3 строки истории, вопрос для комментариев, «A new tale from Cedar Bluff, Colorado, every week.», «All characters and events are fictional. Created with the help of AI.», хэштеги.
 
 ---
@@ -172,5 +178,5 @@ curl -s http://127.0.0.1:8788/health  # должно быть PASS
 ## 9. Известные проблемы
 - `film_package_prepare` отвечает большим JSON (>50 тыс. символов) — читать только `status`, `input_fingerprint`, `cost_estimate.cost_usd`.
 - В фильме 3 плашка обрезалась склейкой (0.9 с) — перезаливать не будем; в v2 исправлено.
-- Тесты `test_studio_exposes_montage_prepare_route` и `test_download_parses_csv_with_authorized_session` падают вне сервера — это окружение, не код.
+- Тесты `test_studio_exposes_montage_prepare_route`, `test_download_parses_csv_with_authorized_session` и `test_existing_long_visuals_are_cache_hits_without_provider_calls` падают вне сервера — это окружение/старое, не код фабрики.
 - Как шортс выглядит в ленте у чужих аккаунтов (первый кадр/значок) — не изучено, отложено владельцем.
