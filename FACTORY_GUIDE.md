@@ -82,6 +82,7 @@
 
 ### Шаг 3. Смета и запуск
 1. `film_package_prepare(project_id="<film>_v1", shotlist_path="briefs/<film>/shotlist.json", package_branch="pkg/western_stagecoach_bride_v1")` — **бесплатно**, ничего не генерирует. `package_branch` — ветка с готовыми лицами (своей ветки у нового фильма нет; если указать несуществующую — ошибка с именем ветки).
+   **Не путать** с `production.export.package_branch` в shotlist (у фильма 4 — `pkg/western_widows_rifle_v1`): это ветка, **куда** `film_export` сохранит готовые материалы нового фильма; она создаётся сама при экспорте. Менять её на ветку фильма 2 нельзя — затрёт его пакет. Два разных поля: откуда брать лица (prepare) и куда сохранить результат (export).
    - Ответ большой: смотри `status` (= `AWAITING_APPROVAL`), `input_fingerprint`, `cost_estimate.cost_usd` (`base_total`, `budget_total` с запасом 15%).
    - Ориентир: ~110 клипов ≈ $80 + запас ≈ $94.
 2. Показать владельцу смету. **Только после его «ок»:** `montage_assets_approve(project_id, input_fingerprint)`.
