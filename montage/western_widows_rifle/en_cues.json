@@ -1,190 +1,942 @@
 [
-[0.15,3.0,"One dollar... and sixty cents."],
-[3.083,8.667,"Entry is two dollars, Mrs. Cole. This is a rifle match. Not a church raffle."],
-[12.708,15.268,"I'll have the rest by noon."],
-[15.675,22.605,"By noon Saturday you won't have a farm, dear. Ambrose told me all about it."],
-[23.108,28.042,"Let her shoot, Aunt Lavinia. I could use a laugh."],
-[28.342,33.052,"Forty cents, ma'am. Write her name down."],
-[33.467,35.537,"And who might you be?"],
-[35.925,37.955,"Somebody who'd like to see her shoot."],
-[38.542,43.285,"Hannah Cole had until noon the next day to pay a two-hundred-and-fifty-dollar"],
-[43.325,48.866,"note. She had a ten-year-old boy, and her father's old buffalo rifle."],
-[49.362,53.417,"The prize that day was two hundred and fifty dollars in gold."],
-[53.821,57.968,"And the whole town of Cedar Bluff had come to watch her lose."],
-[62.708,64.639,"Two hundred yards, folks!"],
-[64.679,69.328,"Clay Hale, three years running champion of the county fair!"],
-[75.758,78.168,"And... Mrs. Thomas Cole."],
-[78.25,81.77,"Breathe out, Ma. Like Grandpa said."],
-[94.5,98.326,"Her husband Tom had borrowed the money two springs before,"],
-[98.366,102.595,"for seed and fence wire, from the Cedar Bluff Savings Bank."],
-[103.207,107.413,"Then the hail took the wheat, and the fever took Tom."],
-[107.91,111.128,"The note came due on Saturday at noon."],
-[111.369,116.806,"Mr. Ambrose Hale, who ran the bank, had refused her an extension twice."],
-[117.047,120.66,"He had been very polite about it both times."],
-[121.875,126.642,"Her father had hunted buffalo on the Arkansas and scouted for the army,"],
-[126.682,129.494,"back when the herds still darkened the plains."],
-[129.805,131.653,"He had no sons."],
-[131.732,134.943,"So he taught his daughter to read the wind in the grass,"],
-[134.983,139.866,"to breathe out before the trigger, and never to shoot at anything she did not"],
-[139.906,141.719,"mean to hit."],
-[146.458,148.598,"Ma... it's bent."],
-[148.875,152.775,"It'll shoot a foot to the left now. Maybe more."],
-[152.875,154.155,"May I?"],
-[161.734,166.484,"Your father kept this rifle well, ma'am. Somebody today didn't."],
-[166.792,168.612,"Who are you, mister?"],
-[169.218,169.645,"Reed."],
-[169.685,170.671,"Jonah Reed."],
-[170.711,173.19,"I fixed rifles in the army."],
-[173.23,176.868,"Mostly the boys shot better than I did."],
-[177.75,180.922,"Nobody in Cedar Bluff knew who Jonah Reed was."],
-[181.163,185.895,"He had come in on Thursday's stage with one carpetbag and asked for a room at"],
-[185.935,190.152,"the hotel, but every room in town was taken for the fair."],
-[190.463,193.31,"He spent Thursday night on a bench at the depot,"],
-[193.494,198.132,"and Friday morning, it seemed, standing in line behind a widow who was forty"],
-[198.172,199.916,"cents short."],
-[206.957,212.709,"Final round tomorrow at eleven! Mrs. Cole and Clay Hale!"],
-[213.009,217.559,"Tomorrow you'll win, Clay. And you'll take your time doing it."],
-[217.667,221.047,"Mrs. Cole will not be at the match tomorrow."],
-[221.167,223.147,"And if she is?"],
-[223.584,228.051,"Then she'll be too tired to hold a rifle steady."],
-[228.091,229.272,"Frighten her."],
-[229.312,230.492,"Nothing more."],
-[230.532,231.284,"Tonight."],
-[231.875,236.893,"What Ambrose Hale did not tell the town was what lay on that desk:"],
-[237.134,239.761,"a surveyor's map from the railroad."],
-[240.165,243.534,"The new line would need water every twenty miles,"],
-[243.578,246.889,"and the best water in the valley ran through Willow Creek."],
-[247.502,249.571,"Right through the Cole farm."],
-[250.068,253.124,"Hale had already bought the two farms upstream."],
-[253.434,257.524,"Quietly. Through his wife's name."],
-[258.55,261.14,"Books, mister? You a schoolteacher?"],
-[265.25,267.17,"Something like that."],
-[268.167,271.25,"The Cole place sat three miles up Willow Creek,"],
-[271.29,274.253,"where the aspens turned gold every September."],
-[274.599,279.037,"Eighty acres, a two-room house Tom had built with his own hands,"],
-[279.138,284.706,"a barn, a dozen hens, and an old gray mare named Jessie who was too stubborn"],
-[284.746,287.396,"to die. It was not much."],
-[287.521,292.238,"But it was the only thing Tommy Cole had left of his father."],
-[292.959,295.439,"That's close enough, Mr. Reed."],
-[295.842,297.718,"Hotel's full for the fair, ma'am."],
-[297.758,300.215,"I'll pay fifty cents a night for your barn."],
-[300.255,302.752,"And I'll fix that gate hinge before supper."],
-[302.834,304.734,"I don't take charity."],
-[305.25,309.292,"It isn't charity, ma'am. It's a bad hinge."],
-[309.592,311.862,"Supper's at six. Wash at the pump."],
-[312.259,314.369,"Were you a soldier, Mr. Reed?"],
-[314.459,316.596,"I was a clerk who carried a rifle."],
-[316.636,318.261,"Then a man who fixed them."],
-[318.301,321.119,"Then a man who counted other people's money."],
-[321.209,322.929,"That sounds boring."],
-[323.926,326.795,"It was. That's why I came to the fair."],
-[327.376,330.386,"Jonah Reed fixed the gate hinge before supper,"],
-[330.51,335.706,"and the pump handle after, and a loose board on the porch that Tom Cole had meant"],
-[335.746,337.758,"to fix for two years."],
-[337.998,340.416,"He did not ask about the note on the table."],
-[340.82,342.994,"He had already read it."],
-[344.051,346.78,"Tom meant to fix that board for two years."],
-[347.275,354.025,"I used his nails, ma'am. They were in the coffee can by the door. Seemed right."],
-[358.98,364.65,"Tom always said I was the better shot. He never minded. Most men would have."],
-[365.509,367.779,"Most men are fools, ma'am."],
-[368.175,369.726,"And you, Mr. Reed?"],
-[370.292,373.012,"I'm a fool about other things."],
-[373.626,379.078,"Tom Cole had been a quiet man who whistled when he plowed and could not hit a"],
-[379.118,381.081,"barn door with a shotgun."],
-[381.486,386.542,"He used to say he married the best rifle in Colorado so he would never have to"],
-[386.582,391.914,"learn. When the fever came, he made Hannah promise two things:"],
-[392.318,397.684,"that she would keep the farm for the boy, and that she would never let anyone"],
-[397.727,399.576,"make her feel small."],
-[400.188,403.581,"She had kept the first promise for nine months."],
-[403.986,407.03,"The second was harder."],
-[408.292,410.895,"Hannah put out the lamp a little after nine."],
-[411.136,413.844,"Tommy was asleep with his boots still on."],
-[414.341,418.643,"In the barn, a man who had counted money for twenty years lay awake on a bed"],
-[418.683,423.504,"of straw, listening to the creek, and thinking about a bent front sight."],
-[424.0,427.486,"At a quarter past eleven, he heard horses."],
-[428.551,434.021,"Mrs. Cole! Mr. Hale says a widow's got no business at a man's match!"],
-[438.167,443.247,"Stay home tomorrow. Or this barn burns tonight."],
-[443.334,445.654,"Put the torch down, mister."],
-[445.751,447.991,"Or what?"],
-[452.209,456.809,"I don't miss, gentlemen. Come to the fair tomorrow and watch."],
-[461.259,463.069,"Your father taught you that?"],
-[463.676,468.066,"My father taught me to shoot. My husband taught me not to be afraid."],
-[468.667,472.199,"Jonah sat on the porch until the sun came up,"],
-[472.243,477.319,"with a lantern and a pot of coffee that went cold before midnight."],
-[477.723,479.664,"Hannah knew he was there."],
-[480.068,484.749,"For the first time since the winter, she slept through the night."],
-[490.111,493.542,"You're supposed to hit it, Mr. Reed."],
-[493.842,495.492,"I'm aware of that, son."],
-[496.259,498.569,"Ma says breathe out first."],
-[498.668,501.208,"I breathed."],
-[501.792,505.894,"By Saturday morning, half of Cedar Bluff had heard about the torches."],
-[506.076,508.808,"The other half had heard about the forty cents."],
-[509.212,511.86,"Nobody laughed at Hannah Cole that morning."],
-[512.102,514.416,"But nobody stood next to her either."],
-[514.912,520.801,"Except a ten-year-old boy, and a stranger who still had no room at the hotel."],
-[522.133,528.342,"A widow with a strange man sleeping in her barn. And now she wants a prize for it."],
-[529.276,535.346,"Lavinia, the last stranger who slept in a widow's barn here paid two hundred in gold for my mother's piano."],
-[536.176,539.846,"Then I married him. I'd keep my voice down."],
-[544.301,547.311,"We'll wait for the wind to settle, ladies and gentlemen."],
-[547.418,552.058,"He's not waiting for the wind. He's waiting for noon."],
-[560.209,565.729,"A tie! One shot each. The iron plate at six hundred yards!"],
-[572.646,576.356,"Wind's from the left, Ma. A hand and a half."],
-[587.301,589.431,"That was a fine shot, ma'am."],
-[590.073,595.584,"Yours wasn't bad either, Mr. Hale. The wind just didn't like you today."],
-[596.084,599.953,"Old men in Cedar Bluff argued about that shot for years."],
-[600.356,604.411,"Some said it was six hundred yards, some said seven."],
-[604.908,609.647,"Hobbs swore the plate rang so loud the horses at the depot spooked."],
-[610.051,612.318,"But everybody agreed on one thing."],
-[612.814,615.127,"Clay Hale had missed by a foot."],
-[615.624,619.226,"Hannah Cole had not missed at all."],
-[619.969,624.259,"Two hundred and fifty dollars, Mr. Hale. In full."],
-[625.043,627.341,"I'm afraid it's past noon, Mrs."],
-[627.381,627.719,"Cole."],
-[627.759,629.303,"The note is past due."],
-[629.343,631.833,"The property belongs to the bank."],
-[633.266,638.416,"Your clock is four minutes fast, Mr. Hale. The depot says eleven fifty-seven."],
-[638.718,642.248,"And who are you to tell me how to run my bank?"],
-[642.524,645.004,"It isn't your bank, Ambrose."],
-[645.044,646.174,"It never was."],
-[646.214,649.594,"The Denver owners sold it on Thursday."],
-[649.634,650.174,"To me."],
-[655.128,662.398,"I came early to see how my bank treats people. Then I read your survey maps."],
-[662.86,668.229,"You've been buying every farm along Willow Creek with the bank's money."],
-[668.269,669.793,"In your wife's name."],
-[670.583,674.993,"I'll take your keys, Ambrose. The rest we'll talk about at my office."],
-[681.885,683.815,"You could have just paid it on Friday."],
-[684.301,686.371,"You'd have thrown me off your porch."],
-[686.46,688.72,"Yes. I would have."],
-[689.376,694.162,"Ambrose Hale left Cedar Bluff on the Monday stage and did not come back."],
-[694.566,698.237,"The farms along Willow Creek went back to the people who had worked them,"],
-[698.362,701.778,"and when the railroad built its water tower two years later,"],
-[701.903,705.505,"it paid Hannah Cole a fair price for the land under it."],
-[706.002,710.428,"Lavinia Hale never ran the sign-up table again."],
-[711.668,716.551,"On Monday morning the new owner of the Cedar Bluff Savings Bank unlocked the"],
-[716.591,717.905,"doors himself."],
-[718.402,724.097,"By noon he had extended eleven notes, lowered the interest on every farm loan"],
-[724.137,729.225,"in the valley, and hung a small brass sign over the teller's window."],
-[729.35,733.416,"It said: no one in this bank is too small to be heard."],
-[733.657,738.517,"Folks said it was the first time anybody in Cedar Bluff had read a bank sign"],
-[738.557,739.964,"twice."],
-[741.01,743.88,"There are rooms at the hotel now, Mr. Reed."],
-[744.26,745.46,"I know."],
-[746.376,749.336,"That gate hasn't squeaked in a month."],
-[749.718,750.632,"I know that too."],
-[750.672,754.152,"Hannah, I've counted other people's money for twenty years."],
-[754.192,756.876,"I've never had anything worth coming home to."],
-[757.176,761.546,"Marry me. I'd like to fix this gate for the rest of my life."],
-[765.668,771.288,"Say yes, Ma! He's a terrible shot. Somebody's got to look after him!"],
-[777.918,781.825,"They were married in the little white church on Main Street before the first"],
-[781.865,787.313,"snow. Tommy Cole won the county fair rifle match eleven years later,"],
-[787.392,792.007,"with his grandfather's old Sharps, and he always said he'd learned to read the"],
-[792.047,793.628,"wind from his mother."],
-[794.032,796.844,"Jonah Reed never did learn to shoot straight."],
-[797.028,800.432,"He said one champion in the family was plenty."],
-[800.557,803.532,"And every September, on the morning of the match,"],
-[803.61,807.607,"he fixed the gate, whether it needed it or not."],
-[808.835,811.264,"That's the story of the widow's rifle."],
-[811.505,814.747,"And if you ever pass through Cedar Bluff in September,"],
-[814.872,817.278,"folks there will still tell you about it."],
-[817.519,819.345,"Keep a light in the window."]
+[
+0.15,
+3.0,
+"One dollar... and sixty cents."
+],
+[
+3.083,
+8.667,
+"Entry is two dollars, Mrs. Cole. This is a rifle match. Not a church raffle."
+],
+[
+13.228,
+14.917,
+"I'll have the rest by noon."
+],
+[
+15.217,
+22.147,
+"By noon Saturday you won't have a farm, dear. Ambrose told me all about it."
+],
+[
+22.65,
+27.543,
+"Let her shoot, Aunt Lavinia. I could use a laugh."
+],
+[
+27.583,
+32.573,
+"Forty cents, ma'am. Write her name down."
+],
+[
+32.883,
+34.953,
+"And who might you be?"
+],
+[
+35.342,
+37.371,
+"Somebody who'd like to see her shoot."
+],
+[
+37.958,
+42.701,
+"Hannah Cole had until noon the next day to pay a two-hundred-and-fifty-dollar"
+],
+[
+42.741,
+48.282,
+"note. She had a ten-year-old boy, and her father's old buffalo rifle."
+],
+[
+48.778,
+52.833,
+"The prize that day was two hundred and fifty dollars in gold."
+],
+[
+53.237,
+57.384,
+"And the whole town of Cedar Bluff had come to watch her lose."
+],
+[
+62.125,
+64.055,
+"Two hundred yards, folks!"
+],
+[
+64.095,
+68.745,
+"Clay Hale, three years running champion of the county fair!"
+],
+[
+75.175,
+77.585,
+"And... Mrs. Thomas Cole."
+],
+[
+77.667,
+81.187,
+"Breathe out, Ma. Like Grandpa said."
+],
+[
+93.917,
+97.743,
+"Her husband Tom had borrowed the money two springs before,"
+],
+[
+97.783,
+102.012,
+"for seed and fence wire, from the Cedar Bluff Savings Bank."
+],
+[
+102.624,
+106.83,
+"Then the hail took the wheat, and the fever took Tom."
+],
+[
+107.327,
+110.545,
+"The note came due on Saturday at noon."
+],
+[
+110.786,
+116.223,
+"Mr. Ambrose Hale, who ran the bank, had refused her an extension twice."
+],
+[
+116.464,
+120.077,
+"He had been very polite about it both times."
+],
+[
+121.292,
+126.059,
+"Her father had hunted buffalo on the Arkansas and scouted for the army,"
+],
+[
+126.099,
+128.911,
+"back when the herds still darkened the plains."
+],
+[
+129.222,
+131.07,
+"He had no sons."
+],
+[
+131.149,
+134.36,
+"So he taught his daughter to read the wind in the grass,"
+],
+[
+134.4,
+139.283,
+"to breathe out before the trigger, and never to shoot at anything she did not"
+],
+[
+139.323,
+141.136,
+"mean to hit."
+],
+[
+145.875,
+148.015,
+"Ma... it's bent."
+],
+[
+148.292,
+152.192,
+"It'll shoot a foot to the left now. Maybe more."
+],
+[
+152.292,
+153.572,
+"May I?"
+],
+[
+161.15,
+165.9,
+"Your father kept this rifle well, ma'am. Somebody today didn't."
+],
+[
+166.208,
+168.028,
+"Who are you, mister?"
+],
+[
+168.635,
+169.062,
+"Reed."
+],
+[
+169.102,
+170.088,
+"Jonah Reed."
+],
+[
+170.128,
+172.607,
+"I fixed rifles in the army."
+],
+[
+172.647,
+176.285,
+"Mostly the boys shot better than I did."
+],
+[
+177.167,
+180.339,
+"Nobody in Cedar Bluff knew who Jonah Reed was."
+],
+[
+180.58,
+185.312,
+"He had come in on Thursday's stage with one carpetbag and asked for a room at"
+],
+[
+185.352,
+189.569,
+"the hotel, but every room in town was taken for the fair."
+],
+[
+189.88,
+192.727,
+"He spent Thursday night on a bench at the depot,"
+],
+[
+192.911,
+197.549,
+"and Friday morning, it seemed, standing in line behind a widow who was forty"
+],
+[
+197.589,
+199.333,
+"cents short."
+],
+[
+206.373,
+212.125,
+"Final round tomorrow at eleven! Mrs. Cole and Clay Hale!"
+],
+[
+212.425,
+216.975,
+"Tomorrow you'll win, Clay. And you'll take your time doing it."
+],
+[
+217.084,
+220.463,
+"Mrs. Cole will not be at the match tomorrow."
+],
+[
+220.584,
+222.563,
+"And if she is?"
+],
+[
+223.0,
+227.468,
+"Then she'll be too tired to hold a rifle steady."
+],
+[
+227.508,
+228.688,
+"Frighten her."
+],
+[
+228.728,
+229.909,
+"Nothing more."
+],
+[
+229.949,
+230.7,
+"Tonight."
+],
+[
+231.292,
+236.31,
+"What Ambrose Hale did not tell the town was what lay on that desk:"
+],
+[
+236.551,
+239.178,
+"a surveyor's map from the railroad."
+],
+[
+239.582,
+242.951,
+"The new line would need water every twenty miles,"
+],
+[
+242.995,
+246.306,
+"and the best water in the valley ran through Willow Creek."
+],
+[
+246.919,
+248.988,
+"Right through the Cole farm."
+],
+[
+249.485,
+252.541,
+"Hale had already bought the two farms upstream."
+],
+[
+252.851,
+256.941,
+"Quietly. Through his wife's name."
+],
+[
+257.967,
+260.557,
+"Books, mister? You a schoolteacher?"
+],
+[
+264.667,
+266.587,
+"Something like that."
+],
+[
+267.584,
+270.667,
+"The Cole place sat three miles up Willow Creek,"
+],
+[
+270.707,
+273.67,
+"where the aspens turned gold every September."
+],
+[
+274.016,
+278.454,
+"Eighty acres, a two-room house Tom had built with his own hands,"
+],
+[
+278.555,
+284.123,
+"a barn, a dozen hens, and an old gray mare named Jessie who was too stubborn"
+],
+[
+284.163,
+286.813,
+"to die. It was not much."
+],
+[
+286.938,
+291.655,
+"But it was the only thing Tommy Cole had left of his father."
+],
+[
+292.375,
+294.855,
+"That's close enough, Mr. Reed."
+],
+[
+295.259,
+297.135,
+"Hotel's full for the fair, ma'am."
+],
+[
+297.175,
+299.632,
+"I'll pay fifty cents a night for your barn."
+],
+[
+299.672,
+302.169,
+"And I'll fix that gate hinge before supper."
+],
+[
+302.25,
+304.15,
+"I don't take charity."
+],
+[
+304.667,
+308.709,
+"It isn't charity, ma'am. It's a bad hinge."
+],
+[
+309.009,
+311.279,
+"Supper's at six. Wash at the pump."
+],
+[
+311.675,
+313.785,
+"Were you a soldier, Mr. Reed?"
+],
+[
+314.065,
+316.572,
+"I was a clerk who carried a rifle."
+],
+[
+316.612,
+318.52,
+"Then a man who fixed them."
+],
+[
+318.56,
+321.855,
+"Then a man who counted other people's money."
+],
+[
+321.917,
+323.637,
+"That sounds boring."
+],
+[
+324.634,
+327.504,
+"It was. That's why I came to the fair."
+],
+[
+328.084,
+331.094,
+"Jonah Reed fixed the gate hinge before supper,"
+],
+[
+331.219,
+336.415,
+"and the pump handle after, and a loose board on the porch that Tom Cole had meant"
+],
+[
+336.455,
+338.466,
+"to fix for two years."
+],
+[
+338.707,
+341.125,
+"He did not ask about the note on the table."
+],
+[
+341.529,
+343.702,
+"He had already read it."
+],
+[
+344.759,
+347.489,
+"Tom meant to fix that board for two years."
+],
+[
+347.984,
+354.734,
+"I used his nails, ma'am. They were in the coffee can by the door. Seemed right."
+],
+[
+359.689,
+365.359,
+"Tom always said I was the better shot. He never minded. Most men would have."
+],
+[
+366.217,
+368.487,
+"Most men are fools, ma'am."
+],
+[
+368.884,
+370.434,
+"And you, Mr. Reed?"
+],
+[
+371.0,
+373.721,
+"I'm a fool about other things."
+],
+[
+374.334,
+379.786,
+"Tom Cole had been a quiet man who whistled when he plowed and could not hit a"
+],
+[
+379.826,
+381.79,
+"barn door with a shotgun."
+],
+[
+382.194,
+387.25,
+"He used to say he married the best rifle in Colorado so he would never have to"
+],
+[
+387.29,
+392.622,
+"learn. When the fever came, he made Hannah promise two things:"
+],
+[
+393.026,
+398.392,
+"that she would keep the farm for the boy, and that she would never let anyone"
+],
+[
+398.436,
+400.285,
+"make her feel small."
+],
+[
+400.897,
+404.29,
+"She had kept the first promise for nine months."
+],
+[
+404.694,
+407.738,
+"The second was harder."
+],
+[
+409.0,
+411.604,
+"Hannah put out the lamp a little after nine."
+],
+[
+411.844,
+414.552,
+"Tommy was asleep with his boots still on."
+],
+[
+415.049,
+419.352,
+"In the barn, a man who had counted money for twenty years lay awake on a bed"
+],
+[
+419.392,
+424.212,
+"of straw, listening to the creek, and thinking about a bent front sight."
+],
+[
+424.708,
+428.194,
+"At a quarter past eleven, he heard horses."
+],
+[
+429.259,
+434.729,
+"Mrs. Cole! Mr. Hale says a widow's got no business at a man's match!"
+],
+[
+438.876,
+443.956,
+"Stay home tomorrow. Or this barn burns tonight."
+],
+[
+444.042,
+446.362,
+"Put the torch down, mister."
+],
+[
+446.459,
+448.699,
+"Or what?"
+],
+[
+452.917,
+457.517,
+"I don't miss, gentlemen. Come to the fair tomorrow and watch."
+],
+[
+461.967,
+463.777,
+"Your father taught you that?"
+],
+[
+464.384,
+468.774,
+"My father taught me to shoot. My husband taught me not to be afraid."
+],
+[
+469.376,
+472.908,
+"Jonah sat on the porch until the sun came up,"
+],
+[
+472.952,
+478.028,
+"with a lantern and a pot of coffee that went cold before midnight."
+],
+[
+478.432,
+480.373,
+"Hannah knew he was there."
+],
+[
+480.777,
+485.458,
+"For the first time since the winter, she slept through the night."
+],
+[
+490.819,
+494.251,
+"You're supposed to hit it, Mr. Reed."
+],
+[
+494.551,
+496.201,
+"I'm aware of that, son."
+],
+[
+496.968,
+499.277,
+"Ma says breathe out first."
+],
+[
+499.376,
+501.916,
+"I breathed."
+],
+[
+502.501,
+506.602,
+"By Saturday morning, half of Cedar Bluff had heard about the torches."
+],
+[
+506.785,
+509.516,
+"The other half had heard about the forty cents."
+],
+[
+509.92,
+512.569,
+"Nobody laughed at Hannah Cole that morning."
+],
+[
+512.811,
+515.124,
+"But nobody stood next to her either."
+],
+[
+515.62,
+521.509,
+"Except a ten-year-old boy, and a stranger who still had no room at the hotel."
+],
+[
+522.841,
+529.051,
+"A widow with a strange man sleeping in her barn. And now she wants a prize for it."
+],
+[
+529.984,
+536.054,
+"Lavinia, the last stranger who slept in a widow's barn here paid two hundred in gold for my mother's piano."
+],
+[
+536.884,
+540.554,
+"Then I married him. I'd keep my voice down."
+],
+[
+545.009,
+548.019,
+"We'll wait for the wind to settle, ladies and gentlemen."
+],
+[
+548.126,
+552.766,
+"He's not waiting for the wind. He's waiting for noon."
+],
+[
+560.918,
+566.437,
+"A tie! One shot each. The iron plate at six hundred yards!"
+],
+[
+572.062,
+575.772,
+"Wind's from the left, Ma. A hand and a half."
+],
+[
+586.718,
+588.848,
+"That was a fine shot, ma'am."
+],
+[
+589.489,
+595.001,
+"Yours wasn't bad either, Mr. Hale. The wind just didn't like you today."
+],
+[
+595.501,
+599.37,
+"Old men in Cedar Bluff argued about that shot for years."
+],
+[
+599.773,
+603.828,
+"Some said it was six hundred yards, some said seven."
+],
+[
+604.325,
+609.064,
+"Hobbs swore the plate rang so loud the horses at the depot spooked."
+],
+[
+609.468,
+611.735,
+"But everybody agreed on one thing."
+],
+[
+612.231,
+614.544,
+"Clay Hale had missed by a foot."
+],
+[
+615.041,
+618.643,
+"Hannah Cole had not missed at all."
+],
+[
+619.386,
+623.676,
+"Two hundred and fifty dollars, Mr. Hale. In full."
+],
+[
+624.459,
+626.758,
+"I'm afraid it's past noon, Mrs."
+],
+[
+626.798,
+627.135,
+"Cole."
+],
+[
+627.175,
+628.72,
+"The note is past due."
+],
+[
+628.76,
+631.249,
+"The property belongs to the bank."
+],
+[
+632.683,
+637.833,
+"Your clock is four minutes fast, Mr. Hale. The depot says eleven fifty-seven."
+],
+[
+638.134,
+641.664,
+"And who are you to tell me how to run my bank?"
+],
+[
+641.941,
+644.421,
+"It isn't your bank, Ambrose."
+],
+[
+644.461,
+645.591,
+"It never was."
+],
+[
+645.631,
+649.011,
+"The Denver owners sold it on Thursday."
+],
+[
+649.051,
+649.591,
+"To me."
+],
+[
+654.544,
+661.814,
+"I came early to see how my bank treats people. Then I read your survey maps."
+],
+[
+662.276,
+667.646,
+"You've been buying every farm along Willow Creek with the bank's money."
+],
+[
+667.686,
+669.209,
+"In your wife's name."
+],
+[
+669.999,
+674.409,
+"I'll take your keys, Ambrose. The rest we'll talk about at my office."
+],
+[
+681.301,
+683.231,
+"You could have just paid it on Friday."
+],
+[
+683.718,
+685.788,
+"You'd have thrown me off your porch."
+],
+[
+685.876,
+688.136,
+"Yes. I would have."
+],
+[
+688.793,
+693.579,
+"Ambrose Hale left Cedar Bluff on the Monday stage and did not come back."
+],
+[
+693.983,
+697.654,
+"The farms along Willow Creek went back to the people who had worked them,"
+],
+[
+697.779,
+701.195,
+"and when the railroad built its water tower two years later,"
+],
+[
+701.32,
+704.922,
+"it paid Hannah Cole a fair price for the land under it."
+],
+[
+705.419,
+709.845,
+"Lavinia Hale never ran the sign-up table again."
+],
+[
+711.084,
+715.968,
+"On Monday morning the new owner of the Cedar Bluff Savings Bank unlocked the"
+],
+[
+716.008,
+717.322,
+"doors himself."
+],
+[
+717.819,
+723.514,
+"By noon he had extended eleven notes, lowered the interest on every farm loan"
+],
+[
+723.554,
+728.642,
+"in the valley, and hung a small brass sign over the teller's window."
+],
+[
+728.767,
+732.833,
+"It said: no one in this bank is too small to be heard."
+],
+[
+733.074,
+737.934,
+"Folks said it was the first time anybody in Cedar Bluff had read a bank sign"
+],
+[
+737.974,
+739.381,
+"twice."
+],
+[
+740.426,
+743.296,
+"There are rooms at the hotel now, Mr. Reed."
+],
+[
+743.676,
+744.876,
+"I know."
+],
+[
+745.793,
+748.753,
+"That gate hasn't squeaked in a month."
+],
+[
+749.135,
+750.049,
+"I know that too."
+],
+[
+750.089,
+753.569,
+"Hannah, I've counted other people's money for twenty years."
+],
+[
+753.609,
+756.293,
+"I've never had anything worth coming home to."
+],
+[
+756.593,
+760.963,
+"Marry me. I'd like to fix this gate for the rest of my life."
+],
+[
+761.043,
+766.663,
+"Say yes, Ma! He's a terrible shot. Somebody's got to look after him!"
+],
+[
+773.293,
+777.2,
+"They were married in the little white church on Main Street before the first"
+],
+[
+777.24,
+782.688,
+"snow. Tommy Cole won the county fair rifle match eleven years later,"
+],
+[
+782.767,
+787.382,
+"with his grandfather's old Sharps, and he always said he'd learned to read the"
+],
+[
+787.422,
+789.003,
+"wind from his mother."
+],
+[
+789.407,
+792.219,
+"Jonah Reed never did learn to shoot straight."
+],
+[
+792.403,
+795.807,
+"He said one champion in the family was plenty."
+],
+[
+795.932,
+798.907,
+"And every September, on the morning of the match,"
+],
+[
+798.985,
+802.982,
+"he fixed the gate, whether it needed it or not."
+],
+[
+804.21,
+806.639,
+"That's the story of the widow's rifle."
+],
+[
+806.88,
+810.122,
+"And if you ever pass through Cedar Bluff in September,"
+],
+[
+810.247,
+812.653,
+"folks there will still tell you about it."
+],
+[
+812.894,
+814.72,
+"Keep a light in the window."
+]
 ]
