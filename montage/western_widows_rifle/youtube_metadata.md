@@ -9,7 +9,7 @@ Download: `http://localhost:8788/api/montage/western_widows_rifle_v1/thumbnails/
 |---|---|---|
 | A — hidden owner (rec. cluster) | The Banker Came for the Widow's Farm — Unaware the Stranger Owned His Bank \| Full Western Movie (95) | `a_not_alone.jpg` — Hannah with the Sharps, Jonah behind her, golden hour, caption NOT ALONE. |
 | B — quote, humiliation | "Forty Cents Short, Ma'am?" The Town Laughed — The Stranger Behind Her Didn't \| Full Western Movie (98) | `b_forty_cents.jpg` — coins in her palm, Lavinia laughing behind a fan, Jonah watching; no caption |
-| C — strength | They Laughed at the Widow's Old Rifle — Then She Hit the Plate at 600 Yards \| Full Western Movie (96) | `c_one_shot.jpg` — film frame 1:22, Hannah firing, caption ONE SHOT. |
+| C — strength | The Whole Town Came to Watch the Widow Lose — Then She Picked Up Her Rifle \| Full Western Movie (95) | `c_one_shot.jpg` — film frame 1:22, Hannah firing, caption ONE SHOT. |
 
 Upload with pair A as the main title/thumbnail.
 
