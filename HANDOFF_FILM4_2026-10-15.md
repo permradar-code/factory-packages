@@ -36,8 +36,8 @@
 C02 обрезан с 1.4 с (в начале глюк: дама и бедная женщина меняются местами). Кроп 0.96 у C15/C37/C60 убирает тонкие чёрные полосы. N02 — визуалы автоматически (B02, I01, I02).
 
 ### Сервер (`/opt/moiastro-engine`)
-- Ветка `backup/server-state-20261015`, HEAD `a5db215` (запушен владельцем). В нём: `call_scope` в `edit_v2/__init__.py` (watchdog не убивает долгий рендер), `tpad`/замедление в `edit_v2/render.py` (рассказчик не наезжает, длина = EDL), механизм `shot_overrides` в `montage_assets_runner.py`, `app/production/shot_overrides.json`, `tests/test_shot_overrides.py`.
-- **Не закоммичено после a5db215:** обновлённый `app/production/shot_overrides.json` (одежда Томми в C03, C18, C37, C73, H02 + новая запись C60) и обновлённый тест (C60 в списке). Попросить владельца закоммитить и запушить. Копия файла для сверки: `briefs/western_widows_rifle/shot_overrides_server_copy.json`.
+- Ветка `backup/server-state-20261015`, **HEAD `55b929d`** (запушен владельцем 15.10 17:39; всё наше сохранено, незакоммиченных правок нет — кроме чужой папки `web/studio/reviews/`, её не трогать). Git на сервере запускать от хозяина папки: `sudo -u moiastro git ...` (от root — ошибка «dubious ownership»). В `a5db215` было: `call_scope` в `edit_v2/__init__.py` (watchdog не убивает долгий рендер), `tpad`/замедление в `edit_v2/render.py` (рассказчик не наезжает, длина = EDL), механизм `shot_overrides` в `montage_assets_runner.py`, `app/production/shot_overrides.json`, `tests/test_shot_overrides.py`.
+- В `55b929d`: обновлённый `app/production/shot_overrides.json` (одежда Томми в C03, C18, C37, C73, H02 + новая запись C60) и тест (C60 в списке). Копия файла: `briefs/western_widows_rifle/shot_overrides_server_copy.json`. Для `patch_check`/`exec_submit` теперь expected_head = `55b929d…` (полный хэш взять через `git status`/`astro_git_status`).
 - В репо factory-packages: коммит `581201b` — переписаны 10 кадров в `build_shotlist.py`/`shotlist.json`.
 
 ## Что делать дальше (по порядку)
