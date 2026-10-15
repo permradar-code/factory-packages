@@ -167,8 +167,9 @@ MARK["open"] = clip("Sunny fair, a cloth-covered sign-up table under a striped a
      [L, H, "LOC_SIGNUP"], (L, "One dollar... and sixty cents."), camera="close on the coins, rack focus to Lavinia")
 clip("The sign-up table: Lavinia Hale raises her voice so the whole line of men with rifles can hear, smiling sweetly at the widow in the blue calico dress.",
      [L, H, "LOC_SIGNUP"], (L, "Entry is two dollars, Mrs. Cole. This is a rifle match. Not a church raffle."), camera="over Hannah's shoulder toward Lavinia")
-clip("The line of men with rifles bursts out laughing; a freckled boy in an oversized shirt hugs a long single-shot buffalo rifle tighter to his chest.",
-     [T, R, "LOC_SIGNUP"], camera="medium shot on the laughing men, the boy in front", dur=4)
+# C03: no gun in the frame with the boy (Google blocks child + rifle in one shot)
+clip("Close on a freckled boy in an oversized shirt under a striped canvas awning at a sunny fair: off-screen men burst out laughing; he grips the edge of a cloth-covered table, jaw set, and stares back at them without blinking.",
+     [T], camera="close-up on the boy, bunting blurred behind", dur=4)
 clip("Hannah Cole, in her faded blue calico dress and brown jacket, answers evenly, chin up, eyes steady.",
      [H, "LOC_SIGNUP"], (H, "I'll have the rest by noon."), camera="close-up")
 clip("Lavinia Hale leans back with a sugary smile and snaps her lace fan shut.",
@@ -181,8 +182,8 @@ clip("Lavinia Hale looks up at the tall stranger in a worn charcoal frock coat, 
      [L, "LOC_SIGNUP"], (L, "And who might you be?"), camera="close-up, low angle")
 clip("Jonah Reed, tall and lean with a graying beard, answers quietly, not smiling.",
      [J, "LOC_SIGNUP"], (J, "Somebody who'd like to see her shoot."), camera="close-up")
-broll("Hannah walks through the parting fair crowd toward the firing line, her son carrying the long Sharps buffalo rifle beside her; people whisper and smirk behind fans.",
-      [H, T, R, "LOC_FAIR"], camera="tracking shot from behind, crowd on both sides")
+broll("Hannah walks alone through the parting fair crowd toward the firing line, her father's long Sharps buffalo rifle in her hands; people whisper and smirk behind fans.",
+      [H, R, "LOC_FAIR"], camera="tracking shot from behind, crowd on both sides")
 MARK["N00"] = narr("""Hannah Cole had until noon the next day to pay a two-hundred-and-fifty-dollar note. She had a ten-year-old boy,
 and her father's old buffalo rifle. The prize that day was two hundred and fifty dollars in gold.
 And the whole town of Cedar Bluff had come to watch her lose.""")
@@ -195,11 +196,11 @@ clip("Clay Hale fires his engraved lever-action rifle three times from the shoul
      [CL, "LOC_FAIR"], camera="medium shot, the targets far behind", action_shot=True, dur=6)
 clip("Mr. Hobbs lowers the speaking trumpet, embarrassed, and announces the next name; snickers in the crowd.",
      [HO, "LOC_FAIR"], (HO, "And... Mrs. Thomas Cole."), camera="medium close-up", dur=4)
-clip("Hannah Cole lies down on a canvas mat and rests the long Sharps on crossed wooden shooting sticks; her son kneels beside her with a cartridge in his fingers and whispers.",
-     [H, T, R, "LOC_FAIR"], (T, "Breathe out, Ma. Like Grandpa said."), camera="low side angle at ground level", rifle=True)
+clip("Close at ground level: a freckled boy kneels in the grass and leans in to whisper into his mother's ear; only her dark-blond hair knot and the shoulder of her faded blue calico dress are in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+     [T, H], (T, "Breathe out, Ma. Like Grandpa said."), camera="close-up on the boy's face, his mother's ear in the foreground")
 clip("Close on Hannah's steady gray eye along the barrel; she breathes out and squeezes the trigger: a heavy boom, a cloud of white gun smoke, real recoil into her shoulder.",
      [H, R, "LOC_FAIR"], camera="extreme close-up to medium", action_shot=True, dur=4, rifle=True)
-clip("Far down the sunny field a flag boy beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
+clip("Far down the sunny field an old flagman in a straw hat beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
      ["LOC_FAIR"], camera="long lens down the field, then the silent crowd", dur=4)
 clip("Lavinia Hale stops fanning; Clay Hale's grin fades; in the crowd the tall stranger in the charcoal coat allows himself the smallest smile.",
      [L, CL, J, "LOC_FAIR"], camera="three quick reaction angles in one move", dur=4)
@@ -219,8 +220,8 @@ and never to shoot at anything she did not mean to hit.""")
 # ======================= SCENE 2: the bent sight - second payoff =======================
 clip("Noon break at the fair: a smirking young man in a straw hat knocks a long rifle off the wooden rifle rack and grinds his boot heel on the barrel near the muzzle, then strolls away.",
      ["CHAR_FRIEND", R, "LOC_FAIR"], camera="low angle on the boot and the barrel", action_shot=True, dur=4)
-clip("Hannah lifts her rifle and sights along the barrel; her son looks over her shoulder at the front sight.",
-     [H, T, R, "LOC_FAIR"], (T, "Ma... it's bent."), camera="close two-shot", rifle=True, dur=4)
+clip("Close on a freckled boy staring at something just below the frame; his face falls, worried; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+     [T], (T, "Ma... it's bent."), camera="close-up", dur=4)
 clip("Hannah, quiet and pale, lowers the rifle.",
      [H, R, "LOC_FAIR"], (H, "It'll shoot a foot to the left now. Maybe more."), camera="close-up", rifle=True)
 clip("Behind Hannah the tall stranger in the charcoal coat holds out his hand for the rifle.",
@@ -281,7 +282,7 @@ clip("Hannah, rifle lowered across her body, firm.",
      [H, R, "LOC_COLE"], (H, "I don't take charity."), camera="close-up", dur=4, rifle=True)
 clip("Jonah Reed glances at the sagging gate.",
      [J, "LOC_COLE"], (J, "It isn't charity, ma'am. It's a bad hinge."), camera="close-up", dur=4)
-clip("On the porch the freckled boy snorts with laughter; Hannah holds her face straight, then lowers the rifle and turns to the door.",
+clip("On the porch the freckled boy snorts with laughter; Hannah, arms folded, holds her face straight, then turns to the door.",
      [H, T, "LOC_COLE"], (H, "Supper's at six. Wash at the pump."), camera="two-shot on the porch", dur=4)
 clip("Lamp-lit supper at a plank table: soup and bread; Jonah passes the bread and notices a bank letter on the table; the boy leans forward.",
      [T, J, H, "LOC_COLE_IN"], (T, "Were you a soldier, Mr. Reed?"), camera="wide on the table", night=True, dur=4)
@@ -385,8 +386,8 @@ clip("Mr. Hobbs, excited, through the speaking trumpet; the crowd buzzing.",
      [HO, "LOC_FAIR"], (HO, "A tie! One shot each. The iron plate at six hundred yards!"), camera="medium shot")
 clip("Clay Hale, standing, fires at the far iron plate: dust spurts to the right of the plate; no sound of steel. He goes pale.",
      [CL, "LOC_FAIR"], camera="over his shoulder, long lens to the plate", action_shot=True, dur=6)
-clip("Hannah lies on the mat with the long Sharps on the crossed sticks; her son watches the grass bend in the wind and whispers.",
-     [H, T, R, "LOC_FAIR"], (T, "Wind's from the left, Ma. A hand and a half."), camera="ground level, the grass in the foreground", rifle=True)
+clip("Ground level in tall grass: close on a freckled boy lying on his stomach, watching the grass lean in the wind, whispering to someone just beside the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+     [T], (T, "Wind's from the left, Ma. A hand and a half."), camera="ground level, bending grass in the foreground")
 clip("A long silent breath; Hannah fires: a heavy boom and white smoke; a second later a faraway ringing clang of steel; the crowd explodes in cheers, hats in the air.",
      [H, R, "LOC_FAIR"], camera="close on Hannah, then wide on the crowd", action_shot=True, dur=6, rifle=True)
 clip("Mr. Hobbs counts twenty-dollar gold coins into a leather pouch; Lavinia Hale closes her fan without a word.",
@@ -396,8 +397,8 @@ clip("Clay Hale walks up and offers Hannah his hand, unexpectedly honest.",
 clip("Hannah shakes his hand.",
      [H, CL, "LOC_FAIR"], (H, "Yours wasn't bad either, Mr. Hale. The wind just didn't like you today."), camera="two-shot")
 img("Close-up: the depot tower clock, hands at eight minutes to twelve.", ["LOC_DEPOT"])
-broll("Hannah and her son run across the dusty town square toward a small brick bank, the gold pouch in her hand, the rifle on the boy's shoulder.",
-      [H, T, R, "LOC_STREET"], camera="tracking shot")
+broll("Hannah and her son run across the dusty town square toward a small brick bank, a small brown leather pouch of gold coins clutched in her hand.",
+      [H, T, "LOC_STREET"], camera="tracking shot")
 narr("""Old men in Cedar Bluff argued about that shot for years. Some said it was six hundred yards, some said seven.
 Hobbs swore the plate rang so loud the horses at the depot spooked. But everybody agreed on one thing.
 Clay Hale had missed by a foot. Hannah Cole had not missed at all.""")
@@ -469,14 +470,14 @@ SHOTS.append({"id": "E01", "type": "end", "clip": MARK["yes"], "at": 3, "series"
 # ======================= 8 VERTICAL HOOKS (native 9:16, one line each) =======================
 hook("H01", "humiliation", "Vertical 9:16. Sunny fair sign-up table: close on a weathered man's hand setting four silver dimes on the cloth one by one, a woman in blue calico looking down, a lady in lilac with a fan behind the table.",
      "He puts down the coins and speaks quietly; the laughing line goes silent.", [J, H, L, "LOC_SIGNUP"], (J, "Forty cents, ma'am. Write her name down."))
-hook("H02", "reveal", "Vertical 9:16. Ground level at a fair firing line: a woman lying behind a long single-shot buffalo rifle on crossed sticks, a freckled boy kneeling at her ear.",
-     "The boy whispers; she breathes out." + RIFLE, [T, H, R, "LOC_FAIR"], (T, "Breathe out, Ma. Like Grandpa said."))
+hook("H02", "reveal", "Vertical 9:16. Close at ground level: a freckled boy kneeling in the grass, leaning to his mother's ear; only her dark-blond hair knot and blue calico shoulder in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+     "The boy whispers into her ear; she nods slowly.", [T, H], (T, "Breathe out, Ma. Like Grandpa said."))
 hook("H03", "threat", "Vertical 9:16. Close on a long rifle barrel with a bent front sight in a tall man's hands, a small file in his fingers, a fair in soft focus behind.",
      "He straightens the sight and hands the rifle back." + RIFLE, [J, R, "LOC_FAIR"], (J, "Somebody today didn't."))
 hook("H04", "threat", "Vertical 9:16. Night porch: a woman in a gray shawl with a long single-shot rifle at her shoulder, torch light flickering on her face, sparks in the dark behind.",
      "She reloads calmly and speaks to the riders at the gate." + RIFLE, [H, R, "LOC_COLE"], (H, "I don't miss, gentlemen."), night=True)
-hook("H05", "reveal", "Vertical 9:16. Ground level in tall bending grass: a freckled boy watching the wind, his mother behind a long rifle in soft focus.",
-     "He whispers the wind call; she fires, white smoke." + RIFLE, [T, H, R, "LOC_FAIR"], (T, "Wind's from the left, Ma. A hand and a half."))
+hook("H05", "reveal", "Vertical 9:16. Ground level in tall bending grass: close on a freckled boy lying on his stomach, watching the wind; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+     "He whispers the wind call, then holds his breath and grins.", [T], (T, "Wind's from the left, Ma. A hand and a half."))
 hook("H06", "threat", "Vertical 9:16. A frontier bank: a woman's hand slaps a pile of gold coins on a marble counter; a tall wall clock behind the cage.",
      "A tall man in a charcoal coat walks in and speaks to the manager.", [J, H, "PROP_GOLD", "LOC_BANK"], (J, "Your clock is four minutes fast, Mr. Hale."))
 hook("H07", "reveal", "Vertical 9:16. Close on folded papers with a red wax seal laid on a marble bank counter; a man in spectacles behind them.",

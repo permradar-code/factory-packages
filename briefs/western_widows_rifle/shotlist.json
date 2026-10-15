@@ -354,27 +354,23 @@
    "id": "C03",
    "type": "clip",
    "duration_s": 4,
-   "action": "The line of men with rifles bursts out laughing; a freckled boy in an oversized shirt hugs a long single-shot buffalo rifle tighter to his chest.",
-   "camera": "medium shot on the laughing men, the boy in front",
+   "action": "Close on a freckled boy in an oversized shirt under a striped canvas awning at a sunny fair: off-screen men burst out laughing; he grips the edge of a cloth-covered table, jaw set, and stares back at them without blinking.",
+   "camera": "close-up on the boy, bunting blurred behind",
    "dialogue": [],
    "refs": [
-    "CHAR_TOMMY",
-    "PROP_SHARPS",
-    "LOC_SIGNUP"
+    "CHAR_TOMMY"
    ],
    "priority": "core",
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "The line of men with rifles bursts out laughing; a freckled boy in an oversized shirt hugs a long single-shot buffalo rifle tighter to his chest.",
-   "start_frame_full_prompt": "The line of men with rifles bursts out laughing; a freckled boy in an oversized shirt hugs a long single-shot buffalo rifle tighter to his chest. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Sign-up table: a cloth-covered table under a striped canvas awning at the fair, a ledger and an ink pot on it, a line of men with rifles waiting, bunting overhead",
+   "start_frame_prompt": "Close on a freckled boy in an oversized shirt under a striped canvas awning at a sunny fair: off-screen men burst out laughing; he grips the edge of a cloth-covered table, jaw set, and stares back at them without blinking.",
+   "start_frame_full_prompt": "Close on a freckled boy in an oversized shirt under a striped canvas awning at a sunny fair: off-screen men burst out laughing; he grips the edge of a cloth-covered table, jaw set, and stares back at them without blinking. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots",
    "ref_files": [
     "visuals/refs/CHAR_TOMMY_front.png",
-    "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_SIGNUP.png"
+    "visuals/refs/CHAR_TOMMY_full.png"
    ],
-   "video_prompt": "The line of men with rifles bursts out laughing; a freckled boy in an oversized shirt hugs a long single-shot buffalo rifle tighter to his chest. Camera: medium shot on the laughing men, the boy in front. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Close on a freckled boy in an oversized shirt under a striped canvas awning at a sunny fair: off-screen men burst out laughing; he grips the edge of a cloth-covered table, jaw set, and stares back at them without blinking. Camera: close-up on the boy, bunting blurred behind. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C03_first.png",
     "video": "visuals/video/wr_C03.mp4"
@@ -585,12 +581,11 @@
    "id": "B01",
    "type": "clip",
    "duration_s": 6,
-   "action": "Hannah walks through the parting fair crowd toward the firing line, her son carrying the long Sharps buffalo rifle beside her; people whisper and smirk behind fans.",
+   "action": "Hannah walks alone through the parting fair crowd toward the firing line, her father's long Sharps buffalo rifle in her hands; people whisper and smirk behind fans.",
    "camera": "tracking shot from behind, crowd on both sides",
    "dialogue": [],
    "refs": [
     "CHAR_HANNAH",
-    "CHAR_TOMMY",
     "PROP_SHARPS",
     "LOC_FAIR"
    ],
@@ -598,18 +593,16 @@
    "night": false,
    "action_shot": false,
    "broll": true,
-   "start_frame_prompt": "Hannah walks through the parting fair crowd toward the firing line, her son carrying the long Sharps buffalo rifle beside her; people whisper and smirk behind fans.",
+   "start_frame_prompt": "Hannah walks alone through the parting fair crowd toward the firing line, her father's long Sharps buffalo rifle in her hands; people whisper and smirk behind fans.",
    "for": "N01",
-   "start_frame_full_prompt": "Hannah walks through the parting fair crowd toward the firing line, her son carrying the long Sharps buffalo rifle beside her; people whisper and smirk behind fans. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
+   "start_frame_full_prompt": "Hannah walks alone through the parting fair crowd toward the firing line, her father's long Sharps buffalo rifle in her hands; people whisper and smirk behind fans. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
    "ref_files": [
     "visuals/refs/CHAR_HANNAH_front.png",
     "visuals/refs/CHAR_HANNAH_full.png",
-    "visuals/refs/CHAR_TOMMY_front.png",
-    "visuals/refs/CHAR_TOMMY_full.png",
     "visuals/refs/PROP_SHARPS.png",
     "visuals/refs/LOC_FAIR.png"
    ],
-   "video_prompt": "Hannah walks through the parting fair crowd toward the firing line, her son carrying the long Sharps buffalo rifle beside her; people whisper and smirk behind fans. Camera: tracking shot from behind, crowd on both sides. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Hannah walks alone through the parting fair crowd toward the firing line, her father's long Sharps buffalo rifle in her hands; people whisper and smirk behind fans. Camera: tracking shot from behind, crowd on both sides. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_B01_first.png",
     "video": "visuals/video/wr_B01.mp4"
@@ -723,8 +716,8 @@
    "id": "C13",
    "type": "clip",
    "duration_s": 6,
-   "action": "Hannah Cole lies down on a canvas mat and rests the long Sharps on crossed wooden shooting sticks; her son kneels beside her with a cartridge in his fingers and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "camera": "low side angle at ground level",
+   "action": "Close at ground level: a freckled boy kneels in the grass and leans in to whisper into his mother's ear; only her dark-blond hair knot and the shoulder of her faded blue calico dress are in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "camera": "close-up on the boy's face, his mother's ear in the foreground",
    "dialogue": [
     {
      "speaker": "CHAR_TOMMY",
@@ -732,26 +725,22 @@
     }
    ],
    "refs": [
-    "CHAR_HANNAH",
     "CHAR_TOMMY",
-    "PROP_SHARPS",
-    "LOC_FAIR"
+    "CHAR_HANNAH"
    ],
    "priority": "core",
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "Hannah Cole lies down on a canvas mat and rests the long Sharps on crossed wooden shooting sticks; her son kneels beside her with a cartridge in his fingers and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "start_frame_full_prompt": "Hannah Cole lies down on a canvas mat and rests the long Sharps on crossed wooden shooting sticks; her son kneels beside her with a cartridge in his fingers and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
+   "start_frame_prompt": "Close at ground level: a freckled boy kneels in the grass and leans in to whisper into his mother's ear; only her dark-blond hair knot and the shoulder of her faded blue calico dress are in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "start_frame_full_prompt": "Close at ground level: a freckled boy kneels in the grass and leans in to whisper into his mother's ear; only her dark-blond hair knot and the shoulder of her faded blue calico dress are in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket",
    "ref_files": [
-    "visuals/refs/CHAR_HANNAH_front.png",
-    "visuals/refs/CHAR_HANNAH_full.png",
     "visuals/refs/CHAR_TOMMY_front.png",
     "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_FAIR.png"
+    "visuals/refs/CHAR_HANNAH_front.png",
+    "visuals/refs/CHAR_HANNAH_full.png"
    ],
-   "video_prompt": "Hannah Cole lies down on a canvas mat and rests the long Sharps on crossed wooden shooting sticks; her son kneels beside her with a cartridge in his fingers and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. Camera: low side angle at ground level. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Breathe out, Ma. Like Grandpa said.\" ONLY Tommy Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Close at ground level: a freckled boy kneels in the grass and leans in to whisper into his mother's ear; only her dark-blond hair knot and the shoulder of her faded blue calico dress are in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. Camera: close-up on the boy's face, his mother's ear in the foreground. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Breathe out, Ma. Like Grandpa said.\" ONLY Tommy Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C13_first.png",
     "video": "visuals/video/wr_C13.mp4"
@@ -791,7 +780,7 @@
    "id": "C15",
    "type": "clip",
    "duration_s": 4,
-   "action": "Far down the sunny field a flag boy beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
+   "action": "Far down the sunny field an old flagman in a straw hat beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
    "camera": "long lens down the field, then the silent crowd",
    "dialogue": [],
    "refs": [
@@ -801,12 +790,12 @@
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "Far down the sunny field a flag boy beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
-   "start_frame_full_prompt": "Far down the sunny field a flag boy beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
+   "start_frame_prompt": "Far down the sunny field an old flagman in a straw hat beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent.",
+   "start_frame_full_prompt": "Far down the sunny field an old flagman in a straw hat beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
    "ref_files": [
     "visuals/refs/LOC_FAIR.png"
    ],
-   "video_prompt": "Far down the sunny field a flag boy beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent. Camera: long lens down the field, then the silent crowd. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Far down the sunny field an old flagman in a straw hat beside a round black-and-white target waves a white flag for a bullseye; the whole crowd behind the rope falls silent. Camera: long lens down the field, then the silent crowd. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C15_first.png",
     "video": "visuals/video/wr_C15.mp4"
@@ -979,8 +968,8 @@
    "id": "C18",
    "type": "clip",
    "duration_s": 4,
-   "action": "Hannah lifts her rifle and sights along the barrel; her son looks over her shoulder at the front sight. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "camera": "close two-shot",
+   "action": "Close on a freckled boy staring at something just below the frame; his face falls, worried; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "camera": "close-up",
    "dialogue": [
     {
      "speaker": "CHAR_TOMMY",
@@ -988,26 +977,19 @@
     }
    ],
    "refs": [
-    "CHAR_HANNAH",
-    "CHAR_TOMMY",
-    "PROP_SHARPS",
-    "LOC_FAIR"
+    "CHAR_TOMMY"
    ],
    "priority": "core",
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "Hannah lifts her rifle and sights along the barrel; her son looks over her shoulder at the front sight. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "start_frame_full_prompt": "Hannah lifts her rifle and sights along the barrel; her son looks over her shoulder at the front sight. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
+   "start_frame_prompt": "Close on a freckled boy staring at something just below the frame; his face falls, worried; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "start_frame_full_prompt": "Close on a freckled boy staring at something just below the frame; his face falls, worried; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots",
    "ref_files": [
-    "visuals/refs/CHAR_HANNAH_front.png",
-    "visuals/refs/CHAR_HANNAH_full.png",
     "visuals/refs/CHAR_TOMMY_front.png",
-    "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_FAIR.png"
+    "visuals/refs/CHAR_TOMMY_full.png"
    ],
-   "video_prompt": "Hannah lifts her rifle and sights along the barrel; her son looks over her shoulder at the front sight. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. Camera: close two-shot. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Ma... it's bent.\" ONLY Tommy Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Close on a freckled boy staring at something just below the frame; his face falls, worried; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. Camera: close-up. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Ma... it's bent.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C18_first.png",
     "video": "visuals/video/wr_C18.mp4"
@@ -1772,7 +1754,7 @@
    "id": "C37",
    "type": "clip",
    "duration_s": 4,
-   "action": "On the porch the freckled boy snorts with laughter; Hannah holds her face straight, then lowers the rifle and turns to the door.",
+   "action": "On the porch the freckled boy snorts with laughter; Hannah, arms folded, holds her face straight, then turns to the door.",
    "camera": "two-shot on the porch",
    "dialogue": [
     {
@@ -1789,8 +1771,8 @@
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "On the porch the freckled boy snorts with laughter; Hannah holds her face straight, then lowers the rifle and turns to the door.",
-   "start_frame_full_prompt": "On the porch the freckled boy snorts with laughter; Hannah holds her face straight, then lowers the rifle and turns to the door. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Cole farm: a small two-room log house with a porch and one loose porch board, a crooked wooden gate on a sagging hinge, a water barrel by the porch, a small barn, a dozen hens, an old gray mare, a clear creek and a stand of golden aspens, a simple wooden cross under the aspens by the creek",
+   "start_frame_prompt": "On the porch the freckled boy snorts with laughter; Hannah, arms folded, holds her face straight, then turns to the door.",
+   "start_frame_full_prompt": "On the porch the freckled boy snorts with laughter; Hannah, arms folded, holds her face straight, then turns to the door. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Cole farm: a small two-room log house with a porch and one loose porch board, a crooked wooden gate on a sagging hinge, a water barrel by the porch, a small barn, a dozen hens, an old gray mare, a clear creek and a stand of golden aspens, a simple wooden cross under the aspens by the creek",
    "ref_files": [
     "visuals/refs/CHAR_HANNAH_front.png",
     "visuals/refs/CHAR_HANNAH_full.png",
@@ -1798,7 +1780,7 @@
     "visuals/refs/CHAR_TOMMY_full.png",
     "visuals/refs/LOC_COLE.png"
    ],
-   "video_prompt": "On the porch the freckled boy snorts with laughter; Hannah holds her face straight, then lowers the rifle and turns to the door. Camera: two-shot on the porch. Dialogue: Hannah Cole (calm, low, steady American woman's voice, early thirties, never shrill) says: \"Supper's at six. Wash at the pump.\" ONLY Hannah Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "On the porch the freckled boy snorts with laughter; Hannah, arms folded, holds her face straight, then turns to the door. Camera: two-shot on the porch. Dialogue: Hannah Cole (calm, low, steady American woman's voice, early thirties, never shrill) says: \"Supper's at six. Wash at the pump.\" ONLY Hannah Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C37_first.png",
     "video": "visuals/video/wr_C37.mp4"
@@ -3226,8 +3208,8 @@
    "id": "C73",
    "type": "clip",
    "duration_s": 6,
-   "action": "Hannah lies on the mat with the long Sharps on the crossed sticks; her son watches the grass bend in the wind and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "camera": "ground level, the grass in the foreground",
+   "action": "Ground level in tall grass: close on a freckled boy lying on his stomach, watching the grass lean in the wind, whispering to someone just beside the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "camera": "ground level, bending grass in the foreground",
    "dialogue": [
     {
      "speaker": "CHAR_TOMMY",
@@ -3235,26 +3217,19 @@
     }
    ],
    "refs": [
-    "CHAR_HANNAH",
-    "CHAR_TOMMY",
-    "PROP_SHARPS",
-    "LOC_FAIR"
+    "CHAR_TOMMY"
    ],
    "priority": "core",
    "night": false,
    "action_shot": false,
    "broll": false,
-   "start_frame_prompt": "Hannah lies on the mat with the long Sharps on the crossed sticks; her son watches the grass bend in the wind and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
-   "start_frame_full_prompt": "Hannah lies on the mat with the long Sharps on the crossed sticks; her son watches the grass bend in the wind and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
+   "start_frame_prompt": "Ground level in tall grass: close on a freckled boy lying on his stomach, watching the grass lean in the wind, whispering to someone just beside the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "start_frame_full_prompt": "Ground level in tall grass: close on a freckled boy lying on his stomach, watching the grass lean in the wind, whispering to someone just beside the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots",
    "ref_files": [
-    "visuals/refs/CHAR_HANNAH_front.png",
-    "visuals/refs/CHAR_HANNAH_full.png",
     "visuals/refs/CHAR_TOMMY_front.png",
-    "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_FAIR.png"
+    "visuals/refs/CHAR_TOMMY_full.png"
    ],
-   "video_prompt": "Hannah lies on the mat with the long Sharps on the crossed sticks; her son watches the grass bend in the wind and whispers. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. Camera: ground level, the grass in the foreground. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Wind's from the left, Ma. A hand and a half.\" ONLY Tommy Cole speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Ground level in tall grass: close on a freckled boy lying on his stomach, watching the grass lean in the wind, whispering to someone just beside the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. Camera: ground level, bending grass in the foreground. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Wind's from the left, Ma. A hand and a half.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_C73_first.png",
     "video": "visuals/video/wr_C73.mp4"
@@ -3414,31 +3389,29 @@
    "id": "B07",
    "type": "clip",
    "duration_s": 6,
-   "action": "Hannah and her son run across the dusty town square toward a small brick bank, the gold pouch in her hand, the rifle on the boy's shoulder.",
+   "action": "Hannah and her son run across the dusty town square toward a small brick bank, a small brown leather pouch of gold coins clutched in her hand.",
    "camera": "tracking shot",
    "dialogue": [],
    "refs": [
     "CHAR_HANNAH",
     "CHAR_TOMMY",
-    "PROP_SHARPS",
     "LOC_STREET"
    ],
    "priority": "core",
    "night": false,
    "action_shot": false,
    "broll": true,
-   "start_frame_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, the gold pouch in her hand, the rifle on the boy's shoulder.",
+   "start_frame_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, a small brown leather pouch of gold coins clutched in her hand.",
    "for": "N12",
-   "start_frame_full_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, the gold pouch in her hand, the rifle on the boy's shoulder. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, horses and wagons, mountains beyond; signs have no legible text",
+   "start_frame_full_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, a small brown leather pouch of gold coins clutched in her hand. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, horses and wagons, mountains beyond; signs have no legible text",
    "ref_files": [
     "visuals/refs/CHAR_HANNAH_front.png",
     "visuals/refs/CHAR_HANNAH_full.png",
     "visuals/refs/CHAR_TOMMY_front.png",
     "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/PROP_SHARPS.png",
     "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
    ],
-   "video_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, the gold pouch in her hand, the rifle on the boy's shoulder. Camera: tracking shot. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "video_prompt": "Hannah and her son run across the dusty town square toward a small brick bank, a small brown leather pouch of gold coins clutched in her hand. Camera: tracking shot. No dialogue, natural sound only (wind, crowd murmur, hooves, birds, gunshots where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "files": {
     "start_frame": "visuals/images/wr_B07_first.png",
     "video": "visuals/video/wr_B07.mp4"
@@ -4377,12 +4350,10 @@
    "duration_s": 8,
    "refs": [
     "CHAR_TOMMY",
-    "CHAR_HANNAH",
-    "PROP_SHARPS",
-    "LOC_FAIR"
+    "CHAR_HANNAH"
    ],
-   "first_frame": "Vertical 9:16. Ground level at a fair firing line: a woman lying behind a long single-shot buffalo rifle on crossed sticks, a freckled boy kneeling at her ear.",
-   "video": "The boy whispers; she breathes out. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
+   "first_frame": "Vertical 9:16. Close at ground level: a freckled boy kneeling in the grass, leaning to his mother's ear; only her dark-blond hair knot and blue calico shoulder in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "video": "The boy whispers into her ear; she nods slowly.",
    "night": false,
    "dialogue": [
     {
@@ -4390,15 +4361,13 @@
      "line": "Breathe out, Ma. Like Grandpa said."
     }
    ],
-   "first_frame_full_prompt": "Vertical 9:16. Ground level at a fair firing line: a woman lying behind a long single-shot buffalo rifle on crossed sticks, a freckled boy kneeling at her ear. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Bright, faces large and clearly lit. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
-   "video_prompt": "The boy whispers; she breathes out. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Breathe out, Ma. Like Grandpa said.\" The line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "first_frame_full_prompt": "Vertical 9:16. Close at ground level: a freckled boy kneeling in the grass, leaning to his mother's ear; only her dark-blond hair knot and blue calico shoulder in the frame; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Bright, faces large and clearly lit. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket",
+   "video_prompt": "The boy whispers into her ear; she nods slowly. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Breathe out, Ma. Like Grandpa said.\" The line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "ref_files": [
     "visuals/refs/CHAR_TOMMY_front.png",
     "visuals/refs/CHAR_TOMMY_full.png",
     "visuals/refs/CHAR_HANNAH_front.png",
-    "visuals/refs/CHAR_HANNAH_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_FAIR.png"
+    "visuals/refs/CHAR_HANNAH_full.png"
    ],
    "files": {
     "start_frame": "visuals/hooks/wr_H02_first.png",
@@ -4472,13 +4441,10 @@
    "beat": "reveal",
    "duration_s": 8,
    "refs": [
-    "CHAR_TOMMY",
-    "CHAR_HANNAH",
-    "PROP_SHARPS",
-    "LOC_FAIR"
+    "CHAR_TOMMY"
    ],
-   "first_frame": "Vertical 9:16. Ground level in tall bending grass: a freckled boy watching the wind, his mother behind a long rifle in soft focus.",
-   "video": "He whispers the wind call; she fires, white smoke. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand.",
+   "first_frame": "Vertical 9:16. Ground level in tall bending grass: close on a freckled boy lying on his stomach, watching the wind; a sunny fair meadow, colored bunting and golden aspens softly blurred behind.",
+   "video": "He whispers the wind call, then holds his breath and grins.",
    "night": false,
    "dialogue": [
     {
@@ -4486,15 +4452,11 @@
      "line": "Wind's from the left, Ma. A hand and a half."
     }
    ],
-   "first_frame_full_prompt": "Vertical 9:16. Ground level in tall bending grass: a freckled boy watching the wind, his mother behind a long rifle in soft focus. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Bright, faces large and clearly lit. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots | Hannah Cole: 31-year-old American frontier woman, an original fictional character who does not resemble any actress, slender and strong, a sun-browned face, steady gray eyes, a thin pale scar on her chin, dark-blond hair in a low practical knot, ALWAYS the same faded blue calico dress with a small white collar and a short brown wool jacket | The Sharps rifle: a long single-shot 1874 Sharps buffalo rifle: long octagonal blued barrel, tall front blade sight, dark walnut stock worn smooth, no lever, no magazine; crossed wooden shooting sticks beside it | Cedar Bluff fairground: a sunny frontier county fair on a meadow at the edge of town: colored bunting and flags, a rope line holding back a crowd in Sunday clothes, a firing line with canvas mats, round black-and-white paper targets on posts far down the field, a small hanging iron plate further away, golden aspens and blue mountains beyond, a wooden depot clock tower in the distance",
-   "video_prompt": "He whispers the wind call; she fires, white smoke. The rifle is a long single-shot 1874 Sharps buffalo rifle with a long octagonal barrel, a dark walnut stock, no lever and no magazine; it fires one shot and is reloaded by hand. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Wind's from the left, Ma. A hand and a half.\" The line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "first_frame_full_prompt": "Vertical 9:16. Ground level in tall bending grass: close on a freckled boy lying on his stomach, watching the wind; a sunny fair meadow, colored bunting and golden aspens softly blurred behind. Photorealistic cinematic film still, 9:16 vertical portrait frame, American West, Colorado, September 1881, bright natural sunlight, golden aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Bright, faces large and clearly lit. Characters/places: Tommy Cole: 10-year-old boy, an original fictional character, straw-blond cowlick, freckles, an oversized faded man's shirt with the sleeves rolled up, brown suspenders, patched trousers, scuffed boots",
+   "video_prompt": "He whispers the wind call, then holds his breath and grins. Dialogue: Tommy Cole (clear, serious American boy's voice, ten years old) says: \"Wind's from the left, Ma. A hand and a half.\" The line starts within the first second; no extra words. Cinematic live-action western drama, photorealistic, 9:16 vertical portrait frame, subjects large and centered, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Serious, grounded drama: natural, restrained acting and natural voices, no comedic or exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
    "ref_files": [
     "visuals/refs/CHAR_TOMMY_front.png",
-    "visuals/refs/CHAR_TOMMY_full.png",
-    "visuals/refs/CHAR_HANNAH_front.png",
-    "visuals/refs/CHAR_HANNAH_full.png",
-    "visuals/refs/PROP_SHARPS.png",
-    "visuals/refs/LOC_FAIR.png"
+    "visuals/refs/CHAR_TOMMY_full.png"
    ],
    "files": {
     "start_frame": "visuals/hooks/wr_H05_first.png",
