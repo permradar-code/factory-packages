@@ -1,6 +1,6 @@
 # Tales of Cedar Bluff: передача в новый чат
 
-> **10 окт 2026, 11:00 МСК. Сначала прочитай `FACTORY_GUIDE.md` — это полная инструкция: как делать фильмы, шортсы и правки на фабрике.** Ниже — состояние дел.
+> **15 окт: сначала `AUDIT_FILM4_2026-10-15.md` (почему фильм 4 не смонтирован и план ремонта).** 10 окт 2026, 11:00 МСК. Сначала прочитай `FACTORY_GUIDE.md` — это полная инструкция: как делать фильмы, шортсы и правки на фабрике.** Ниже — состояние дел.
 
 ## Состояние на 10 окт (день)
 - **Фильм 4 «The Widow's Rifle»** (конкурс стрелков): сценарий `briefs/western_widows_rifle/script.md`, раскадровка `build_shotlist.py` → `shotlist.json`. На фабрике проект `western_widows_rifle_v1` импортирован: **AWAITING_APPROVAL, $81.5 + запас = $93.8**, fingerprint `2b5cd0d53eaf573eef8d07e370e38d25b0db16f5929ca5c52b3bdd5564299c96`. Ждём «ок» владельца на бюджет → `montage_assets_approve`. Если сценарий меняется — заново `film_package_prepare` (package_branch `pkg/western_stagecoach_bride_v1`).
