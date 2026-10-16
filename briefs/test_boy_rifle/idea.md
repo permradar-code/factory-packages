@@ -1,5 +1,7 @@
-# Test mini-film (after the factory repair) — «The Boy Who Sold His Rifle»
-Chosen by the owner 16 Oct 2026. Purpose: first end-to-end run of the repaired factory (advisor, auto-checks, edit v2, Shorts),
+# Shelved idea — «The Boy Who Sold His Rifle» (short story)
+Shelved by the owner 16 Oct 2026: the factory test will be the opening of film 5 instead. Owner's note: the heart of it is
+the medicine for his mother, not the rifle sale. Too short for a long film; keep for later (e.g. a Shorts mini-series or part of a bigger story).
+Originally chosen on 16 Oct as the factory test film. Purpose: first end-to-end run of the repaired factory (advisor, auto-checks, edit v2, Shorts),
 and a publishable Cedar Bluff short story.
 
 - Length 2–3 min, 8–10 clips, budget ~$10–15 (exact estimate with the script; run only on the owner's «ок»).
