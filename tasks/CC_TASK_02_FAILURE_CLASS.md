@@ -66,7 +66,7 @@ by the owner's Claude: accepted as written; additions below.
      face_clause (new start frame) **all refused**; `ingredients_fast` (no start frame) **succeeded**.
      — shot H06 (a man walks in and speaks to the bank manager): original refused, `soften_action` succeeded.
   3. Ten shots (B01, C13, C15, C18, C37, C60, C73, B07, H02, H05) show `READY, attempts=2`, no `policy_variants`, no manual upload:
-     most likely refused on the first factory attempt (they are among the 13 cases), then **succeeded on a later plain re-run**
+     most likely refused on the first factory attempt (all but C60 are among the 13 cases), then **succeeded on a later plain re-run**
      (Resume / redo) — check `policy_log.json` semantics in the code to confirm what attempts=2 without variants means.
 - Classifier consequences for this PR:
   - samples 1 and 2 → `cls = policy_refusal`. Add a field `refusal_scope ∈ {"input", "unspecified", "output", None}`
