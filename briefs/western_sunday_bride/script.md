@@ -372,3 +372,11 @@
 2. Где брать немые клипы: Flow (бесплатно) или фабрика (+~$20).
 3. Смета — после раскадровки (`build_shotlist.py` → `shotlist.json` → `film_package_prepare`), без «ок» не запускаем.
 4. Новые лица (Нора, Сэм, Люси, Эли, Аса, Восс, Тейт, Данбар) — показать и одобрить до генерации видео.
+
+---
+## Production decisions (owner, 16 Oct 2026)
+- Target length ~20 min, but only if the story carries it — never padded; otherwise an honest ~15 min.
+- First minutes (cold open + first scenes) = video. After that: video only for key dialogue scenes and short action inserts.
+- Narrator blocks: a new still every ~3 s with camera motion (Ken Burns), no long holds (film 4 had 8–18 s holds).
+- Stills are cheap (~$0.07 each via the factory; Google Flow images are free and can be uploaded manually into the factory).
+- Film 5 is the length experiment: compare retention / watch time / suggested traffic with film 3 (15.6 min, 432k views).
