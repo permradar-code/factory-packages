@@ -40,3 +40,10 @@ inspector's checklist/prompt is built from these. Add new cases after every film
   UNREFERENCED_PEOPLE_INVENTED
 - Owner-found, not caught by the AI checker: C01 cuts, C12 pouring. The inspector must also ask "how does this action
   look to a viewer?", not only "are the right people present?".
+- C12 v2 (after the global "one continuous shot, no cuts" rule) · static wide shot · the model made a DISSOLVE/MORPH
+  transition at ~1.5–2.5 s into a second angle (over Nora's shoulder) and Eli LOST HIS HAT in the second angle ·
+  TRANSITION_MORPH · PROP_CONTINUITY. ffmpeg scene detection (gt(scene,0.15)) did NOT catch it (soft transition) →
+  the inspector needs a better test: compare frames 0.5 s apart over the whole clip (histogram/SSIM drop) and a
+  vision check "same people, same clothes/hats at start and end". Prevention: describe ONE simple camera move, avoid
+  prompts that imply two viewpoints ("the crowd laughs, Nora sees the stranger"), use 4 s instead of 6 s for silent
+  cutaways, and state "keeps his hat on".
