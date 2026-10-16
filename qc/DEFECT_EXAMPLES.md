@@ -22,3 +22,12 @@ inspector's checklist/prompt is built from these. Add new cases after every film
 - a repeated action inside one clip (C39) · REPEATED_TAKE
 - faces drifting between shots, a "double" of a character · IDENTITY_DRIFT · DUPLICATE_CHARACTER
 - 8–18 s stills under the narrator · LONG_STILL (fixed in task 07: max 4 s)
+
+## Film 5 — sample videos, 16 Oct 2026
+- C01 (6 s, first shot of the film) · ONE shot: close on the gloved hand on the bridle, tilt up to Asa · the video model made
+  THREE shots inside one clip (cuts at ~1.2 s and ~2 s): wide horse+wagon → Asa walking with his head out of frame → medium
+  shot of Asa talking on the OTHER side of the horse; Nora jumps from standing to seated; readable sign "…AR CHRON…" ·
+  CUTS_INSIDE_CLIP · CONTINUITY_JUMP · TEXT_IN_FRAME. Detectable for free: ffmpeg scene detection (select=gt(scene,0.2))
+  on every clip → any cut inside a clip = defect. Prevention: add "one continuous shot, no cuts" to every motion prompt.
+- C22 · line said 100 % correctly, but word timings rejected → `dialogue alignment missing` (factory bug: word end vs
+  duration check, see task 08) · FALSE_ALIGNMENT_FAILURE
