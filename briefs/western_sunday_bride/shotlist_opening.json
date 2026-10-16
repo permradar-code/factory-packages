@@ -1,0 +1,1446 @@
+{
+ "title": "Marry Me by Sunday - opening test",
+ "series": "Tales of Cedar Bluff",
+ "episode": 5,
+ "working_title_youtube": "\"Marry Me by Sunday, or They Take My Children,\" the Widow Begged the Drifter | Full Western Movie",
+ "setting": "Cedar Bluff, Colorado (a state since 1876), late October 1881: Main Street, the church, the town hall courtroom, the Whitlock farm on Bitter Creek",
+ "format": {
+  "aspect": "16:9 (hooks 9:16)",
+  "fps": 24,
+  "clip_durations_allowed_s": [
+   4,
+   6,
+   8
+  ]
+ },
+ "estimate": {
+  "clips": 31,
+  "clips_dialogue": 21,
+  "broll": 4,
+  "stills": 0,
+  "hooks": 0,
+  "video_seconds": 170,
+  "images_incl_first_frames": 31,
+  "ref_images": 15,
+  "narration_words": 53,
+  "narration_min_at_140wpm": 0.4,
+  "est_runtime_min": 2.9,
+  "usd_video": 17.0,
+  "usd_images": 2.08,
+  "usd_refs_approx": 2.55,
+  "usd_total_approx": 22.63,
+  "usd_with_15pct_reserve": 26.02
+ },
+ "style": "Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects.",
+ "clip_style": "Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+ "reused_refs_from": "pkg/western_stagecoach_bride_v1/visuals/refs",
+ "characters": {
+  "CHAR_NORA": {
+   "name": "Nora Whitlock",
+   "role": "widow, 33, proud, dry humor",
+   "look": "33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front",
+   "voice": "even, low American woman's voice, early thirties, a dry edge, rarely laughs"
+  },
+  "CHAR_SAM": {
+   "name": "Sam Whitlock",
+   "role": "her son, 9, 'the man of the house'",
+   "look": "9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots",
+   "voice": "clear, serious, suspicious American boy's voice, nine years old"
+  },
+  "CHAR_LUCY": {
+   "name": "Lucy Whitlock",
+   "role": "her daughter, 6, loud and direct",
+   "look": "6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon",
+   "voice": "loud, bright, very direct American little girl's voice, six years old"
+  },
+  "CHAR_ELI": {
+   "name": "Eli Kane",
+   "role": "a quiet drifter, 46, secretly the owner of the Two Rivers Cattle Company",
+   "look": "46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms",
+   "voice": "quiet, slow, dry American baritone, mid-forties, a faint smile in it"
+  },
+  "CHAR_ASA": {
+   "name": "Asa Whitlock",
+   "role": "the dead husband's brother, 42, grain merchant and church deacon, drowning in debt",
+   "look": "42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands",
+   "voice": "loud, smooth, falsely caring American man's voice, a sticky politeness"
+  },
+  "CHAR_VOSS": {
+   "name": "Judge Harlan Voss",
+   "role": "county judge, 68, gruff but honest",
+   "look": "68-year-old American man, an original fictional character, a full white beard, bushy white eyebrows, a black frock coat, a string tie, a cigar",
+   "voice": "gruff, gravelly old American man's voice, plain-spoken"
+  },
+  "CHAR_TATE": {
+   "name": "Reverend Amos Tate",
+   "role": "circuit preacher, 60, comes through once a month",
+   "look": "60-year-old American man, an original fictional character, thin, clean-shaven, short gray hair, kind deep-set eyes, a worn black frock coat with a white clerical band, a black Bible held against his chest",
+   "voice": "warm, humorous, slightly hoarse old preacher's voice"
+  },
+  "CHAR_DUNBAR": {
+   "name": "Hank Dunbar",
+   "role": "Two Rivers trail boss, 35 (courtroom only)",
+   "look": "35-year-old American cowhand, an original fictional character, a sunburned face, a short sandy beard, dusty leather chaps over his trousers, a red neckerchief, a battered tan hat held in his hand, no gun belt",
+   "voice": "loud, plain, dusty American cowhand's voice"
+  },
+  "CHAR_HOBBS": {
+   "name": "Mr. Hobbs",
+   "role": "storekeeper, 50",
+   "look": "50-year-old balding storekeeper, an original fictional character, round spectacles, sleeve garters, a striped shirt and a checked vest",
+   "voice": "nasal, fussy American voice"
+  },
+  "CHAR_CLARA": {
+   "name": "Clara Mercer",
+   "role": "the widow of film 1, now married to John Mercer",
+   "reuse_refs": true,
+   "look": "26-year-old American frontier woman, very pretty, slender, gray-green eyes, warm chestnut hair with copper highlights in a soft braided crown, a dark-green Sunday dress, small oval silver locket",
+   "voice": "warm, low, steady American woman's voice, late twenties"
+  },
+  "CHAR_MERCER": {
+   "name": "John Mercer",
+   "role": "Union veteran, Clara's husband (no lines)",
+   "reuse_refs": true,
+   "look": "40-year-old man, tall and lean, weathered tanned face, short dark-brown beard with gray at the chin, calm gray-blue eyes, long dark-brown canvas duster coat, black flat-brimmed hat",
+   "voice": "deep, quiet, unhurried American baritone"
+  },
+  "CHAR_MARSHAL": {
+   "name": "Marshal Abel Hart",
+   "role": "Deputy U.S. Marshal, 50 (courtroom, no lines)",
+   "reuse_refs": true,
+   "look": "50-year-old lawman, thick gray walrus mustache, deep-set eyes, long gray wool coat, five-pointed silver star badge, brown wide-brimmed hat",
+   "voice": "gruff, flat, authoritative American man's voice"
+  }
+ },
+ "props": {
+  "PROP_WAGON_W": {
+   "name": "Nora's wagon",
+   "look": "a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness"
+  },
+  "PROP_SADDLE": {
+   "name": "Eli's horse and saddle",
+   "look": "a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes"
+  },
+  "PROP_CHAIR": {
+   "name": "Will's chair",
+   "look": "a sturdy high-backed chair of dark oiled wood with a woven rawhide seat, standing at the head of a rough plank table, a small three-legged wooden stool beside it"
+  },
+  "PROP_IRON_RING": {
+   "name": "The iron ring",
+   "look": "a simple dark iron ring bent from a square horseshoe nail, rough hammered surface, lying on a weathered wooden surface"
+  }
+ },
+ "locations": {
+  "LOC_STREET": {
+   "name": "Cedar Bluff main street",
+   "reuse_refs": true,
+   "look": "small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text"
+  },
+  "LOC_WHITLOCK": {
+   "name": "Whitlock farm",
+   "look": "a homestead on a creek in a mountain valley: a weathered log house with a wide front porch, a log barn, a pole-rail corral, a clear creek under tall cottonwoods, a wide hay meadow with round haystacks, golden-yellow aspens on the hills, blue mountains beyond"
+  },
+  "LOC_WHITLOCK_IN": {
+   "name": "Whitlock kitchen",
+   "look": "a plain log-house kitchen: a rough plank table with a high-backed dark wood chair at its head and a three-legged stool beside it, an oil lamp, a cast-iron stove with a coffee pot, a dish shelf with only two plates left, calico curtains, a doorway to a small children's room"
+  },
+  "LOC_WHITLOCK_BARN": {
+   "name": "Whitlock barn",
+   "look": "inside a log barn: a milk cow in a stall, a wooden milk bucket, hay, and in the corner a small blacksmith forge with bellows, an anvil on a stump and a tin can of horseshoe nails, light through the open doors"
+  },
+  "LOC_CHURCH_IN": {
+   "name": "Cedar Bluff church",
+   "look": "inside a small white frontier church: plain wooden pews on both sides of a center aisle, a simple wooden pulpit, tall clear windows with sunlight, white plank walls, a small cross on the wall"
+  },
+  "LOC_COURTROOM": {
+   "name": "Courtroom in the town hall",
+   "look": "a small frontier courtroom in a town hall: wooden benches full of townsfolk, a raised judge's desk with a gavel, a United States flag with 38 stars on a pole, a black iron stove, tall windows with winter sunlight, a double door at the back"
+  }
+ },
+ "ref_prompts": [
+  {
+   "file": "visuals/refs/CHAR_NORA_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_NORA_full.png",
+   "prompt": "Full-body standing pose. 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_NORA_front.png"
+  },
+  {
+   "file": "visuals/refs/CHAR_SAM_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_SAM_full.png",
+   "prompt": "Full-body standing pose. 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_SAM_front.png"
+  },
+  {
+   "file": "visuals/refs/CHAR_LUCY_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_LUCY_full.png",
+   "prompt": "Full-body standing pose. 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_LUCY_front.png"
+  },
+  {
+   "file": "visuals/refs/CHAR_ELI_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_ELI_full.png",
+   "prompt": "Full-body standing pose. 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_ELI_front.png"
+  },
+  {
+   "file": "visuals/refs/CHAR_ASA_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_ASA_full.png",
+   "prompt": "Full-body standing pose. 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_ASA_front.png"
+  },
+  {
+   "file": "visuals/refs/CHAR_VOSS_front.png",
+   "prompt": "Head-and-shoulders portrait, facing the camera. 68-year-old American man, an original fictional character, a full white beard, bushy white eyebrows, a black frock coat, a string tie, a cigar. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark."
+  },
+  {
+   "file": "visuals/refs/CHAR_VOSS_full.png",
+   "prompt": "Full-body standing pose. 68-year-old American man, an original fictional character, a full white beard, bushy white eyebrows, a black frock coat, a string tie, a cigar. Character reference sheet photo, photorealistic, 1881 American West period clothing, plain warm neutral studio background, soft even daylight, sharp focus, natural skin texture, no text, no logos, no watermark.",
+   "use_ref": "visuals/refs/CHAR_VOSS_front.png"
+  },
+  {
+   "file": "visuals/refs/PROP_WAGON_W.png",
+   "prompt": "a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness. Clear reference image of nora's wagon, no people unless needed for scale. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects."
+  },
+  {
+   "file": "visuals/refs/PROP_SADDLE.png",
+   "prompt": "a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes. Clear reference image of eli's horse and saddle, no people unless needed for scale. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects."
+  },
+  {
+   "file": "visuals/refs/LOC_WHITLOCK.png",
+   "prompt": "a homestead on a creek in a mountain valley: a weathered log house with a wide front porch, a log barn, a pole-rail corral, a clear creek under tall cottonwoods, a wide hay meadow with round haystacks, golden-yellow aspens on the hills, blue mountains beyond. Clear reference image of whitlock farm, no people unless needed for scale. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects."
+  }
+ ],
+ "timeline": [
+  {
+   "id": "C01",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Sunny frontier main street: close on a man's gloved hand in a brown suit sleeve grabbing the bridle of an old brown mare harnessed to a small gray farm wagon, the wagon jerking to a stop; Asa Whitlock in a bowler hat steps into frame holding the bridle.",
+   "camera": "close on the gloved hand on the bridle, tilt up to Asa",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "Not so fast, Nora. Judge Voss hears my petition Monday morning."
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "CHAR_NORA",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": true,
+   "broll": false,
+   "start_frame_prompt": "Sunny frontier main street: close on a man's gloved hand in a brown suit sleeve grabbing the bridle of an old brown mare harnessed to a small gray farm wagon, the wagon jerking to a stop; Asa Whitlock in a bowler hat steps into frame holding the bridle.",
+   "part": "A",
+   "start_frame_full_prompt": "Sunny frontier main street: close on a man's gloved hand in a brown suit sleeve grabbing the bridle of an old brown mare harnessed to a small gray farm wagon, the wagon jerking to a stop; Asa Whitlock in a bowler hat steps into frame holding the bridle. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Sunny frontier main street: close on a man's gloved hand in a brown suit sleeve grabbing the bridle of an old brown mare harnessed to a small gray farm wagon, the wagon jerking to a stop; Asa Whitlock in a bowler hat steps into frame holding the bridle. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics: real hooves, real splashing water, real dust. Camera: close on the gloved hand on the bridle, tilt up to Asa. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"Not so fast, Nora. Judge Voss hears my petition Monday morning.\" ONLY Asa Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C01_first.png",
+    "video": "visuals/video/sb_C01.mp4"
+   }
+  },
+  {
+   "id": "C02",
+   "type": "clip",
+   "duration_s": 8,
+   "action": "Asa Whitlock holds the mare's bridle and turns to the boardwalk in front of a general store, where townsfolk and ladies in Sunday hats watch; Nora sits on the wagon seat in her dark-green dress, a little girl with a rag doll beside her, a boy in an oversized hat in the wagon bed.",
+   "camera": "medium wide, the watching boardwalk behind Asa",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "A widow alone can't keep a homestead and raise two children. The whole town knows it."
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "CHAR_NORA",
+    "CHAR_LUCY",
+    "CHAR_SAM",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Asa Whitlock holds the mare's bridle and turns to the boardwalk in front of a general store, where townsfolk and ladies in Sunday hats watch; Nora sits on the wagon seat in her dark-green dress, a little girl with a rag doll beside her, a boy in an oversized hat in the wagon bed.",
+   "part": "A",
+   "start_frame_full_prompt": "Asa Whitlock holds the mare's bridle and turns to the boardwalk in front of a general store, where townsfolk and ladies in Sunday hats watch; Nora sits on the wagon seat in her dark-green dress, a little girl with a rag doll beside her, a boy in an oversized hat in the wagon bed. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Lucy Whitlock: 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon | Sam Whitlock: 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/CHAR_LUCY_front.png",
+    "visuals/refs/CHAR_LUCY_full.png",
+    "visuals/refs/CHAR_SAM_front.png",
+    "visuals/refs/CHAR_SAM_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Asa Whitlock holds the mare's bridle and turns to the boardwalk in front of a general store, where townsfolk and ladies in Sunday hats watch; Nora sits on the wagon seat in her dark-green dress, a little girl with a rag doll beside her, a boy in an oversized hat in the wagon bed. Camera: medium wide, the watching boardwalk behind Asa. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"A widow alone can't keep a homestead and raise two children. The whole town knows it.\" ONLY Asa Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C02_first.png",
+    "video": "visuals/video/sb_C02.mp4"
+   }
+  },
+  {
+   "id": "C03",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Nora Whitlock on the wagon seat, reins in her hands, answers evenly, chin up.",
+   "camera": "close-up, low angle from the street",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "I've kept it eleven months, Asa. Without your help."
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora Whitlock on the wagon seat, reins in her hands, answers evenly, chin up.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora Whitlock on the wagon seat, reins in her hands, answers evenly, chin up. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora Whitlock on the wagon seat, reins in her hands, answers evenly, chin up. Camera: close-up, low angle from the street. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"I've kept it eleven months, Asa. Without your help.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C03_first.png",
+    "video": "visuals/video/sb_C03.mp4"
+   }
+  },
+  {
+   "id": "C04",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Asa Whitlock smiles toward the people on the boardwalk, playing to them, one hand still on the bridle.",
+   "camera": "medium close-up, the boardwalk crowd soft behind him",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "Eleven months of selling your wedding china. One plate at a time."
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Asa Whitlock smiles toward the people on the boardwalk, playing to them, one hand still on the bridle.",
+   "part": "A",
+   "start_frame_full_prompt": "Asa Whitlock smiles toward the people on the boardwalk, playing to them, one hand still on the bridle. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Asa Whitlock smiles toward the people on the boardwalk, playing to them, one hand still on the bridle. Camera: medium close-up, the boardwalk crowd soft behind him. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"Eleven months of selling your wedding china. One plate at a time.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C04_first.png",
+    "video": "visuals/video/sb_C04.mp4"
+   }
+  },
+  {
+   "id": "C05",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "On the store boardwalk, ladies in Sunday hats laugh behind their fans; cut to Nora on the wagon seat, her face turning to stone.",
+   "camera": "pan from the laughing ladies to Nora's still face",
+   "dialogue": [],
+   "refs": [
+    "CHAR_NORA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "On the store boardwalk, ladies in Sunday hats laugh behind their fans; cut to Nora on the wagon seat, her face turning to stone.",
+   "part": "A",
+   "start_frame_full_prompt": "On the store boardwalk, ladies in Sunday hats laugh behind their fans; cut to Nora on the wagon seat, her face turning to stone. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "On the store boardwalk, ladies in Sunday hats laugh behind their fans; cut to Nora on the wagon seat, her face turning to stone. Camera: pan from the laughing ladies to Nora's still face. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C05_first.png",
+    "video": "visuals/video/sb_C05.mp4"
+   }
+  },
+  {
+   "id": "C06",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "The boy in his father's oversized hat jumps down from the wagon bed onto the dusty street, fists clenched, glaring up at his uncle.",
+   "camera": "low angle on the boy",
+   "dialogue": [
+    {
+     "speaker": "CHAR_SAM",
+     "line": "You leave my ma alone!"
+    }
+   ],
+   "refs": [
+    "CHAR_SAM",
+    "CHAR_ASA",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": true,
+   "broll": false,
+   "start_frame_prompt": "The boy in his father's oversized hat jumps down from the wagon bed onto the dusty street, fists clenched, glaring up at his uncle.",
+   "part": "A",
+   "start_frame_full_prompt": "The boy in his father's oversized hat jumps down from the wagon bed onto the dusty street, fists clenched, glaring up at his uncle. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Sam Whitlock: 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots | Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_SAM_front.png",
+    "visuals/refs/CHAR_SAM_full.png",
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "The boy in his father's oversized hat jumps down from the wagon bed onto the dusty street, fists clenched, glaring up at his uncle. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics: real hooves, real splashing water, real dust. Camera: low angle on the boy. Dialogue: Sam Whitlock (clear, serious, suspicious American boy's voice, nine years old) says: \"You leave my ma alone!\" ONLY Sam Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C06_first.png",
+    "video": "visuals/video/sb_C06.mp4"
+   }
+  },
+  {
+   "id": "C07",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Asa Whitlock pats the boy's hat condescendingly and turns toward the steps of the town hall across the street.",
+   "camera": "medium shot, following Asa's turn",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "You see, Judge? There's a boy who needs a man's hand."
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "CHAR_SAM",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Asa Whitlock pats the boy's hat condescendingly and turns toward the steps of the town hall across the street.",
+   "part": "A",
+   "start_frame_full_prompt": "Asa Whitlock pats the boy's hat condescendingly and turns toward the steps of the town hall across the street. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Sam Whitlock: 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "visuals/refs/CHAR_SAM_front.png",
+    "visuals/refs/CHAR_SAM_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Asa Whitlock pats the boy's hat condescendingly and turns toward the steps of the town hall across the street. Camera: medium shot, following Asa's turn. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"You see, Judge? There's a boy who needs a man's hand.\" ONLY Asa Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C07_first.png",
+    "video": "visuals/video/sb_C07.mp4"
+   }
+  },
+  {
+   "id": "C08",
+   "type": "clip",
+   "duration_s": 8,
+   "action": "Judge Harlan Voss stands on the wooden steps of the town hall, white beard, black frock coat, a cigar in his fingers, looking down at the wagon.",
+   "camera": "medium shot from street level",
+   "dialogue": [
+    {
+     "speaker": "CHAR_VOSS",
+     "line": "Mrs. Whitlock, I'll be plain. Show me a man on that place by Monday, and I'll throw his petition out."
+    }
+   ],
+   "refs": [
+    "CHAR_VOSS",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Judge Harlan Voss stands on the wooden steps of the town hall, white beard, black frock coat, a cigar in his fingers, looking down at the wagon.",
+   "part": "A",
+   "start_frame_full_prompt": "Judge Harlan Voss stands on the wooden steps of the town hall, white beard, black frock coat, a cigar in his fingers, looking down at the wagon. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Judge Harlan Voss: 68-year-old American man, an original fictional character, a full white beard, bushy white eyebrows, a black frock coat, a string tie, a cigar | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_VOSS_front.png",
+    "visuals/refs/CHAR_VOSS_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Judge Harlan Voss stands on the wooden steps of the town hall, white beard, black frock coat, a cigar in his fingers, looking down at the wagon. Camera: medium shot from street level. Dialogue: Judge Harlan Voss (gruff, gravelly old American man's voice, plain-spoken) says: \"Mrs. Whitlock, I'll be plain. Show me a man on that place by Monday, and I'll throw his petition out.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C08_first.png",
+    "video": "visuals/video/sb_C08.mp4"
+   }
+  },
+  {
+   "id": "C09",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Judge Voss takes the cigar from his mouth and speaks heavily.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_VOSS",
+     "line": "If not, those children go to their uncle."
+    }
+   ],
+   "refs": [
+    "CHAR_VOSS",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Judge Voss takes the cigar from his mouth and speaks heavily.",
+   "part": "A",
+   "start_frame_full_prompt": "Judge Voss takes the cigar from his mouth and speaks heavily. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Judge Harlan Voss: 68-year-old American man, an original fictional character, a full white beard, bushy white eyebrows, a black frock coat, a string tie, a cigar | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_VOSS_front.png",
+    "visuals/refs/CHAR_VOSS_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Judge Voss takes the cigar from his mouth and speaks heavily. Camera: close-up. Dialogue: Judge Harlan Voss (gruff, gravelly old American man's voice, plain-spoken) says: \"If not, those children go to their uncle.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C09_first.png",
+    "video": "visuals/video/sb_C09.mp4"
+   }
+  },
+  {
+   "id": "C10",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Nora Whitlock on the wagon seat, stunned but steady.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "Monday? The preacher only comes through on Sunday."
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora Whitlock on the wagon seat, stunned but steady.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora Whitlock on the wagon seat, stunned but steady. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora Whitlock on the wagon seat, stunned but steady. Camera: close-up. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"Monday? The preacher only comes through on Sunday.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C10_first.png",
+    "video": "visuals/video/sb_C10.mp4"
+   }
+  },
+  {
+   "id": "C11",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Asa Whitlock, sugary, tips his bowler hat to her.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "Then I suppose you have until Sunday, sister."
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Asa Whitlock, sugary, tips his bowler hat to her.",
+   "part": "A",
+   "start_frame_full_prompt": "Asa Whitlock, sugary, tips his bowler hat to her. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Asa Whitlock, sugary, tips his bowler hat to her. Camera: close-up. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"Then I suppose you have until Sunday, sister.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C11_first.png",
+    "video": "visuals/video/sb_C11.mp4"
+   }
+  },
+  {
+   "id": "C12",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "The boardwalk crowd roars with laughter; Nora lifts her eyes past them: across the street at the wooden water trough a dusty tall stranger with a thick graying mustache waters a tall dark-bay horse with a silver-studded saddle. He is the only one not looking at the scene.",
+   "camera": "over Nora's shoulder, rack focus to the stranger at the trough",
+   "dialogue": [],
+   "refs": [
+    "CHAR_NORA",
+    "CHAR_ELI",
+    "PROP_SADDLE",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "The boardwalk crowd roars with laughter; Nora lifts her eyes past them: across the street at the wooden water trough a dusty tall stranger with a thick graying mustache waters a tall dark-bay horse with a silver-studded saddle. He is the only one not looking at the scene.",
+   "part": "A",
+   "start_frame_full_prompt": "The boardwalk crowd roars with laughter; Nora lifts her eyes past them: across the street at the wooden water trough a dusty tall stranger with a thick graying mustache waters a tall dark-bay horse with a silver-studded saddle. He is the only one not looking at the scene. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "The boardwalk crowd roars with laughter; Nora lifts her eyes past them: across the street at the wooden water trough a dusty tall stranger with a thick graying mustache waters a tall dark-bay horse with a silver-studded saddle. He is the only one not looking at the scene. Camera: over Nora's shoulder, rack focus to the stranger at the trough. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C12_first.png",
+    "video": "visuals/video/sb_C12.mp4"
+   }
+  },
+  {
+   "id": "C13",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Nora climbs down from the wagon seat and walks straight across the dusty street toward the trough; heads on the boardwalk turn to follow her.",
+   "camera": "tracking shot from behind Nora, the stranger ahead",
+   "dialogue": [],
+   "refs": [
+    "CHAR_NORA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora climbs down from the wagon seat and walks straight across the dusty street toward the trough; heads on the boardwalk turn to follow her.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora climbs down from the wagon seat and walks straight across the dusty street toward the trough; heads on the boardwalk turn to follow her. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora climbs down from the wagon seat and walks straight across the dusty street toward the trough; heads on the boardwalk turn to follow her. Camera: tracking shot from behind Nora, the stranger ahead. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C13_first.png",
+    "video": "visuals/video/sb_C13.mp4"
+   }
+  },
+  {
+   "id": "C14",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Nora stops in front of the stranger at the water trough and looks him in the face.",
+   "camera": "medium two-shot across the trough",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "Mister. Are you married?"
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "CHAR_ELI",
+    "PROP_SADDLE",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora stops in front of the stranger at the water trough and looks him in the face.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora stops in front of the stranger at the water trough and looks him in the face. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora stops in front of the stranger at the water trough and looks him in the face. Camera: medium two-shot across the trough. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"Mister. Are you married?\" ONLY Nora Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C14_first.png",
+    "video": "visuals/video/sb_C14.mp4"
+   }
+  },
+  {
+   "id": "C15",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Eli Kane slowly lifts his head from the horse, water dripping from the bucket in his hand.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ELI",
+     "line": "No, ma'am."
+    }
+   ],
+   "refs": [
+    "CHAR_ELI",
+    "PROP_SADDLE",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli Kane slowly lifts his head from the horse, water dripping from the bucket in his hand.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli Kane slowly lifts his head from the horse, water dripping from the bucket in his hand. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli Kane slowly lifts his head from the horse, water dripping from the bucket in his hand. Camera: close-up. Dialogue: Eli Kane (quiet, slow, dry American baritone, mid-forties, a faint smile in it) says: \"No, ma'am.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C15_first.png",
+    "video": "visuals/video/sb_C15.mp4"
+   }
+  },
+  {
+   "id": "C16",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Nora, not blinking.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "Would you like to be? By Sunday?"
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora, not blinking.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora, not blinking. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora, not blinking. Camera: close-up. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"Would you like to be? By Sunday?\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C16_first.png",
+    "video": "visuals/video/sb_C16.mp4"
+   }
+  },
+  {
+   "id": "C17",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Dead silence on the street. On the wagon seat the little girl's mouth falls open, clutching her rag doll.",
+   "camera": "close-up on the little girl",
+   "dialogue": [],
+   "refs": [
+    "CHAR_LUCY",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Dead silence on the street. On the wagon seat the little girl's mouth falls open, clutching her rag doll.",
+   "part": "A",
+   "start_frame_full_prompt": "Dead silence on the street. On the wagon seat the little girl's mouth falls open, clutching her rag doll. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Lucy Whitlock: 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_LUCY_front.png",
+    "visuals/refs/CHAR_LUCY_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Dead silence on the street. On the wagon seat the little girl's mouth falls open, clutching her rag doll. Camera: close-up on the little girl. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C17_first.png",
+    "video": "visuals/video/sb_C17.mp4"
+   }
+  },
+  {
+   "id": "C18",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Eli Kane looks past Nora at the two children on the wagon, at the uncle with the bridle, then back at her, and asks one question.",
+   "camera": "close-up, slow push in",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ELI",
+     "line": "...What's for supper?"
+    }
+   ],
+   "refs": [
+    "CHAR_ELI",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli Kane looks past Nora at the two children on the wagon, at the uncle with the bridle, then back at her, and asks one question.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli Kane looks past Nora at the two children on the wagon, at the uncle with the bridle, then back at her, and asks one question. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli Kane looks past Nora at the two children on the wagon, at the uncle with the bridle, then back at her, and asks one question. Camera: close-up, slow push in. Dialogue: Eli Kane (quiet, slow, dry American baritone, mid-forties, a faint smile in it) says: \"...What's for supper?\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C18_first.png",
+    "video": "visuals/video/sb_C18.mp4"
+   }
+  },
+  {
+   "id": "T01",
+   "type": "title_card",
+   "text": "MARRY ME BY SUNDAY",
+   "duration_s": 4.0,
+   "part": "A",
+   "big": true,
+   "subtitle": "A Tale of Cedar Bluff"
+  },
+  {
+   "id": "C19",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Main street: Asa Whitlock rushes up and grabs Nora by the elbow.",
+   "camera": "medium shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "Have you lost your mind? He's a saddle tramp!"
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "CHAR_NORA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": true,
+   "broll": false,
+   "start_frame_prompt": "Main street: Asa Whitlock rushes up and grabs Nora by the elbow.",
+   "part": "A",
+   "start_frame_full_prompt": "Main street: Asa Whitlock rushes up and grabs Nora by the elbow. First frame of the shot, characters in position, mouths closed, the action already in motion. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Main street: Asa Whitlock rushes up and grabs Nora by the elbow. Fast, dynamic action from the very first frame: the movement is already happening when the shot starts, no slow build-up. Realistic weight and physics: real hooves, real splashing water, real dust. Camera: medium shot. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"Have you lost your mind? He's a saddle tramp!\" ONLY Asa Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C19_first.png",
+    "video": "visuals/video/sb_C19.mp4"
+   }
+  },
+  {
+   "id": "C20",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Eli Kane calmly takes Asa's wrist in his big hand. He does not squeeze. He just holds it.",
+   "camera": "close on the hand on the wrist, then up to Eli's calm face",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ELI",
+     "line": "I'd take my hand off the lady, friend."
+    }
+   ],
+   "refs": [
+    "CHAR_ELI",
+    "CHAR_ASA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli Kane calmly takes Asa's wrist in his big hand. He does not squeeze. He just holds it.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli Kane calmly takes Asa's wrist in his big hand. He does not squeeze. He just holds it. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli Kane calmly takes Asa's wrist in his big hand. He does not squeeze. He just holds it. Camera: close on the hand on the wrist, then up to Eli's calm face. Dialogue: Eli Kane (quiet, slow, dry American baritone, mid-forties, a faint smile in it) says: \"I'd take my hand off the lady, friend.\" ONLY Eli Kane speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C20_first.png",
+    "video": "visuals/video/sb_C20.mp4"
+   }
+  },
+  {
+   "id": "C21",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Asa Whitlock jerks his hand free, red-faced.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ASA",
+     "line": "And who are you to tell me-"
+    }
+   ],
+   "refs": [
+    "CHAR_ASA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Asa Whitlock jerks his hand free, red-faced.",
+   "part": "A",
+   "start_frame_full_prompt": "Asa Whitlock jerks his hand free, red-faced. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Asa Whitlock: 42-year-old American man, an original fictional character, a neat light-brown pointed goatee, pale eyes, a tidy brown three-piece suit, a brown bowler hat, a gold watch chain across the vest, soft clean hands | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ASA_front.png",
+    "visuals/refs/CHAR_ASA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Asa Whitlock jerks his hand free, red-faced. Camera: close-up. Dialogue: Asa Whitlock (loud, smooth, falsely caring American man's voice, a sticky politeness) says: \"And who are you to tell me-\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C21_first.png",
+    "video": "visuals/video/sb_C21.mp4"
+   }
+  },
+  {
+   "id": "C22",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Eli Kane, quiet, not moving.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ELI",
+     "line": "Nobody yet. Ask me again on Sunday."
+    }
+   ],
+   "refs": [
+    "CHAR_ELI",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli Kane, quiet, not moving.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli Kane, quiet, not moving. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli Kane, quiet, not moving. Camera: close-up. Dialogue: Eli Kane (quiet, slow, dry American baritone, mid-forties, a faint smile in it) says: \"Nobody yet. Ask me again on Sunday.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C22_first.png",
+    "video": "visuals/video/sb_C22.mp4"
+   }
+  },
+  {
+   "id": "C23",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "On the store boardwalk the ladies stop laughing and lower their fans; on the wagon seat the little girl giggles into her rag doll.",
+   "camera": "pan from the boardwalk to the giggling girl",
+   "dialogue": [],
+   "refs": [
+    "CHAR_LUCY",
+    "PROP_WAGON_W",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "On the store boardwalk the ladies stop laughing and lower their fans; on the wagon seat the little girl giggles into her rag doll.",
+   "part": "A",
+   "start_frame_full_prompt": "On the store boardwalk the ladies stop laughing and lower their fans; on the wagon seat the little girl giggles into her rag doll. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Lucy Whitlock: 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_LUCY_front.png",
+    "visuals/refs/CHAR_LUCY_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "On the store boardwalk the ladies stop laughing and lower their fans; on the wagon seat the little girl giggles into her rag doll. Camera: pan from the boardwalk to the giggling girl. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C23_first.png",
+    "video": "visuals/video/sb_C23.mp4"
+   }
+  },
+  {
+   "id": "C24",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Nora steps close to Eli and speaks quietly, only for him.",
+   "camera": "close two-shot",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "Eleven dollars and a hen. That's what I can pay."
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "CHAR_ELI",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora steps close to Eli and speaks quietly, only for him.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora steps close to Eli and speaks quietly, only for him. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora steps close to Eli and speaks quietly, only for him. Camera: close two-shot. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"Eleven dollars and a hen. That's what I can pay.\" ONLY Nora Whitlock speaks. Everyone else keeps their mouth closed and only listens. The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C24_first.png",
+    "video": "visuals/video/sb_C24.mp4"
+   }
+  },
+  {
+   "id": "C25",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Eli Kane, the corner of his mustache lifting.",
+   "camera": "close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_ELI",
+     "line": "Keep the hen. Is it far?"
+    }
+   ],
+   "refs": [
+    "CHAR_ELI",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli Kane, the corner of his mustache lifting.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli Kane, the corner of his mustache lifting. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli Kane, the corner of his mustache lifting. Camera: close-up. Dialogue: Eli Kane (quiet, slow, dry American baritone, mid-forties, a faint smile in it) says: \"Keep the hen. Is it far?\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C25_first.png",
+    "video": "visuals/video/sb_C25.mp4"
+   }
+  },
+  {
+   "id": "C26",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Nora answers, already turning back to her wagon.",
+   "camera": "medium close-up",
+   "dialogue": [
+    {
+     "speaker": "CHAR_NORA",
+     "line": "Three miles up Bitter Creek."
+    }
+   ],
+   "refs": [
+    "CHAR_NORA",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Nora answers, already turning back to her wagon.",
+   "part": "A",
+   "start_frame_full_prompt": "Nora answers, already turning back to her wagon. First frame of the shot, characters in position, mouths closed. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Nora answers, already turning back to her wagon. Camera: medium close-up. Dialogue: Nora Whitlock (even, low American woman's voice, early thirties, a dry edge, rarely laughs) says: \"Three miles up Bitter Creek.\" The line starts within the first second; after the line the speaker holds a natural expression, no extra words. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C26_first.png",
+    "video": "visuals/video/sb_C26.mp4"
+   }
+  },
+  {
+   "id": "C27",
+   "type": "clip",
+   "duration_s": 4,
+   "action": "Eli swings up onto the tall dark-bay horse; close on the fine dark-leather saddle with round silver conchos; the boy in the wagon bed stares at it.",
+   "camera": "close on the silver conchos, rack focus to the staring boy",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ELI",
+    "CHAR_SAM",
+    "PROP_SADDLE",
+    "LOC_STREET"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": false,
+   "start_frame_prompt": "Eli swings up onto the tall dark-bay horse; close on the fine dark-leather saddle with round silver conchos; the boy in the wagon bed stares at it.",
+   "part": "A",
+   "start_frame_full_prompt": "Eli swings up onto the tall dark-bay horse; close on the fine dark-leather saddle with round silver conchos; the boy in the wagon bed stares at it. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Sam Whitlock: 9-year-old boy, an original fictional character, dark hair, a serious frowning face, his late father's dark felt hat far too big for him, brown suspenders over a faded shirt, patched trousers, scuffed boots | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Cedar Bluff main street: small frontier town main street, dirt road, wooden false-front buildings, boardwalks, hitching rails, a wooden water trough, horses and wagons, mountains beyond; signs have no legible text",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/CHAR_SAM_front.png",
+    "visuals/refs/CHAR_SAM_full.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "pkg/western_stagecoach_bride_v1/visuals/refs/LOC_STREET.png"
+   ],
+   "video_prompt": "Eli swings up onto the tall dark-bay horse; close on the fine dark-leather saddle with round silver conchos; the boy in the wagon bed stares at it. Camera: close on the silver conchos, rack focus to the staring boy. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_C27_first.png",
+    "video": "visuals/video/sb_C27.mp4"
+   }
+  },
+  {
+   "id": "B01",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "Golden autumn road along a creek: the small gray farm wagon with the old brown mare rolls between yellow aspens, a tall rider on a dark-bay horse beside it.",
+   "camera": "wide tracking shot from the side",
+   "dialogue": [],
+   "refs": [
+    "CHAR_NORA",
+    "CHAR_ELI",
+    "PROP_WAGON_W",
+    "PROP_SADDLE",
+    "LOC_WHITLOCK"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": true,
+   "start_frame_prompt": "Golden autumn road along a creek: the small gray farm wagon with the old brown mare rolls between yellow aspens, a tall rider on a dark-bay horse beside it.",
+   "for": "N01",
+   "part": "A",
+   "start_frame_full_prompt": "Golden autumn road along a creek: the small gray farm wagon with the old brown mare rolls between yellow aspens, a tall rider on a dark-bay horse beside it. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Nora Whitlock: 33-year-old American frontier woman, an original fictional character who does not resemble any actress, chestnut-brown hair in a braid pinned up around her head, light freckles, green eyes, a strong calm face, ALWAYS the same faded dark-green wool dress with small cream buttons down the front | Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Whitlock farm: a homestead on a creek in a mountain valley: a weathered log house with a wide front porch, a log barn, a pole-rail corral, a clear creek under tall cottonwoods, a wide hay meadow with round haystacks, golden-yellow aspens on the hills, blue mountains beyond",
+   "ref_files": [
+    "visuals/refs/CHAR_NORA_front.png",
+    "visuals/refs/CHAR_NORA_full.png",
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "visuals/refs/LOC_WHITLOCK.png"
+   ],
+   "video_prompt": "Golden autumn road along a creek: the small gray farm wagon with the old brown mare rolls between yellow aspens, a tall rider on a dark-bay horse beside it. Camera: wide tracking shot from the side. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_B01_first.png",
+    "video": "visuals/video/sb_B01.mp4"
+   }
+  },
+  {
+   "id": "B02",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "The rider on the dark-bay horse with the silver-studded saddle rides beside the wagon; the little girl on the wagon seat peeks at him from behind her doll.",
+   "camera": "medium tracking shot",
+   "dialogue": [],
+   "refs": [
+    "CHAR_ELI",
+    "CHAR_LUCY",
+    "PROP_SADDLE",
+    "PROP_WAGON_W"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": true,
+   "start_frame_prompt": "The rider on the dark-bay horse with the silver-studded saddle rides beside the wagon; the little girl on the wagon seat peeks at him from behind her doll.",
+   "for": "N01",
+   "part": "A",
+   "start_frame_full_prompt": "The rider on the dark-bay horse with the silver-studded saddle rides beside the wagon; the little girl on the wagon seat peeks at him from behind her doll. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Eli Kane: 46-year-old American man, an original fictional character (not a celebrity lookalike), tall and broad-shouldered, a weathered sun-browned face, a thick dark mustache going gray, NO beard, calm gray eyes with fine lines, a worn brown canvas jacket with a sheepskin collar, a dusty black wide-brimmed hat, no gun belt, no firearms | Lucy Whitlock: 6-year-old girl, an original fictional character, strawberry-blond curls, a gap in her front teeth, a faded blue gingham dress with a white pinafore, always holding a rag doll with a blue ribbon | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness",
+   "ref_files": [
+    "visuals/refs/CHAR_ELI_front.png",
+    "visuals/refs/CHAR_ELI_full.png",
+    "visuals/refs/CHAR_LUCY_front.png",
+    "visuals/refs/CHAR_LUCY_full.png",
+    "visuals/refs/PROP_SADDLE.png",
+    "visuals/refs/PROP_WAGON_W.png"
+   ],
+   "video_prompt": "The rider on the dark-bay horse with the silver-studded saddle rides beside the wagon; the little girl on the wagon seat peeks at him from behind her doll. Camera: medium tracking shot. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_B02_first.png",
+    "video": "visuals/video/sb_B02.mp4"
+   }
+  },
+  {
+   "id": "B03",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "A clear mountain creek running under tall cottonwoods with golden leaves drifting down onto the water, hooves and wagon wheels splashing through the ford.",
+   "camera": "low angle at the ford",
+   "dialogue": [],
+   "refs": [
+    "LOC_WHITLOCK",
+    "PROP_WAGON_W"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": true,
+   "start_frame_prompt": "A clear mountain creek running under tall cottonwoods with golden leaves drifting down onto the water, hooves and wagon wheels splashing through the ford.",
+   "for": "N01",
+   "part": "A",
+   "start_frame_full_prompt": "A clear mountain creek running under tall cottonwoods with golden leaves drifting down onto the water, hooves and wagon wheels splashing through the ford. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Whitlock farm: a homestead on a creek in a mountain valley: a weathered log house with a wide front porch, a log barn, a pole-rail corral, a clear creek under tall cottonwoods, a wide hay meadow with round haystacks, golden-yellow aspens on the hills, blue mountains beyond | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness",
+   "ref_files": [
+    "visuals/refs/LOC_WHITLOCK.png",
+    "visuals/refs/PROP_WAGON_W.png"
+   ],
+   "video_prompt": "A clear mountain creek running under tall cottonwoods with golden leaves drifting down onto the water, hooves and wagon wheels splashing through the ford. Camera: low angle at the ford. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_B03_first.png",
+    "video": "visuals/video/sb_B03.mp4"
+   }
+  },
+  {
+   "id": "B04",
+   "type": "clip",
+   "duration_s": 6,
+   "action": "The wagon and the rider come over a rise: below them a log homestead with a porch, a barn, a corral and a wide hay meadow with round haystacks, golden aspens on the hills.",
+   "camera": "wide crane-like shot from behind",
+   "dialogue": [],
+   "refs": [
+    "LOC_WHITLOCK",
+    "PROP_WAGON_W",
+    "PROP_SADDLE"
+   ],
+   "priority": "core",
+   "night": false,
+   "snow": false,
+   "action_shot": false,
+   "broll": true,
+   "start_frame_prompt": "The wagon and the rider come over a rise: below them a log homestead with a porch, a barn, a corral and a wide hay meadow with round haystacks, golden aspens on the hills.",
+   "for": "N01",
+   "part": "A",
+   "start_frame_full_prompt": "The wagon and the rider come over a rise: below them a log homestead with a porch, a barn, a corral and a wide hay meadow with round haystacks, golden aspens on the hills. First frame of the shot, characters in position. Photorealistic cinematic film still, 16:9 widescreen, American West, Colorado, late October 1881, bright natural autumn sunlight, golden-yellow aspens, 35mm film grain, warm vivid colors, shallow depth of field, period-accurate clothing and props. No text, no letters, no captions, no logos, no watermark, no modern objects. Characters/places: Whitlock farm: a homestead on a creek in a mountain valley: a weathered log house with a wide front porch, a log barn, a pole-rail corral, a clear creek under tall cottonwoods, a wide hay meadow with round haystacks, golden-yellow aspens on the hills, blue mountains beyond | Nora's wagon: a small weathered gray farm wagon with a plank seat, pulled by one old brown mare harnessed in front with worn leather harness | Eli's horse and saddle: a tall dark-bay horse with a black mane wearing a fine dark-leather stock saddle decorated with round silver conchos, an expensive saddle that does not match the rider's worn clothes",
+   "ref_files": [
+    "visuals/refs/LOC_WHITLOCK.png",
+    "visuals/refs/PROP_WAGON_W.png",
+    "visuals/refs/PROP_SADDLE.png"
+   ],
+   "video_prompt": "The wagon and the rider come over a rise: below them a log homestead with a porch, a barn, a corral and a wide hay meadow with round haystacks, golden aspens on the hills. Camera: wide crane-like shot from behind. No dialogue, natural sound only (wind, creek, hooves, birds, crowd murmur where shown), nobody speaks. Cinematic live-action western drama, photorealistic, 16:9, Colorado 1881, natural light, film grain. Keep every character's face, hair, clothing and body exactly as in the start frame and references for the whole shot. Warm, grounded drama with quiet dry humor: natural, restrained acting and natural voices, no slapstick, no exaggerated performances. Characters only speak the exact lines given, in English, with lips in sync. No subtitles, no text on screen, no music.",
+   "files": {
+    "start_frame": "visuals/images/sb_B04_first.png",
+    "video": "visuals/video/sb_B04.mp4"
+   }
+  },
+  {
+   "id": "N01",
+   "type": "narration",
+   "text": "Will Whitlock had died in February, of a fever that took three men in the valley that winter. He left his wife a hundred and sixty acres on Bitter Creek, two children, eleven dollars, and the best hay meadow in the county. His brother Asa had been very helpful ever since. Too helpful.",
+   "part": "A",
+   "est_s": 22.7
+  }
+ ],
+ "hooks": [],
+ "production": {
+  "schema_version": 1,
+  "policy_retry_max": 3,
+  "review_gates": {
+   "references": {
+    "enabled": true
+   },
+   "audio": {
+    "enabled": true
+   },
+   "visuals": {
+    "enabled": true
+   },
+   "video_sample": {
+    "enabled": true,
+    "shot_ids": [
+     "C01",
+     "C12",
+     "C18",
+     "C22"
+    ]
+   },
+   "videos": {
+    "enabled": true
+   }
+  },
+  "edit": {
+   "engine": "v2",
+   "badge_at": [
+    [
+     "N01",
+     2.0
+    ]
+   ],
+   "grade": "eq=contrast=1.05:saturation=1.15:gamma=1.13:brightness=0.03",
+   "title_id": "T01",
+   "series_projects": {
+    "S2": "western_stagecoach_bride_v1",
+    "S3": "western_barn_storm_v1",
+    "S4": "western_widows_rifle_v1"
+   },
+   "jobs": 4,
+   "dialogue_tail_seconds": 0.8,
+   "narration_voice_offset_seconds": 0.4,
+   "transition_seconds": 0.3,
+   "end_screen_tail_seconds": 0,
+   "contact_sheet": "one_frame_per_timeline_visual"
+  },
+  "music_anchor_map": {
+   "M01": "C01",
+   "M02": "T01"
+  },
+  "audio_mix": {
+   "speech_active_rms_db": -20,
+   "ambient_clip_rms_db": -23,
+   "broll_ambient_rms_db": -34,
+   "music_base_rms_db": -18,
+   "duck_under_speech_db": -15,
+   "duck_under_clip_db": -7,
+   "duck_attack_seconds": 0.15,
+   "duck_release_seconds": 0.6,
+   "integrated_lufs": -14,
+   "true_peak_db": -1.5
+  },
+  "voice": {
+   "provider": "elevenlabs",
+   "voice_id": "pqHfZKP75CvOlQylNhV4",
+   "model": "eleven_multilingual_v2",
+   "speed": 1,
+   "timestamps": true,
+   "output_format": "mp3_44100_128",
+   "stability": 0.55,
+   "similarity_boost": 0.8,
+   "style": 0.15,
+   "use_speaker_boost": true,
+   "context_chars": 400
+  },
+  "subtitle": {
+   "language": "en",
+   "name": "English"
+  },
+  "export": {
+   "package_branch": "pkg/western_sunday_bride_v1",
+   "film_branch": "film/western_sunday_bride_v1"
+  },
+  "qc": {
+   "long_duration_min_seconds": 120,
+   "long_duration_max_seconds": 1500,
+   "black_silence_max_seconds": 60
+  }
+ }
+}

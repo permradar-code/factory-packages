@@ -1,0 +1,81 @@
+{
+ "film": "Marry Me by Sunday",
+ "note": "6 new cues + 3 reused from film 3 (S3) at no cost",
+ "cues": [
+  {
+   "id": "M01",
+   "covers": "cold open: street humiliation, the proposal at the trough",
+   "target_s": 65,
+   "mood": "humiliation turning to quiet nerve",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Slow tense western cue at 70 BPM in D minor: low sustained strings, a lonely solo fiddle line, sparse piano notes, a held breath of silence near the end, dignified and taut. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M02",
+   "covers": "after the title: the first payoff, the road to Bitter Creek",
+   "target_s": 70,
+   "mood": "warm open road, light humor",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Warm open-road western cue at 92 BPM in G major: acoustic guitar picking, a gentle fiddle melody, soft upright bass, a hint of harmonica, golden autumn afternoon, hopeful. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M03",
+   "covers": "supper, the porch at night, the cow, the dance",
+   "target_s": 90,
+   "mood": "homey tenderness with a smile",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Homey tender western cue at 76 BPM in C major: solo fiddle and pump organ, light plucked banjo, a playful little turn in the melody, warm kitchen lamplight, gentle humor. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M04s",
+   "series_source": "S3:M01",
+   "covers": "night: the open corral",
+   "target_s": 45,
+   "mood": "storm and dread"
+  },
+  {
+   "id": "M05",
+   "covers": "Sunday dawn: the ride after the horses",
+   "target_s": 60,
+   "mood": "galloping drive",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Driving western chase cue at 132 BPM in A minor turning to A major: galloping frame-drum rhythm, fast fiddle runs, low strings building, a triumphant swell as the horses come home. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M06",
+   "covers": "the wedding",
+   "target_s": 90,
+   "mood": "small-town wedding, warm and a little funny",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Small-town wedding cue at 84 BPM in F major: reed pump organ playing a simple hymn-like melody, a fiddle joining in, soft warmth, a light lift of joy, first snow in sunshine. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M07s",
+   "series_source": "S3:M03",
+   "covers": "first snow evening, goodnight",
+   "target_s": 90,
+   "mood": "quiet tenderness"
+  },
+  {
+   "id": "M08",
+   "covers": "the hearing: tension, the door, the reveal",
+   "target_s": 90,
+   "mood": "silence, a blow, then warmth",
+   "new": true,
+   "instrumental": true,
+   "prompt": "Courtroom suspense-to-warmth western cue at 72 BPM in E minor turning to E major: a slow ticking pizzicato, low held strings, a sudden full chord, then a warm rising theme on strings and fiddle. Instrumental only, no vocals, no choir. Warm analog recording, cinematic western film score, 1880s American frontier feel, no modern drums, no synths, no electric guitar."
+  },
+  {
+   "id": "M09s",
+   "series_source": "S3:M04",
+   "covers": "the chair, the porch dance, the epilogue",
+   "target_s": 90,
+   "mood": "warm triumph"
+  }
+ ]
+}
