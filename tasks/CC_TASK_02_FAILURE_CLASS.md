@@ -47,7 +47,7 @@ by the owner's Claude: accepted as written; additions below.
 - D5: an exhausted **dialogue** shot is auto-skipped **for the draft render only** (the film must keep going), marked loudly in QC
   and in the Studio/Telegram `needs_owner` list; **final export stays blocked** until the owner decides (approve skip / upload /
   option). Non-dialogue shots: auto-skip with options, export allowed.
-- D6: remove the 13 `recovery_*` MCP tools in task 08 (tentative — the owner confirms he no longer drives the factory from ChatGPT).
+- D6: remove the 13 `recovery_*` MCP tools in task 08 — confirmed 16 Oct: the owner does not drive the factory from ChatGPT any more.
 
 ## Real data from the VPS (owner ran the §7.1 commands, 16 Oct) — use it in this PR
 - Live Recovery unit = **v3** (`recovery_server_v3`, `RECOVERY_SEMANTIC_ENABLED=1`, session limit 3, `RECOVERY_VEO_ENABLED=1`,
