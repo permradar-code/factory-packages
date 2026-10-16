@@ -31,3 +31,12 @@ inspector's checklist/prompt is built from these. Add new cases after every film
   on every clip → any cut inside a clip = defect. Prevention: add "one continuous shot, no cuts" to every motion prompt.
 - C22 · line said 100 % correctly, but word timings rejected → `dialogue alignment missing` (factory bug: word end vs
   duration check, see task 08) · FALSE_ALIGNMENT_FAILURE
+- C12 (no dialogue) · Eli waters his horse at the trough · he POURS water from a bucket into the trough at waist height with
+  a visible stream and gurgling — reads as if he urinates into the trough; + a cut at 5.04 s to a new close shot ·
+  AMBIGUOUS_ACTION (embarrassing) · CUTS_INSIDE_CLIP. Prevention: "the horse drinks from an already full trough; nobody
+  pours water, no stream, no bucket in hand". Check every "waters / pours / washes" action for how it looks.
+- C18 · close-up of Eli · an invented woman in a bonnet stands right next to him for the whole clip, invented kids and a man
+  in a cap on the wagon behind → crop would need ~2x upscale (720p) → regenerate with "only Eli in frame" ·
+  UNREFERENCED_PEOPLE_INVENTED
+- Owner-found, not caught by the AI checker: C01 cuts, C12 pouring. The inspector must also ask "how does this action
+  look to a viewer?", not only "are the right people present?".
