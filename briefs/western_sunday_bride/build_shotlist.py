@@ -747,7 +747,8 @@ def production(sample, hooks_on, opening):
     p = {
         "schema_version": 1,
         "policy_retry_max": 3,
-        "review_gates": {"references": {"enabled": True}, "audio": {"enabled": True},
+        "review_gates": {"references": {"enabled": True},
+                         "audio": {"enabled": True, "narration_sample_id": MARK["N01"], "music_sample_id": "M01"},
                          "visuals": {"enabled": True},
                          "video_sample": {"enabled": True, "shot_ids": sample},
                          "videos": {"enabled": True}},

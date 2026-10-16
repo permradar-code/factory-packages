@@ -7007,7 +7007,9 @@
     "enabled": true
    },
    "audio": {
-    "enabled": true
+    "enabled": true,
+    "narration_sample_id": "N01",
+    "music_sample_id": "M01"
    },
    "visuals": {
     "enabled": true
