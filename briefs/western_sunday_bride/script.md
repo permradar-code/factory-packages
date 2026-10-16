@@ -1,6 +1,6 @@
 # Tales of Cedar Bluff — Film 5: MARRY ME BY SUNDAY
 
-Рабочий сценарий v1 (16 окт 2026). Длина **~20–21 мин**. Бюджет — экономный (≈ $80–110 с запасом, смета после раскадровки).
+Сценарий v2 — финальный (16 окт 2026). Убраны повторы с фильмом 4 (починка калитки, вода как мотив злодея). Длина **~20–21 мин**. Бюджет — экономный (≈ $80–110 с запасом, смета после раскадровки).
 Реплики героев — на английском (так будет в фильме), пояснения — по-русски.
 
 **Время и место:** конец октября 1881 года, Колорадо (штат с 1876 года — никогда не «Colorado Territory»). Сидар-Блафф: Мейн-стрит, белая церковь, зал суда в городской ратуше. Ферма Уитлоков на Биттер-Крик, в трёх милях от города.
@@ -19,6 +19,7 @@
 | Кластер рекомендаций (откуда к нам приходят зрители) | «Unaware He Was…», «Hidden Owner», «Worth $30 Billion» → **тихий бродяга — владелец крупнейшей скотоводческой компании**. Раскрытие при всех, в суде. |
 | Удержание фильма 3 | К 1:00 уходит почти половина, провалы 0:28 / 0:37 / 0:56. → **Первые 60 с — только сцена с репликами, без рассказчика и титра**. Холодное начало кончается **открытым вопросом**. Первая расплата — **сразу после титра**. |
 | Комментарии к фильму 3 | «Story needed to be longer» → **20–21 мин** вместо 15. «Listening from…», «great narrator» → рассказчик остаётся, но **коротко (~12%)**. |
+| Повторы с фильмом 4 (замечание владельца) | В фильме 4 чинили калитку и доску покойного мужа и злодей охотился за водой. → Здесь **ничего не чинят**: символ принятия — **отцовский стул**, который Сэм сам выдвигает Эли; мотив злодея — **долги Асы**, а не вода. Тайный владелец остаётся (формула кластера), но раскрытие другое: его гуртовщик врывается в суд. |
 | Монтаж фильма 4 | Картинки под рассказчиком стояли по 15–18 с — зритель скучает. → **Под рассказчиком смена кадра каждые 4–5 с**, в первые 3 минуты — только видео. Один наряд на героя. Не ставить ребёнка и оружие в один кадр (Google отказывает). Меньше героев и мест — лица меньше «плывут». |
 | Шортсы (Студия, 16 окт) | Хиты держали 73–81% зрителей в первые 2 с, провалы — 38–55%. → У каждой сцены для шортса **первый кадр — действие**, понятное без звука. 8 хуков заложены ниже. |
 | Аудитория | 65+, 3/4 мужчины, почти половина с ТВ, США. Мужчинам — тихий сильный герой, умелый всадник, злодей получает при всех. Женщинам — вдова, дети, гордость, кольцо, свадьба. |
@@ -35,7 +36,7 @@
 | **Sam Whitlock**, 9 | сын, «хозяин в доме» | тёмные волосы, серьёзное лицо, отцовская шляпа велика, подтяжки, заплатанные штаны | серьёзный, подозрительный |
 | **Lucy Whitlock**, 6 | дочь | рыже-светлые кудряшки, щербинка в зубах, тряпичная кукла с синей лентой | громкая, прямая, смешная |
 | **Eli Kane**, 46 | «бродяга»; на самом деле владелец Two Rivers Cattle Company | высокий, обветренное лицо, густые тёмные усы с проседью, без бороды, поношенная куртка с овчинным воротником, пыльная чёрная шляпа; **дорогое седло с серебряными бляхами** и рослый гнедой конь (подсказка) | тихий, медленный, сухой юмор |
-| **Asa Whitlock**, 42 | брат покойного мужа, торговец зерном, дьякон церкви | аккуратный коричневый костюм, котелок, светлая бородка клинышком, золотые часы на цепочке | громкий, «заботливый», липкий |
+| **Asa Whitlock**, 42 | брат покойного мужа, торговец зерном, дьякон церкви; лавка заложена, тонет в долгах | аккуратный коричневый костюм, котелок, светлая бородка клинышком, золотые часы на цепочке | громкий, «заботливый», липкий |
 | **Judge Harlan Voss**, 68 | окружной судья | белая борода, чёрный сюртук, сигара | грубоватый, но честный |
 | **Reverend Amos Tate**, 60 | разъездной проповедник (бывает раз в месяц, в воскресенье) | худой, седой, потёртый чёрный сюртук, Библия под мышкой | тёплый, с юмором |
 | **Hank Dunbar**, 35 | старший гуртовщик Two Rivers (только суд) | запылённый, кожаные штаны поверх брюк, платок на шее | простой, громкий |
@@ -90,11 +91,17 @@
 - **NORA:** "Three miles up Bitter Creek."
 - *Эли садится в седло. Крупно: седло с серебряными бляхами. Сэм на него смотрит.* (подсказка)
 - *Значок «Подписаться» ~1:40, поверх скачки, не поверх реплик.*
-- **N01 (под дорогу к ферме: фургон и всадник среди жёлтых осин, ручей, кадры по 4–5 с):** "Will Whitlock had died in February, of a fever that took three men in the valley that winter. He left his wife a hundred and sixty acres on Bitter Creek, two children, eleven dollars, and the only spring in the county that had never once gone dry. His brother Asa had been very helpful ever since. Too helpful."
+- **N01 (под дорогу к ферме: фургон и всадник среди жёлтых осин, ручей, кадры по 4–5 с):** "Will Whitlock had died in February, of a fever that took three men in the valley that winter. He left his wife a hundred and sixty acres on Bitter Creek, two children, eleven dollars, and the best hay meadow in the county. His brother Asa had been very helpful ever since. Too helpful."
 
 ### СЦЕНА 2. Допрос за ужином (2:00–5:00) — юмор и условия
 
-*Закат. Ферма: бревенчатый дом с крыльцом, сарай, загон, каменная чаша родника под тополями, покосившаяся калитка на одной петле. Ужин: бобы, кукурузный хлеб. Люси смотрит на Эли не моргая.*
+*Закат. Ферма: бревенчатый дом с крыльцом, сарай, загон, ручей под тополями, широкий луг с копнами сена. Внутри: стол, во главе — крепкий стул с высокой спинкой (стул Уилла), сбоку — табурет. Ужин: бобы, кукурузный хлеб.*
+
+- *Эли тянется к стулу во главе стола.*
+- **SAM** (резко): "That's Pa's chair."
+- *Тишина. Нора замирает с кастрюлей.*
+- **ELI** (спокойно, придвигая табурет): "Then I'll take the stool."
+- *Сэм смотрит на него с подозрением. Люси смотрит не моргая.* (завязка для финала)
 
 - **LUCY:** "Do you snore?"
 - **ELI:** "Only when I'm asleep."
@@ -115,10 +122,10 @@
 - **NORA:** "I've had eleven months to think. And about four minutes to choose."
 - **ELI:** "Why me?"
 - **NORA:** "You were the only man on that street who wasn't laughing."
-- *Эли смотрит на родник, блестящий в лунном свете.*
-- **ELI:** "That spring. It ever go dry?"
-- **NORA:** "Not once. Will said it was the only thing in Colorado that never lied to him."
-- **N02 (родник, тополя, лампа в окне; кадры по 4–5 с):** "What Nora did not know was that Asa had already written a letter. The Two Rivers Cattle Company was buying water all along Bitter Creek that fall, and its agent had offered fifteen hundred dollars for the Whitlock spring. All Asa needed was a judge's signature, and two children too young to say no. And nobody in Cedar Bluff knew who had just eaten supper at Will Whitlock's table."
+- *Эли смотрит на луг, серебряный в лунном свете.*
+- **ELI:** "That's good grass for October."
+- **NORA:** "Best meadow on Bitter Creek. Will said it was the only thing in Colorado that never lied to him."
+- **N02 (луг, тополя, лавка Асы в городе, лампа в окне; кадры по 4–5 с):** "What Nora did not know was that Asa's grain store was mortgaged to the roof. That fall the Two Rivers Cattle Company was buying winter range along Bitter Creek, and Asa had already written to its agent. Fifteen hundred dollars for the Whitlock place. All he needed was a judge's signature. And nobody in Cedar Bluff knew who had just eaten supper at Will Whitlock's table."
 
 ### СЦЕНА 3. Суббота: корова, танец, кольцо (5:00–9:30) — юмор и тепло
 
@@ -136,11 +143,6 @@
 - *Она встаёт обеими ногами на его сапоги.*
 - **LUCY:** "Now you walk. Slow. Like a bear."
 - *Эли осторожно кружит её по двору на своих сапогах. Нора смотрит из дверей — и отворачивается, чтобы никто не видел её лица.*
-- *Калитка. Эли поднимает перекошенную створку, прикидывает петлю.*
-- **NORA:** "Leave it."
-- **ELI:** "It's hanging by one hinge."
-- **NORA:** "Will built that gate. Leave it."
-- *Эли молча опускает створку.* (завязка для финала)
 - *Сарай, горн, наковальня. Нора у дверей.*
 - **NORA:** "The reverend will ask for a ring. I sold mine in March."
 - *Эли берёт подковный гвоздь из жестянки. Отрезает бечёвку.*
@@ -152,14 +154,14 @@
 
 ### СЦЕНА 4. Суббота вечер: пятьдесят долларов (9:30–11:00) — вторая расплата
 
-*Закат. К калитке подкатывает коляска Асы, за ней два всадника — его работники. Аса не выходит.*
+*Закат. К крыльцу подкатывает коляска Асы, за ней два всадника — его работники. Аса не выходит.*
 
 - **ASA:** "Fifty dollars, Kane. Ride out tonight, and nobody need ever know your name."
 - **ELI:** "Fifty? The lady offered me eleven and a hen. I'm holding out for the hen."
 - *Работники Асы невольно фыркают. Аса бледнеет.*
 - **ASA:** "You don't know who you're dealing with."
 - **ELI:** "No. But I'm starting to see what you're dealing in."
-- **ASA** (срывается): "That spring is worth more than this whole family—"
+- **ASA** (срывается): "Fifteen hundred dollars is more than this whole family is worth—"
 - *Осекается. Эли смотрит на него долго.*
 - **ELI:** "Is it, now."
 - **ASA** (разворачивая коляску): "See you in church, Kane. If you're still here."
@@ -213,7 +215,7 @@
 - **NORA:** "You never said what you get out of this."
 - **ELI:** "A supper. A ring I made myself. And a little girl who stands on my boots."
 - **NORA:** "And after Denver?"
-- *Эли долго смотрит на родник.*
+- *Эли долго смотрит на луг.*
 - **ELI:** "Nora. Whatever happens tomorrow, I came to this valley for the wrong reasons."
 - **NORA:** "Most men do."
 - *Он открывает рот — из дома голос Люси.*
@@ -232,20 +234,20 @@
 - **ASA:** "Your Honor, this marriage was made yesterday, with a horseshoe nail, to a saddle tramp nobody in this county has ever seen."
 - **ASA:** "He'll be gone within the week. And I have here an honest offer for my nephews' future."
 - *Поднимает письмо (без читаемого текста).*
-- **ASA:** "The Two Rivers Cattle Company will pay fifteen hundred dollars for that spring. I'd hold every penny in trust for the children."
-- **NORA** (встаёт): "You'd sell Will's spring? To strangers?"
+- **ASA:** "The Two Rivers Cattle Company will pay fifteen hundred dollars for that farm. I'd hold every penny in trust for the children."
+- **NORA** (встаёт): "You'd sell Will's land? To strangers? To pay your own debts?"
 - **VOSS:** "Two Rivers. That's the big outfit down on the Arkansas. Who speaks for them?"
 - *Дверь распахивается. Хэнк Данбар в пыли, с двумя ковбоями, шляпа в руке.* (кадр для шортса)
-- **DUNBAR:** "Beg pardon, Judge. Mr. Kane — the herd's at the river crossing. Do we water at the Whitlock spring, like you wrote?"
+- **DUNBAR:** "Beg pardon, Judge. Mr. Kane — the herd's at the river crossing. Do we winter them on the Whitlock meadow, like you wrote?"
 - *Тишина. Все головы поворачиваются к Эли.*
 - **ASA:** "Mister… Kane?"
 - *Эли встаёт.*
 - **ELI:** "Eli Kane, Your Honor. I own the Two Rivers Cattle Company."
-- **ELI:** "I rode ahead of my herd to see the spring I was buying. I found the family he meant to sell with it."
+- **ELI:** "I rode ahead of my herd to see the land I was buying. I found the family he meant to sell with it."
 - *Эли берёт письмо из руки Асы.*
-- **ELI:** "Two Rivers doesn't buy water from a man who'd sell his brother's children."
+- **ELI:** "Two Rivers doesn't buy land from a man who'd sell his brother's children."
 - *Рвёт письмо пополам.*
-- **DUNBAR:** "So… we don't water there, boss?"
+- **DUNBAR:** "So… we don't winter there, boss?"
 - **ELI:** "We ask the lady."
 - *Смешок по залу. Восс бьёт молотком.*
 - **VOSS:** "Petition dismissed. And Mr. Whitlock — this court will remember your concern for those children. So will your congregation."
@@ -255,27 +257,30 @@
 - **ELI:** "That's for my wife to say, Your Honor."
 - *Все смотрят на Нору. Она поднимается, берёт детей за руки и молча выходит.* (открытый вопрос → финал)
 
-### СЦЕНА 9. Калитка (19:30–21:00) — финал
+### СЦЕНА 9. Стул (19:30–21:00) — финал
 
-*Ферма, полдень, солнце, тонкий снег на жёлтых осинах. Эли приторачивает скатку к седлу. Нора подходит.*
+*Ферма, полдень, солнце, тонкий снег на жёлтых осинах. Эли приторачивает скатку к седлу у загона. Нора выходит к нему.*
 
-- **NORA:** "You let me beg a stranger on Main Street. And all along, you were the man buying my spring."
+- **NORA:** "You let me beg a stranger on Main Street. And all along, you were the man buying my farm."
 - **ELI:** "On Friday, I was. By Saturday, I'd been kicked by your cow."
 - *Нора почти смеётся.*
 - **NORA:** "And Denver?"
 - **ELI:** "There's a judge there, you said. I'll ride, if you want me to."
-- *Долгий взгляд. Нора смотрит на перекошенную калитку.*
-- **NORA:** "Will built that gate. I think he'd want it fixed."
-- **ELI:** "That's a lot of work, Mrs. Kane."
-- **NORA:** "Then you'd better stay."
-- *Эли достаёт из жилета золотое кольцо (купил утром у Хоббса). Нора качает головой и поднимает руку с железным.*
+- *Долгий взгляд. С крыльца — голос Сэма.*
+- **SAM:** "Supper's on. Ma made cornbread."
+- **NORA:** "You'd better come in, Mr. Kane. Before Sam changes his mind."
+- *Дом. Стол накрыт. Эли по привычке идёт к табурету. Сэм молча берёт отцовский стул во главе стола и выдвигает его.*
+- **SAM:** "Sit down, Eli."
+- *Тишина. Эли смотрит на Нору. Она отворачивается к печке, чтобы никто не видел её лица. Эли медленно садится.* (главный момент финала)
+- *Эли достаёт из жилета золотое кольцо (купил утром у Хоббса), кладёт на стол перед Норой. Она качает головой и поднимает руку с железным.*
 - **NORA:** "I'll keep this one. It held."
-- *С крыльца бежит Люси, за ней Сэм.*
 - **LUCY:** "Is he staying? Ma, is he staying?"
 - **SAM:** "He can't even milk!"
 - **LUCY:** "I'll teach him!"
-- *Эли подхватывает Люси. Нора смеётся. Общий план: семья у калитки, родник блестит на солнце.*
-- **N07 (весна, лето, годы: калитка на новых петлях, стадо у ручья, повзрослевшие дети; кадры по 4–5 с):** "Two Rivers cattle drank from Bitter Creek for forty years, and not one drop of that spring was ever sold. Sam Whitlock ran the outfit after Eli. Lucy taught three more Kane children to dance on their father's boots. Eli never did learn to milk a cow. And Nora Kane wore an iron ring for fifty-one years. She said gold was for people who weren't sure."
+- *Крыльцо, вечер, медленный снег, лампа в окне. Нора подходит к Эли и встаёт обеими ногами на его сапоги.*
+- **NORA:** "Lucy says this is how it's done."
+- *Они медленно кружатся на крыльце. В окне — Сэм и Люси, носами к стеклу.* (последний кадр, кадр для обложки и шортса)
+- **N07 (весна, лето, годы: стадо на лугу, тот же стул во главе стола, повзрослевшие дети; кадры по 4–5 с):** "Two Rivers cattle wintered on Bitter Creek for forty years, and not one acre of the Whitlock place was ever sold. Sam Whitlock ran the outfit after Eli. Lucy taught three more Kane children to dance on their father's boots. Eli never did learn to milk a cow. And Nora Kane wore an iron ring for fifty-one years. She said gold was for people who weren't sure."
 - **N08 (лампа в окне фермы, снег):** "That's the story of the Sunday bride. And if you ever pass Bitter Creek in October, folks there will still tell you about it. Keep a light in the window."
 - **Конечная заставка 12 с** (светлая, на четвёртый фильм).
 
@@ -298,6 +303,7 @@
 | H06 | «This is a sham» → Клара садится на сторону невесты | Аса вскакивает в церкви |
 | H07 | «Mr. Kane, the herd's at the river» → рвёт письмо | дверь суда распахивается |
 | H08 | Гвоздь → кольцо → «It's iron. It'll hold.» | раскалённый гвоздь гнётся на наковальне |
+| (запас) H09 | «That's Pa's chair» → в финале «Sit down, Eli» | мальчик резко хватает стул |
 
 Выкладка: по одному в день, 30–34 с, законченная мини-история, «Связанное видео» — фильм.
 
@@ -318,8 +324,8 @@
 - **Опека:** в 1881 году окружной суд мог назначить опекуна над имуществом детей (ферма — их доля наследства после Уилла). Аса подаёт прошение «вдова одна не справится». Условие «мужчина на ферме к понедельнику» — старомодное решение конкретного судьи, зритель его так и воспринимает (Восс в финале сам ставит Асу на место).
 - **Почему воскресенье:** разъездной проповедник бывает раз в месяц, в воскресенье. Слушание — в понедельник утром.
 - **Брак на бумаге:** брак настоящий, законный. «Судья в Денвере» — признание брака недействительным, раз супруги не жили как муж и жена (Эли спит в сарае — это важно, показываем).
-- **Родник и вода:** в Колорадо право на воду закреплено конституцией штата 1876 года; родник, который никогда не пересыхает, — главная ценность земли для скотоводов. $1 500 — правдоподобная цена.
-- **Почему Эли инкогнито:** агент компании вёл переписку с Асой; Эли поехал впереди стада один, посмотреть родник сам. Аса его никогда не видел. Данбар говорит «like you wrote» — Эли успел написать гуртовщикам, где поить стадо, до того как всё узнал.
+- **Мотив Асы — долги:** его зерновая лавка заложена; продать ферму племянников как опекун — его выход. Two Rivers в ту осень скупает зимние пастбища вдоль Биттер-Крик; луг с сеном — ценность для скотоводов. $1 500 за 160 акров с лугом — правдоподобно. С фильмом 4 (вода для железной дороги) не совпадает.
+- **Почему Эли инкогнито:** агент компании вёл переписку с Асой; Эли поехал впереди стада один, посмотреть землю сам. Аса его никогда не видел. Данбар говорит «like you wrote» — Эли успел написать гуртовщикам, где зимовать стаду, до того как всё узнал.
 - **Почему Эли соглашается:** чувство вины (его письмо — причина беды), уважение к женщине, которая не испугалась. Это проговаривается в сцене 7 («I came to this valley for the wrong reasons») и в суде.
 - **Не умеет доить:** владельцы гуртов полудиких лонгхорнов коров не доили — это подсказка, а не глупость.
 - **Скачка:** опытный гуртовщик собирает 4 лошади за полчаса — реально.
@@ -334,7 +340,8 @@
 - У Эли появилась борода или пропали усы; его седло без серебряных блях (подсказка должна быть видна).
 - Двойники: в кадре два Эли / две Норы; «чужая» женщина за спиной у Норы.
 - Фургон или коляска без лошадей, едут задом, лошади без упряжи.
-- Кольцо: в сцене 6 и 9 — **железное, тёмное**, не золотое (золотое только в руке Эли в финале).
+- Кольцо: в сцене 6 и 9 — **железное, тёмное**, не золотое (золотое только на столе в финале).
+- Стул Уилла: один и тот же (высокая спинка, тёмное дерево) в сценах 2, 9 и N07; табурет рядом.
 - Читаемый текст на вывесках, письме Асы, Библии. Письмо — только «бумага с печатью» без букв.
 - Ребёнок и оружие в одном кадре — нельзя (и Google откажет).
 - Говорит не тот герой / реплика изменена / обрыв фразы в конце клипа.
