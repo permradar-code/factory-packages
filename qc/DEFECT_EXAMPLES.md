@@ -47,3 +47,17 @@ inspector's checklist/prompt is built from these. Add new cases after every film
   vision check "same people, same clothes/hats at start and end". Prevention: describe ONE simple camera move, avoid
   prompts that imply two viewpoints ("the crowd laughs, Nora sees the stranger"), use 4 s instead of 6 s for silent
   cutaways, and state "keeps his hat on".
+
+## Film 5 opening test — summary (17 Oct 2026)
+Spent ≈ $27.8 (plan $22.5 + video redos ≈ $4.3 + frame redraws ≈ $1.0). 31 clips, draft 2:02.
+Video redos (6): C01 ×2 (cuts + sign text, then posed first frame), C12 (dissolve + hat lost), C18 (extra person),
+C08 (judge swallowed the key line), C02 (horse head growing from Asa's back — "holds the mare's bridle", no mare ref),
+C21 (Asa lost his bowler, other face). ~15 first-frame redraws: wrong street background, sign text, ambiguous pouring,
+extra people, wagon without driver, missing Sam, wrong clothes.
+Free fixes (13): trims C03 (2 foreign frames at start), C05 (sign at end), C12, C19, C23 (whip pan), C27 (Sam's hat
+vanishes); crops C01, C04, C11 (woman in beige in the foreground), C17 (wagon without horse), C25 (unknown black hat in
+the foreground); C13 dropped (wagon without horse + empty trough); subtitle fix C02.
+Kept: C04 black horse instead of the mare, C09 judge's hat appears, C20 Nora off-screen, C21 looks into the camera
+(gaze was set by the first frame; the motion prompt can't turn it).
+Lessons: lines ≤ ~12 words per 8 s; gaze in the first-frame prompt; every horse/wagon gets a ref; name anyone seen from
+behind in the foreground; the video model invents cuts when motion text and first frame disagree.
